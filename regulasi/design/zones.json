@@ -1,0 +1,1654 @@
+{
+ "size": "1440x3320px",
+ "pages": [
+  {
+   "name": "P1 Beranda",
+   "zones": [
+    {
+     "id": "strip_bg",
+     "kind": "bg",
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 40,
+     "label": "strip utilitas gradien gelap"
+    },
+    {
+     "id": "strip_tag",
+     "kind": "text",
+     "x": 150,
+     "y": 8,
+     "w": 600,
+     "h": 24,
+     "label": "tagline",
+     "copy": [
+      "c029"
+     ],
+     "chars": 43,
+     "pt": 9
+    },
+    {
+     "id": "strip_link",
+     "kind": "text",
+     "x": 1000,
+     "y": 8,
+     "w": 290,
+     "h": 24,
+     "label": "tautan kirim dokumen",
+     "copy": [
+      "c227"
+     ],
+     "chars": 22,
+     "pt": 9
+    },
+    {
+     "id": "header_bg",
+     "kind": "bg",
+     "x": 0,
+     "y": 40,
+     "w": 1440,
+     "h": 90,
+     "label": "header putih"
+    },
+    {
+     "id": "logo",
+     "kind": "logo",
+     "x": 150,
+     "y": 55,
+     "w": 220,
+     "h": 60,
+     "label": "logo teks Regulasi AI Indonesia",
+     "copy": [
+      "c003"
+     ]
+    },
+    {
+     "id": "nav",
+     "kind": "text",
+     "x": 390,
+     "y": 70,
+     "w": 750,
+     "h": 30,
+     "label": "menu utama",
+     "copy": [
+      "c043",
+      "c061",
+      "c081",
+      "c104",
+      "c122",
+      "c140"
+     ],
+     "chars": 98,
+     "pt": 10
+    },
+    {
+     "id": "nav_search",
+     "kind": "ui",
+     "x": 1160,
+     "y": 62,
+     "w": 130,
+     "h": 46,
+     "label": "tombol cari (icon + button native)"
+    },
+    {
+     "id": "hero_bg",
+     "kind": "bg",
+     "x": 0,
+     "y": 130,
+     "w": 1440,
+     "h": 600,
+     "label": "hero gradien indigo-pink 150deg (container native)"
+    },
+    {
+     "id": "h1",
+     "kind": "text",
+     "x": 150,
+     "y": 200,
+     "w": 790,
+     "h": 160,
+     "label": "headline",
+     "copy": [
+      "c031"
+     ],
+     "chars": 46,
+     "pt": 42,
+     "bold": true
+    },
+    {
+     "id": "sub",
+     "kind": "text",
+     "x": 150,
+     "y": 380,
+     "w": 640,
+     "h": 70,
+     "label": "sub-headline",
+     "copy": [
+      "c056"
+     ],
+     "chars": 83,
+     "pt": 15
+    },
+    {
+     "id": "search",
+     "kind": "ui",
+     "x": 150,
+     "y": 470,
+     "w": 760,
+     "h": 68,
+     "label": "kolom pencarian dokumen (BARU: placeholder)"
+    },
+    {
+     "id": "cta1",
+     "kind": "text",
+     "x": 150,
+     "y": 560,
+     "w": 190,
+     "h": 52,
+     "label": "tombol utama",
+     "copy": [
+      "c037"
+     ],
+     "chars": 12,
+     "pt": 11,
+     "bold": true
+    },
+    {
+     "id": "cta2",
+     "kind": "text",
+     "x": 360,
+     "y": 560,
+     "w": 290,
+     "h": 52,
+     "label": "tombol sekunder",
+     "copy": [
+      "c038"
+     ],
+     "chars": 24,
+     "pt": 11,
+     "bold": true
+    },
+    {
+     "id": "hero_card",
+     "kind": "ui",
+     "x": 960,
+     "y": 190,
+     "w": 330,
+     "h": 380,
+     "label": "kartu pratinjau dokumen (BARU, container native)"
+    },
+    {
+     "id": "bridge",
+     "kind": "block",
+     "x": 150,
+     "y": 690,
+     "w": 1140,
+     "h": 200,
+     "label": "kartu jembatan putih menimpa hero",
+     "layer": 1
+    },
+    {
+     "id": "bridge_txt",
+     "kind": "text",
+     "x": 190,
+     "y": 720,
+     "w": 700,
+     "h": 110,
+     "label": "deskripsi singkat",
+     "layer": 2,
+     "copy": [
+      "c035"
+     ],
+     "chars": 158,
+     "pt": 14
+    },
+    {
+     "id": "bridge_btn",
+     "kind": "text",
+     "x": 940,
+     "y": 740,
+     "w": 300,
+     "h": 60,
+     "label": "tombol ke pustaka",
+     "layer": 2,
+     "copy": [
+      "c040"
+     ],
+     "chars": 24,
+     "pt": 12,
+     "bold": true
+    },
+    {
+     "id": "s2_bg",
+     "kind": "bg",
+     "x": 0,
+     "y": 890,
+     "w": 1440,
+     "h": 560,
+     "label": "section tint biru pucat #ebf5ff"
+    },
+    {
+     "id": "s2_title",
+     "kind": "text",
+     "x": 150,
+     "y": 940,
+     "w": 600,
+     "h": 44,
+     "label": "judul section",
+     "copy": [
+      "c048"
+     ],
+     "chars": 25,
+     "pt": 21,
+     "bold": true
+    },
+    {
+     "id": "cat1",
+     "kind": "text",
+     "x": 150,
+     "y": 1020,
+     "w": 250,
+     "h": 165,
+     "label": "kartu kategori (icon-box native)",
+     "copy": [
+      "c067"
+     ],
+     "chars": 32,
+     "pt": 14,
+     "bold": true
+    },
+    {
+     "id": "cat2",
+     "kind": "text",
+     "x": 430,
+     "y": 1020,
+     "w": 250,
+     "h": 165,
+     "label": "kartu kategori (icon-box native)",
+     "copy": [
+      "c068"
+     ],
+     "chars": 16,
+     "pt": 14,
+     "bold": true
+    },
+    {
+     "id": "cat3",
+     "kind": "text",
+     "x": 710,
+     "y": 1020,
+     "w": 250,
+     "h": 165,
+     "label": "kartu kategori (icon-box native)",
+     "copy": [
+      "c069"
+     ],
+     "chars": 26,
+     "pt": 14,
+     "bold": true
+    },
+    {
+     "id": "cat4",
+     "kind": "text",
+     "x": 150,
+     "y": 1215,
+     "w": 250,
+     "h": 165,
+     "label": "kartu kategori (icon-box native)",
+     "copy": [
+      "c070"
+     ],
+     "chars": 69,
+     "pt": 14,
+     "bold": true
+    },
+    {
+     "id": "cat5",
+     "kind": "text",
+     "x": 430,
+     "y": 1215,
+     "w": 250,
+     "h": 165,
+     "label": "kartu kategori (icon-box native)",
+     "copy": [
+      "c071"
+     ],
+     "chars": 20,
+     "pt": 14,
+     "bold": true
+    },
+    {
+     "id": "cat6",
+     "kind": "text",
+     "x": 710,
+     "y": 1215,
+     "w": 250,
+     "h": 165,
+     "label": "kartu kategori (icon-box native)",
+     "copy": [
+      "c072"
+     ],
+     "chars": 21,
+     "pt": 14,
+     "bold": true
+    },
+    {
+     "id": "side",
+     "kind": "block",
+     "x": 990,
+     "y": 1020,
+     "w": 300,
+     "h": 250,
+     "label": "panel samping navy #031530",
+     "layer": 1
+    },
+    {
+     "id": "side_txt",
+     "kind": "text",
+     "x": 1010,
+     "y": 1050,
+     "w": 260,
+     "h": 200,
+     "label": "daftar filter",
+     "layer": 2,
+     "copy": [
+      "c075",
+      "c076",
+      "c077",
+      "c078",
+      "c079"
+     ],
+     "chars": 168,
+     "pt": 11
+    },
+    {
+     "id": "cat7",
+     "kind": "text",
+     "x": 990,
+     "y": 1295,
+     "w": 300,
+     "h": 70,
+     "label": "tombol aksen pink",
+     "copy": [
+      "c073"
+     ],
+     "chars": 35,
+     "pt": 12,
+     "bold": true
+    },
+    {
+     "id": "s3_bg",
+     "kind": "bg",
+     "x": 0,
+     "y": 1450,
+     "w": 1440,
+     "h": 560,
+     "label": "section gradien navy #031530 → indigo"
+    },
+    {
+     "id": "s3_title",
+     "kind": "text",
+     "x": 150,
+     "y": 1510,
+     "w": 400,
+     "h": 50,
+     "label": "judul",
+     "copy": [
+      "c164"
+     ],
+     "chars": 14,
+     "pt": 24,
+     "bold": true
+    },
+    {
+     "id": "s3_copy",
+     "kind": "text",
+     "x": 150,
+     "y": 1580,
+     "w": 400,
+     "h": 110,
+     "label": "pengantar",
+     "copy": [
+      "c168"
+     ],
+     "chars": 75,
+     "pt": 14
+    },
+    {
+     "id": "s3_feat",
+     "kind": "ui",
+     "x": 150,
+     "y": 1720,
+     "w": 400,
+     "h": 230,
+     "label": "kartu sorotan dokumen terbaru (BARU)"
+    },
+    {
+     "id": "tabs_panel",
+     "kind": "block",
+     "x": 600,
+     "y": 1510,
+     "w": 690,
+     "h": 450,
+     "label": "panel putih bertab",
+     "layer": 1
+    },
+    {
+     "id": "tabs",
+     "kind": "text",
+     "x": 620,
+     "y": 1530,
+     "w": 650,
+     "h": 50,
+     "label": "label tab (Tabs native)",
+     "layer": 2,
+     "copy": [
+      "c170",
+      "c171",
+      "c172",
+      "c173"
+     ],
+     "chars": 126,
+     "pt": 10
+    },
+    {
+     "id": "tab_head",
+     "kind": "text",
+     "x": 620,
+     "y": 1600,
+     "w": 650,
+     "h": 36,
+     "label": "judul isi tab (049 tab 1, 050 tab 2)",
+     "layer": 2,
+     "copy": [
+      "c049",
+      "c050"
+     ],
+     "chars": 51,
+     "pt": 14,
+     "bold": true
+    },
+    {
+     "id": "row1",
+     "kind": "ui",
+     "x": 620,
+     "y": 1650,
+     "w": 650,
+     "h": 90,
+     "label": "baris dokumen (BARU, contoh)",
+     "layer": 2
+    },
+    {
+     "id": "row2",
+     "kind": "ui",
+     "x": 620,
+     "y": 1750,
+     "w": 650,
+     "h": 90,
+     "label": "baris dokumen (BARU, contoh)",
+     "layer": 2
+    },
+    {
+     "id": "row3",
+     "kind": "ui",
+     "x": 620,
+     "y": 1850,
+     "w": 650,
+     "h": 90,
+     "label": "baris dokumen (BARU, contoh)",
+     "layer": 2
+    },
+    {
+     "id": "s4_bg",
+     "kind": "bg",
+     "x": 0,
+     "y": 2010,
+     "w": 1440,
+     "h": 530,
+     "label": "section putih"
+    },
+    {
+     "id": "s4_title",
+     "kind": "text",
+     "x": 150,
+     "y": 2060,
+     "w": 400,
+     "h": 44,
+     "label": "judul",
+     "copy": [
+      "c051"
+     ],
+     "chars": 13,
+     "pt": 21,
+     "bold": true
+    },
+    {
+     "id": "s4_sub",
+     "kind": "text",
+     "x": 150,
+     "y": 2110,
+     "w": 490,
+     "h": 56,
+     "label": "pengantar topik",
+     "copy": [
+      "c138"
+     ],
+     "chars": 105,
+     "pt": 12
+    },
+    {
+     "id": "topics_box",
+     "kind": "block",
+     "x": 150,
+     "y": 2190,
+     "w": 490,
+     "h": 300,
+     "label": "kotak bingkai tipis",
+     "layer": 1
+    },
+    {
+     "id": "topics",
+     "kind": "text",
+     "x": 170,
+     "y": 2205,
+     "w": 450,
+     "h": 270,
+     "label": "daftar 11 topik (icon-list native)",
+     "layer": 2,
+     "copy": [
+      "c126",
+      "c127",
+      "c128",
+      "c129",
+      "c130",
+      "c131",
+      "c132",
+      "c133",
+      "c134",
+      "c135",
+      "c136"
+     ],
+     "chars": 222,
+     "pt": 11
+    },
+    {
+     "id": "s4_title2",
+     "kind": "text",
+     "x": 670,
+     "y": 2060,
+     "w": 620,
+     "h": 44,
+     "label": "judul",
+     "copy": [
+      "c052"
+     ],
+     "chars": 20,
+     "pt": 21,
+     "bold": true
+    },
+    {
+     "id": "ctry1",
+     "kind": "text",
+     "x": 670,
+     "y": 2130,
+     "w": 112,
+     "h": 115,
+     "label": "ubin negara",
+     "copy": [
+      "c087"
+     ],
+     "chars": 9,
+     "pt": 12,
+     "bold": true
+    },
+    {
+     "id": "ctry2",
+     "kind": "text",
+     "x": 797,
+     "y": 2130,
+     "w": 112,
+     "h": 115,
+     "label": "ubin negara",
+     "copy": [
+      "c088"
+     ],
+     "chars": 15,
+     "pt": 12,
+     "bold": true
+    },
+    {
+     "id": "ctry3",
+     "kind": "text",
+     "x": 924,
+     "y": 2130,
+     "w": 112,
+     "h": 115,
+     "label": "ubin negara",
+     "copy": [
+      "c089"
+     ],
+     "chars": 9,
+     "pt": 12,
+     "bold": true
+    },
+    {
+     "id": "ctry4",
+     "kind": "text",
+     "x": 1051,
+     "y": 2130,
+     "w": 112,
+     "h": 115,
+     "label": "ubin negara",
+     "copy": [
+      "c090"
+     ],
+     "chars": 7,
+     "pt": 12,
+     "bold": true
+    },
+    {
+     "id": "ctry5",
+     "kind": "text",
+     "x": 1178,
+     "y": 2130,
+     "w": 112,
+     "h": 115,
+     "label": "ubin negara",
+     "copy": [
+      "c091"
+     ],
+     "chars": 9,
+     "pt": 12,
+     "bold": true
+    },
+    {
+     "id": "ctry6",
+     "kind": "text",
+     "x": 670,
+     "y": 2260,
+     "w": 112,
+     "h": 115,
+     "label": "ubin negara",
+     "copy": [
+      "c092"
+     ],
+     "chars": 13,
+     "pt": 12,
+     "bold": true
+    },
+    {
+     "id": "ctry7",
+     "kind": "text",
+     "x": 797,
+     "y": 2260,
+     "w": 112,
+     "h": 115,
+     "label": "ubin negara",
+     "copy": [
+      "c093"
+     ],
+     "chars": 6,
+     "pt": 12,
+     "bold": true
+    },
+    {
+     "id": "ctry8",
+     "kind": "text",
+     "x": 924,
+     "y": 2260,
+     "w": 112,
+     "h": 115,
+     "label": "ubin negara",
+     "copy": [
+      "c094"
+     ],
+     "chars": 8,
+     "pt": 12,
+     "bold": true
+    },
+    {
+     "id": "ctry9",
+     "kind": "text",
+     "x": 1051,
+     "y": 2260,
+     "w": 112,
+     "h": 115,
+     "label": "ubin negara",
+     "copy": [
+      "c095"
+     ],
+     "chars": 6,
+     "pt": 12,
+     "bold": true
+    },
+    {
+     "id": "ctry10",
+     "kind": "text",
+     "x": 1178,
+     "y": 2260,
+     "w": 112,
+     "h": 115,
+     "label": "ubin negara",
+     "copy": [
+      "c096"
+     ],
+     "chars": 9,
+     "pt": 12,
+     "bold": true
+    },
+    {
+     "id": "s5_bg",
+     "kind": "bg",
+     "x": 0,
+     "y": 2540,
+     "w": 1440,
+     "h": 420,
+     "label": "section lavender pucat"
+    },
+    {
+     "id": "cta_card",
+     "kind": "block",
+     "x": 150,
+     "y": 2590,
+     "w": 540,
+     "h": 300,
+     "label": "kartu CTA gradien indigo→pink",
+     "layer": 1
+    },
+    {
+     "id": "cta_txt",
+     "kind": "text",
+     "x": 190,
+     "y": 2620,
+     "w": 460,
+     "h": 130,
+     "label": "salin CTA",
+     "layer": 2,
+     "copy": [
+      "c144"
+     ],
+     "chars": 131,
+     "pt": 16
+    },
+    {
+     "id": "cta_btn",
+     "kind": "text",
+     "x": 190,
+     "y": 2790,
+     "w": 260,
+     "h": 56,
+     "label": "tombol",
+     "layer": 2,
+     "copy": [
+      "c039"
+     ],
+     "chars": 21,
+     "pt": 11,
+     "bold": true
+    },
+    {
+     "id": "tz1",
+     "kind": "text",
+     "x": 720,
+     "y": 2590,
+     "w": 570,
+     "h": 100,
+     "label": "kartu teaser (image-box native)",
+     "copy": [
+      "c175"
+     ],
+     "chars": 18,
+     "pt": 14,
+     "bold": true
+    },
+    {
+     "id": "tz2",
+     "kind": "text",
+     "x": 720,
+     "y": 2705,
+     "w": 570,
+     "h": 100,
+     "label": "kartu teaser (image-box native)",
+     "copy": [
+      "c187"
+     ],
+     "chars": 9,
+     "pt": 14,
+     "bold": true
+    },
+    {
+     "id": "tz3",
+     "kind": "text",
+     "x": 720,
+     "y": 2820,
+     "w": 570,
+     "h": 100,
+     "label": "kartu teaser (image-box native)",
+     "copy": [
+      "c204"
+     ],
+     "chars": 12,
+     "pt": 14,
+     "bold": true
+    },
+    {
+     "id": "foot_bg",
+     "kind": "bg",
+     "x": 0,
+     "y": 2960,
+     "w": 1440,
+     "h": 360,
+     "label": "footer navy #031530"
+    },
+    {
+     "id": "foot_logo",
+     "kind": "logo",
+     "x": 150,
+     "y": 3000,
+     "w": 220,
+     "h": 60,
+     "label": "logo terang"
+    },
+    {
+     "id": "foot_by",
+     "kind": "text",
+     "x": 150,
+     "y": 3080,
+     "w": 300,
+     "h": 56,
+     "label": "pengelola",
+     "copy": [
+      "c287"
+     ],
+     "chars": 36,
+     "pt": 11
+    },
+    {
+     "id": "foot_about",
+     "kind": "text",
+     "x": 150,
+     "y": 3145,
+     "w": 300,
+     "h": 100,
+     "label": "deskripsi footer",
+     "copy": [
+      "c033"
+     ],
+     "chars": 138,
+     "pt": 10
+    },
+    {
+     "id": "foot_c2",
+     "kind": "text",
+     "x": 520,
+     "y": 3000,
+     "w": 220,
+     "h": 200,
+     "label": "kolom tautan 1",
+     "copy": [
+      "c061",
+      "c081",
+      "c104",
+      "c122",
+      "c140"
+     ],
+     "chars": 89,
+     "pt": 11
+    },
+    {
+     "id": "foot_c3",
+     "kind": "text",
+     "x": 800,
+     "y": 3000,
+     "w": 220,
+     "h": 200,
+     "label": "kolom tautan 2",
+     "copy": [
+      "c164",
+      "c175",
+      "c187",
+      "c204",
+      "c217"
+     ],
+     "chars": 68,
+     "pt": 11
+    },
+    {
+     "id": "foot_disc",
+     "kind": "text",
+     "x": 150,
+     "y": 3265,
+     "w": 700,
+     "h": 30,
+     "label": "catatan hukum",
+     "copy": [
+      "c290"
+     ],
+     "chars": 41,
+     "pt": 10
+    }
+   ]
+  },
+  {
+   "name": "P2 Regulasi Indonesia",
+   "zones": [
+    {
+     "id": "hdr_stub",
+     "kind": "bg",
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 130,
+     "label": "header + strip (reuse P1)"
+    },
+    {
+     "id": "ftr_stub",
+     "kind": "bg",
+     "x": 0,
+     "y": 1300,
+     "w": 1440,
+     "h": 360,
+     "label": "footer (reuse P1)"
+    },
+    {
+     "id": "band_bg",
+     "kind": "bg",
+     "x": 0,
+     "y": 130,
+     "w": 1440,
+     "h": 260,
+     "label": "pita judul gradien"
+    },
+    {
+     "id": "band_title",
+     "kind": "ui",
+     "x": 150,
+     "y": 200,
+     "w": 800,
+     "h": 80,
+     "label": "judul halaman = id c061 (reuse)"
+    },
+    {
+     "id": "band_sub",
+     "kind": "text",
+     "x": 150,
+     "y": 290,
+     "w": 820,
+     "h": 80,
+     "label": "sub-judul",
+     "copy": [
+      "c065"
+     ],
+     "chars": 139,
+     "pt": 15
+    },
+    {
+     "id": "chips",
+     "kind": "ui",
+     "x": 150,
+     "y": 420,
+     "w": 1140,
+     "h": 60,
+     "label": "chip kategori (id 067-073, reuse)"
+    },
+    {
+     "id": "filters",
+     "kind": "ui",
+     "x": 150,
+     "y": 500,
+     "w": 1140,
+     "h": 90,
+     "label": "baris filter + pencarian (id 075-079, reuse)"
+    },
+    {
+     "id": "doc1",
+     "kind": "ui",
+     "x": 150,
+     "y": 620,
+     "w": 1140,
+     "h": 140,
+     "label": "kartu dokumen (BARU, contoh)"
+    },
+    {
+     "id": "doc2",
+     "kind": "ui",
+     "x": 150,
+     "y": 780,
+     "w": 1140,
+     "h": 140,
+     "label": "kartu dokumen (BARU, contoh)"
+    },
+    {
+     "id": "doc3",
+     "kind": "ui",
+     "x": 150,
+     "y": 940,
+     "w": 1140,
+     "h": 140,
+     "label": "kartu dokumen (BARU, contoh)"
+    },
+    {
+     "id": "doc4",
+     "kind": "ui",
+     "x": 150,
+     "y": 1100,
+     "w": 1140,
+     "h": 140,
+     "label": "kartu dokumen (BARU, contoh)"
+    },
+    {
+     "id": "pager",
+     "kind": "ui",
+     "x": 150,
+     "y": 1250,
+     "w": 1140,
+     "h": 10,
+     "label": "pagination"
+    }
+   ]
+  },
+  {
+   "name": "P3 Regulasi Global",
+   "zones": [
+    {
+     "id": "hdr_stub",
+     "kind": "bg",
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 130,
+     "label": "header + strip (reuse P1)"
+    },
+    {
+     "id": "ftr_stub",
+     "kind": "bg",
+     "x": 0,
+     "y": 1300,
+     "w": 1440,
+     "h": 360,
+     "label": "footer (reuse P1)"
+    },
+    {
+     "id": "band_bg",
+     "kind": "bg",
+     "x": 0,
+     "y": 130,
+     "w": 1440,
+     "h": 260,
+     "label": "pita judul gradien"
+    },
+    {
+     "id": "band_title",
+     "kind": "ui",
+     "x": 150,
+     "y": 200,
+     "w": 800,
+     "h": 80,
+     "label": "judul halaman = id c081 (reuse)"
+    },
+    {
+     "id": "band_sub",
+     "kind": "text",
+     "x": 150,
+     "y": 290,
+     "w": 820,
+     "h": 80,
+     "label": "sub-judul",
+     "copy": [
+      "c085"
+     ],
+     "chars": 143,
+     "pt": 15
+    },
+    {
+     "id": "flt",
+     "kind": "text",
+     "x": 150,
+     "y": 430,
+     "w": 1140,
+     "h": 50,
+     "label": "label filter",
+     "copy": [
+      "c098",
+      "c099",
+      "c100"
+     ],
+     "chars": 77,
+     "pt": 11
+    },
+    {
+     "id": "badges",
+     "kind": "text",
+     "x": 150,
+     "y": 490,
+     "w": 1140,
+     "h": 40,
+     "label": "lencana kartu (link asli, ringkasan)",
+     "copy": [
+      "c101",
+      "c102"
+     ],
+     "chars": 52,
+     "pt": 11
+    },
+    {
+     "id": "ctry_chips",
+     "kind": "ui",
+     "x": 150,
+     "y": 545,
+     "w": 1140,
+     "h": 60,
+     "label": "chip negara (id 087-096, reuse)"
+    },
+    {
+     "id": "doc1",
+     "kind": "ui",
+     "x": 150,
+     "y": 635,
+     "w": 1140,
+     "h": 180,
+     "label": "kartu dokumen + ringkasan (BARU, contoh)"
+    },
+    {
+     "id": "doc2",
+     "kind": "ui",
+     "x": 150,
+     "y": 835,
+     "w": 1140,
+     "h": 180,
+     "label": "kartu dokumen + ringkasan (BARU, contoh)"
+    },
+    {
+     "id": "doc3",
+     "kind": "ui",
+     "x": 150,
+     "y": 1035,
+     "w": 1140,
+     "h": 180,
+     "label": "kartu dokumen + ringkasan (BARU, contoh)"
+    }
+   ]
+  },
+  {
+   "name": "P4 Pustaka Dokumen",
+   "zones": [
+    {
+     "id": "hdr_stub",
+     "kind": "bg",
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 130,
+     "label": "header + strip (reuse P1)"
+    },
+    {
+     "id": "ftr_stub",
+     "kind": "bg",
+     "x": 0,
+     "y": 1400,
+     "w": 1440,
+     "h": 360,
+     "label": "footer (reuse P1)"
+    },
+    {
+     "id": "band_bg",
+     "kind": "bg",
+     "x": 0,
+     "y": 130,
+     "w": 1440,
+     "h": 260,
+     "label": "pita judul gradien"
+    },
+    {
+     "id": "band_title",
+     "kind": "ui",
+     "x": 150,
+     "y": 200,
+     "w": 800,
+     "h": 80,
+     "label": "judul halaman = id c140 (reuse)"
+    },
+    {
+     "id": "band_sub",
+     "kind": "ui",
+     "x": 150,
+     "y": 290,
+     "w": 820,
+     "h": 80,
+     "label": "sub-judul = id c144 (reuse)"
+    },
+    {
+     "id": "side",
+     "kind": "block",
+     "x": 150,
+     "y": 430,
+     "w": 300,
+     "h": 620,
+     "label": "panel filter navy",
+     "layer": 1
+    },
+    {
+     "id": "side_txt",
+     "kind": "text",
+     "x": 170,
+     "y": 460,
+     "w": 260,
+     "h": 560,
+     "label": "label filter",
+     "layer": 2,
+     "copy": [
+      "c157",
+      "c158",
+      "c159",
+      "c160",
+      "c161",
+      "c162"
+     ],
+     "chars": 51,
+     "pt": 12,
+     "bold": true
+    },
+    {
+     "id": "card1",
+     "kind": "ui",
+     "x": 480,
+     "y": 430,
+     "w": 810,
+     "h": 195,
+     "label": "kartu dokumen (BARU, contoh)"
+    },
+    {
+     "id": "card2",
+     "kind": "ui",
+     "x": 480,
+     "y": 645,
+     "w": 810,
+     "h": 195,
+     "label": "kartu dokumen (BARU, contoh)"
+    },
+    {
+     "id": "card3",
+     "kind": "ui",
+     "x": 480,
+     "y": 860,
+     "w": 810,
+     "h": 195,
+     "label": "kartu dokumen (BARU, contoh)"
+    },
+    {
+     "id": "detail",
+     "kind": "text",
+     "x": 480,
+     "y": 1090,
+     "w": 810,
+     "h": 150,
+     "label": "label field detail dokumen",
+     "copy": [
+      "c146",
+      "c147",
+      "c148",
+      "c149",
+      "c150",
+      "c151",
+      "c152",
+      "c153",
+      "c154",
+      "c155"
+     ],
+     "chars": 171,
+     "pt": 10
+    }
+   ]
+  },
+  {
+   "name": "P5 Perbandingan Negara",
+   "zones": [
+    {
+     "id": "hdr_stub",
+     "kind": "bg",
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 130,
+     "label": "header + strip (reuse P1)"
+    },
+    {
+     "id": "ftr_stub",
+     "kind": "bg",
+     "x": 0,
+     "y": 1300,
+     "w": 1440,
+     "h": 360,
+     "label": "footer (reuse P1)"
+    },
+    {
+     "id": "band_bg",
+     "kind": "bg",
+     "x": 0,
+     "y": 130,
+     "w": 1440,
+     "h": 260,
+     "label": "pita judul gradien"
+    },
+    {
+     "id": "band_title",
+     "kind": "ui",
+     "x": 150,
+     "y": 200,
+     "w": 800,
+     "h": 80,
+     "label": "judul halaman = id c104 (reuse)"
+    },
+    {
+     "id": "band_sub",
+     "kind": "text",
+     "x": 150,
+     "y": 290,
+     "w": 820,
+     "h": 80,
+     "label": "sub-judul",
+     "copy": [
+      "c108"
+     ],
+     "chars": 138,
+     "pt": 15
+    },
+    {
+     "id": "rows_lbl",
+     "kind": "text",
+     "x": 150,
+     "y": 430,
+     "w": 260,
+     "h": 380,
+     "label": "kolom label topik (container bersusun)",
+     "copy": [
+      "c115",
+      "c116",
+      "c117",
+      "c118",
+      "c119",
+      "c120"
+     ],
+     "chars": 168,
+     "pt": 12,
+     "bold": true
+    },
+    {
+     "id": "cols",
+     "kind": "ui",
+     "x": 430,
+     "y": 430,
+     "w": 860,
+     "h": 380,
+     "label": "kolom negara (icon-box/teks; id 087-096 reuse)"
+    },
+    {
+     "id": "summ",
+     "kind": "ui",
+     "x": 150,
+     "y": 850,
+     "w": 1140,
+     "h": 280,
+     "label": "ringkasan pendekatan per negara (kartu, BARU)"
+    }
+   ]
+  },
+  {
+   "name": "P6 Panduan, Glosarium, Sumber, Tentang, Kontak",
+   "zones": [
+    {
+     "id": "hdr_stub",
+     "kind": "bg",
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 130,
+     "label": "header + strip (reuse P1)"
+    },
+    {
+     "id": "ftr_stub",
+     "kind": "bg",
+     "x": 0,
+     "y": 2180,
+     "w": 1440,
+     "h": 360,
+     "label": "footer (reuse P1)"
+    },
+    {
+     "id": "band_bg",
+     "kind": "bg",
+     "x": 0,
+     "y": 130,
+     "w": 1440,
+     "h": 200,
+     "label": "pita judul gradien"
+    },
+    {
+     "id": "t_title",
+     "kind": "ui",
+     "x": 150,
+     "y": 170,
+     "w": 400,
+     "h": 44,
+     "label": "judul = id c217 (reuse)"
+    },
+    {
+     "id": "t_copy",
+     "kind": "text",
+     "x": 150,
+     "y": 230,
+     "w": 560,
+     "h": 110,
+     "label": "tentang",
+     "copy": [
+      "c219"
+     ],
+     "chars": 166,
+     "pt": 14
+    },
+    {
+     "id": "t_list",
+     "kind": "text",
+     "x": 760,
+     "y": 170,
+     "w": 530,
+     "h": 160,
+     "label": "isi tentang",
+     "copy": [
+      "c221",
+      "c222",
+      "c223",
+      "c224",
+      "c225"
+     ],
+     "chars": 72,
+     "pt": 12
+    },
+    {
+     "id": "t_users",
+     "kind": "text",
+     "x": 150,
+     "y": 350,
+     "w": 1140,
+     "h": 40,
+     "label": "target pengguna",
+     "copy": [
+      "c008"
+     ],
+     "chars": 101,
+     "pt": 12
+    },
+    {
+     "id": "p_title",
+     "kind": "ui",
+     "x": 150,
+     "y": 420,
+     "w": 400,
+     "h": 44,
+     "label": "judul = id c175 (reuse)"
+    },
+    {
+     "id": "p_copy",
+     "kind": "text",
+     "x": 150,
+     "y": 480,
+     "w": 560,
+     "h": 60,
+     "label": "panduan",
+     "copy": [
+      "c179"
+     ],
+     "chars": 98,
+     "pt": 14
+    },
+    {
+     "id": "p_list",
+     "kind": "text",
+     "x": 760,
+     "y": 420,
+     "w": 530,
+     "h": 180,
+     "label": "langkah panduan",
+     "copy": [
+      "c181",
+      "c182",
+      "c183",
+      "c184",
+      "c185"
+     ],
+     "chars": 136,
+     "pt": 12
+    },
+    {
+     "id": "g_title",
+     "kind": "ui",
+     "x": 150,
+     "y": 630,
+     "w": 400,
+     "h": 44,
+     "label": "judul = id c187 (reuse)"
+    },
+    {
+     "id": "g_copy",
+     "kind": "text",
+     "x": 150,
+     "y": 690,
+     "w": 560,
+     "h": 60,
+     "label": "glosarium",
+     "copy": [
+      "c202"
+     ],
+     "chars": 93,
+     "pt": 14
+    },
+    {
+     "id": "g_list",
+     "kind": "text",
+     "x": 760,
+     "y": 630,
+     "w": 530,
+     "h": 330,
+     "label": "istilah (Accordion native)",
+     "copy": [
+      "c191",
+      "c192",
+      "c193",
+      "c194",
+      "c195",
+      "c196",
+      "c197",
+      "c198",
+      "c199",
+      "c200"
+     ],
+     "chars": 161,
+     "pt": 12
+    },
+    {
+     "id": "s_title",
+     "kind": "ui",
+     "x": 150,
+     "y": 990,
+     "w": 400,
+     "h": 44,
+     "label": "judul = id c204 (reuse)"
+    },
+    {
+     "id": "s_copy",
+     "kind": "text",
+     "x": 150,
+     "y": 1050,
+     "w": 560,
+     "h": 90,
+     "label": "sumber resmi",
+     "copy": [
+      "c215"
+     ],
+     "chars": 97,
+     "pt": 14
+    },
+    {
+     "id": "s_list",
+     "kind": "text",
+     "x": 760,
+     "y": 990,
+     "w": 530,
+     "h": 160,
+     "label": "daftar sumber",
+     "copy": [
+      "c208",
+      "c209",
+      "c210",
+      "c211",
+      "c212",
+      "c213"
+     ],
+     "chars": 135,
+     "pt": 12
+    },
+    {
+     "id": "k_title",
+     "kind": "ui",
+     "x": 150,
+     "y": 1190,
+     "w": 400,
+     "h": 44,
+     "label": "judul = id c227 (reuse)"
+    },
+    {
+     "id": "k_copy",
+     "kind": "text",
+     "x": 150,
+     "y": 1250,
+     "w": 480,
+     "h": 90,
+     "label": "ajakan kirim dokumen",
+     "copy": [
+      "c231"
+     ],
+     "chars": 109,
+     "pt": 14
+    },
+    {
+     "id": "k_form",
+     "kind": "text",
+     "x": 680,
+     "y": 1190,
+     "w": 610,
+     "h": 330,
+     "label": "label formulir kirim dokumen",
+     "copy": [
+      "c233",
+      "c234",
+      "c235",
+      "c236",
+      "c237",
+      "c238"
+     ],
+     "chars": 83,
+     "pt": 12
+    }
+   ]
+  }
+ ]
+}

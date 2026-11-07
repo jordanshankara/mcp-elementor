@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "wp-elementor": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["wp-elementor-mcp/src/index.ts"],
+      "env": {}
+    }
+  }
+}

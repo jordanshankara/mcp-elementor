@@ -1,0 +1,37 @@
+{
+  "name": "wp-elementor-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MCP server untuk mengelola banyak situs WordPress + Elementor (Free/Pro) dari Claude Code",
+  "bin": {
+    "wpe": "src/cli.ts"
+  },
+  "scripts": {
+    "start": "node src/index.ts",
+    "cli": "node src/cli.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/unit/*.test.ts",
+    "playground": "node scripts/playground.ts",
+    "e2e": "node --test --test-concurrency=1 test/e2e/*.test.ts",
+    "build-zip": "node scripts/build-zip.ts"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "lighthouse": "^13.6.0",
+    "pixelmatch": "^8.0.0",
+    "playwright": "^1.64.1",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.35.5",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/pngjs": "^6.0.5",
+    "@wp-playground/cli": "^3.1.53",
+    "typescript": "^7.0.2"
+  }
+}

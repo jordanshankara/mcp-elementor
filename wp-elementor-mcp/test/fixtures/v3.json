@@ -1,0 +1,17 @@
+[
+  {"id":"sec1","elType":"section","settings":{"layout":"full_width","background_background":"classic"},"isInner":false,"elements":[
+    {"id":"col1","elType":"column","settings":{"_column_size":100},"isInner":false,"elements":[
+      {"id":"h1","elType":"widget","widgetType":"heading","settings":{"title":"Selamat Datang di Toko Kami","header_size":"h1","title_color":"#111111","typography_font_family":"Roboto"},"elements":[]},
+      {"id":"t1","elType":"widget","widgetType":"text-editor","settings":{"editor":"<p>Kami menjual produk &amp; jasa terbaik sejak 2010.</p>"},"elements":[]},
+      {"id":"b1","elType":"widget","widgetType":"button","settings":{"text":"Hubungi Kami","link":{"url":"https://wa.me/62811","is_external":"on"},"background_color":"#ff0000"},"elements":[]}
+    ]}
+  ]},
+  {"id":"sec2","elType":"section","settings":{},"isInner":false,"elements":[
+    {"id":"col2","elType":"column","settings":{"_column_size":50},"elements":[
+      {"id":"img1","elType":"widget","widgetType":"image","settings":{"image":{"url":"https://x.test/wp-content/uploads/foto.jpg","id":12},"image_size":"full"},"elements":[]}
+    ]},
+    {"id":"col3","elType":"column","settings":{"_column_size":50},"elements":[
+      {"id":"il1","elType":"widget","widgetType":"icon-list","settings":{"icon_list":[{"text":"Gratis ongkir","_id":"a1"},{"text":"Garansi 1 tahun","_id":"a2"}]},"elements":[]}
+    ]}
+  ]}
+]

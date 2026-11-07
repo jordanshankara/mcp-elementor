@@ -1,0 +1,963 @@
+{
+ "items": [
+  {
+   "page": 1,
+   "text": "RegulasiAI",
+   "kind": "line",
+   "id": "c003",
+   "orig": "**Nama Website:** RegulasiAI"
+  },
+  {
+   "page": 1,
+   "text": "Bisnis, pemerintah, akademisi, peneliti, legal/compliance, developer, mahasiswa, dan masyarakat umum.",
+   "kind": "line",
+   "id": "c008",
+   "orig": "**Target Pengguna:** Bisnis, pemerintah, akademisi, peneliti, legal/compliance, developer, mahasiswa, dan masyarakat umum."
+  },
+  {
+   "page": 1,
+   "text": "Pusat Dokumen Regulasi AI Indonesia & Dunia",
+   "kind": "line",
+   "id": "c029",
+   "orig": "**Pusat Dokumen Regulasi AI Indonesia & Dunia**"
+  },
+  {
+   "page": 1,
+   "text": "Temukan dokumen regulasi AI dalam satu tempat.",
+   "kind": "line",
+   "id": "c031",
+   "orig": "**Temukan dokumen regulasi AI dalam satu tempat.**"
+  },
+  {
+   "page": 1,
+   "text": "RegulasiAI mengumpulkan peraturan, kebijakan, pedoman, dan dokumen resmi terkait kecerdasan artifisial dari Indonesia dan berbagai negara.",
+   "kind": "line",
+   "id": "c033",
+   "orig": "RegulasiAI mengumpulkan peraturan, kebijakan, pedoman, dan dokumen resmi terkait kecerdasan artifisial dari Indonesia dan berbagai negara."
+  },
+  {
+   "page": 1,
+   "text": "RegulasiAI adalah pusat dokumen regulasi AI Indonesia dan dunia. Kumpulkan, telusuri, dan bandingkan peraturan, kebijakan, serta pedoman AI dalam satu tempat.",
+   "kind": "line",
+   "id": "c035",
+   "orig": "RegulasiAI adalah pusat dokumen regulasi AI Indonesia dan dunia. Kumpulkan, telusuri, dan bandingkan peraturan, kebijakan, serta pedoman AI dalam satu tempat."
+  },
+  {
+   "page": 1,
+   "text": "Cari Dokumen",
+   "kind": "line",
+   "id": "c037",
+   "orig": "- Cari Dokumen"
+  },
+  {
+   "page": 1,
+   "text": "Lihat Regulasi Indonesia",
+   "kind": "line",
+   "id": "c038",
+   "orig": "- Lihat Regulasi Indonesia"
+  },
+  {
+   "page": 1,
+   "text": "Lihat Regulasi Global",
+   "kind": "line",
+   "id": "c039",
+   "orig": "- Lihat Regulasi Global"
+  },
+  {
+   "page": 1,
+   "text": "Jelajahi Pustaka Dokumen",
+   "kind": "line",
+   "id": "c040",
+   "orig": "- Jelajahi Pustaka Dokumen"
+  },
+  {
+   "page": 1,
+   "text": "Beranda",
+   "kind": "line",
+   "id": "c043",
+   "orig": "### 4.1 Beranda"
+  },
+  {
+   "page": 1,
+   "text": "Kategori dokumen unggulan",
+   "kind": "line",
+   "id": "c048",
+   "orig": "- Kategori dokumen unggulan"
+  },
+  {
+   "page": 1,
+   "text": "Regulasi Indonesia terbaru",
+   "kind": "line",
+   "id": "c049",
+   "orig": "- Regulasi Indonesia terbaru"
+  },
+  {
+   "page": 1,
+   "text": "Regulasi global terbaru",
+   "kind": "line",
+   "id": "c050",
+   "orig": "- Regulasi global terbaru"
+  },
+  {
+   "page": 1,
+   "text": "Topik populer",
+   "kind": "line",
+   "id": "c051",
+   "orig": "- Topik populer"
+  },
+  {
+   "page": 1,
+   "text": "Negara yang tersedia",
+   "kind": "line",
+   "id": "c052",
+   "orig": "- Negara yang tersedia"
+  },
+  {
+   "page": 1,
+   "text": "Peraturan, kebijakan, pedoman, dan standar AI dari Indonesia serta berbagai negara.",
+   "kind": "line",
+   "id": "c056",
+   "orig": "> Peraturan, kebijakan, pedoman, dan standar AI dari Indonesia serta berbagai negara."
+  },
+  {
+   "page": 1,
+   "text": "Regulasi Indonesia",
+   "kind": "line",
+   "id": "c061",
+   "orig": "### 4.2 Regulasi Indonesia"
+  },
+  {
+   "page": 1,
+   "text": "Dokumen regulasi dan kebijakan AI di Indonesia, mulai dari peraturan pemerintah, pedoman etika, kebijakan sektor, hingga strategi nasional.",
+   "kind": "line",
+   "id": "c065",
+   "orig": "> Dokumen regulasi dan kebijakan AI di Indonesia, mulai dari peraturan pemerintah, pedoman etika, kebijakan sektor, hingga strategi nasional."
+  },
+  {
+   "page": 1,
+   "text": "Peraturan & kebijakan pemerintah",
+   "kind": "line",
+   "id": "c067",
+   "orig": "- Peraturan & kebijakan pemerintah"
+  },
+  {
+   "page": 1,
+   "text": "Pedoman etika AI",
+   "kind": "line",
+   "id": "c068",
+   "orig": "- Pedoman etika AI"
+  },
+  {
+   "page": 1,
+   "text": "Regulasi perlindungan data",
+   "kind": "line",
+   "id": "c069",
+   "orig": "- Regulasi perlindungan data"
+  },
+  {
+   "page": 1,
+   "text": "Kebijakan sektor: kesehatan, keuangan, pendidikan, transportasi, dll.",
+   "kind": "line",
+   "id": "c070",
+   "orig": "- Kebijakan sektor: kesehatan, keuangan, pendidikan, transportasi, dll."
+  },
+  {
+   "page": 1,
+   "text": "Strategi nasional AI",
+   "kind": "line",
+   "id": "c071",
+   "orig": "- Strategi nasional AI"
+  },
+  {
+   "page": 1,
+   "text": "Dokumen lembaga resmi",
+   "kind": "line",
+   "id": "c072",
+   "orig": "- Dokumen lembaga resmi"
+  },
+  {
+   "page": 1,
+   "text": "Rancangan regulasi / draf kebijakan",
+   "kind": "line",
+   "id": "c073",
+   "orig": "- Rancangan regulasi / draf kebijakan"
+  },
+  {
+   "page": 1,
+   "text": "Filter berdasarkan tahun",
+   "kind": "line",
+   "id": "c075",
+   "orig": "- Filter berdasarkan tahun"
+  },
+  {
+   "page": 1,
+   "text": "Filter berdasarkan jenis dokumen",
+   "kind": "line",
+   "id": "c076",
+   "orig": "- Filter berdasarkan jenis dokumen"
+  },
+  {
+   "page": 1,
+   "text": "Filter berdasarkan lembaga penerbit",
+   "kind": "line",
+   "id": "c077",
+   "orig": "- Filter berdasarkan lembaga penerbit"
+  },
+  {
+   "page": 1,
+   "text": "Filter berdasarkan status: berlaku, draf, dicabut",
+   "kind": "line",
+   "id": "c078",
+   "orig": "- Filter berdasarkan status: berlaku, draf, dicabut"
+  },
+  {
+   "page": 1,
+   "text": "Pencarian kata kunci",
+   "kind": "line",
+   "id": "c079",
+   "orig": "- Pencarian kata kunci"
+  },
+  {
+   "page": 1,
+   "text": "Regulasi Global",
+   "kind": "line",
+   "id": "c081",
+   "orig": "### 4.3 Regulasi Global"
+  },
+  {
+   "page": 1,
+   "text": "Bandingkan pendekatan regulasi AI dari berbagai negara. Telusuri dokumen resmi, kerangka kebijakan, dan pedoman penerapan AI di tingkat global.",
+   "kind": "line",
+   "id": "c085",
+   "orig": "> Bandingkan pendekatan regulasi AI dari berbagai negara. Telusuri dokumen resmi, kerangka kebijakan, dan pedoman penerapan AI di tingkat global."
+  },
+  {
+   "page": 1,
+   "text": "Indonesia",
+   "kind": "line",
+   "id": "c087",
+   "orig": "- Indonesia"
+  },
+  {
+   "page": 1,
+   "text": "Amerika Serikat",
+   "kind": "line",
+   "id": "c088",
+   "orig": "- Amerika Serikat"
+  },
+  {
+   "page": 1,
+   "text": "Uni Eropa",
+   "kind": "line",
+   "id": "c089",
+   "orig": "- Uni Eropa"
+  },
+  {
+   "page": 1,
+   "text": "Inggris",
+   "kind": "line",
+   "id": "c090",
+   "orig": "- Inggris"
+  },
+  {
+   "page": 1,
+   "text": "Singapura",
+   "kind": "line",
+   "id": "c091",
+   "orig": "- Singapura"
+  },
+  {
+   "page": 1,
+   "text": "Korea Selatan",
+   "kind": "line",
+   "id": "c092",
+   "orig": "- Korea Selatan"
+  },
+  {
+   "page": 1,
+   "text": "Jepang",
+   "kind": "line",
+   "id": "c093",
+   "orig": "- Jepang"
+  },
+  {
+   "page": 1,
+   "text": "Tiongkok",
+   "kind": "line",
+   "id": "c094",
+   "orig": "- Tiongkok"
+  },
+  {
+   "page": 1,
+   "text": "Kanada",
+   "kind": "line",
+   "id": "c095",
+   "orig": "- Kanada"
+  },
+  {
+   "page": 1,
+   "text": "Australia",
+   "kind": "line",
+   "id": "c096",
+   "orig": "- Australia"
+  },
+  {
+   "page": 1,
+   "text": "Filter berdasarkan negara",
+   "kind": "line",
+   "id": "c098",
+   "orig": "- Filter berdasarkan negara"
+  },
+  {
+   "page": 1,
+   "text": "Filter berdasarkan tahun",
+   "kind": "line",
+   "id": "c099",
+   "orig": "- Filter berdasarkan tahun"
+  },
+  {
+   "page": 1,
+   "text": "Filter berdasarkan topik",
+   "kind": "line",
+   "id": "c100",
+   "orig": "- Filter berdasarkan topik"
+  },
+  {
+   "page": 1,
+   "text": "Link ke dokumen asli",
+   "kind": "line",
+   "id": "c101",
+   "orig": "- Link ke dokumen asli"
+  },
+  {
+   "page": 1,
+   "text": "Ringkasan singkat tiap dokumen",
+   "kind": "line",
+   "id": "c102",
+   "orig": "- Ringkasan singkat tiap dokumen"
+  },
+  {
+   "page": 1,
+   "text": "Perbandingan Negara",
+   "kind": "line",
+   "id": "c104",
+   "orig": "### 4.4 Perbandingan Negara"
+  },
+  {
+   "page": 1,
+   "text": "Lihat bagaimana setiap negara mengatur AI: dari pendekatan berbasis risiko, perlindungan data, transparansi, hingga tata kelola algoritma.",
+   "kind": "line",
+   "id": "c108",
+   "orig": "> Lihat bagaimana setiap negara mengatur AI: dari pendekatan berbasis risiko, perlindungan data, transparansi, hingga tata kelola algoritma."
+  },
+  {
+   "page": 1,
+   "text": "Pendekatan berbasis risiko",
+   "kind": "line",
+   "id": "c115",
+   "orig": "- Pendekatan berbasis risiko"
+  },
+  {
+   "page": 1,
+   "text": "Perlindungan data pribadi",
+   "kind": "line",
+   "id": "c116",
+   "orig": "- Perlindungan data pribadi"
+  },
+  {
+   "page": 1,
+   "text": "Transparansi algoritma",
+   "kind": "line",
+   "id": "c117",
+   "orig": "- Transparansi algoritma"
+  },
+  {
+   "page": 1,
+   "text": "Pengawasan AI generatif",
+   "kind": "line",
+   "id": "c118",
+   "orig": "- Pengawasan AI generatif"
+  },
+  {
+   "page": 1,
+   "text": "Tanggung jawab pengembang dan pengguna",
+   "kind": "line",
+   "id": "c119",
+   "orig": "- Tanggung jawab pengembang dan pengguna"
+  },
+  {
+   "page": 1,
+   "text": "Regulasi sektor tertentu",
+   "kind": "line",
+   "id": "c120",
+   "orig": "- Regulasi sektor tertentu"
+  },
+  {
+   "page": 1,
+   "text": "Kategori Topik",
+   "kind": "line",
+   "id": "c122",
+   "orig": "### 4.5 Kategori Topik"
+  },
+  {
+   "page": 1,
+   "text": "Etika AI",
+   "kind": "line",
+   "id": "c126",
+   "orig": "- Etika AI"
+  },
+  {
+   "page": 1,
+   "text": "Privasi & perlindungan data",
+   "kind": "line",
+   "id": "c127",
+   "orig": "- Privasi & perlindungan data"
+  },
+  {
+   "page": 1,
+   "text": "AI generatif",
+   "kind": "line",
+   "id": "c128",
+   "orig": "- AI generatif"
+  },
+  {
+   "page": 1,
+   "text": "Transparansi algoritma",
+   "kind": "line",
+   "id": "c129",
+   "orig": "- Transparansi algoritma"
+  },
+  {
+   "page": 1,
+   "text": "Keamanan AI",
+   "kind": "line",
+   "id": "c130",
+   "orig": "- Keamanan AI"
+  },
+  {
+   "page": 1,
+   "text": "Bias & keadilan",
+   "kind": "line",
+   "id": "c131",
+   "orig": "- Bias & keadilan"
+  },
+  {
+   "page": 1,
+   "text": "Tata kelola AI",
+   "kind": "line",
+   "id": "c132",
+   "orig": "- Tata kelola AI"
+  },
+  {
+   "page": 1,
+   "text": "AI di sektor publik",
+   "kind": "line",
+   "id": "c133",
+   "orig": "- AI di sektor publik"
+  },
+  {
+   "page": 1,
+   "text": "AI di sektor swasta",
+   "kind": "line",
+   "id": "c134",
+   "orig": "- AI di sektor swasta"
+  },
+  {
+   "page": 1,
+   "text": "Hak cipta & kekayaan intelektual",
+   "kind": "line",
+   "id": "c135",
+   "orig": "- Hak cipta & kekayaan intelektual"
+  },
+  {
+   "page": 1,
+   "text": "Deepfake & disinformasi",
+   "kind": "line",
+   "id": "c136",
+   "orig": "- Deepfake & disinformasi"
+  },
+  {
+   "page": 1,
+   "text": "Telusuri dokumen berdasarkan isu regulasi AI yang paling relevan bagi bisnis, pemerintah, dan masyarakat.",
+   "kind": "line",
+   "id": "c138",
+   "orig": "> Telusuri dokumen berdasarkan isu regulasi AI yang paling relevan bagi bisnis, pemerintah, dan masyarakat."
+  },
+  {
+   "page": 1,
+   "text": "Pustaka Dokumen",
+   "kind": "line",
+   "id": "c140",
+   "orig": "### 4.6 Pustaka Dokumen"
+  },
+  {
+   "page": 1,
+   "text": "Jelajahi koleksi dokumen regulasi AI. Gunakan pencarian dan filter untuk menemukan peraturan, pedoman, atau kebijakan yang relevan.",
+   "kind": "line",
+   "id": "c144",
+   "orig": "> Jelajahi koleksi dokumen regulasi AI. Gunakan pencarian dan filter untuk menemukan peraturan, pedoman, atau kebijakan yang relevan."
+  },
+  {
+   "page": 1,
+   "text": "Judul dokumen",
+   "kind": "line",
+   "id": "c146",
+   "orig": "- Judul dokumen"
+  },
+  {
+   "page": 1,
+   "text": "Negara / wilayah",
+   "kind": "line",
+   "id": "c147",
+   "orig": "- Negara / wilayah"
+  },
+  {
+   "page": 1,
+   "text": "Lembaga penerbit",
+   "kind": "line",
+   "id": "c148",
+   "orig": "- Lembaga penerbit"
+  },
+  {
+   "page": 1,
+   "text": "Tahun terbit",
+   "kind": "line",
+   "id": "c149",
+   "orig": "- Tahun terbit"
+  },
+  {
+   "page": 1,
+   "text": "Jenis dokumen",
+   "kind": "line",
+   "id": "c150",
+   "orig": "- Jenis dokumen"
+  },
+  {
+   "page": 1,
+   "text": "Status dokumen",
+   "kind": "line",
+   "id": "c151",
+   "orig": "- Status dokumen"
+  },
+  {
+   "page": 1,
+   "text": "Topik",
+   "kind": "line",
+   "id": "c152",
+   "orig": "- Topik"
+  },
+  {
+   "page": 1,
+   "text": "Ringkasan singkat",
+   "kind": "line",
+   "id": "c153",
+   "orig": "- Ringkasan singkat"
+  },
+  {
+   "page": 1,
+   "text": "Link ke dokumen asli",
+   "kind": "line",
+   "id": "c154",
+   "orig": "- Link ke dokumen asli"
+  },
+  {
+   "page": 1,
+   "text": "Tanggal terakhir diperbarui",
+   "kind": "line",
+   "id": "c155",
+   "orig": "- Tanggal terakhir diperbarui"
+  },
+  {
+   "page": 1,
+   "text": "Negara",
+   "kind": "line",
+   "id": "c157",
+   "orig": "- Negara"
+  },
+  {
+   "page": 1,
+   "text": "Tahun",
+   "kind": "line",
+   "id": "c158",
+   "orig": "- Tahun"
+  },
+  {
+   "page": 1,
+   "text": "Jenis dokumen",
+   "kind": "line",
+   "id": "c159",
+   "orig": "- Jenis dokumen"
+  },
+  {
+   "page": 1,
+   "text": "Topik",
+   "kind": "line",
+   "id": "c160",
+   "orig": "- Topik"
+  },
+  {
+   "page": 1,
+   "text": "Status",
+   "kind": "line",
+   "id": "c161",
+   "orig": "- Status"
+  },
+  {
+   "page": 1,
+   "text": "Sumber",
+   "kind": "line",
+   "id": "c162",
+   "orig": "- Sumber"
+  },
+  {
+   "page": 1,
+   "text": "Update Terbaru",
+   "kind": "line",
+   "id": "c164",
+   "orig": "### 4.7 Update Terbaru"
+  },
+  {
+   "page": 1,
+   "text": "Ikuti dokumen regulasi AI terbaru yang baru saja ditambahkan ke RegulasiAI.",
+   "kind": "line",
+   "id": "c168",
+   "orig": "> Ikuti dokumen regulasi AI terbaru yang baru saja ditambahkan ke RegulasiAI."
+  },
+  {
+   "page": 1,
+   "text": "Dokumen baru dari Indonesia",
+   "kind": "line",
+   "id": "c170",
+   "orig": "- Dokumen baru dari Indonesia"
+  },
+  {
+   "page": 1,
+   "text": "Dokumen baru dari negara lain",
+   "kind": "line",
+   "id": "c171",
+   "orig": "- Dokumen baru dari negara lain"
+  },
+  {
+   "page": 1,
+   "text": "Pembaruan status regulasi",
+   "kind": "line",
+   "id": "c172",
+   "orig": "- Pembaruan status regulasi"
+  },
+  {
+   "page": 1,
+   "text": "Dokumen yang relevan dengan isu terkini",
+   "kind": "line",
+   "id": "c173",
+   "orig": "- Dokumen yang relevan dengan isu terkini"
+  },
+  {
+   "page": 1,
+   "text": "Panduan Penggunaan",
+   "kind": "line",
+   "id": "c175",
+   "orig": "### 4.8 Panduan Penggunaan"
+  },
+  {
+   "page": 1,
+   "text": "Pelajari cara mencari dokumen, memahami status regulasi, dan menggunakan perbandingan antarnegara.",
+   "kind": "line",
+   "id": "c179",
+   "orig": "> Pelajari cara mencari dokumen, memahami status regulasi, dan menggunakan perbandingan antarnegara."
+  },
+  {
+   "page": 1,
+   "text": "Cara mencari dokumen",
+   "kind": "line",
+   "id": "c181",
+   "orig": "- Cara mencari dokumen"
+  },
+  {
+   "page": 1,
+   "text": "Cara membaca detail dokumen",
+   "kind": "line",
+   "id": "c182",
+   "orig": "- Cara membaca detail dokumen"
+  },
+  {
+   "page": 1,
+   "text": "Arti status dokumen",
+   "kind": "line",
+   "id": "c183",
+   "orig": "- Arti status dokumen"
+  },
+  {
+   "page": 1,
+   "text": "Cara menggunakan filter",
+   "kind": "line",
+   "id": "c184",
+   "orig": "- Cara menggunakan filter"
+  },
+  {
+   "page": 1,
+   "text": "Cara membandingkan regulasi antarnegara",
+   "kind": "line",
+   "id": "c185",
+   "orig": "- Cara membandingkan regulasi antarnegara"
+  },
+  {
+   "page": 1,
+   "text": "Glosarium",
+   "kind": "line",
+   "id": "c187",
+   "orig": "### 4.9 Glosarium"
+  },
+  {
+   "page": 1,
+   "text": "AI Governance",
+   "kind": "line",
+   "id": "c191",
+   "orig": "- AI Governance"
+  },
+  {
+   "page": 1,
+   "text": "Risk-Based Approach",
+   "kind": "line",
+   "id": "c192",
+   "orig": "- Risk-Based Approach"
+  },
+  {
+   "page": 1,
+   "text": "Algorithmic Accountability",
+   "kind": "line",
+   "id": "c193",
+   "orig": "- Algorithmic Accountability"
+  },
+  {
+   "page": 1,
+   "text": "High-Risk AI",
+   "kind": "line",
+   "id": "c194",
+   "orig": "- High-Risk AI"
+  },
+  {
+   "page": 1,
+   "text": "AI Generatif",
+   "kind": "line",
+   "id": "c195",
+   "orig": "- AI Generatif"
+  },
+  {
+   "page": 1,
+   "text": "Deepfake",
+   "kind": "line",
+   "id": "c196",
+   "orig": "- Deepfake"
+  },
+  {
+   "page": 1,
+   "text": "Data Pribadi",
+   "kind": "line",
+   "id": "c197",
+   "orig": "- Data Pribadi"
+  },
+  {
+   "page": 1,
+   "text": "Transparency",
+   "kind": "line",
+   "id": "c198",
+   "orig": "- Transparency"
+  },
+  {
+   "page": 1,
+   "text": "Human Oversight",
+   "kind": "line",
+   "id": "c199",
+   "orig": "- Human Oversight"
+  },
+  {
+   "page": 1,
+   "text": "Bias Algoritma",
+   "kind": "line",
+   "id": "c200",
+   "orig": "- Bias Algoritma"
+  },
+  {
+   "page": 1,
+   "text": "Pahami istilah penting dalam regulasi AI dengan penjelasan yang sederhana dan mudah dipahami.",
+   "kind": "line",
+   "id": "c202",
+   "orig": "> Pahami istilah penting dalam regulasi AI dengan penjelasan yang sederhana dan mudah dipahami."
+  },
+  {
+   "page": 1,
+   "text": "Sumber Resmi",
+   "kind": "line",
+   "id": "c204",
+   "orig": "### 4.10 Sumber Resmi"
+  },
+  {
+   "page": 1,
+   "text": "Kementerian / lembaga pemerintah Indonesia",
+   "kind": "line",
+   "id": "c208",
+   "orig": "- Kementerian / lembaga pemerintah Indonesia"
+  },
+  {
+   "page": 1,
+   "text": "Badan pengatur di negara lain",
+   "kind": "line",
+   "id": "c209",
+   "orig": "- Badan pengatur di negara lain"
+  },
+  {
+   "page": 1,
+   "text": "Uni Eropa",
+   "kind": "line",
+   "id": "c210",
+   "orig": "- Uni Eropa"
+  },
+  {
+   "page": 1,
+   "text": "OECD",
+   "kind": "line",
+   "id": "c211",
+   "orig": "- OECD"
+  },
+  {
+   "page": 1,
+   "text": "UNESCO",
+   "kind": "line",
+   "id": "c212",
+   "orig": "- UNESCO"
+  },
+  {
+   "page": 1,
+   "text": "Organisasi internasional terkait AI",
+   "kind": "line",
+   "id": "c213",
+   "orig": "- Organisasi internasional terkait AI"
+  },
+  {
+   "page": 1,
+   "text": "Dokumen dikumpulkan dari sumber resmi pemerintah, lembaga pengatur, dan organisasi internasional.",
+   "kind": "line",
+   "id": "c215",
+   "orig": "> Dokumen dikumpulkan dari sumber resmi pemerintah, lembaga pengatur, dan organisasi internasional."
+  },
+  {
+   "page": 1,
+   "text": "Tentang",
+   "kind": "line",
+   "id": "c217",
+   "orig": "### 4.11 Tentang"
+  },
+  {
+   "page": 1,
+   "text": "RegulasiAI adalah inisiatif untuk mengumpulkan dan menyajikan dokumen regulasi AI secara terbuka, terstruktur, dan mudah diakses. Dikelola oleh Asosiasi AI Indonesia.",
+   "kind": "line",
+   "id": "c219",
+   "orig": "> RegulasiAI adalah inisiatif untuk mengumpulkan dan menyajikan dokumen regulasi AI secara terbuka, terstruktur, dan mudah diakses. Dikelola oleh Asosiasi AI Indonesia."
+  },
+  {
+   "page": 1,
+   "text": "Latar belakang",
+   "kind": "line",
+   "id": "c221",
+   "orig": "- Latar belakang"
+  },
+  {
+   "page": 1,
+   "text": "Tujuan",
+   "kind": "line",
+   "id": "c222",
+   "orig": "- Tujuan"
+  },
+  {
+   "page": 1,
+   "text": "Ruang lingkup",
+   "kind": "line",
+   "id": "c223",
+   "orig": "- Ruang lingkup"
+  },
+  {
+   "page": 1,
+   "text": "Pengelola",
+   "kind": "line",
+   "id": "c224",
+   "orig": "- Pengelola"
+  },
+  {
+   "page": 1,
+   "text": "Prinsip kurasi dokumen",
+   "kind": "line",
+   "id": "c225",
+   "orig": "- Prinsip kurasi dokumen"
+  },
+  {
+   "page": 1,
+   "text": "Kontak / Kirim Dokumen",
+   "kind": "line",
+   "id": "c227",
+   "orig": "### 4.12 Kontak / Kirim Dokumen"
+  },
+  {
+   "page": 1,
+   "text": "Punya dokumen regulasi AI yang belum tersedia di RegulasiAI? Kirimkan untuk membantu memperkaya koleksi kami.",
+   "kind": "line",
+   "id": "c231",
+   "orig": "> Punya dokumen regulasi AI yang belum tersedia di RegulasiAI? Kirimkan untuk membantu memperkaya koleksi kami."
+  },
+  {
+   "page": 1,
+   "text": "Nama pengirim",
+   "kind": "line",
+   "id": "c233",
+   "orig": "- Nama pengirim"
+  },
+  {
+   "page": 1,
+   "text": "Email",
+   "kind": "line",
+   "id": "c234",
+   "orig": "- Email"
+  },
+  {
+   "page": 1,
+   "text": "Nama dokumen",
+   "kind": "line",
+   "id": "c235",
+   "orig": "- Nama dokumen"
+  },
+  {
+   "page": 1,
+   "text": "Negara / sumber",
+   "kind": "line",
+   "id": "c236",
+   "orig": "- Negara / sumber"
+  },
+  {
+   "page": 1,
+   "text": "Link dokumen",
+   "kind": "line",
+   "id": "c237",
+   "orig": "- Link dokumen"
+  },
+  {
+   "page": 1,
+   "text": "Catatan tambahan",
+   "kind": "line",
+   "id": "c238",
+   "orig": "- Catatan tambahan"
+  },
+  {
+   "page": 1,
+   "text": "Dikelola oleh Asosiasi AI Indonesia.",
+   "kind": "line",
+   "id": "c287",
+   "orig": "Dikelola oleh Asosiasi AI Indonesia."
+  },
+  {
+   "page": 1,
+   "text": "Website ini bukan penyedia layanan hukum.",
+   "kind": "line",
+   "id": "c290",
+   "orig": "- Website ini bukan penyedia layanan hukum."
+  }
+ ]
+}

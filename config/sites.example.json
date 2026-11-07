@@ -1,0 +1,23 @@
+{
+  "pagespeed_api_key": "",
+  "sites": {
+    "toko": {
+      "url": "https://tokoabc.com",
+      "user": "claude-bot",
+      "app_password": "xxxx xxxx xxxx xxxx xxxx xxxx",
+      "label": "Toko ABC",
+      "env": "prod",
+      "readonly": true,
+      "tags": ["klien-a", "shop"]
+    },
+    "toko-stg": {
+      "url": "https://staging.tokoabc.com",
+      "user": "claude-bot",
+      "app_password": "xxxx xxxx xxxx xxxx xxxx xxxx",
+      "label": "Toko ABC (staging)",
+      "env": "staging",
+      "readonly": false,
+      "tags": ["klien-a"]
+    }
+  }
+}

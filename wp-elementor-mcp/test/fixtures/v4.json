@@ -1,0 +1,6 @@
+[
+  {"id":"fx1","elType":"e-flexbox","settings":{"classes":{"$$type":"classes","value":["e-fx1-a"]}},"styles":{},"elements":[
+    {"id":"eh1","elType":"widget","widgetType":"e-heading","settings":{"title":{"$$type":"string","value":"Judul Atomic"},"tag":{"$$type":"string","value":"h2"}},"styles":{},"elements":[]},
+    {"id":"ep1","elType":"widget","widgetType":"e-paragraph","settings":{"paragraph":{"$$type":"string","value":"Paragraf atomic V4"}},"styles":{},"elements":[]}
+  ]}
+]

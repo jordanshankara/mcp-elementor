@@ -1,0 +1,25 @@
+# rahasia & data lokal
+config/sites.local.json
+config/sites.playground.json
+backups/
+reports/
+# build/tes
+node_modules/
+wp-elementor-mcp/.playground/
+wp-elementor-mcp/dist/
+*.log
+
+# gambar & aset biner (tidak ikut repo; salin manual antar perangkat, lihat docs/HANDOFF.md)
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.svg
+*.ico
+*.zip
+logo-asosiasi-ai/
+Logo_Domain_AI/
+regulasi/design/out/
+.claude/settings.local.json
+.claude/projects/
