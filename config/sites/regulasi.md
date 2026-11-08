@@ -5,4 +5,4 @@
 - Palet Regal Heritage: navy #0B1B3A, emas #C9A24A, ivory #E8DAC0 (+ navy2 #16305F, emas tua #8A6A1F, ivory muda #F6F0E4). Font: Outfit (judul), Inter (teks)
 - Kit Elementor masih bawaan (Roboto, #6EC1E4) → warna ditulis eksplisit per elemen; palet global Astra sudah diganti
 - Plugin: SureForms, OttoKit, SureCookie (banner menutupi screenshot), SureRank, Starter Templates, Header-Footer-Elementor (tidak dipakai)
-- Catatan: pustaka dokumen = widget HTML + JS (penanda allow-js); sumber data `_AI Regulations.xlsx`; generator `regulasi/design/build_library.py`
+- Catatan: pustaka dokumen = widget HTML + JS (penanda allow-js); sumber data `_AI Regulations.xlsx`; generator `sites/sites/regulasi/design/build_library.py`

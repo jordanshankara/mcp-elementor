@@ -1,6 +1,6 @@
 // Kirim elemen Elementor BESAR dari berkas JSON lewat tool MCP elementor_structure (guardrail, backup, verifikasi tetap jalan).
 // Pakai bila payload terlalu besar untuk diketik di panggilan tool (mis. daftar dokumen).
-// Contoh: node scripts/push-element.ts regulasi 543 null 2 ../regulasi/design/library_element.json regulasiai.id
+// Contoh: node scripts/push-element.ts regulasi 543 null 2 ../sites/regulasi/design/library_element.json regulasiai.id
 import { Client } from '@modelcontextprotocol/sdk/client/index.js';
 import { StdioClientTransport } from '@modelcontextprotocol/sdk/client/stdio.js';
 import fs from 'node:fs';
