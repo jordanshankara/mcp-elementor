@@ -144,6 +144,14 @@ PR = [('Bersumber', 'Setiap klaim disertai referensi.'), ('Netral', 'Tidak mempr
       ('Bukan jasa', 'Tanpa penawaran produk atau layanan.'), ('Beretika', 'Hak cipta, privasi, dan misinformasi diperhatikan.')]
 S.append(ROW([CELL([MICRO(f'{i+1:02d}', color=RED), H(t, 30, 28, 28, tag='h3'), TXT(f'<p style="margin:0">{d}</p>')], w=25, right=(i < 3), flex_gap=gap(6))
               for i, (t, d) in enumerate(PR)], tablet_col=True, flex_wrap='wrap'))
+# 8 — identitas inisiator (addendum)
+ID_TXT = ('Inisiasi dari Dian Martin, Ketua Umum Asosiasi AI Indonesia. Materi berlandaskan buku <em>Stay Human, Stay in Charge — Transformasi AI di Korporasi</em>, '
+          f'riset studi banding 14 yurisdiksi oleh <a href="{ASOSIASI}" target="_blank" rel="noopener" style="color:{RED}">Asosiasi AI Indonesia</a>, serta pembelajaran implementasi industri.')
+S.append(ROW([
+    CELL([MICRO('Inisiasi', color=MUTE), H('Tentang publikasi ini', 40, 34, 32, tag='h2')], w=34),
+    CELL([TXT(f'<p style="margin:0">{ID_TXT}</p>', size=17)], w=40),
+    CELL([BTN('Tentang Publikasi Ini →', f'{SITE}/about/'), BTN('asosiasi.ai', ASOSIASI + '/', dark=False, link={'url': ASOSIASI + '/', 'is_external': 'on', 'nofollow': ''})], w=26, right=False)],
+    tablet_col=True, border_width=bw(0)))
 for s in S: s['settings'].setdefault('background_background', 'classic'); s['settings'].setdefault('background_color', PAPER)
 (D / 'home_sections.json').write_text(json.dumps(S, ensure_ascii=False))
 print(len(S), 'sections', len(json.dumps(S)), 'bytes')
