@@ -31,3 +31,45 @@ body,.ast-separate-container{background:var(--bia-paper)}
 .bia-fl{list-style:none;margin:0;padding:0}.bia-fl li{border-bottom:1px solid var(--bia-ink);padding:7px 0;font:400 15px Inter,sans-serif}
 .bia-fl a{color:var(--bia-ink)!important}.bia-fl a:hover{color:var(--bia-red)!important}
 .site-footer a{text-decoration:none}
+/* ---- arsip artikel / kategori ---- */
+body,button,input,select,textarea,.ast-article-post,.entry-content,.entry-summary{font-family:Inter,sans-serif!important}
+.ast-archive-entry-banner{background:var(--bia-paper)!important;background-image:none!important;border-bottom:1px solid var(--bia-ink);min-height:0!important;padding:34px 0 30px!important}
+.ast-archive-entry-banner .ast-container{display:block!important;text-align:left!important}
+.ast-archive-entry-banner h1{font:400 clamp(64px,12vw,170px)/.9 Anton,sans-serif!important;text-transform:uppercase;color:var(--bia-ink)!important;margin:0!important;text-align:left!important}
+.ast-archive-entry-banner .ast-container::after{content:"Temukan artikel seputar penggunaan AI dalam periklanan, pembuatan konten, riset pasar, optimasi kampanye, dan komunikasi brand.";display:block;max-width:640px;margin-top:18px;font:400 16px/1.6 Inter,sans-serif;color:var(--bia-ink)}
+.ast-archive-entry-banner::before,.ast-archive-entry-banner .ast-archive-description{display:none}
+.ast-separate-container .ast-article-post,.ast-article-post{background:transparent!important;border:1px solid var(--bia-ink)!important;border-radius:0!important;box-shadow:none!important;padding:0!important;margin:0 0 -1px -1px}
+.ast-article-post .post-thumb img,.ast-article-post .ast-blog-featured-section img{filter:grayscale(1) contrast(1.1);border-radius:0!important}
+.ast-article-post .entry-header,.ast-article-post .entry-content,.ast-article-post .ast-excerpt-container,.ast-article-post .ast-blog-single-element{padding-left:20px;padding-right:20px}
+.ast-article-post .entry-title,.ast-article-post .entry-title a{font:400 28px/1 Anton,sans-serif!important;text-transform:uppercase;color:var(--bia-ink)!important;text-decoration:none}
+.ast-article-post .entry-title a:hover{color:var(--bia-red)!important}
+.ast-article-post .entry-meta,.ast-article-post .entry-meta a{font:500 11px/1.6 Inter,sans-serif!important;letter-spacing:.18em;text-transform:uppercase;color:var(--bia-ink)!important}
+.ast-article-post .ast-excerpt-container,.ast-article-post .ast-excerpt-container p{font:400 15px/1.6 Inter,sans-serif!important;color:var(--bia-ink)}
+.ast-article-post .read-more a,.ast-article-post .ast-read-more-link{font:500 11px/1 Inter,sans-serif!important;letter-spacing:.18em;text-transform:uppercase;color:var(--bia-red)!important;text-decoration:none}
+.ast-article-post .entry-header{padding-top:18px}.ast-article-post .read-more{padding-bottom:20px}
+.ast-pagination .page-numbers{border:1px solid var(--bia-ink)!important;border-radius:0!important;background:transparent!important;color:var(--bia-ink)!important;font:500 12px Inter,sans-serif}
+.ast-pagination .page-numbers.current{background:var(--bia-ink)!important;color:var(--bia-paper)!important}
+#secondary .widget{border:1px solid var(--bia-ink);padding:18px 20px;margin-bottom:-1px;background:transparent}
+#secondary .widget-title,#secondary h2,#secondary .wp-block-heading{font:400 22px/1 Anton,sans-serif!important;text-transform:uppercase;color:var(--bia-ink);margin:0 0 12px}
+#secondary a{color:var(--bia-ink)!important;text-decoration:none}#secondary a:hover{color:var(--bia-red)!important}
+#secondary li{border-bottom:1px solid var(--bia-ink);padding:6px 0;list-style:none}#secondary ul{margin:0;padding:0}
+.widget-area input[type=search],.wp-block-search__input{border:1px solid var(--bia-ink)!important;border-radius:0!important;background:transparent!important}
+.wp-block-search__button{background:var(--bia-ink)!important;color:var(--bia-paper)!important;border-radius:0!important;border:0!important;font:500 11px Inter!important;letter-spacing:.18em;text-transform:uppercase}
+/* ---- satu artikel ---- */
+.single-post .entry-title{font:400 clamp(44px,7vw,96px)/.92 Anton,sans-serif!important;text-transform:uppercase;color:var(--bia-ink)}
+.single-post .entry-content,.single-post .entry-content p{font:400 17px/1.75 Inter,sans-serif;color:var(--bia-ink)}
+.single-post .entry-content h2,.single-post .entry-content h3{font-family:Anton,sans-serif!important;text-transform:uppercase;font-weight:400}
+.single-post .entry-content a{color:var(--bia-red)}
+.single-post .post-thumb img,.single-post .ast-single-post-featured-section img{filter:grayscale(1) contrast(1.1);border-radius:0}
+.single-post .entry-meta,.single-post .entry-meta a{font:500 11px Inter,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--bia-ink)}
+.single-post .ast-single-entry-banner{background:var(--bia-paper)!important;background-image:none!important}
+.single-post .ast-single-entry-banner h1{font-family:Anton,sans-serif!important;text-transform:uppercase;color:var(--bia-ink)!important}
+
+.ast-archive-entry-banner{height:auto!important;overflow:visible!important;margin:0!important}
+.ast-article-post .read-more a,.ast-article-post .ast-read-more-link{font-size:0!important}
+.ast-article-post .read-more a::after,.ast-article-post .ast-read-more-link::after{content:"Baca \2192";font:500 11px/1 Inter,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--bia-red)}
+.site-footer .widget{border:0!important;padding:0!important;background:transparent!important}
+.site-footer .bia-fp a{color:var(--bia-red)!important}
+@media(max-width:921px){.ast-archive-entry-banner h1{font-size:64px!important}}
+.blog #masthead,.archive #masthead,.search #masthead{position:relative!important}
+.ast-archive-entry-banner .ast-container{padding-left:20px!important;padding-right:20px!important}@media(min-width:922px){.ast-archive-entry-banner .ast-container{padding-left:0!important;padding-right:0!important}}
