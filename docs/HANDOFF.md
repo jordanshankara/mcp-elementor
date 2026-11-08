@@ -1,13 +1,13 @@
 # HANDOFF: melanjutkan proyek ini di perangkat lain
 
-Terakhir diperbarui: 2026-11-07. Bahasa kerja dengan pemilik: **Indonesia**. Pemilik detail soal desain, benci revisi berulang, dan lebih suka rencana rinci lalu eksekusi mandiri. Lapor jujur apa yang BELUM dicek.
+Terakhir diperbarui: 2026-11-08 (sesi cloud dari HP). **Log kronologis lengkap: `docs/memory/LOG.md` — baca itu dulu.** Bahasa kerja dengan pemilik: **Indonesia**. Pemilik detail soal desain, benci revisi berulang, dan lebih suka rencana rinci lalu eksekusi mandiri. Lapor jujur apa yang BELUM dicek.
 
 ## 1. Apa proyek ini
 Mengelola 9 situs WordPress + Elementor (Free) milik pemilik dari Claude Code, tanpa browser:
 - **`wp-elementor-mcp/`**: MCP server (Node/TS, 14 tool) + plugin WordPress **Claude Bridge** (`bridge-plugin/`, versi terbaru 1.3.0) + skrip (`scripts/`).
 - **`.claude/skills/wp-elementor/`**: skill kerja (alur, guardrail, **`references/lessons-redesign.md` = pelajaran penting, baca dulu**).
 - **`CLAUDE.md`**: aturan proyek (standar wajib, native-first, logo, responsif).
-- **`sites/`**: brief + sumber desain per situs (lihat `sites/README.md`) situs regulasiai.id (DNA, outline, HTML mock, generator).
+- **`sites/<alias>/`**: brief (`BRIEF.md`), addendum situs live (`ADDENDUM.md`, MUTLAK), dan sumber desain (`design/`: DNA, outline, mockup, generator) per situs. Daftar & status: `sites/README.md`. (Dulu `regulasi/` dan `buatiklanai/`.)
 - **`docs/memory/`**: salinan memori Claude (lihat §8). **`config/`**: contoh config; `sites.local.json` RAHASIA (tidak ada di repo).
 
 ## 2. Setup di perangkat baru
@@ -19,12 +19,13 @@ Mengelola 9 situs WordPress + Elementor (Free) milik pemilik dari Claude Code, t
 6. Bangun ulang plugin bridge bila perlu: `cd wp-elementor-mcp && node scripts/build-zip.ts` → `dist/claude-bridge.zip` (tidak di repo).
 7. Tes: `npm test` (14 tes) dan `npm run typecheck`.
 
-## 3. Daftar situs (alias → domain). Status per 2026-11-07
+## 3. Daftar situs (alias → domain). Status per 2026-11-08
 | alias | domain | status |
 |---|---|---|
-| **regulasi** | regulasiai.id | TERHUBUNG, mode tulis, sudah di-redesign penuh (lihat §4) |
-| **pusatriset** | pusatriset.ai | TERDAFTAR, mode tulis. Elementor 4.3.6 + Classic Editor AKTIF. **Menunggu pengguna mengunggah Bridge 1.3.0** → lalu pasang Astra via `POST /claude/v1/theme-install {slug:"astra",activate:true}`. Tema aktif masih Twenty Twenty-Five |
-| bikinkonten, buatiklan, toolsai, analisadata, solusiindustri, solusikeamanan, institut | bikinkontenai.id, buatiklanai.id, toolsaigratis.id, aianalisadata.id, aisolusiindustri.id, aisolusikeamanan.id, institutnasional.ai | readonly; belum ada Application Password sah + Bridge. Urutan berikutnya: bikinkonten |
+| **regulasi** | regulasiai.id | live, redesign selesai (§4). **Addendum belum diterapkan** (butuh kredensial dari pemilik di sesi ini) |
+| **buatiklan** | buatiklanai.id | live, TERHUBUNG (user `adminbuatiklan`), mode tulis. **Redesain Beranda/header/footer/Artikel/About + addendum SUDAH TAYANG** (§4b, detail di `docs/memory/LOG.md` §C) |
+| **pusatriset** | pusatriset.ai | terdaftar; Elementor 4.3.6 + Classic Editor aktif; pemilik sudah mengunggah Bridge 1.3.0 (belum diverifikasi dari sini); Astra BELUM dipasang; brief BELUM ada. Ada repo aplikasi Next.js `jordanshankara/pusatrisetai` (data hanya di komputer pemilik) — strategi konversi ditunda |
+| bikinkonten, toolsai, analisadata, solusiindustri, solusikeamanan, institut | bikinkontenai.id, toolsaigratis.id, aianalisadata.id, aisolusiindustri.id, aisolusikeamanan.id, institutnasional.ai | belum live, brief Revisi Lengkap sudah ada di `sites/<alias>/BRIEF.md`; belum terhubung (butuh Application Password + Bridge + host di allowed hosts). Urutan: bikinkonten dulu |
 Standar wajib tiap situs: (1) Elementor builder, (2) classic page / Gutenberg nonaktif, (3) tema Astra.
 
 ## 4. regulasiai.id (situs selesai pertama)
@@ -35,6 +36,15 @@ Standar wajib tiap situs: (1) Elementor builder, (2) classic page / Gutenberg no
 - **Media** (WebP, di server): foto Pexels (hero, pita judul, kartu update), 13 bendera, logo brand & asosiasi, favicon. API Pexels dipakai sekali lewat env, **kunci tidak disimpan**.
 - **Belum selesai:** form Kirim Dokumen (tombol nonaktif; rencana SureForms + OttoKit → Google Sheets, butuh akses Google pengguna); data contoh "contoh" di Update Terbaru & Perbandingan Negara; cek visual HP/tablet halaman lain menyeluruh; Kategori Topik belum punya halaman; template library Elementor #563/#565 (header/footer lama) tidak terpakai (boleh dihapus).
 - Sumber desain: `sites/regulasi/design/` (DNA.md, OUTLINE.md, `build_site.py` → p1..p6.html, `copy.json`). Proses desain memakai skill `html-design-studio` (DNA → outline → desain, lalu pasang ke situs lewat skill `wp-elementor`).
+
+## 4b. buatiklanai.id (situs kedua selesai; ringkas — rincian lengkap di `docs/memory/LOG.md` §C, catatan teknis di `config/sites/buatiklan.md`)
+- Desain gaya majalah/lembar kontak (referensi "FRAMEFORM"): kertas `#ECE7DB`, tinta `#0B0B0B`, merah `#D9291C`; Anton + Caveat + Inter; sel hairline; foto B&W ber-selotip; stempel; sticky note.
+- Tayang: Home #275, About #219 "Tentang Publikasi Ini", arsip Artikel #344 (+ kategori, sidebar Cari/Kategori), halaman satu artikel, header/footer/menu Astra, 11 kategori, 20 artikel terkategori, bahasa id_ID.
+- Sumber & generator: `sites/buatiklan/design/` (`build_home.py`, `build_about.py`, `push_draft.py <page_id> <json>`, `site_chrome.py`, `chrome.css` = seluruh CSS Tambahan; jalankan dengan `WPPW` env, JANGAN tulis password di berkas).
+- Belum: logo (BuatIklanAI & Asosiasi), judul situs header, field standar artikel (addendum), halaman Kontak (butuh WA+email asosiasi.ai), Studi Kasus/Tren kosong, halaman starter lama, keputusan artikel bernama tools. Bagian "Kirim artikel" sengaja DIHAPUS (permintaan pemilik).
+
+## 4c. Cara bekerja dari sesi cloud (tanpa MCP)
+`cd wp-elementor-mcp && npm install`; buat `config/sites.local.json` (gitignored); `export NODE_USE_ENV_PROXY=1 NODE_EXTRA_CA_CERTS=/root/.ccr/ca-bundle.crt`; `node src/cli.ts <tool> '<json>'`. Host situs (+`www.`) harus ada di Allowed domains environment. Push GitHub butuh Claude GitHub App/koneksi GitHub (https://claude.ai/connect-github).
 
 ## 5. Aturan keras pemilik (ringkas; rincian di `lessons-redesign.md`)
 - Tampilan = widget bawaan Elementor Free. HTML widget HANYA fitur fungsional dengan izin (pencarian/filter/form). Dilarang untuk gaya.
@@ -55,8 +65,10 @@ Standar wajib tiap situs: (1) Elementor builder, (2) classic page / Gutenberg no
 ## 8. Memori Claude (log lintas sesi)
 Memori asli ada di `~/.claude/projects/<proyek>/memory/` (tidak ikut git). Salinannya ada di `docs/memory/` (`MEMORY.md` indeks, `wp-elementor-project.md`, `elementor-native-first.md`). Di perangkat baru: salin isi `docs/memory/` ke folder memori proyek Claude Code, atau cukup baca file ini + skill (isinya sudah memuat semuanya).
 
-## 9. Langkah berikutnya yang disarankan
-1. pusatriset.ai: pengguna unggah Bridge 1.3.0 → pasang Astra → set up header/footer, logo "Pusat Riset AI Indonesia" (`Logo_Domain_AI/Pusat Riset AI Indonesia`), brief & desain via `html-design-studio`.
-2. regulasi: sambungkan form Kirim Dokumen ke Google Sheets; ganti data "contoh"; cek ulang visual tablet/HP seluruh halaman; hapus template #563/#565.
-3. Hubungkan 6 situs lain satu per satu (Application Password + Bridge 1.3.0), terapkan 3 standar + pelajaran redesign.
-4. Tambah tes untuk Bridge PHP & `push-element.ts`; jalankan `npm run e2e`.
+## 9. Langkah berikutnya yang disarankan (urut termudah; versi rinci di `docs/memory/LOG.md` §I)
+1. **regulasi**: terapkan ADDENDUM (blok identitas Home, About "Tentang Publikasi Ini", footer, field standar dokumen, CTA asosiasi.ai). Butuh kredensial regulasiai.id.
+2. **6 situs baru** (mulai bikinkonten): hubungkan → Astra → DNA/outline/mockup → draf → cek 3 layar → tayang.
+3. **Data dari pemilik**: logo Asosiasi AI & logo brand, WhatsApp + email resmi asosiasi.ai, naskah buku/riset.
+4. buatiklan: field standar artikel, halaman Kontak, keputusan artikel bernama tools, rapikan halaman starter.
+5. pusatriset: brief + strategi (WP vs Next.js) + sumber data.
+6. Tes Bridge PHP & `push-element.ts`; `npm run e2e`. Cabut/buat ulang semua Application Password yang pernah ditempel di chat (§7).

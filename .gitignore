@@ -23,3 +23,4 @@ Logo_Domain_AI/
 regulasi/design/out/
 .claude/settings.local.json
 .claude/projects/
+__pycache__/

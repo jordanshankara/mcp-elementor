@@ -1,2 +1,3 @@
-- [WP-Elementor project](wp-elementor-project.md) — MCP+skill for user's 9 WP/Elementor Free sites; regulasi done, pusatriset in setup; repo github.com/jordanshankara/mcp-elementor (docs/HANDOFF.md)
+- [LOG kronologis](LOG.md) — log detail semua pekerjaan (terbaru di atas): buatiklanai.id selesai, brief/addendum baru, struktur `sites/`, pelajaran teknis, TODO
+- [WP-Elementor project](wp-elementor-project.md) — MCP+skill untuk 9 situs WP/Elementor Free; status ringkas terbaru; repo github.com/jordanshankara/mcp-elementor (docs/HANDOFF.md)
 - [Elementor native-first](elementor-native-first.md) — no HTML widget shortcuts; Elementor 4 atomic JSON format + purge gotchas

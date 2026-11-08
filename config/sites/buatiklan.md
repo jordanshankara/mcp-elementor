@@ -1,0 +1,11 @@
+# buatiklan: BuatIklanAI (buatiklanai.id)
+- Domain: buatiklanai.id (site_url memakai www.buatiklanai.id) · PROD · mode tulis aktif · user `adminbuatiklan` (administrator) · Application Password: minta ke pemilik (JANGAN dicatat).
+- WP 7.1.4 · PHP 7.4.34 · Elementor 4.3.6 Free · tema Astra · Bridge 1.3.0 · Classic Editor aktif · kit #274 (bawaan) · bahasa id_ID
+- Halaman: Home #275 (desain baru), About #219 "Tentang Publikasi Ini" (/about/), Blog #344 (posts page; judul banner "Artikel"), starter lama belum disentuh: Offering #298, Donate #316, Contact #355, Shop #11/#420 (SureCart), Checkout #8/#418, Dashboard #9/#419
+- Menu utama = menu 6 (items 347 Artikel, 351 Panduan, 350 Studi Kasus, 348 Tren & Riset, 349 Tentang). Menu 7 "Menu" & 8 "what we do" = starter lama.
+- Kategori: 11–21 (lihat docs/memory/LOG.md). 20 artikel (17 publish + 3 draf), semua sudah dikategorikan.
+- Palet: kertas #ECE7DB · tinta #0B0B0B · merah #D9291C. Font: Anton, Caveat 700, Inter.
+- Sumber desain & generator: `sites/buatiklan/design/` (build_home.py, build_about.py, push_draft.py, site_chrome.py, chrome.css). CSS Tambahan situs = isi `chrome.css` (POST mengganti seluruhnya).
+- Plugin: SureForms, OttoKit, SureCookie (banner menutupi screenshot), SureRank, Starter Templates, Header-Footer-Elementor (tidak dipakai), SureCart (nonaktif).
+- Brief: `sites/buatiklan/BRIEF.md` + `ADDENDUM.md` (mutlak).
+- Catatan: artikel lama menyebut nama tools (bertentangan brief) → belum diputuskan. Tidak ada /kirim-artikel/ (sengaja dihapus).
