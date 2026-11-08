@@ -11,7 +11,8 @@ Log kerja lintas sesi/perangkat. Tidak berisi rahasia. Pemilik: berbahasa Indone
   - `institut`: tema **bosa** (bukan Astra) + Elementor (ada `elementor/v1`), tanpa Bridge; halaman: home-copy, blog, faculties, contact-us, about-us, institut-ai-nasional; 5 post. Perlu migrasi ke Astra + dibersihkan (ada halaman "faculties" yang bertentangan brief).
   - `pusatriset`: tema terdeteksi **Astra** (berarti sudah terpasang/diganti pemilik), `claude/v1` (Bridge aktif) + `elementor/v1`; hanya Sample Page; konten belum dibangun.
   - `regulasi`: Astra + Elementor + Bridge + SureForms; halaman: informasi, perbandingan-negara, pustaka-dokumen, regulasi-global, regulasi-indonesia, testing, home; `asosiasi.ai` tertaut (3 kali) tapi "Supported by"/Dian Martin belum ada.
-- Belum ada kredensial untuk 7 situs selain buatiklan → audit privat (site_health, plugin, pengaturan) menunggu username + Application Password.
+- **bikinkonten TERHUBUNG** (user `adminbikinkonten`, audit privat dilakukan; lihat `config/sites/bikinkonten.md`): bridge 1.3.0, Elementor Free, Astra, administrator; Classic Editor tidak terpasang; 39 JPEG + 1 PNG; 63 elemen starter di Home; palet biru bawaan. Mode config lokal readonly sampai pemilik mengizinkan tulis.
+- Belum ada kredensial untuk 6 situs selain buatiklan → audit privat (site_health, plugin, pengaturan) menunggu username + Application Password.
 
 ---
 
