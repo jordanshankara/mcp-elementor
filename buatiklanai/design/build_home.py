@@ -72,7 +72,7 @@ def POLAROID(mid, url, rot, alt=''):
 def STAMP(l1, l2, l3, size=112):
     return C([H(f'{l1}<br>{l2}<br>{l3}', 10, color=PAPER, tag='div', fam='Inter', align='center', lh=1.5, typography_font_weight='500',
                typography_letter_spacing={'unit': 'px', 'size': 1}, typography_text_transform='uppercase')],
-             width={'unit': 'px', 'size': size}, min_height=px(size), justify_content='center', align_items='center',
+             width={'unit': 'px', 'size': size}, width_tablet={'unit': 'px', 'size': size}, width_mobile={'unit': 'px', 'size': size}, align_self='flex-start', min_height=px(size), justify_content='center', align_items='center',
              background_background='classic', background_color=RED, border_radius=dim(size // 2),
              border_border='dashed', border_width=dim(2), border_color=PAPER, padding=dim(8))
 
@@ -89,7 +89,7 @@ def CARD(no, title, cat, url, k):
                 w=None, pad=(22,), right=True, flex_gap=gap(10), **{'width': {'unit': '%', 'size': 33.33}})
 S = []
 # 1 — wordmark
-S.append(ROW([C([H('BuatIklanAI', 19.5, 19, 15.5, tag='h1', unit='vw', lh=.82, align='left', typography_letter_spacing={'unit': 'px', 'size': -1})],
+S.append(ROW([C([H('BuatIklanAI', 19.5, 19, 19, tag='h1', unit='vw', lh=.82, align='left', typography_letter_spacing={'unit': 'px', 'size': -1})],
                 padding=dim(18, 24, 6, 24), padding_mobile=dim(14, 14, 4, 14), overflow='hidden')],
              tablet_col=False, background_background='classic', background_color=PAPER))
 # 2 — hero
