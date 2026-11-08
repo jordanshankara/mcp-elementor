@@ -73,3 +73,10 @@ body,button,input,select,textarea,.ast-article-post,.entry-content,.entry-summar
 @media(max-width:921px){.ast-archive-entry-banner h1{font-size:64px!important}}
 .blog #masthead,.archive #masthead,.search #masthead{position:relative!important}
 .ast-archive-entry-banner .ast-container{padding-left:20px!important;padding-right:20px!important}@media(min-width:922px){.ast-archive-entry-banner .ast-container{padding-left:0!important;padding-right:0!important}}
+.category-panduan .ast-archive-entry-banner .ast-container::after{content:"Pelajari cara kerja dan praktik penggunaan AI dalam berbagai aktivitas periklanan dan digital marketing."}
+.category-studi-kasus .ast-archive-entry-banner .ast-container::after{content:"Lihat bagaimana AI digunakan dalam berbagai praktik periklanan dan digital marketing dari berbagai perspektif industri."}
+.category-tren-dan-laporan-industri .ast-archive-entry-banner .ast-container::after{content:"Ikuti perkembangan tren, riset, dan laporan industri seputar AI dalam periklanan."}
+.category-etika-dan-kepatuhan .ast-archive-entry-banner .ast-container::after{content:"Pahami prinsip etika, transparansi, dan kepatuhan dalam penggunaan AI untuk komunikasi pemasaran."}
+.no-results .page-content p{font-size:0!important}
+.no-results .page-content p::before{content:"Belum ada artikel di bagian ini. Segera hadir.";font:500 11px/1.6 Inter,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--bia-ink)}
+.no-results .search-form{display:none}
