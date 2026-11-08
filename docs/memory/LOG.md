@@ -2,6 +2,17 @@
 
 Log kerja lintas sesi/perangkat. Tidak berisi rahasia. Pemilik: berbahasa Indonesia, detail soal desain, benci revisi berulang, lebih suka rencana rinci lalu eksekusi mandiri, ingin laporan jujur tentang yang BELUM dicek. Sesi ini dijalankan dari **claude.ai/code di HP (sesi cloud)**.
 
+
+## 2026-11-08 (lanjutan) — izin jaringan semua situs & audit publik awal
+- `update_environment` disetujui: Allowed domains kini memuat apex + `www.` untuk bikinkontenai.id, aisolusikeamanan.id, toolsaigratis.id, aianalisadata.id, aisolusiindustri.id, institutnasional.ai, pusatriset.ai, regulasiai.id (+ buatiklanai.id). Semua terjangkau (HTTP 200).
+- **Audit publik (tanpa login)**: 
+  - `bikinkonten`: WP + Elementor + Astra-style starter (sama dengan buatiklan sebelum diredesain), namespace `claude/v1` (Bridge SUDAH terpasang), `elementor/v1`, `sureforms/v1`. Masih template starter: menu Beranda/Tentang/Penawaran/Donasi/Blog/Kontak; heading "Tutorial Praktis, Koleksi Alat, Pelatihan Gratis, Mentorship, Kompetisi Kreatif, Kursus Video, Template Kreatif, Bergabunglah Bersama Kami"; footer berisi telepon 083145916630 & email jordanshankara@gmail.com (data bukan asosiasi.ai); 3 post contoh "Your awesome post title goes here"; halaman starter Shop/Checkout/Dashboard(SureCart)/Offering/Donate/Sample; 8 gambar JPEG (dilarang, harus WebP); TIDAK ada Dian Martin / Supported by / asosiasi.ai / WhatsApp / disclaimer edukasi. Kategori: General, Uncategorized saja. Halaman brief (Artikel, Kategori, About, Kontak) belum sesuai.
+  - `aisolusikeamanan`, `toolsai`, `analisadata`, `solusiindustri`: WordPress kosong, tema Twenty Twenty-Five, tanpa Elementor, tanpa Bridge, 1 halaman (Sample) + 1 post contoh.
+  - `institut`: tema **bosa** (bukan Astra) + Elementor (ada `elementor/v1`), tanpa Bridge; halaman: home-copy, blog, faculties, contact-us, about-us, institut-ai-nasional; 5 post. Perlu migrasi ke Astra + dibersihkan (ada halaman "faculties" yang bertentangan brief).
+  - `pusatriset`: tema terdeteksi **Astra** (berarti sudah terpasang/diganti pemilik), `claude/v1` (Bridge aktif) + `elementor/v1`; hanya Sample Page; konten belum dibangun.
+  - `regulasi`: Astra + Elementor + Bridge + SureForms; halaman: informasi, perbandingan-negara, pustaka-dokumen, regulasi-global, regulasi-indonesia, testing, home; `asosiasi.ai` tertaut (3 kali) tapi "Supported by"/Dian Martin belum ada.
+- Belum ada kredensial untuk 7 situs selain buatiklan → audit privat (site_health, plugin, pengaturan) menunggu username + Application Password.
+
 ---
 
 ## 2026-11-08 (sesi cloud, branch `claude/clever-hypatia-6agnmk`)
