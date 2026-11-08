@@ -144,14 +144,6 @@ PR = [('Bersumber', 'Setiap klaim disertai referensi.'), ('Netral', 'Tidak mempr
       ('Bukan jasa', 'Tanpa penawaran produk atau layanan.'), ('Beretika', 'Hak cipta, privasi, dan misinformasi diperhatikan.')]
 S.append(ROW([CELL([MICRO(f'{i+1:02d}', color=RED), H(t, 30, 28, 28, tag='h3'), TXT(f'<p style="margin:0">{d}</p>')], w=25, right=(i < 3), flex_gap=gap(6))
               for i, (t, d) in enumerate(PR)], tablet_col=True, flex_wrap='wrap'))
-# 7 — CTA
-S.append(ROW([
-    CELL([MICRO('04', color=MUTE)], w=6, pad=(28, 14)),
-    CELL([C([H('Kirim ide', 84, 60, 44, tag='h2', lh=.95), SCRIPT('artikelmu.', 84, 60, 44, color=RED, rot=-4)], flex_direction='row', flex_wrap='wrap',
-            align_items='center', flex_gap=gap(14))], w=48),
-    CELL([TXT('<p style="margin:0">Punya ide artikel, riset, atau studi kasus seputar AI untuk periklanan? Kirimkan usulan Anda.</p>'),
-          BTN('Kirim usulan →', f'{SITE}/kirim-artikel/')], w=34),
-    CELL([STAMP('Edukasi', 'bukan', 'jasa', size=104)], w=12, right=False, align_items='center')], tablet_col=True, border_width=bw(0)))
 for s in S: s['settings'].setdefault('background_background', 'classic'); s['settings'].setdefault('background_color', PAPER)
 (D / 'home_sections.json').write_text(json.dumps(S, ensure_ascii=False))
 print(len(S), 'sections', len(json.dumps(S)), 'bytes')

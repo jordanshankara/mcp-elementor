@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@700&family=Inter:wght@400;500;600&display=swap");
 :root{--bia-paper:#ECE7DB;--bia-ink:#0B0B0B;--bia-red:#D9291C}
 body,.ast-separate-container{background:var(--bia-paper)}
-.elementor a{text-decoration:none}.elementor h3 a:hover,.elementor p a:hover{text-decoration:underline}
+.elementor a,.entry-content .elementor a,.elementor-widget-container a{text-decoration:none!important}.elementor h3 a:hover,.elementor p a:hover{text-decoration:underline!important}
 .ast-above-header-bar{background:var(--bia-ink)!important;border:0!important;min-height:0!important}
 .ast-above-header-bar .ast-builder-html-element,.ast-above-header-bar p{font:500 11px/1.4 Inter,sans-serif!important;letter-spacing:.18em;text-transform:uppercase;color:var(--bia-paper)!important;margin:0}
 .ast-above-header-bar a{color:var(--bia-red)!important;text-decoration:underline}
