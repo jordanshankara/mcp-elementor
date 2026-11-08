@@ -1,6 +1,6 @@
 # DNA — BikinKontenAI (bikinkontenai.id), mode A (dari nol, absorb referensi)
 
-> Tahap 1. Referensi tata letak/karakter = gambar "FRAMEFORM" (sama dengan buatiklanai.id; dipakai sebagai DNA, bukan isi). **Palet = dari gambar Instagram pemilik — BELUM diterima**; semua warna di bawah bertanda ⟦PALET⟧ menunggu gambar itu. Konten = `BRIEF.md` (mutlak).
+> Tahap 1. Referensi tata letak/karakter = gambar "FRAMEFORM" (sama dengan buatiklanai.id; dipakai sebagai DNA, bukan isi). **Palet & beberapa elemen = dari gambar Instagram pemilik (post "BRUTAL creative agency", diterima 2026-11-08)**. Konten = `BRIEF.md` (mutlak).
 
 ## 1. Brief satu kalimat
 Pusat publikasi & referensi AI untuk pembuatan konten digital (tulisan, visual, video, presentasi) — Asosiasi AI Indonesia, Bahasa Indonesia, desktop 1440 + tablet 820 + HP 390, untuk kreator, UMKM, marketer, desainer, pelajar; tampilan "majalah cetak / papan storyboard" yang berani, ganjil, autentik, TANPA menyalin buatiklanai.id (palet & metafora berbeda).
@@ -15,20 +15,31 @@ Pusat publikasi & referensi AI untuk pembuatan konten digital (tulisan, visual, 
 ## 3. DNA referensi (diukur dari gambar Frameform)
 | Aspek | Referensi | Terjemahan BikinKontenAI |
 |---|---|---|
-| Latar | krem kertas hangat | ⟦PALET⟧ latar utama |
-| Tinta | hitam pekat | ⟦PALET⟧ teks/garis |
-| Sinyal | satu merah (robot, stempel) | ⟦PALET⟧ satu warna aksen (hemat) |
+| Latar | krem kertas hangat | **putih `#FEFEFE`** (halaman) + abu muda `#E6E6E6` untuk kartu |
+| Tinta | hitam pekat | **hitam `#050505`** untuk teks, garis, dan pita section penuh (sering) |
+| Sinyal | satu merah (robot, stempel) | **oranye `#FF4800`** (diukur dari post: teks "AVERAGE.", blok tombol, nomor "01 /") — blok solid, tombol, nomor, satu kata judul |
 | Judul | sans ultra-padat kapital raksasa, nama brand selebar layar | Anton, kapital; wordmark "BIKINKONTENAI" selebar bingkai (2 baris di HP) |
-| Suara kedua | skrip tulisan tangan miring | font skrip tulisan tangan (kandidat: Caveat / Reenie Beanie), 1 frasa per section |
-| Label mikro | sans kecil kapital, tracking lebar | Inter 500, 11 px, 0.18em |
+| Suara kedua | skrip tulisan tangan miring | Caveat 700, hanya 1 frasa di Home (opsional; post Instagram tidak memakai skrip) |
+| Label mikro | sans kecil kapital, tracking lebar | **Space Mono** 11-12 px kapital (dari post: label mono teknis) |
 | Arsitektur | grid hairline 1 px, nomor section 01–04, bingkai tipis | container ber-border 1 px, tanpa radius/bayangan/gradien |
 | Foto | hitam-putih, grain, 1 elemen warna | foto B&W (WebP); aksen warna lewat elemen grafis |
 | Elemen ganjil | selotip, foto miring, sticky note, stempel bulat, pasangan teks tegak+skrip | sama, tapi isi disesuaikan tema konten |
 
+## 3b. Dari post Instagram "BRUTAL" (ditambahkan ke DNA)
+- Judul raksasa Anton-like kapital, baris bertumpuk ("WE / DON'T / DO / AVERAGE."), kata terakhir oranye bertitik.
+- **Pita hitam penuh** berisi grid 4 sel bernomor oranye "01 / 02 / 03 / 04" + judul putih + deskripsi mono kecil + panah ↗ di tiap sel; label vertikal diputar 90° di tepi ("WHAT WE DO", "FEATURED WORK", "VIEW ALL PROJECTS").
+- **Pernyataan besar di pita hitam** (putih kapital) + tombol blok oranye bertepi persegi dengan panah ↗.
+- **Grid kartu tak seragam** (kartu abu, kartu oranye solid, kartu hitam) dengan nomor "01 /", judul tebal, label mono, panah.
+- Blok oranye besar sebagai bentuk grafis di tepi, stempel bulat bertulisan melingkar, header: logo kiri, menu tengah, **blok oranye "START A PROJECT ↗" menempel di tepi kanan**.
+- Foto B&W kontras tinggi, subjek menembus batas bidang.
+
 ## 4. Pembeda dari buatiklanai.id (agar tiap situs punya identitas)
 - Metafora: **papan storyboard / moodboard studio** (bingkai film, nomor frame "FRAME 01", penanda crop & registration marks, strip kontak) — bukan "lembar kontak biro iklan".
 - Wordmark: "BIKIN / KONTEN·AI" bertingkat; pasangan teks: "BIKIN KONTEN *dengan AI*" / "YANG *kamu pahami*".
-- Palet berbeda (⟦PALET⟧ dari Instagram), komposisi foto berbeda (frame film 3:2 berjajar, bukan polaroid tunggal).
+- Palet berbeda (oranye `#FF4800` + hitam + putih, bukan krem+merah), komposisi foto berbeda (frame film berjajar), pita hitam penuh sebagai ritme utama (bukan latar krem).
 
-## 5. Risiko
+## 5. Token final
+`--bk-orange:#FF4800; --bk-ink:#050505; --bk-white:#FEFEFE; --bk-grey:#E6E6E6; --bk-grey2:#C2C2C2`. Font: Anton (judul), Space Mono (label/mikro), Inter (badan), Caveat (opsional).
+
+## 6. Risiko
 Font (Anton/skrip/Inter) tidak otomatis dimuat Elementor di situs ini → `@import` lewat CSS Tambahan (pelajaran buatiklan). Rotasi/filter foto = kontrol native Free (teruji di buatiklan). Stempel/selotip = elemen container/gambar WebP.
