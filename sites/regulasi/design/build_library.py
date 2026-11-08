@@ -5,7 +5,7 @@ import openpyxl, re, json, pathlib
 from urllib.parse import urlparse
 
 D = pathlib.Path(__file__).parent
-ws = openpyxl.load_workbook(D.parent.parent / "_AI Regulations.xlsx").active
+ws = openpyxl.load_workbook(D.parent / "_AI Regulations.xlsx").active
 MAP = {"indonesia": ("id", "Indonesia"), "malaysia": ("my", "Malaysia"), "singapore": ("sg", "Singapura"), "korea": ("kr", "Korea Selatan"),
        "china": ("cn", "Tiongkok"), "us": ("us", "Amerika Serikat"), "uk": ("uk", "Inggris"), "france": ("fr", "Prancis"), "italy": ("it", "Italia")}
 FLAG = {"id": "bendera-indonesia", "my": "bendera-malaysia", "sg": "bendera-singapura", "kr": "bendera-korea-selatan", "cn": "bendera-tiongkok",
