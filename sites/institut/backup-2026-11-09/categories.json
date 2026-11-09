@@ -1,0 +1,430 @@
+[
+ {
+  "id": 7,
+  "count": 3,
+  "description": "Impedit veritatis sit, class feugiat autem natus nulla nostra eiusmod.",
+  "link": "https://institutnasional.ai/category/education/",
+  "name": "Education",
+  "slug": "education",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Education Archives - Institut AI Nasional</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://institutnasional.ai/category/education/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Education Archives - Institut AI Nasional\" />\n<meta property=\"og:description\" content=\"Impedit veritatis sit, class feugiat autem natus nulla nostra eiusmod.\" />\n<meta property=\"og:url\" content=\"https://institutnasional.ai/category/education/\" />\n<meta property=\"og:site_name\" content=\"Institut AI Nasional\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/institutnasional.ai\\/category\\/education\\/\",\"url\":\"https:\\/\\/institutnasional.ai\\/category\\/education\\/\",\"name\":\"Education Archives - Institut AI Nasional\",\"isPartOf\":{\"@id\":\"https:\\/\\/institutnasional.ai\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/institutnasional.ai\\/category\\/education\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/institutnasional.ai\\/category\\/education\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/institutnasional.ai\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Education\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/institutnasional.ai\\/#website\",\"url\":\"https:\\/\\/institutnasional.ai\\/\",\"name\":\"Institut AI Nasional\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/institutnasional.ai\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/institutnasional.ai\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/institutnasional.ai\\/#organization\",\"name\":\"Institut AI Nasional\",\"url\":\"https:\\/\\/institutnasional.ai\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/institutnasional.ai\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/institutnasional.ai\\/wp-content\\/uploads\\/2025\\/09\\/Institut-AI-Nasional-Logo-Rec-White-scaled.png\",\"contentUrl\":\"https:\\/\\/institutnasional.ai\\/wp-content\\/uploads\\/2025\\/09\\/Institut-AI-Nasional-Logo-Rec-White-scaled.png\",\"width\":2560,\"height\":857,\"caption\":\"Institut AI Nasional\"},\"image\":{\"@id\":\"https:\\/\\/institutnasional.ai\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Education Archives - Institut AI Nasional",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://institutnasional.ai/category/education/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Education Archives - Institut AI Nasional",
+   "og_description": "Impedit veritatis sit, class feugiat autem natus nulla nostra eiusmod.",
+   "og_url": "https://institutnasional.ai/category/education/",
+   "og_site_name": "Institut AI Nasional",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://institutnasional.ai/category/education/",
+      "url": "https://institutnasional.ai/category/education/",
+      "name": "Education Archives - Institut AI Nasional",
+      "isPartOf": {
+       "@id": "https://institutnasional.ai/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://institutnasional.ai/category/education/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://institutnasional.ai/category/education/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://institutnasional.ai/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Education"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://institutnasional.ai/#website",
+      "url": "https://institutnasional.ai/",
+      "name": "Institut AI Nasional",
+      "description": "",
+      "publisher": {
+       "@id": "https://institutnasional.ai/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://institutnasional.ai/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://institutnasional.ai/#organization",
+      "name": "Institut AI Nasional",
+      "url": "https://institutnasional.ai/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://institutnasional.ai/#/schema/logo/image/",
+       "url": "https://institutnasional.ai/wp-content/uploads/2025/09/Institut-AI-Nasional-Logo-Rec-White-scaled.png",
+       "contentUrl": "https://institutnasional.ai/wp-content/uploads/2025/09/Institut-AI-Nasional-Logo-Rec-White-scaled.png",
+       "width": 2560,
+       "height": 857,
+       "caption": "Institut AI Nasional"
+      },
+      "image": {
+       "@id": "https://institutnasional.ai/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://institutnasional.ai/wp-json/wp/v2/categories/7",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://institutnasional.ai/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://institutnasional.ai/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://institutnasional.ai/wp-json/wp/v2/posts?categories=7"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2,
+  "count": 2,
+  "description": "Impedit veritatis sit, class feugiat autem natus nulla nostra eiusmod.",
+  "link": "https://institutnasional.ai/category/knowledge/",
+  "name": "Knowledge",
+  "slug": "knowledge",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Knowledge Archives - Institut AI Nasional</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://institutnasional.ai/category/knowledge/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Knowledge Archives - Institut AI Nasional\" />\n<meta property=\"og:description\" content=\"Impedit veritatis sit, class feugiat autem natus nulla nostra eiusmod.\" />\n<meta property=\"og:url\" content=\"https://institutnasional.ai/category/knowledge/\" />\n<meta property=\"og:site_name\" content=\"Institut AI Nasional\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/institutnasional.ai\\/category\\/knowledge\\/\",\"url\":\"https:\\/\\/institutnasional.ai\\/category\\/knowledge\\/\",\"name\":\"Knowledge Archives - Institut AI Nasional\",\"isPartOf\":{\"@id\":\"https:\\/\\/institutnasional.ai\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/institutnasional.ai\\/category\\/knowledge\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/institutnasional.ai\\/category\\/knowledge\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/institutnasional.ai\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Knowledge\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/institutnasional.ai\\/#website\",\"url\":\"https:\\/\\/institutnasional.ai\\/\",\"name\":\"Institut AI Nasional\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/institutnasional.ai\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/institutnasional.ai\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/institutnasional.ai\\/#organization\",\"name\":\"Institut AI Nasional\",\"url\":\"https:\\/\\/institutnasional.ai\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/institutnasional.ai\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/institutnasional.ai\\/wp-content\\/uploads\\/2025\\/09\\/Institut-AI-Nasional-Logo-Rec-White-scaled.png\",\"contentUrl\":\"https:\\/\\/institutnasional.ai\\/wp-content\\/uploads\\/2025\\/09\\/Institut-AI-Nasional-Logo-Rec-White-scaled.png\",\"width\":2560,\"height\":857,\"caption\":\"Institut AI Nasional\"},\"image\":{\"@id\":\"https:\\/\\/institutnasional.ai\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Knowledge Archives - Institut AI Nasional",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://institutnasional.ai/category/knowledge/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Knowledge Archives - Institut AI Nasional",
+   "og_description": "Impedit veritatis sit, class feugiat autem natus nulla nostra eiusmod.",
+   "og_url": "https://institutnasional.ai/category/knowledge/",
+   "og_site_name": "Institut AI Nasional",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://institutnasional.ai/category/knowledge/",
+      "url": "https://institutnasional.ai/category/knowledge/",
+      "name": "Knowledge Archives - Institut AI Nasional",
+      "isPartOf": {
+       "@id": "https://institutnasional.ai/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://institutnasional.ai/category/knowledge/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://institutnasional.ai/category/knowledge/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://institutnasional.ai/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Knowledge"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://institutnasional.ai/#website",
+      "url": "https://institutnasional.ai/",
+      "name": "Institut AI Nasional",
+      "description": "",
+      "publisher": {
+       "@id": "https://institutnasional.ai/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://institutnasional.ai/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://institutnasional.ai/#organization",
+      "name": "Institut AI Nasional",
+      "url": "https://institutnasional.ai/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://institutnasional.ai/#/schema/logo/image/",
+       "url": "https://institutnasional.ai/wp-content/uploads/2025/09/Institut-AI-Nasional-Logo-Rec-White-scaled.png",
+       "contentUrl": "https://institutnasional.ai/wp-content/uploads/2025/09/Institut-AI-Nasional-Logo-Rec-White-scaled.png",
+       "width": 2560,
+       "height": 857,
+       "caption": "Institut AI Nasional"
+      },
+      "image": {
+       "@id": "https://institutnasional.ai/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://institutnasional.ai/wp-json/wp/v2/categories/2",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://institutnasional.ai/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://institutnasional.ai/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://institutnasional.ai/wp-json/wp/v2/posts?categories=2"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 1,
+  "count": 0,
+  "description": "",
+  "link": "https://institutnasional.ai/category/uncategorized/",
+  "name": "Uncategorized",
+  "slug": "uncategorized",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Uncategorized Archives - Institut AI Nasional</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://institutnasional.ai/category/uncategorized/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Uncategorized Archives - Institut AI Nasional\" />\n<meta property=\"og:url\" content=\"https://institutnasional.ai/category/uncategorized/\" />\n<meta property=\"og:site_name\" content=\"Institut AI Nasional\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/institutnasional.ai\\/category\\/uncategorized\\/\",\"url\":\"https:\\/\\/institutnasional.ai\\/category\\/uncategorized\\/\",\"name\":\"Uncategorized Archives - Institut AI Nasional\",\"isPartOf\":{\"@id\":\"https:\\/\\/institutnasional.ai\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/institutnasional.ai\\/category\\/uncategorized\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/institutnasional.ai\\/category\\/uncategorized\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/institutnasional.ai\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Uncategorized\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/institutnasional.ai\\/#website\",\"url\":\"https:\\/\\/institutnasional.ai\\/\",\"name\":\"Institut AI Nasional\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\\/\\/institutnasional.ai\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/institutnasional.ai\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/institutnasional.ai\\/#organization\",\"name\":\"Institut AI Nasional\",\"url\":\"https:\\/\\/institutnasional.ai\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/institutnasional.ai\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/institutnasional.ai\\/wp-content\\/uploads\\/2025\\/09\\/Institut-AI-Nasional-Logo-Rec-White-scaled.png\",\"contentUrl\":\"https:\\/\\/institutnasional.ai\\/wp-content\\/uploads\\/2025\\/09\\/Institut-AI-Nasional-Logo-Rec-White-scaled.png\",\"width\":2560,\"height\":857,\"caption\":\"Institut AI Nasional\"},\"image\":{\"@id\":\"https:\\/\\/institutnasional.ai\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Uncategorized Archives - Institut AI Nasional",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://institutnasional.ai/category/uncategorized/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Uncategorized Archives - Institut AI Nasional",
+   "og_url": "https://institutnasional.ai/category/uncategorized/",
+   "og_site_name": "Institut AI Nasional",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://institutnasional.ai/category/uncategorized/",
+      "url": "https://institutnasional.ai/category/uncategorized/",
+      "name": "Uncategorized Archives - Institut AI Nasional",
+      "isPartOf": {
+       "@id": "https://institutnasional.ai/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://institutnasional.ai/category/uncategorized/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://institutnasional.ai/category/uncategorized/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://institutnasional.ai/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Uncategorized"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://institutnasional.ai/#website",
+      "url": "https://institutnasional.ai/",
+      "name": "Institut AI Nasional",
+      "description": "",
+      "publisher": {
+       "@id": "https://institutnasional.ai/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://institutnasional.ai/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://institutnasional.ai/#organization",
+      "name": "Institut AI Nasional",
+      "url": "https://institutnasional.ai/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://institutnasional.ai/#/schema/logo/image/",
+       "url": "https://institutnasional.ai/wp-content/uploads/2025/09/Institut-AI-Nasional-Logo-Rec-White-scaled.png",
+       "contentUrl": "https://institutnasional.ai/wp-content/uploads/2025/09/Institut-AI-Nasional-Logo-Rec-White-scaled.png",
+       "width": 2560,
+       "height": 857,
+       "caption": "Institut AI Nasional"
+      },
+      "image": {
+       "@id": "https://institutnasional.ai/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://institutnasional.ai/wp-json/wp/v2/categories/1",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://institutnasional.ai/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://institutnasional.ai/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://institutnasional.ai/wp-json/wp/v2/posts?categories=1"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ }
+]

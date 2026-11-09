@@ -1,0 +1,876 @@
+[
+ {
+  "id": 423,
+  "date": "2025-09-11T23:04:20",
+  "modified": "2026-01-02T10:34:37",
+  "slug": "home-copy",
+  "status": "publish",
+  "link": "https://institutnasional.ai/",
+  "title": {
+   "rendered": "Home &#8211; Copy"
+  },
+  "content": {
+   "rendered": "\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"423\" class=\"elementor elementor-423\">\n\t\t\t\t<div class=\"elementor-element elementor-element-c6af936 e-flex e-con-boxed e-con e-parent\" data-id=\"c6af936\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-042b905 e-con-full e-flex e-con e-child\" data-id=\"042b905\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-c347516 elementor-widget elementor-widget-elementskit-heading\" data-id=\"c347516\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"elementskit-heading.default\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" ><div class=\"ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-text_center   ekit_heading_mobile-\"><h3 class=\"elementskit-section-subtitle  \">\n\t\t\t\t\t\tWelcome To \n\t\t\t\t\t</h3><h2 class=\"ekit-heading--title elementskit-section-title \">Institut AI Nasional </h2></div></div>\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-568c492 elementor-widget elementor-widget-text-editor\" data-id=\"568c492\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t\t\t\t\t\t<p data-start=\"251\" data-end=\"846\">Institut AI Nasional adalah lembaga pendidikan dan penelitian yang memadukan sains, teknologi, dan nilai kemanusiaan. Kami memandang kecerdasan buatan bukan hanya sebagai sarana komputasi, tetapi juga sebagai pendekatan ilmiah untuk memahami serta mencari solusi atas tantangan nyata, mulai dari kesenjangan pendidikan hingga isu keberlanjutan lingkungan global. </p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-fff33f3 elementor-tablet-align-center elementor-widget elementor-widget-button\" data-id=\"fff33f3\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"button.default\">\n\t\t\t\t\t\t\t\t\t\t<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"https://institutnasional.ai/about-us/\" target=\"_blank\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t\t\t\t<span class=\"elementor-button-text\">LEARN MORE</span>\n\t\t\t\t\t</span>\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-aa273fb e-flex e-con-boxed e-con e-parent\" data-id=\"aa273fb\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-a2d6269 elementor-widget elementor-widget-elementskit-heading\" data-id=\"a2d6269\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"elementskit-heading.default\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" ><div class=\"ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-   ekit_heading_mobile-\"><h3 class=\"elementskit-section-subtitle  elementskit-style-border\">\n\t\t\t\t\t\tPembelajaran Berbasis Proyek dan Riset\n\t\t\t\t\t</h3><h2 class=\"ekit-heading--title elementskit-section-title \">Skema</h2>\t\t\t\t<div class='ekit-heading__description'>\n\t\t\t\t\t<p>Mahasiswa tidak hanya belajar di kelas, tetapi juga mengerjakan proyek nyata bersama mitra industri, pemerintah, dan lembaga riset. </p>\n\t\t\t\t</div>\n\t\t\t</div></div>\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-3087b98 e-con-full e-flex e-con e-parent\" data-id=\"3087b98\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-ca2eea1 e-con-full e-flex e-con e-child\" data-id=\"ca2eea1\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"elementor-element elementor-element-061f84d e-con-full e-flex e-con e-child\" data-id=\"061f84d\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;gradient&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-4355399 elementor-widget elementor-widget-heading\" data-id=\"4355399\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Penerapan AI untuk Proses Data</h2>\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-b689c28 elementor-widget elementor-widget-text-editor\" data-id=\"b689c28\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t\t\t\t\t\t<p style=\"text-align: center;\"><span style=\"color: #ffffff;\">Membekali keterampilan teknis dalam analisis data, visualisasi, serta penerapan AI praktis untuk kebutuhan industri modern.</span></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-c6ada69 e-con-full e-flex e-con e-child\" data-id=\"c6ada69\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"elementor-element elementor-element-01cb914 e-con-full e-flex e-con e-child\" data-id=\"01cb914\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;gradient&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-aa1ddad elementor-widget elementor-widget-heading\" data-id=\"aa1ddad\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Digital Marketing Berbasis AI</h2>\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-d4022ef elementor-widget elementor-widget-text-editor\" data-id=\"d4022ef\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t\t\t\t\t\t<p style=\"text-align: center;\"><span style=\"color: #ffffff;\">Menggabungkan strategi pemasaran digital dengan AI untuk analitik konsumen, segmentasi pasar, dan optimasi kampanye bisnis.</span></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-cfbaae4 e-con-full e-flex e-con e-child\" data-id=\"cfbaae4\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"elementor-element elementor-element-f6889e1 e-con-full e-flex e-con e-child\" data-id=\"f6889e1\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;gradient&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-281da62 elementor-widget elementor-widget-heading\" data-id=\"281da62\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Penerapan AI untuk Keamanan Informasi</h2>\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-e8d3786 elementor-widget elementor-widget-text-editor\" data-id=\"e8d3786\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t\t\t\t\t\t<p><span style=\"color: #ffffff;\">Fokus pada keamanan data, jaringan, dan sistem dengan keterampilan forensik digital, manajemen risiko, serta penerapan AI di siber.</span></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-1c869ff e-flex e-con-boxed e-con e-parent\" data-id=\"1c869ff\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-f2a7895 elementor-widget elementor-widget-video\" data-id=\"f2a7895\" data-element_type=\"widget\" data-e-type=\"widget\" data-settings=\"{&quot;youtube_url&quot;:&quot;https:\\/\\/www.youtube.com\\/watch?v=sOLLlyaicIE&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;}\" data-widget_type=\"video.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-wrapper elementor-open-inline\">\n\t\t\t<div class=\"elementor-video\"></div>\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-d173d9b e-flex e-con-boxed e-con e-parent\" data-id=\"d173d9b\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-f86e899 e-con-full e-flex e-con e-child\" data-id=\"f86e899\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"elementor-element elementor-element-df21f99 e-con-full e-flex e-con e-child\" data-id=\"df21f99\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-71b8aa4 e-con-full e-flex e-con e-child\" data-id=\"71b8aa4\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-d06a045 elementor-widget elementor-widget-elementskit-heading\" data-id=\"d06a045\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"elementskit-heading.default\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" ><div class=\"ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-text_center   ekit_heading_mobile-\"><h3 class=\"elementskit-section-subtitle  elementskit-style-border\">\n\t\t\t\t\t\tInstitut Nasional AI\n\t\t\t\t\t</h3><h2 class=\"ekit-heading--title elementskit-section-title \">Mengapa Memilih Institut AI Nasional?</h2>\t\t\t\t<div class='ekit-heading__description'>\n\t\t\t\t\t<p>Di Institut AI Nasional, kami percaya belajar bukan sekadar duduk di kelas. Di sini, Anda akan dibimbing oleh dosen dan peneliti berpengalaman, mengeksplorasi teknologi terbaru di laboratorium modern, serta terhubung langsung dengan industri global. Kami ingin setiap mahasiswa tidak hanya memahami teori, tapi juga siap berkarya, berinovasi, dan memberi dampak nyata bagi masyarakat.</p>\n\t\t\t\t</div>\n\t\t\t</div></div>\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-559907f e-con-full e-flex e-con e-child\" data-id=\"559907f\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-192491f e-con-full e-flex e-con e-child\" data-id=\"192491f\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-67baac4 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-tablet-align-center elementor-mobile-align-start elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list\" data-id=\"67baac4\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon-list.default\">\n\t\t\t\t\t\t\t<ul class=\"elementor-icon-list-items\">\n\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z\"></path></svg>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Belajar dari Praktisi Berpengalaman</span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-b1466f9 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-tablet-align-center elementor-mobile-align-start elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list\" data-id=\"b1466f9\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon-list.default\">\n\t\t\t\t\t\t\t<ul class=\"elementor-icon-list-items\">\n\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z\"></path></svg>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Kurikulum yang Ngikutin Zaman</span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-edb0ef5 e-con-full e-flex e-con e-child\" data-id=\"edb0ef5\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-96fa081 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-tablet-align-center elementor-mobile-align-start elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list\" data-id=\"96fa081\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon-list.default\">\n\t\t\t\t\t\t\t<ul class=\"elementor-icon-list-items\">\n\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z\"></path></svg>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Materi Pembelajaran Interaktif</span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-b87f8b8 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-tablet-align-center elementor-mobile-align-start elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list\" data-id=\"b87f8b8\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon-list.default\">\n\t\t\t\t\t\t\t<ul class=\"elementor-icon-list-items\">\n\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z\"></path></svg>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Koneksi Industri </span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-6c3b6b0 e-con-full e-flex e-con e-child\" data-id=\"6c3b6b0\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-3174616 e-con-full e-flex e-con e-child\" data-id=\"3174616\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-52f26a1 elementor-widget elementor-widget-button\" data-id=\"52f26a1\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"button.default\">\n\t\t\t\t\t\t\t\t\t\t<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"https://wa.link/xdg9qy\" target=\"_blank\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t\t\t\t<span class=\"elementor-button-text\">GET STARTED NOW</span>\n\t\t\t\t\t</span>\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-e2651f0 e-con-full e-flex e-con e-child\" data-id=\"e2651f0\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-ba8abe1 elementor-view-stacked elementor-shape-circle elementor-widget elementor-widget-icon\" data-id=\"ba8abe1\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-icon-wrapper\">\n\t\t\t<div class=\"elementor-icon\">\n\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fab-whatsapp-square\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M224 122.8c-72.7 0-131.8 59.1-131.9 131.8 0 24.9 7 49.2 20.2 70.1l3.1 5-13.3 48.6 49.9-13.1 4.8 2.9c20.2 12 43.4 18.4 67.1 18.4h.1c72.6 0 133.3-59.1 133.3-131.8 0-35.2-15.2-68.3-40.1-93.2-25-25-58-38.7-93.2-38.7zm77.5 188.4c-3.3 9.3-19.1 17.7-26.7 18.8-12.6 1.9-22.4.9-47.5-9.9-39.7-17.2-65.7-57.2-67.7-59.8-2-2.6-16.2-21.5-16.2-41s10.2-29.1 13.9-33.1c3.6-4 7.9-5 10.6-5 2.6 0 5.3 0 7.6.1 2.4.1 5.7-.9 8.9 6.8 3.3 7.9 11.2 27.4 12.2 29.4s1.7 4.3.3 6.9c-7.6 15.2-15.7 14.6-11.6 21.6 15.3 26.3 30.6 35.4 53.9 47.1 4 2 6.3 1.7 8.6-1 2.3-2.6 9.9-11.6 12.5-15.5 2.6-4 5.3-3.3 8.9-2 3.6 1.3 23.1 10.9 27.1 12.9s6.6 3 7.6 4.6c.9 1.9.9 9.9-2.4 19.1zM400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM223.9 413.2c-26.6 0-52.7-6.7-75.8-19.3L64 416l22.5-82.2c-13.9-24-21.2-51.3-21.2-79.3C65.4 167.1 136.5 96 223.9 96c42.4 0 82.2 16.5 112.2 46.5 29.9 30 47.9 69.8 47.9 112.2 0 87.4-72.7 158.5-160.1 158.5z\"></path></svg>\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-a3673ff elementor-widget elementor-widget-elementskit-heading\" data-id=\"a3673ff\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"elementskit-heading.default\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" ><div class=\"ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-   ekit_heading_mobile-\"><h3 class=\"elementskit-section-subtitle  \">\n\t\t\t\t\t\tCall Us Now !\n\t\t\t\t\t</h3><a href=\"#\"><h2 class=\"ekit-heading--title elementskit-section-title \">+62 819-0111-2308</h2></a></div></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-df1b9fd e-con-full e-flex e-con e-child\" data-id=\"df1b9fd\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-5e4e0b9 elementor-widget elementor-widget-image\" data-id=\"5e4e0b9\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img decoding=\"async\" src=\"https://demo.bosathemes.com/bosa/university/wp-content/uploads/sites/148/2025/01/image-6.png\" title=\"\" alt=\"\" loading=\"lazy\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-56d3cb4 e-flex e-con-boxed e-con e-parent\" data-id=\"56d3cb4\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_top&quot;:&quot;curve&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-shape elementor-shape-top\" aria-hidden=\"true\" data-negative=\"false\">\n\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 100\" preserveAspectRatio=\"none\">\n    <path class=\"elementor-shape-fill\" d=\"M1000,4.3V0H0v4.3C0.9,23.1,126.7,99.2,500,100S1000,22.7,1000,4.3z\"/>\n</svg>\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-f18efd6 elementor-widget elementor-widget-elementskit-heading\" data-id=\"f18efd6\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"elementskit-heading.default\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" ><div class=\"ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-   ekit_heading_mobile-\"><h3 class=\"elementskit-section-subtitle  elementskit-style-border\">\n\t\t\t\t\t\tCLIENT&#039;S REVIEWS\n\t\t\t\t\t</h3><h2 class=\"ekit-heading--title elementskit-section-title \">🎓 Testimoni</h2></div></div>\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-6afd228 e-con-full e-flex e-con e-child\" data-id=\"6afd228\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-d5b4736 e-con-full e-flex e-con e-child\" data-id=\"d5b4736\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-67afc20 elementor-widget elementor-widget-testimonial\" data-id=\"67afc20\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"testimonial.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-testimonial-wrapper\">\n\t\t\t\t\t\t\t<div class=\"elementor-testimonial-content\">Pelatihan ini sangat saya rekomendasikan. Materinya tidak hanya relevan, tetapi juga sangat aplikatif.</div>\n\t\t\t\n\t\t\t\t\t\t<div class=\"elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside\">\n\t\t\t\t<div class=\"elementor-testimonial-meta-inner\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-image\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"640\" height=\"440\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/IMG_16032024_150955_800_x_550_piksel.webp\" class=\"attachment-full size-full wp-image-428\" alt=\"\" srcset=\"https://institutnasional.ai/wp-content/uploads/2025/09/IMG_16032024_150955_800_x_550_piksel.webp 640w, https://institutnasional.ai/wp-content/uploads/2025/09/IMG_16032024_150955_800_x_550_piksel-300x206.webp 300w\" sizes=\"(max-width: 640px) 100vw, 640px\" />\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-details\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-name\">Rizki Ernadi Wimanda</div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-job\">Kepala Perwakilan Bank Indonesia Sulawesi Selatan</div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-110b0a9 e-con-full e-flex e-con e-child\" data-id=\"110b0a9\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-68b099d elementor-widget elementor-widget-testimonial\" data-id=\"68b099d\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"testimonial.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-testimonial-wrapper\">\n\t\t\t\t\t\t\t<div class=\"elementor-testimonial-content\">\"Saya sangat terkesan dengan kemudahan AI dalam mengolah data menjadi infografis dan data visual yang sangat cepat. Pelatihan ini sangat mendukung visi Bank Indonesia sebagai bank sentral digital, terutama dalam hal efisiensi waktu, kecepatan, dan akurasi untuk pengambilan keputusan.\"</div>\n\t\t\t\n\t\t\t\t\t\t<div class=\"elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside\">\n\t\t\t\t<div class=\"elementor-testimonial-meta-inner\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-image\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"200\" height=\"200\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/1718355564568.jpg\" class=\"attachment-full size-full wp-image-429\" alt=\"\" srcset=\"https://institutnasional.ai/wp-content/uploads/2025/09/1718355564568.jpg 200w, https://institutnasional.ai/wp-content/uploads/2025/09/1718355564568-150x150.jpg 150w\" sizes=\"(max-width: 200px) 100vw, 200px\" />\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-details\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-name\">Abidin Abdul Haris</div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-job\">Deputi Kepala Perwakilan Bank Indonesia</div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-23def38 e-con-full e-flex e-con e-child\" data-id=\"23def38\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-68d4297 e-con-full e-flex e-con e-child\" data-id=\"68d4297\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-c778811 elementor-widget elementor-widget-testimonial\" data-id=\"c778811\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"testimonial.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-testimonial-wrapper\">\n\t\t\t\t\t\t\t<div class=\"elementor-testimonial-content\">\"Materi pelatihannya sangat bagus, kekinian, dan sangat sesuai dengan kebutuhan kami saat ini. Disampaikan dengan bahasa yang mudah dipahami, program ini memberikan pengetahuan baru yang sangat penting untuk menjawab tantangan di era digital.\"</div>\n\t\t\t\n\t\t\t\t\t\t<div class=\"elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside\">\n\t\t\t\t<div class=\"elementor-testimonial-meta-inner\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-image\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"450\" height=\"562\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/hesti-candra-sari-analis-bank-indonesia-b1072623de6085b0c64289589b11de35.avif\" class=\"attachment-full size-full wp-image-430\" alt=\"\" />\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-details\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-name\">Hesti Candra Sari</div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-job\">Deputi Kepala Perwakilan Bank Indonesia Solo</div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-6ee9678 e-con-full e-flex e-con e-child\" data-id=\"6ee9678\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-ef79ea8 elementor-widget elementor-widget-testimonial\" data-id=\"ef79ea8\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"testimonial.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-testimonial-wrapper\">\n\t\t\t\t\t\t\t<div class=\"elementor-testimonial-content\">\"Terima kasih kepada Institut AI Nasional. Pelatihan ini secara fundamental mengubah efisiensi riset kami; proses yang sebelumnya membutuhkan waktu satu minggu, kini dapat diselesaikan hanya dalam hitungan menit. Ini terobosan yang sangat membantu.\"</div>\n\t\t\t\n\t\t\t\t\t\t<div class=\"elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside\">\n\t\t\t\t<div class=\"elementor-testimonial-meta-inner\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-image\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"600\" height=\"471\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/Screenshot-2025-09-11-230503.png\" class=\"attachment-full size-full wp-image-431\" alt=\"\" srcset=\"https://institutnasional.ai/wp-content/uploads/2025/09/Screenshot-2025-09-11-230503.png 600w, https://institutnasional.ai/wp-content/uploads/2025/09/Screenshot-2025-09-11-230503-300x236.png 300w\" sizes=\"(max-width: 600px) 100vw, 600px\" />\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-details\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-name\">Dr. Martinus Fieser Sitinjak</div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-job\">Dosen BINUS University</div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-c5551af e-flex e-con-boxed e-con e-parent\" data-id=\"c5551af\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-48bce1a e-con-full e-flex e-con e-child\" data-id=\"48bce1a\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-f23c3fd elementor-widget elementor-widget-heading\" data-id=\"f23c3fd\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Di Dukung Oleh :</h2>\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-4452b3e elementor-widget elementor-widget-image-carousel\" data-id=\"4452b3e\" data-element_type=\"widget\" data-e-type=\"widget\" data-settings=\"{&quot;slides_to_show&quot;:&quot;6&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:100,&quot;sizes&quot;:[]},&quot;slides_to_show_tablet&quot;:&quot;4&quot;,&quot;slides_to_show_mobile&quot;:&quot;2&quot;,&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:40,&quot;sizes&quot;:[]},&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500,&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}\" data-widget_type=\"image-carousel.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-image-carousel-wrapper swiper\" role=\"region\" aria-roledescription=\"carousel\" aria-label=\"Image Carousel\" dir=\"ltr\">\n\t\t\t<div class=\"elementor-image-carousel swiper-wrapper\" aria-live=\"off\">\n\t\t\t\t\t\t\t\t<div class=\"swiper-slide\" role=\"group\" aria-roledescription=\"slide\" aria-label=\"1 of 6\"><figure class=\"swiper-slide-inner\"><img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/1-1024x1024.png\" alt=\"1\" /></figure></div><div class=\"swiper-slide\" role=\"group\" aria-roledescription=\"slide\" aria-label=\"2 of 6\"><figure class=\"swiper-slide-inner\"><img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/2-1024x1024.png\" alt=\"2\" /></figure></div><div class=\"swiper-slide\" role=\"group\" aria-roledescription=\"slide\" aria-label=\"3 of 6\"><figure class=\"swiper-slide-inner\"><img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/3-1024x1024.png\" alt=\"3\" /></figure></div><div class=\"swiper-slide\" role=\"group\" aria-roledescription=\"slide\" aria-label=\"4 of 6\"><figure class=\"swiper-slide-inner\"><img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/4-1024x1024.png\" alt=\"4\" /></figure></div><div class=\"swiper-slide\" role=\"group\" aria-roledescription=\"slide\" aria-label=\"5 of 6\"><figure class=\"swiper-slide-inner\"><img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/5-1024x1024.png\" alt=\"5\" /></figure></div><div class=\"swiper-slide\" role=\"group\" aria-roledescription=\"slide\" aria-label=\"6 of 6\"><figure class=\"swiper-slide-inner\"><img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/6-1024x1024.png\" alt=\"6\" /></figure></div>\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-24ee16c e-flex e-con-boxed e-con e-parent\" data-id=\"24ee16c\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-f48f7e7 e-con-full e-flex e-con e-child\" data-id=\"f48f7e7\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-97090d6 e-con-full e-flex e-con e-child\" data-id=\"97090d6\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-53f71d5 elementor-widget elementor-widget-elementskit-heading\" data-id=\"53f71d5\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"elementskit-heading.default\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" ><div class=\"ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-text_center   ekit_heading_mobile-\"><h3 class=\"elementskit-section-subtitle  elementskit-style-border\">\n\t\t\t\t\t\tOUR LATEST NEWS\n\t\t\t\t\t</h3><h2 class=\"ekit-heading--title elementskit-section-title \">Our Blogs &amp; Insights</h2></div></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-c297cd7 e-con-full e-flex e-con e-child\" data-id=\"c297cd7\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-35d4470 elementor-widget elementor-widget-button\" data-id=\"35d4470\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"button.default\">\n\t\t\t\t\t\t\t\t\t\t<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"#\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t\t\t\t<span class=\"elementor-button-text\">MORE BLOGS</span>\n\t\t\t\t\t</span>\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-7b1eb2e e-con-full e-flex e-con e-child\" data-id=\"7b1eb2e\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-46cc671 elementor-widget elementor-widget-bew-elements-blog\" data-id=\"46cc671\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"bew-elements-blog.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\r\n\t\t<section class=\"bew-elements-widgets display-grid bew-display-grid bew-elements-container bew-blog-grid\" desktop-col=\"3\" tablet-col=\"3\" mobile-col=\"1\">\r\n            \r\n                <div class=\"bew-elements-post\">\r\n                    <article class=\"bew-elements-post-inner\">\r\n                    \t\t                    \t<div class=\"bew-featured-image\">\r\n\t                    \t\t<a href=\"https://institutnasional.ai/10-prompt-miniatur-gemini-ai-ciptakan-foto-realistis-kreatif-tanpa-batas/\">\r\n\t\t\t                       <img loading=\"lazy\" decoding=\"async\" width=\"720\" height=\"720\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/Gemini_Generated_Image_qunhwcqunhwcqunh-768x768.png\" class=\"attachment-medium_large size-medium_large wp-post-image\" alt=\"10 Prompt Miniatur Gemini AI: Ciptakan Foto Realistis Kreatif Tanpa Batas\" itemprop=\"image\" srcset=\"https://institutnasional.ai/wp-content/uploads/2025/09/Gemini_Generated_Image_qunhwcqunhwcqunh-768x768.png 768w, https://institutnasional.ai/wp-content/uploads/2025/09/Gemini_Generated_Image_qunhwcqunhwcqunh-300x300.png 300w, https://institutnasional.ai/wp-content/uploads/2025/09/Gemini_Generated_Image_qunhwcqunhwcqunh-1024x1024.png 1024w, https://institutnasional.ai/wp-content/uploads/2025/09/Gemini_Generated_Image_qunhwcqunhwcqunh-150x150.png 150w, https://institutnasional.ai/wp-content/uploads/2025/09/Gemini_Generated_Image_qunhwcqunhwcqunh-1536x1536.png 1536w, https://institutnasional.ai/wp-content/uploads/2025/09/Gemini_Generated_Image_qunhwcqunhwcqunh.png 2048w\" sizes=\"(max-width: 720px) 100vw, 720px\" />\t\t\t\t\t\t\t\t</a>\r\n\t\t                    </div>\r\n\t                    \t                    <div class=\"bew-blog-content\">\r\n\t                        \t                        \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"bew-blog-title\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://institutnasional.ai/10-prompt-miniatur-gemini-ai-ciptakan-foto-realistis-kreatif-tanpa-batas/\">\r\n\t\t                        \t\t10 Prompt Miniatur Gemini AI: Ciptakan Foto Realistis Kreatif Tanpa Batas\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</h3>\r\n\t\t\t\t\t\t\t\t                        <div class=\"bew-post-meta\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                    </div>\r\n\t\t\t\t\t\t\t\t                        <div class=\"bew-blog-excerpt\">\r\n\t                        \tDunia fotografi miniatur biasanya identik dengan studio penuh properti kecil, figur mainan, dan pencahayaan\t                        </div>\r\n\t                        \t\t\t\t\t\t\t<div class=\"bew-blog-btn \" >\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://institutnasional.ai/10-prompt-miniatur-gemini-ai-ciptakan-foto-realistis-kreatif-tanpa-batas/\" class=\"read-more-blog elementor-button-link elementor-size-sm\" role=\"button\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\r\n\t\t\t\t\t\t\t<span class=\"elementor-button-icon elementor-align-icon-right\">\r\n\t\t\t\t<i aria-hidden=\"true\" class=\"icon icon-arrow-right\"></i>\t\t\t</span>\r\n\t\t\t\t\t\t<span class=\"elementor-button-text\">LEARN MORE</span>\r\n\t\t</span>\r\n\t\t\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>\r\n\t                    </div>\r\n                    </article>\r\n                </div>\r\n\r\n            \r\n                <div class=\"bew-elements-post\">\r\n                    <article class=\"bew-elements-post-inner\">\r\n                    \t\t                    \t<div class=\"bew-featured-image\">\r\n\t                    \t\t<a href=\"https://institutnasional.ai/mit-bongkar-fakta-chatgpt-produktivitas-naik-37-kualitas-kerja-lebih-baik-18/\">\r\n\t\t\t                       <img loading=\"lazy\" decoding=\"async\" width=\"720\" height=\"720\" src=\"https://institutnasional.ai/wp-content/uploads/2025/01/Whisk_d117807b8f-768x768.jpg\" class=\"attachment-medium_large size-medium_large wp-post-image\" alt=\"MIT Bongkar Fakta ChatGPT: Produktivitas Naik 37%, Kualitas Kerja Lebih Baik 18%\" itemprop=\"image\" srcset=\"https://institutnasional.ai/wp-content/uploads/2025/01/Whisk_d117807b8f-768x768.jpg 768w, https://institutnasional.ai/wp-content/uploads/2025/01/Whisk_d117807b8f-300x300.jpg 300w, https://institutnasional.ai/wp-content/uploads/2025/01/Whisk_d117807b8f-150x150.jpg 150w, https://institutnasional.ai/wp-content/uploads/2025/01/Whisk_d117807b8f.jpg 1024w\" sizes=\"(max-width: 720px) 100vw, 720px\" />\t\t\t\t\t\t\t\t</a>\r\n\t\t                    </div>\r\n\t                    \t                    <div class=\"bew-blog-content\">\r\n\t                        \t                        \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"bew-blog-title\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://institutnasional.ai/mit-bongkar-fakta-chatgpt-produktivitas-naik-37-kualitas-kerja-lebih-baik-18/\">\r\n\t\t                        \t\tMIT Bongkar Fakta ChatGPT: Produktivitas Naik 37%, Kualitas Kerja Lebih Baik 18%\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</h3>\r\n\t\t\t\t\t\t\t\t                        <div class=\"bew-post-meta\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                    </div>\r\n\t\t\t\t\t\t\t\t                        <div class=\"bew-blog-excerpt\">\r\n\t                        \tChatGPT, Bukan Sekadar Teman Ngobrol Banyak orang masih melihat ChatGPT sebagai chatbot pintar yang\t                        </div>\r\n\t                        \t\t\t\t\t\t\t<div class=\"bew-blog-btn \" >\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://institutnasional.ai/mit-bongkar-fakta-chatgpt-produktivitas-naik-37-kualitas-kerja-lebih-baik-18/\" class=\"read-more-blog elementor-button-link elementor-size-sm\" role=\"button\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper elementor-button-content-wrapper\">\r\n\t\t\t\t\t\t\t<span class=\"elementor-button-icon elementor-align-icon-right elementor-button-icon elementor-align-icon-right\">\r\n\t\t\t\t<i aria-hidden=\"true\" class=\"icon icon-arrow-right\"></i>\t\t\t</span>\r\n\t\t\t\t\t\t<span class=\"elementor-button-text elementor-button-text\">LEARN MORE</span>\r\n\t\t</span>\r\n\t\t\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>\r\n\t                    </div>\r\n                    </article>\r\n                </div>\r\n\r\n            \r\n                <div class=\"bew-elements-post\">\r\n                    <article class=\"bew-elements-post-inner\">\r\n                    \t\t                    \t<div class=\"bew-featured-image\">\r\n\t                    \t\t<a href=\"https://institutnasional.ai/who-ingatkan-bahaya-ai-selamatkan-jutaan-nyawa-tapi-risiko-etika-kesehatan-mengintai/\">\r\n\t\t\t                       <img loading=\"lazy\" decoding=\"async\" width=\"720\" height=\"720\" src=\"https://institutnasional.ai/wp-content/uploads/2025/01/Whisk_2c8cf19dd8-768x768.jpg\" class=\"attachment-medium_large size-medium_large wp-post-image\" alt=\"WHO Ingatkan Bahaya AI: Selamatkan Jutaan Nyawa, tapi Risiko Etika Kesehatan Mengintai\" itemprop=\"image\" srcset=\"https://institutnasional.ai/wp-content/uploads/2025/01/Whisk_2c8cf19dd8-768x768.jpg 768w, https://institutnasional.ai/wp-content/uploads/2025/01/Whisk_2c8cf19dd8-300x300.jpg 300w, https://institutnasional.ai/wp-content/uploads/2025/01/Whisk_2c8cf19dd8-150x150.jpg 150w, https://institutnasional.ai/wp-content/uploads/2025/01/Whisk_2c8cf19dd8.jpg 1024w\" sizes=\"(max-width: 720px) 100vw, 720px\" />\t\t\t\t\t\t\t\t</a>\r\n\t\t                    </div>\r\n\t                    \t                    <div class=\"bew-blog-content\">\r\n\t                        \t                        \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"bew-blog-title\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://institutnasional.ai/who-ingatkan-bahaya-ai-selamatkan-jutaan-nyawa-tapi-risiko-etika-kesehatan-mengintai/\">\r\n\t\t                        \t\tWHO Ingatkan Bahaya AI: Selamatkan Jutaan Nyawa, tapi Risiko Etika Kesehatan Mengintai\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</h3>\r\n\t\t\t\t\t\t\t\t                        <div class=\"bew-post-meta\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                    </div>\r\n\t\t\t\t\t\t\t\t                        <div class=\"bew-blog-excerpt\">\r\n\t                        \tArtificial Intelligence kini tidak hanya hadir di ruang kerja atau dunia bisnis, tapi juga\t                        </div>\r\n\t                        \t\t\t\t\t\t\t<div class=\"bew-blog-btn \" >\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://institutnasional.ai/who-ingatkan-bahaya-ai-selamatkan-jutaan-nyawa-tapi-risiko-etika-kesehatan-mengintai/\" class=\"read-more-blog elementor-button-link elementor-size-sm\" role=\"button\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper elementor-button-content-wrapper elementor-button-content-wrapper\">\r\n\t\t\t\t\t\t\t<span class=\"elementor-button-icon elementor-align-icon-right elementor-button-icon elementor-align-icon-right elementor-button-icon elementor-align-icon-right\">\r\n\t\t\t\t<i aria-hidden=\"true\" class=\"icon icon-arrow-right\"></i>\t\t\t</span>\r\n\t\t\t\t\t\t<span class=\"elementor-button-text elementor-button-text elementor-button-text\">LEARN MORE</span>\r\n\t\t</span>\r\n\t\t\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>\r\n\t                    </div>\r\n                    </article>\r\n                </div>\r\n\r\n                  \t</section>\r\n\t\r\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-fd210ad e-con-full e-flex e-con e-parent\" data-id=\"fd210ad\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-ae5806f elementor-widget elementor-widget-google_maps\" data-id=\"ae5806f\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"google_maps.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-custom-embed\">\n\t\t\t<iframe loading=\"lazy\"\n\t\t\t\t\tsrc=\"https://maps.google.com/maps?q=Jl.%20Lebak%20Bulus%20Raya%20No.46%20E%2C%20Pd.%20Pinang%2C%20Kec.%20Kby.%20Lama%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2012310&#038;t=m&#038;z=10&#038;output=embed&#038;iwloc=near\"\n\t\t\t\t\ttitle=\"Jl. Lebak Bulus Raya No.46 E, Pd. Pinang, Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12310\"\n\t\t\t\t\taria-label=\"Jl. Lebak Bulus Raya No.46 E, Pd. Pinang, Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12310\"\n\t\t\t></iframe>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+   "protected": false
+  },
+  "excerpt": {
+   "rendered": "<p>Welcome To Institut AI Nasional Institut AI Nasional adalah lembaga pendidikan dan penelitian yang memadukan sains, teknologi, dan nilai kemanusiaan. Kami memandang kecerdasan buatan bukan hanya sebagai sarana komputasi, tetapi juga sebagai pendekatan ilmiah untuk memahami serta mencari solusi atas tantangan nyata, mulai dari kesenjangan pendidikan hingga isu keberlanjutan lingkungan global.  LEARN MORE Pembelajaran Berbasis Proyek dan Riset Skema Mahasiswa [&hellip;]</p>\n",
+   "protected": false
+  },
+  "featured_media": 420,
+  "parent": 0,
+  "menu_order": 0,
+  "template": "elementor_header_footer",
+  "yoast_head_json": {
+   "title": "Institut AI Nasional Belajar, Berkarya & Beretika",
+   "description": "Institut AI Nasional adalah lembaga pendidikan dan penelitian yang memadukan sains, teknologi, dan nilai kemanusiaan.",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://institutnasional.ai/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Institut AI Nasional Belajar, Berkarya & Beretika",
+   "og_description": "Institut AI Nasional adalah lembaga pendidikan dan penelitian yang memadukan sains, teknologi, dan nilai kemanusiaan.",
+   "og_url": "https://institutnasional.ai/",
+   "og_site_name": "Institut AI Nasional",
+   "article_modified_time": "2026-01-02T03:34:37+00:00",
+   "og_image": [
+    {
+     "width": 512,
+     "height": 512,
+     "url": "https://institutnasional.ai/wp-content/uploads/2025/01/cropped-Institut-AI-Nasional-Logo_Main-1.png",
+     "type": "image/png"
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Est. reading time": "1 minute"
+   },
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://institutnasional.ai/",
+      "url": "https://institutnasional.ai/",
+      "name": "Institut AI Nasional Belajar, Berkarya & Beretika",
+      "isPartOf": {
+       "@id": "https://institutnasional.ai/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://institutnasional.ai/#primaryimage"
+      },
+      "image": {
+       "@id": "https://institutnasional.ai/#primaryimage"
+      },
+      "thumbnailUrl": "https://institutnasional.ai/wp-content/uploads/2025/01/cropped-Institut-AI-Nasional-Logo_Main-1.png",
+      "datePublished": "2025-09-11T16:04:20+00:00",
+      "dateModified": "2026-01-02T03:34:37+00:00",
+      "description": "Institut AI Nasional adalah lembaga pendidikan dan penelitian yang memadukan sains, teknologi, dan nilai kemanusiaan.",
+      "breadcrumb": {
+       "@id": "https://institutnasional.ai/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://institutnasional.ai/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://institutnasional.ai/#primaryimage",
+      "url": "https://institutnasional.ai/wp-content/uploads/2025/01/cropped-Institut-AI-Nasional-Logo_Main-1.png",
+      "contentUrl": "https://institutnasional.ai/wp-content/uploads/2025/01/cropped-Institut-AI-Nasional-Logo_Main-1.png",
+      "width": 512,
+      "height": 512,
+      "caption": "Institut AI Nasional"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://institutnasional.ai/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://institutnasional.ai/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Home &#8211; Copy"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://institutnasional.ai/#website",
+      "url": "https://institutnasional.ai/",
+      "name": "Institut AI Nasional",
+      "description": "",
+      "publisher": {
+       "@id": "https://institutnasional.ai/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://institutnasional.ai/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://institutnasional.ai/#organization",
+      "name": "Institut AI Nasional",
+      "url": "https://institutnasional.ai/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://institutnasional.ai/#/schema/logo/image/",
+       "url": "https://institutnasional.ai/wp-content/uploads/2025/09/Institut-AI-Nasional-Logo-Rec-White-scaled.png",
+       "contentUrl": "https://institutnasional.ai/wp-content/uploads/2025/09/Institut-AI-Nasional-Logo-Rec-White-scaled.png",
+       "width": 2560,
+       "height": 857,
+       "caption": "Institut AI Nasional"
+      },
+      "image": {
+       "@id": "https://institutnasional.ai/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 58,
+  "date": "2025-01-28T06:58:26",
+  "modified": "2025-09-03T09:46:30",
+  "slug": "blog",
+  "status": "publish",
+  "link": "https://institutnasional.ai/blog/",
+  "title": {
+   "rendered": "Blog"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "excerpt": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "template": "",
+  "yoast_head_json": {
+   "title": "News Institut AI Nasional",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://institutnasional.ai/blog/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "News Institut AI Nasional",
+   "og_url": "https://institutnasional.ai/blog/",
+   "og_site_name": "Institut AI Nasional",
+   "article_modified_time": "2025-09-03T09:46:30+00:00",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": [
+       "WebPage",
+       "CollectionPage"
+      ],
+      "@id": "https://institutnasional.ai/blog/",
+      "url": "https://institutnasional.ai/blog/",
+      "name": "News Institut AI Nasional",
+      "isPartOf": {
+       "@id": "https://institutnasional.ai/#website"
+      },
+      "datePublished": "2025-01-28T06:58:26+00:00",
+      "dateModified": "2025-09-03T09:46:30+00:00",
+      "breadcrumb": {
+       "@id": "https://institutnasional.ai/blog/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://institutnasional.ai/blog/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://institutnasional.ai/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://institutnasional.ai/#website",
+      "url": "https://institutnasional.ai/",
+      "name": "Institut AI Nasional",
+      "description": "",
+      "publisher": {
+       "@id": "https://institutnasional.ai/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://institutnasional.ai/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://institutnasional.ai/#organization",
+      "name": "Institut AI Nasional",
+      "url": "https://institutnasional.ai/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://institutnasional.ai/#/schema/logo/image/",
+       "url": "https://institutnasional.ai/wp-content/uploads/2025/09/Institut-AI-Nasional-Logo-Rec-White-scaled.png",
+       "contentUrl": "https://institutnasional.ai/wp-content/uploads/2025/09/Institut-AI-Nasional-Logo-Rec-White-scaled.png",
+       "width": 2560,
+       "height": 857,
+       "caption": "Institut AI Nasional"
+      },
+      "image": {
+       "@id": "https://institutnasional.ai/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 60,
+  "date": "2025-01-28T06:44:49",
+  "modified": "2025-09-02T10:22:33",
+  "slug": "faculties",
+  "status": "publish",
+  "link": "https://institutnasional.ai/faculties/",
+  "title": {
+   "rendered": "Faculty"
+  },
+  "content": {
+   "rendered": "\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"60\" class=\"elementor elementor-60\">\n\t\t\t\t<div class=\"elementor-element elementor-element-34dc1107 e-flex e-con-boxed e-con e-parent\" data-id=\"34dc1107\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-afc5694 e-con-full e-flex e-con e-child\" data-id=\"afc5694\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-2cfb9f92 elementor-widget elementor-widget-heading\" data-id=\"2cfb9f92\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Program Studi</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-7f3ae0de e-flex e-con-boxed e-con e-parent\" data-id=\"7f3ae0de\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-253468d8 elementor-widget elementor-widget-elementskit-heading\" data-id=\"253468d8\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"elementskit-heading.default\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" ><div class=\"ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-   ekit_heading_mobile-\"><h3 class=\"elementskit-section-subtitle  elementskit-style-border\">\n\t\t\t\t\t\tPembelajaran Berbasis Proyek dan Riset\n\t\t\t\t\t</h3><h2 class=\"ekit-heading--title elementskit-section-title \">Program Studi</h2>\t\t\t\t<div class='ekit-heading__description'>\n\t\t\t\t\t<p>Mahasiswa tidak hanya belajar di kelas, tetapi juga mengerjakan proyek nyata bersama mitra industri, pemerintah, dan lembaga riset. </p>\n\t\t\t\t</div>\n\t\t\t</div></div>\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-727b8fe7 elementor-widget elementor-widget-heading\" data-id=\"727b8fe7\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Program Diploma (Vokasi) <br>Diploma (D3) </h2>\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-7914d2ea e-flex e-con-boxed e-con e-parent\" data-id=\"7914d2ea\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-13ec0886 e-con-full e-flex e-con e-child\" data-id=\"13ec0886\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"elementor-element elementor-element-5c361ead e-con-full e-flex e-con e-child\" data-id=\"5c361ead\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-66065efb elementor-widget elementor-widget-heading\" data-id=\"66065efb\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">D3 Ilmu Data Terapan &amp; AI</h2>\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-93e0e0f elementor-widget elementor-widget-text-editor\" data-id=\"93e0e0f\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t\t\t\t\t\t<p style=\"text-align: center;\"><span style=\"color: #ffffff;\">Membekali keterampilan teknis dalam analisis data, visualisasi, serta penerapan AI praktis untuk kebutuhan industri modern.</span></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-26f297c6 e-con-full e-flex e-con e-child\" data-id=\"26f297c6\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"elementor-element elementor-element-5487879c e-con-full e-flex e-con e-child\" data-id=\"5487879c\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-200e6369 elementor-widget elementor-widget-heading\" data-id=\"200e6369\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">D3 Digital Marketing &amp; AI</h2>\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-7ea014ca elementor-widget elementor-widget-text-editor\" data-id=\"7ea014ca\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t\t\t\t\t\t<p style=\"text-align: center;\"><span style=\"color: #ffffff;\">Menggabungkan strategi pemasaran digital dengan AI untuk analitik konsumen, segmentasi pasar, dan optimasi kampanye bisnis.</span></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-5cfc2e94 e-con-full e-flex e-con e-child\" data-id=\"5cfc2e94\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"elementor-element elementor-element-5d4e6166 e-con-full e-flex e-con e-child\" data-id=\"5d4e6166\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-48049b6a elementor-widget elementor-widget-heading\" data-id=\"48049b6a\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">D3 Keamanan Informasi</h2>\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-3385324a elementor-widget elementor-widget-text-editor\" data-id=\"3385324a\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t\t\t\t\t\t<p><span style=\"color: #ffffff;\">Fokus pada keamanan data, jaringan, dan sistem dengan keterampilan forensik digital, manajemen risiko, serta penerapan AI di siber.</span></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+   "protected": false
+  },
+  "excerpt": {
+   "rendered": "<p>Program Studi Pembelajaran Berbasis Proyek dan Riset Program Studi Mahasiswa tidak hanya belajar di kelas, tetapi juga mengerjakan proyek nyata bersama mitra industri, pemerintah, dan lembaga riset.  Program Diploma (Vokasi) Diploma (D3) D3 Ilmu Data Terapan &amp; AI Membekali keterampilan teknis dalam analisis data, visualisasi, serta penerapan AI praktis untuk kebutuhan industri modern. D3 Digital Marketing &amp; AI Menggabungkan strategi [&hellip;]</p>\n",
+   "protected": false
+  },
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "template": "elementor_header_footer",
+  "yoast_head_json": {
+   "title": "Faculty - Institut AI Nasional",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://institutnasional.ai/faculties/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Faculty - Institut AI Nasional",
+   "og_description": "Program Studi Pembelajaran Berbasis Proyek dan Riset Program Studi Mahasiswa tidak hanya belajar di kelas, tetapi juga mengerjakan proyek nyata bersama mitra industri, pemerintah, dan lembaga riset.  Program Diploma (Vokasi) Diploma (D3) D3 Ilmu Data Terapan &amp; AI Membekali keterampilan teknis dalam analisis data, visualisasi, serta penerapan AI praktis untuk kebutuhan industri modern. D3 Digital Marketing &amp; AI Menggabungkan strategi [&hellip;]",
+   "og_url": "https://institutnasional.ai/faculties/",
+   "og_site_name": "Institut AI Nasional",
+   "article_modified_time": "2025-09-02T10:22:33+00:00",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://institutnasional.ai/faculties/",
+      "url": "https://institutnasional.ai/faculties/",
+      "name": "Faculty - Institut AI Nasional",
+      "isPartOf": {
+       "@id": "https://institutnasional.ai/#website"
+      },
+      "datePublished": "2025-01-28T06:44:49+00:00",
+      "dateModified": "2025-09-02T10:22:33+00:00",
+      "breadcrumb": {
+       "@id": "https://institutnasional.ai/faculties/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://institutnasional.ai/faculties/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://institutnasional.ai/faculties/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://institutnasional.ai/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Faculty"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://institutnasional.ai/#website",
+      "url": "https://institutnasional.ai/",
+      "name": "Institut AI Nasional",
+      "description": "",
+      "publisher": {
+       "@id": "https://institutnasional.ai/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://institutnasional.ai/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://institutnasional.ai/#organization",
+      "name": "Institut AI Nasional",
+      "url": "https://institutnasional.ai/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://institutnasional.ai/#/schema/logo/image/",
+       "url": "https://institutnasional.ai/wp-content/uploads/2025/09/Institut-AI-Nasional-Logo-Rec-White-scaled.png",
+       "contentUrl": "https://institutnasional.ai/wp-content/uploads/2025/09/Institut-AI-Nasional-Logo-Rec-White-scaled.png",
+       "width": 2560,
+       "height": 857,
+       "caption": "Institut AI Nasional"
+      },
+      "image": {
+       "@id": "https://institutnasional.ai/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 62,
+  "date": "2025-01-28T06:00:10",
+  "modified": "2025-09-03T09:46:01",
+  "slug": "contact-us",
+  "status": "publish",
+  "link": "https://institutnasional.ai/contact-us/",
+  "title": {
+   "rendered": "Contact Us"
+  },
+  "content": {
+   "rendered": "\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"62\" class=\"elementor elementor-62\">\n\t\t\t\t<div class=\"elementor-element elementor-element-a6ddf46 e-flex e-con-boxed e-con e-parent\" data-id=\"a6ddf46\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-aaeb918 e-con-full e-flex e-con e-child\" data-id=\"aaeb918\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-efd457c elementor-widget elementor-widget-heading\" data-id=\"efd457c\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Contact Us</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-7670892 e-flex e-con-boxed e-con e-parent\" data-id=\"7670892\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-889fa63 e-con-full e-flex e-con e-child\" data-id=\"889fa63\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-7f303ce e-con-full e-flex e-con e-child\" data-id=\"7f303ce\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-0fa836b elementor-widget elementor-widget-elementskit-heading\" data-id=\"0fa836b\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"elementskit-heading.default\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" ><div class=\"ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-text_center   ekit_heading_mobile-\"><h3 class=\"elementskit-section-subtitle  elementskit-style-border\">\n\t\t\t\t\t\tGET IN TOUCH\n\t\t\t\t\t</h3><h2 class=\"ekit-heading--title elementskit-section-title \">For More Info Contact Us To Reach Out !</h2></div></div>\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-b6e3003 e-con-full e-flex e-con e-child\" data-id=\"b6e3003\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-f596a90 e-con-full e-flex e-con e-child\" data-id=\"f596a90\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"elementor-element elementor-element-09c3464 e-con-full e-flex e-con e-child\" data-id=\"09c3464\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-a6e8244 elementor-view-default elementor-widget elementor-widget-icon\" data-id=\"a6e8244\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-icon-wrapper\">\n\t\t\t<div class=\"elementor-icon\">\n\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-phone-alt\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z\"></path></svg>\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-0c621ed e-con-full e-flex e-con e-child\" data-id=\"0c621ed\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-6b3418e elementor-widget elementor-widget-elementskit-heading\" data-id=\"6b3418e\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"elementskit-heading.default\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" ><div class=\"ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-   ekit_heading_mobile-text_center\"><h5 class=\"ekit-heading--title elementskit-section-title \">Phone Numbers:</h5>\t\t\t\t<div class='ekit-heading__description'>\n\t\t\t\t\t<p>Phone : +62 819-0111-2308</p>\n\t\t\t\t</div>\n\t\t\t</div></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-9721425 e-con-full e-flex e-con e-child\" data-id=\"9721425\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"elementor-element elementor-element-9cc8b62 e-con-full e-flex e-con e-child\" data-id=\"9cc8b62\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-846e0b1 elementor-view-default elementor-widget elementor-widget-icon\" data-id=\"846e0b1\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-icon-wrapper\">\n\t\t\t<div class=\"elementor-icon\">\n\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-envelope-open-text\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M176 216h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16H176c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16zm-16 80c0 8.84 7.16 16 16 16h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16H176c-8.84 0-16 7.16-16 16v16zm96 121.13c-16.42 0-32.84-5.06-46.86-15.19L0 250.86V464c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V250.86L302.86 401.94c-14.02 10.12-30.44 15.19-46.86 15.19zm237.61-254.18c-8.85-6.94-17.24-13.47-29.61-22.81V96c0-26.51-21.49-48-48-48h-77.55c-3.04-2.2-5.87-4.26-9.04-6.56C312.6 29.17 279.2-.35 256 0c-23.2-.35-56.59 29.17-73.41 41.44-3.17 2.3-6 4.36-9.04 6.56H96c-26.51 0-48 21.49-48 48v44.14c-12.37 9.33-20.76 15.87-29.61 22.81A47.995 47.995 0 0 0 0 200.72v10.65l96 69.35V96h320v184.72l96-69.35v-10.65c0-14.74-6.78-28.67-18.39-37.77z\"></path></svg>\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-0767963 e-con-full e-flex e-con e-child\" data-id=\"0767963\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-e3e8dac elementor-widget elementor-widget-elementskit-heading\" data-id=\"e3e8dac\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"elementskit-heading.default\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" ><div class=\"ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-   ekit_heading_mobile-text_center\"><h5 class=\"ekit-heading--title elementskit-section-title \">Email Address:</h5>\t\t\t\t<div class='ekit-heading__description'>\n\t\t\t\t\t<p>info@institutnasional.ai</p>\n\t\t\t\t</div>\n\t\t\t</div></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-7bd19d4 e-con-full e-flex e-con e-child\" data-id=\"7bd19d4\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"elementor-element elementor-element-83bd2f8 e-con-full e-flex e-con e-child\" data-id=\"83bd2f8\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-42d7377 elementor-view-default elementor-widget elementor-widget-icon\" data-id=\"42d7377\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-icon-wrapper\">\n\t\t\t<div class=\"elementor-icon\">\n\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-map-marker-alt\" viewBox=\"0 0 384 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z\"></path></svg>\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-99029eb e-con-full e-flex e-con e-child\" data-id=\"99029eb\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-b3138ad elementor-widget elementor-widget-elementskit-heading\" data-id=\"b3138ad\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"elementskit-heading.default\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" ><div class=\"ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-   ekit_heading_mobile-text_center\"><h5 class=\"ekit-heading--title elementskit-section-title \">Location Address:</h5>\t\t\t\t<div class='ekit-heading__description'>\n\t\t\t\t\t<p>Jl. Lebak Bulus Raya No.46E<br />Pd. Pinang, Kec. Kby. Lama, Kota Jakarta Selatan, 12310</p>\n\t\t\t\t</div>\n\t\t\t</div></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-7598ba5 e-con-full e-flex e-con e-child\" data-id=\"7598ba5\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-bb30349 elementor-widget elementor-widget-elementskit-contact-form7\" data-id=\"bb30349\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"elementskit-contact-form7.default\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" ><div class=\"ekit-form\">\n<div class=\"wpcf7 no-js\" id=\"wpcf7-f7-o1\" lang=\"en-US\" dir=\"ltr\" data-wpcf7-id=\"7\">\n<div class=\"screen-reader-response\"><p role=\"status\" aria-live=\"polite\" aria-atomic=\"true\"></p> <ul></ul></div>\n<form action=\"/wp-json/wp/v2/pages?per_page=100&#038;_fields=id%2Cslug%2Clink%2Cstatus%2Ctitle%2Cdate%2Cmodified%2Cparent%2Cmenu_order%2Ctemplate%2Cexcerpt%2Ccontent%2Cfeatured_media%2Cyoast_head_json#wpcf7-f7-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Contact form\" novalidate=\"novalidate\" data-status=\"init\">\n<fieldset class=\"hidden-fields-container\"><input type=\"hidden\" name=\"_wpcf7\" value=\"7\" /><input type=\"hidden\" name=\"_wpcf7_version\" value=\"6.1.4\" /><input type=\"hidden\" name=\"_wpcf7_locale\" value=\"en_US\" /><input type=\"hidden\" name=\"_wpcf7_unit_tag\" value=\"wpcf7-f7-o1\" /><input type=\"hidden\" name=\"_wpcf7_container_post\" value=\"0\" /><input type=\"hidden\" name=\"_wpcf7_posted_data_hash\" value=\"\" />\n</fieldset>\n<p><label> Your Name<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"your-name\"><input size=\"40\" maxlength=\"400\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" autocomplete=\"name\" aria-required=\"true\" aria-invalid=\"false\" value=\"\" type=\"text\" name=\"your-name\" /></span> </label>\n</p>\n<p><label> Your Email<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"your-email\"><input size=\"40\" maxlength=\"400\" class=\"wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email\" autocomplete=\"email\" aria-required=\"true\" aria-invalid=\"false\" value=\"\" type=\"email\" name=\"your-email\" /></span> </label>\n</p>\n<p><label> Subject<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"your-subject\"><input size=\"40\" maxlength=\"400\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" aria-required=\"true\" aria-invalid=\"false\" value=\"\" type=\"text\" name=\"your-subject\" /></span> </label>\n</p>\n<p><label> Your Message (Optional)<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"your-message\"><textarea cols=\"40\" rows=\"10\" maxlength=\"2000\" class=\"wpcf7-form-control wpcf7-textarea\" aria-invalid=\"false\" name=\"your-message\"></textarea></span> </label>\n</p>\n<p><input class=\"wpcf7-form-control wpcf7-submit has-spinner\" type=\"submit\" value=\"Submit Message\" />\n</p><div class=\"wpcf7-response-output\" aria-hidden=\"true\"></div>\n</form>\n</div>\n</div></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-9ba4184 e-con-full e-flex e-con e-parent\" data-id=\"9ba4184\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-b2e5690 elementor-widget elementor-widget-google_maps\" data-id=\"b2e5690\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"google_maps.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-custom-embed\">\n\t\t\t<iframe loading=\"lazy\"\n\t\t\t\t\tsrc=\"https://maps.google.com/maps?q=Jl.%20Lebak%20Bulus%20Raya%20No.46E%20Pd.%20Pinang%2C%20Kec.%20Kby.%20Lama%2C%20Kota%20Jakarta%20Selatan%2C%2012310&#038;t=m&#038;z=10&#038;output=embed&#038;iwloc=near\"\n\t\t\t\t\ttitle=\"Jl. Lebak Bulus Raya No.46E Pd. Pinang, Kec. Kby. Lama, Kota Jakarta Selatan, 12310\"\n\t\t\t\t\taria-label=\"Jl. Lebak Bulus Raya No.46E Pd. Pinang, Kec. Kby. Lama, Kota Jakarta Selatan, 12310\"\n\t\t\t></iframe>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+   "protected": false
+  },
+  "excerpt": {
+   "rendered": "<p>Contact Us GET IN TOUCH For More Info Contact Us To Reach Out ! Phone Numbers: Phone : +62 819-0111-2308 Email Address: info@institutnasional.ai Location Address: Jl. Lebak Bulus Raya No.46EPd. Pinang, Kec. Kby. Lama, Kota Jakarta Selatan, 12310 Your Name Your Email Subject Your Message (Optional)</p>\n",
+   "protected": false
+  },
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "template": "elementor_header_footer",
+  "yoast_head_json": {
+   "title": "Kontak Institut AI Nasional",
+   "description": "Institut AI Nasional adalah Institut Nasional yang berfokus pada pendidikan, riset, dan pengembangan teknologi kecerdasan buatan",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://institutnasional.ai/contact-us/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Kontak Institut AI Nasional",
+   "og_description": "Institut AI Nasional adalah Institut Nasional yang berfokus pada pendidikan, riset, dan pengembangan teknologi kecerdasan buatan",
+   "og_url": "https://institutnasional.ai/contact-us/",
+   "og_site_name": "Institut AI Nasional",
+   "article_modified_time": "2025-09-03T09:46:01+00:00",
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Est. reading time": "1 minute"
+   },
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://institutnasional.ai/contact-us/",
+      "url": "https://institutnasional.ai/contact-us/",
+      "name": "Kontak Institut AI Nasional",
+      "isPartOf": {
+       "@id": "https://institutnasional.ai/#website"
+      },
+      "datePublished": "2025-01-28T06:00:10+00:00",
+      "dateModified": "2025-09-03T09:46:01+00:00",
+      "description": "Institut AI Nasional adalah Institut Nasional yang berfokus pada pendidikan, riset, dan pengembangan teknologi kecerdasan buatan",
+      "breadcrumb": {
+       "@id": "https://institutnasional.ai/contact-us/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://institutnasional.ai/contact-us/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://institutnasional.ai/contact-us/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://institutnasional.ai/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Contact Us"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://institutnasional.ai/#website",
+      "url": "https://institutnasional.ai/",
+      "name": "Institut AI Nasional",
+      "description": "",
+      "publisher": {
+       "@id": "https://institutnasional.ai/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://institutnasional.ai/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://institutnasional.ai/#organization",
+      "name": "Institut AI Nasional",
+      "url": "https://institutnasional.ai/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://institutnasional.ai/#/schema/logo/image/",
+       "url": "https://institutnasional.ai/wp-content/uploads/2025/09/Institut-AI-Nasional-Logo-Rec-White-scaled.png",
+       "contentUrl": "https://institutnasional.ai/wp-content/uploads/2025/09/Institut-AI-Nasional-Logo-Rec-White-scaled.png",
+       "width": 2560,
+       "height": 857,
+       "caption": "Institut AI Nasional"
+      },
+      "image": {
+       "@id": "https://institutnasional.ai/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 64,
+  "date": "2025-01-28T04:34:05",
+  "modified": "2025-09-03T09:45:18",
+  "slug": "about-us",
+  "status": "publish",
+  "link": "https://institutnasional.ai/about-us/",
+  "title": {
+   "rendered": "About Us"
+  },
+  "content": {
+   "rendered": "\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"64\" class=\"elementor elementor-64\">\n\t\t\t\t<div class=\"elementor-element elementor-element-0bfa555 e-flex e-con-boxed e-con e-parent\" data-id=\"0bfa555\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-3a58244 e-con-full e-flex e-con e-child\" data-id=\"3a58244\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-5fd3768 elementor-widget elementor-widget-heading\" data-id=\"5fd3768\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">About Us</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-a7e25be e-flex e-con-boxed e-con e-parent\" data-id=\"a7e25be\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-fdabf48 e-con-full e-flex e-con e-child\" data-id=\"fdabf48\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-a9b0d9d e-con-full e-flex e-con e-child\" data-id=\"a9b0d9d\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-fb6c927 elementor-widget elementor-widget-elementskit-heading\" data-id=\"fb6c927\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"elementskit-heading.default\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" ><div class=\"ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-text_center   ekit_heading_mobile-\"><h2 class=\"ekit-heading--title elementskit-section-title \">Tentang Institut AI Nasional</h2>\t\t\t\t<div class='ekit-heading__description'>\n\t\t\t\t\t<p>Institut AI Nasional adalah lembaga pendidikan dan riset yang berfokus pada pengembangan teknologi kecerdasan buatan (Artificial Intelligence/AI) di Indonesia. Didirikan dengan semangat membangun bangsa yang adaptif terhadap era digital, INAI hadir untuk menjawab kebutuhan akan SDM unggul, inovasi teknologi, serta kebijakan yang mendukung penerapan AI secara etis, aman, dan berkelanjutan.</p>\n<p>Kami meyakini bahwa AI bukan sekadar teknologi, melainkan sebuah ekosistem yang harus dibangun dengan landasan <strong>nilai kemanusiaan, etika, serta keberlanjutan</strong>. Dengan pendekatan itu, INAI berkomitmen menghadirkan pendidikan dan penelitian yang tidak hanya unggul di tingkat nasional, tetapi juga mampu bersaing di level Asia dan dunia.</p>\n\t\t\t\t</div>\n\t\t\t</div></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-b02cf34 e-con-full e-flex e-con e-child\" data-id=\"b02cf34\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-46c6cce elementor-widget elementor-widget-image\" data-id=\"46c6cce\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"720\" height=\"724\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/Pak-1019x1024-1.jpeg\" class=\"attachment-large size-large wp-image-214\" alt=\"Institut Nasional\" srcset=\"https://institutnasional.ai/wp-content/uploads/2025/09/Pak-1019x1024-1.jpeg 1019w, https://institutnasional.ai/wp-content/uploads/2025/09/Pak-1019x1024-1-150x150.jpeg 150w, https://institutnasional.ai/wp-content/uploads/2025/09/Pak-1019x1024-1-768x772.jpeg 768w\" sizes=\"(max-width: 720px) 100vw, 720px\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-1c4add0 elementor-button-success elementor-align-center elementor-widget elementor-widget-button\" data-id=\"1c4add0\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"button.default\">\n\t\t\t\t\t\t\t\t\t\t<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"#\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t\t\t\t<span class=\"elementor-button-text\">Dian Martin</span>\n\t\t\t\t\t</span>\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-70d0c67 elementor-widget elementor-widget-text-editor\" data-id=\"70d0c67\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t\t\t\t\t\t<p style=\"text-align: center;\"><span style=\"color: #000000;\"><strong>Head of the Institute</strong></span></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-d9d2364 e-con-full e-flex e-con e-child\" data-id=\"d9d2364\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-affdf60 e-con-full e-flex e-con e-child\" data-id=\"affdf60\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-0256eb8 e-con-full e-flex e-con e-child\" data-id=\"0256eb8\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"elementor-element elementor-element-40eb56c e-con-full e-flex e-con e-child\" data-id=\"40eb56c\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-188127e elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon\" data-id=\"188127e\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-icon-wrapper\">\n\t\t\t<div class=\"elementor-icon\">\n\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-users\" viewBox=\"0 0 640 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z\"></path></svg>\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-d670451 elementor-widget elementor-widget-heading\" data-id=\"d670451\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">1.500+ Alumni di seluruh dunia</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-03dd95e e-con-full e-flex e-con e-child\" data-id=\"03dd95e\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-c374775 elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon\" data-id=\"c374775\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-icon-wrapper\">\n\t\t\t<div class=\"elementor-icon\">\n\t\t\t<i aria-hidden=\"true\" class=\"icon icon-open-book\"></i>\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-81db488 elementor-widget elementor-widget-heading\" data-id=\"81db488\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">10+ Program Studi Unggulan\n</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-38d5ed4 e-con-full e-flex e-con e-child\" data-id=\"38d5ed4\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-cd9f92c elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon\" data-id=\"cd9f92c\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-icon-wrapper\">\n\t\t\t<div class=\"elementor-icon\">\n\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-user-graduate\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M319.4 320.6L224 416l-95.4-95.4C57.1 323.7 0 382.2 0 454.4v9.6c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-9.6c0-72.2-57.1-130.7-128.6-133.8zM13.6 79.8l6.4 1.5v58.4c-7 4.2-12 11.5-12 20.3 0 8.4 4.6 15.4 11.1 19.7L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.3C51.4 175.4 56 168.4 56 160c0-8.8-5-16.1-12-20.3V87.1l66 15.9c-8.6 17.2-14 36.4-14 57 0 70.7 57.3 128 128 128s128-57.3 128-128c0-20.6-5.3-39.8-14-57l96.3-23.2c18.2-4.4 18.2-27.1 0-31.5l-190.4-46c-13-3.1-26.7-3.1-39.7 0L13.6 48.2c-18.1 4.4-18.1 27.2 0 31.6z\"></path></svg>\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-e955a43 elementor-widget elementor-widget-heading\" data-id=\"e955a43\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">50+ Tenaga Pengajar dan Peneliti Ahli</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-991ea92 e-con-full e-flex e-con e-child\" data-id=\"991ea92\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-b2c3191 elementor-widget elementor-widget-image\" data-id=\"b2c3191\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"720\" height=\"319\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-02-at-19.23.18-1024x454.jpeg\" class=\"attachment-large size-large wp-image-307\" alt=\"Institut ai Nasional\" srcset=\"https://institutnasional.ai/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-02-at-19.23.18-1024x454.jpeg 1024w, https://institutnasional.ai/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-02-at-19.23.18-300x133.jpeg 300w, https://institutnasional.ai/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-02-at-19.23.18-768x341.jpeg 768w, https://institutnasional.ai/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-02-at-19.23.18.jpeg 1068w\" sizes=\"(max-width: 720px) 100vw, 720px\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-e958d05 elementor-widget elementor-widget-image\" data-id=\"e958d05\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"720\" height=\"292\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-02-at-20.24.07.jpeg\" class=\"attachment-large size-large wp-image-344\" alt=\"Institut AI Nasional\" srcset=\"https://institutnasional.ai/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-02-at-20.24.07.jpeg 978w, https://institutnasional.ai/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-02-at-20.24.07-300x122.jpeg 300w, https://institutnasional.ai/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-02-at-20.24.07-768x312.jpeg 768w\" sizes=\"(max-width: 720px) 100vw, 720px\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-82c0ebf e-con-full e-flex e-con e-child\" data-id=\"82c0ebf\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-8249e72 elementor-widget elementor-widget-image\" data-id=\"8249e72\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"559\" height=\"1024\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_a99d60e40f-559x1024.jpg\" class=\"attachment-large size-large wp-image-363\" alt=\"Institut AI Nasional\" srcset=\"https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_a99d60e40f-559x1024.jpg 559w, https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_a99d60e40f-164x300.jpg 164w, https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_a99d60e40f.jpg 768w\" sizes=\"(max-width: 559px) 100vw, 559px\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-c81f8ce e-flex e-con-boxed e-con e-parent\" data-id=\"c81f8ce\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-d34c1ce e-con-full e-flex e-con e-child\" data-id=\"d34c1ce\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-a2eb5ed elementor-widget elementor-widget-heading\" data-id=\"a2eb5ed\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Visi</h2>\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-4d4e386 elementor-widget elementor-widget-text-editor\" data-id=\"4d4e386\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t\t\t\t\t\t<p data-start=\"1206\" data-end=\"1386\"><em data-start=\"1206\" data-end=\"1384\">Menjadi pusat rujukan AI di Asia yang melahirkan pengetahuan, menumbuhkan talenta, dan merumuskan kebijakan demi terciptanya peradaban yang lebih adil, aman, dan berkelanjutan.</em></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-12c2a5a e-con-full e-flex e-con e-child\" data-id=\"12c2a5a\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-3d7744d elementor-widget elementor-widget-heading\" data-id=\"3d7744d\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Misi</h2>\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-cdf34bc elementor-widget elementor-widget-text-editor\" data-id=\"cdf34bc\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t\t\t\t\t\t\n<ul>\n \t<li>Menyelenggarakan pendidikan AI dengan standar global yang tetap berpijak pada tantangan dan kebutuhan Indonesia.</li>\n \t<li>Menghasilkan riset lintas disiplin yang memberi dampak langsung pada masyarakat dan industri.</li>\n \t<li>Membangun ekosistem inovasi dan kewirausahaan yang mendorong lahirnya solusi nyata serta transfer teknologi.</li>\n \t<li>Menjadikan etika, hak asasi manusia, dan keamanan sebagai prinsip utama dalam setiap langkah kami.</li>\n</ul>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+   "protected": false
+  },
+  "excerpt": {
+   "rendered": "<p>About Us Tentang Institut AI Nasional Institut AI Nasional adalah lembaga pendidikan dan riset yang berfokus pada pengembangan teknologi kecerdasan buatan (Artificial Intelligence/AI) di Indonesia. Didirikan dengan semangat membangun bangsa yang adaptif terhadap era digital, INAI hadir untuk menjawab kebutuhan akan SDM unggul, inovasi teknologi, serta kebijakan yang mendukung penerapan AI secara etis, aman, dan berkelanjutan. Kami meyakini bahwa AI [&hellip;]</p>\n",
+   "protected": false
+  },
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "template": "elementor_header_footer",
+  "yoast_head_json": {
+   "title": "Tentang Institut AI Nasional",
+   "description": "Institut AI Nasional adalah lembaga pendidikan dan penelitian yang memadukan sains, teknologi, dan nilai kemanusiaan.",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://institutnasional.ai/about-us/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Tentang Institut AI Nasional",
+   "og_description": "Institut AI Nasional adalah lembaga pendidikan dan penelitian yang memadukan sains, teknologi, dan nilai kemanusiaan.",
+   "og_url": "https://institutnasional.ai/about-us/",
+   "og_site_name": "Institut AI Nasional",
+   "article_modified_time": "2025-09-03T09:45:18+00:00",
+   "og_image": [
+    {
+     "url": "https://institutnasional.ai/wp-content/uploads/2025/09/Pak-1019x1024-1.jpeg",
+     "type": "",
+     "width": "",
+     "height": ""
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Est. reading time": "2 minutes"
+   },
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://institutnasional.ai/about-us/",
+      "url": "https://institutnasional.ai/about-us/",
+      "name": "Tentang Institut AI Nasional",
+      "isPartOf": {
+       "@id": "https://institutnasional.ai/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://institutnasional.ai/about-us/#primaryimage"
+      },
+      "image": {
+       "@id": "https://institutnasional.ai/about-us/#primaryimage"
+      },
+      "thumbnailUrl": "https://institutnasional.ai/wp-content/uploads/2025/09/Pak-1019x1024-1.jpeg",
+      "datePublished": "2025-01-28T04:34:05+00:00",
+      "dateModified": "2025-09-03T09:45:18+00:00",
+      "description": "Institut AI Nasional adalah lembaga pendidikan dan penelitian yang memadukan sains, teknologi, dan nilai kemanusiaan.",
+      "breadcrumb": {
+       "@id": "https://institutnasional.ai/about-us/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://institutnasional.ai/about-us/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://institutnasional.ai/about-us/#primaryimage",
+      "url": "https://institutnasional.ai/wp-content/uploads/2025/09/Pak-1019x1024-1.jpeg",
+      "contentUrl": "https://institutnasional.ai/wp-content/uploads/2025/09/Pak-1019x1024-1.jpeg",
+      "width": 1019,
+      "height": 1024,
+      "caption": "Institut Nasional"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://institutnasional.ai/about-us/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://institutnasional.ai/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "About Us"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://institutnasional.ai/#website",
+      "url": "https://institutnasional.ai/",
+      "name": "Institut AI Nasional",
+      "description": "",
+      "publisher": {
+       "@id": "https://institutnasional.ai/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://institutnasional.ai/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://institutnasional.ai/#organization",
+      "name": "Institut AI Nasional",
+      "url": "https://institutnasional.ai/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://institutnasional.ai/#/schema/logo/image/",
+       "url": "https://institutnasional.ai/wp-content/uploads/2025/09/Institut-AI-Nasional-Logo-Rec-White-scaled.png",
+       "contentUrl": "https://institutnasional.ai/wp-content/uploads/2025/09/Institut-AI-Nasional-Logo-Rec-White-scaled.png",
+       "width": 2560,
+       "height": 857,
+       "caption": "Institut AI Nasional"
+      },
+      "image": {
+       "@id": "https://institutnasional.ai/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": 66,
+  "date": "2025-01-24T05:14:50",
+  "modified": "2025-09-03T09:44:39",
+  "slug": "institut-ai-nasional",
+  "status": "publish",
+  "link": "https://institutnasional.ai/institut-ai-nasional/",
+  "title": {
+   "rendered": "Home"
+  },
+  "content": {
+   "rendered": "\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"66\" class=\"elementor elementor-66\">\n\t\t\t\t<div class=\"elementor-element elementor-element-c6af936 e-flex e-con-boxed e-con e-parent\" data-id=\"c6af936\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;gradient&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-b6b9a44 e-con-full e-flex e-con e-child\" data-id=\"b6b9a44\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"elementor-element elementor-element-bc51db7 e-con-full e-flex e-con e-child\" data-id=\"bc51db7\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-042b905 e-con-full e-flex e-con e-child\" data-id=\"042b905\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-c347516 elementor-widget elementor-widget-elementskit-heading\" data-id=\"c347516\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"elementskit-heading.default\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" ><div class=\"ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-text_center   ekit_heading_mobile-\"><h3 class=\"elementskit-section-subtitle  elementskit-style-border\">\n\t\t\t\t\t\tWelcome To Institut AI Nasional\n\t\t\t\t\t</h3><h2 class=\"ekit-heading--title elementskit-section-title \">Institut AI Nasional Belajar, Berkarya &amp; Beretika</h2></div></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-a6753ea e-con-full e-flex e-con e-child\" data-id=\"a6753ea\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-568c492 elementor-widget elementor-widget-text-editor\" data-id=\"568c492\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t\t\t\t\t\t<p data-start=\"251\" data-end=\"846\">Institut AI Nasional adalah lembaga pendidikan dan penelitian yang memadukan sains, teknologi, dan nilai kemanusiaan. Kami memandang kecerdasan buatan bukan hanya sebagai sarana komputasi, tetapi juga sebagai pendekatan ilmiah untuk memahami serta mencari solusi atas tantangan nyata, mulai dari kesenjangan pendidikan hingga isu keberlanjutan lingkungan global. </p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-fff33f3 elementor-tablet-align-center elementor-widget elementor-widget-button\" data-id=\"fff33f3\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"button.default\">\n\t\t\t\t\t\t\t\t\t\t<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"https://institutnasional.ai/about-us/\" target=\"_blank\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t\t\t\t<span class=\"elementor-button-text\">LEARN MORE</span>\n\t\t\t\t\t</span>\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-7a48c1c e-con-full e-flex e-con e-child\" data-id=\"7a48c1c\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"elementor-element elementor-element-57d3317 e-con-full e-flex e-con e-child\" data-id=\"57d3317\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-2b3c242 elementor-widget elementor-widget-elementskit-video\" data-id=\"2b3c242\" data-element_type=\"widget\" data-e-type=\"widget\" data-settings=\"{&quot;ekit_video_popup_close_icon&quot;:{&quot;value&quot;:&quot;icon icon-cancel&quot;,&quot;library&quot;:&quot;ekiticons&quot;}}\" data-widget_type=\"elementskit-video.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" >\t\t<div class=\"video-content\" data-video-player=\"[]\" data-video-setting=\"{&quot;videoVolume&quot;:&quot;horizontal&quot;,&quot;startVolume&quot;:0.8,&quot;videoType&quot;:&quot;iframe&quot;,&quot;videoClass&quot;:&quot;mfp-fade&quot;,&quot;popupIcon&quot;:{&quot;value&quot;:&quot;icon icon-cancel&quot;,&quot;library&quot;:&quot;ekiticons&quot;},&quot;videoStyle&quot;:&quot;popup&quot;,&quot;videoTypeName&quot;:&quot;youtube&quot;,&quot;autoplay&quot;:false,&quot;muted&quot;:false,&quot;loop&quot;:false,&quot;bg_color&quot;:&quot;&quot;}\">\n\t\t\t\t\t<div class=\"ekit-hidden-icons\" style=\"display: none;\">\n\t\t\t<div class=\"ekit-popup-close-icon\">\n\t\t\t\t<i aria-hidden=\"true\" class=\"icon icon-cancel\"></i>\t\t\t</div>\n\t\t</div>\n\t\t\n<a class=\"ekit_icon_button glow-ripple ekit-video-popup ekit-video-popup-btn\" href=\"https://www.youtube.com/embed/dNsRzNm6qGo?feature=oembed?playlist=dNsRzNm6qGo&amp;mute=0&amp;autoplay=0&amp;loop=no&amp;controls=0&amp;start=0&amp;end=\" aria-label=\"Play video\">\n    <svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-play\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z\"></path></svg></a>\n\t\t\t\t\t</div>\n\t\t</div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-46eb08f e-con-full e-flex e-con e-child\" data-id=\"46eb08f\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"elementor-element elementor-element-0b74416 e-con-full e-flex e-con e-child\" data-id=\"0b74416\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-91feadb elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon\" data-id=\"91feadb\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-icon-wrapper\">\n\t\t\t<div class=\"elementor-icon\">\n\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-user-friends\" viewBox=\"0 0 640 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M192 256c61.9 0 112-50.1 112-112S253.9 32 192 32 80 82.1 80 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C51.6 288 0 339.6 0 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zM480 256c53 0 96-43 96-96s-43-96-96-96-96 43-96 96 43 96 96 96zm48 32h-3.8c-13.9 4.8-28.6 8-44.2 8s-30.3-3.2-44.2-8H432c-20.4 0-39.2 5.9-55.7 15.4 24.4 26.3 39.7 61.2 39.7 99.8v38.4c0 2.2-.5 4.3-.6 6.4H592c26.5 0 48-21.5 48-48 0-61.9-50.1-112-112-112z\"></path></svg>\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-c11ae4b elementor-widget elementor-widget-heading\" data-id=\"c11ae4b\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">1.500+ Alumni di seluruh dunia</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-6dbc5aa e-con-full e-flex e-con e-child\" data-id=\"6dbc5aa\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-9deb4da elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon\" data-id=\"9deb4da\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-icon-wrapper\">\n\t\t\t<div class=\"elementor-icon\">\n\t\t\t<i aria-hidden=\"true\" class=\"icon icon-open-book\"></i>\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-0bcc21f elementor-widget elementor-widget-heading\" data-id=\"0bcc21f\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">10+ Program Studi Unggulan\n</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-6db4166 e-con-full e-flex e-con e-child\" data-id=\"6db4166\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-e381112 elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon\" data-id=\"e381112\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-icon-wrapper\">\n\t\t\t<div class=\"elementor-icon\">\n\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-user-graduate\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M319.4 320.6L224 416l-95.4-95.4C57.1 323.7 0 382.2 0 454.4v9.6c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-9.6c0-72.2-57.1-130.7-128.6-133.8zM13.6 79.8l6.4 1.5v58.4c-7 4.2-12 11.5-12 20.3 0 8.4 4.6 15.4 11.1 19.7L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.3C51.4 175.4 56 168.4 56 160c0-8.8-5-16.1-12-20.3V87.1l66 15.9c-8.6 17.2-14 36.4-14 57 0 70.7 57.3 128 128 128s128-57.3 128-128c0-20.6-5.3-39.8-14-57l96.3-23.2c18.2-4.4 18.2-27.1 0-31.5l-190.4-46c-13-3.1-26.7-3.1-39.7 0L13.6 48.2c-18.1 4.4-18.1 27.2 0 31.6z\"></path></svg>\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-239ea15 elementor-widget elementor-widget-heading\" data-id=\"239ea15\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">50+ Pengajar dan Peneliti Ahli</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-0c60b99 e-con-full e-flex e-con e-child\" data-id=\"0c60b99\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-c5551af e-flex e-con-boxed e-con e-parent\" data-id=\"c5551af\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-48bce1a e-con-full e-flex e-con e-child\" data-id=\"48bce1a\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-f23c3fd elementor-widget elementor-widget-heading\" data-id=\"f23c3fd\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Di Dukung Oleh :</h2>\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-4452b3e elementor-widget elementor-widget-image-carousel\" data-id=\"4452b3e\" data-element_type=\"widget\" data-e-type=\"widget\" data-settings=\"{&quot;slides_to_show&quot;:&quot;6&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:100,&quot;sizes&quot;:[]},&quot;slides_to_show_tablet&quot;:&quot;4&quot;,&quot;slides_to_show_mobile&quot;:&quot;3&quot;,&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:40,&quot;sizes&quot;:[]},&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500,&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}\" data-widget_type=\"image-carousel.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-image-carousel-wrapper swiper\" role=\"region\" aria-roledescription=\"carousel\" aria-label=\"Image Carousel\" dir=\"ltr\">\n\t\t\t<div class=\"elementor-image-carousel swiper-wrapper\" aria-live=\"off\">\n\t\t\t\t\t\t\t\t<div class=\"swiper-slide\" role=\"group\" aria-roledescription=\"slide\" aria-label=\"1 of 6\"><figure class=\"swiper-slide-inner\"><img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/1-1024x1024.png\" alt=\"1\" /></figure></div><div class=\"swiper-slide\" role=\"group\" aria-roledescription=\"slide\" aria-label=\"2 of 6\"><figure class=\"swiper-slide-inner\"><img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/2-1024x1024.png\" alt=\"2\" /></figure></div><div class=\"swiper-slide\" role=\"group\" aria-roledescription=\"slide\" aria-label=\"3 of 6\"><figure class=\"swiper-slide-inner\"><img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/3-1024x1024.png\" alt=\"3\" /></figure></div><div class=\"swiper-slide\" role=\"group\" aria-roledescription=\"slide\" aria-label=\"4 of 6\"><figure class=\"swiper-slide-inner\"><img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/4-1024x1024.png\" alt=\"4\" /></figure></div><div class=\"swiper-slide\" role=\"group\" aria-roledescription=\"slide\" aria-label=\"5 of 6\"><figure class=\"swiper-slide-inner\"><img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/5-1024x1024.png\" alt=\"5\" /></figure></div><div class=\"swiper-slide\" role=\"group\" aria-roledescription=\"slide\" aria-label=\"6 of 6\"><figure class=\"swiper-slide-inner\"><img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/6-1024x1024.png\" alt=\"6\" /></figure></div>\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-e2b798c e-con-full e-flex e-con e-child\" data-id=\"e2b798c\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-0b7e1f7 e-con-full e-flex e-con e-child\" data-id=\"0b7e1f7\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-d2e611a elementor-widget elementor-widget-image\" data-id=\"d2e611a\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"720\" height=\"393\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_14fc7bc09e-1024x559.jpg\" class=\"attachment-large size-large wp-image-138\" alt=\"Institut Nasional AI\" srcset=\"https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_14fc7bc09e-1024x559.jpg 1024w, https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_14fc7bc09e-300x164.jpg 300w, https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_14fc7bc09e-768x419.jpg 768w, https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_14fc7bc09e.jpg 1408w\" sizes=\"(max-width: 720px) 100vw, 720px\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-f164163 e-con-full e-flex e-con e-child\" data-id=\"f164163\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-fc3792f elementor-widget elementor-widget-elementskit-heading\" data-id=\"fc3792f\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"elementskit-heading.default\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" ><div class=\"ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-text_center   ekit_heading_mobile-\"><h3 class=\"elementskit-section-subtitle  elementskit-style-border\">\n\t\t\t\t\t\tTentang Institut Nasional AI\n\t\t\t\t\t</h3><h2 class=\"ekit-heading--title elementskit-section-title \">Siapa Kami</h2>\t\t\t\t<div class='ekit-heading__description'>\n\t\t\t\t\t<p>Institut AI Nasional adalah Institut Nasional yang berfokus pada pendidikan, riset, dan pengembangan teknologi kecerdasan buatan. Kami percaya bahwa AI harus dikembangkan dengan nilai kemanusiaan, etika, dan keberlanjutan.</p>\n\t\t\t\t</div>\n\t\t\t</div></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-fc080d7 e-con-full e-flex e-con e-child\" data-id=\"fc080d7\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-2fd4b65 e-con-full e-flex e-con e-child\" data-id=\"2fd4b65\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-96af484 elementor-widget elementor-widget-text-editor\" data-id=\"96af484\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t\t\t\t\t\t<h2><strong>Visi</strong></h2><p>Menjadi pusat rujukan AI di Asia yang melahirkan pengetahuan, menumbuhkan talenta, dan merumuskan kebijakan demi terciptanya peradaban yang lebih adil, aman, dan berkelanjutan.</p><h2><strong>Misi</strong></h2><ul><li>Menyelenggarakan pendidikan AI dengan standar global yang tetap berpijak pada tantangan dan kebutuhan Indonesia.</li><li>Menghasilkan riset lintas disiplin yang memberi dampak langsung pada masyarakat dan industri.</li><li>Membangun ekosistem inovasi dan kewirausahaan yang mendorong lahirnya solusi nyata serta transfer teknologi.</li><li>Menjadikan etika, hak asasi manusia, dan keamanan sebagai prinsip utama dalam setiap langkah kami.</li></ul>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-92ba438 e-con-full e-flex e-con e-child\" data-id=\"92ba438\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-2e7ee2f elementor-widget elementor-widget-image\" data-id=\"2e7ee2f\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"720\" height=\"393\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_84d9ae0bfe-1024x559.jpg\" class=\"attachment-large size-large wp-image-139\" alt=\"Institut Nasional AI\" srcset=\"https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_84d9ae0bfe-1024x559.jpg 1024w, https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_84d9ae0bfe-300x164.jpg 300w, https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_84d9ae0bfe-768x419.jpg 768w, https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_84d9ae0bfe.jpg 1408w\" sizes=\"(max-width: 720px) 100vw, 720px\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-4b57016 e-con-full e-flex e-con e-child\" data-id=\"4b57016\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-e1474cd e-flex e-con-boxed e-con e-child\" data-id=\"e1474cd\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-c1d87cf elementor-position-left elementor-vertical-align-middle elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-image-box\" data-id=\"c1d87cf\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image-box.default\">\n\t\t\t\t\t<div class=\"elementor-image-box-wrapper\"><figure class=\"elementor-image-box-img\"><img loading=\"lazy\" decoding=\"async\" width=\"1019\" height=\"1024\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/Pak-1019x1024-1.jpeg\" class=\"attachment-full size-full wp-image-214\" alt=\"Institut Nasional\" srcset=\"https://institutnasional.ai/wp-content/uploads/2025/09/Pak-1019x1024-1.jpeg 1019w, https://institutnasional.ai/wp-content/uploads/2025/09/Pak-1019x1024-1-300x300.jpeg 300w, https://institutnasional.ai/wp-content/uploads/2025/09/Pak-1019x1024-1-150x150.jpeg 150w, https://institutnasional.ai/wp-content/uploads/2025/09/Pak-1019x1024-1-768x772.jpeg 768w\" sizes=\"(max-width: 1019px) 100vw, 1019px\" /></figure><div class=\"elementor-image-box-content\"><h3 class=\"elementor-image-box-title\">Dian Martin</h3><p class=\"elementor-image-box-description\">Head of the Institute</p></div></div>\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-6b2abc1 e-con-full e-flex e-con e-child\" data-id=\"6b2abc1\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-e6760d7 e-con-full e-flex e-con e-child\" data-id=\"e6760d7\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-0f4e3f6 e-con-full e-flex e-con e-child\" data-id=\"0f4e3f6\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-c3722db e-con-full e-flex e-con e-child\" data-id=\"c3722db\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-c7fa821 elementor-widget elementor-widget-image\" data-id=\"c7fa821\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"720\" height=\"720\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_d1ea02e23b.jpg\" class=\"attachment-large size-large wp-image-190\" alt=\"Institur Nasional AI\" srcset=\"https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_d1ea02e23b.jpg 1024w, https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_d1ea02e23b-300x300.jpg 300w, https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_d1ea02e23b-150x150.jpg 150w, https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_d1ea02e23b-768x768.jpg 768w\" sizes=\"(max-width: 720px) 100vw, 720px\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-b8ce2d7 elementor-widget elementor-widget-image\" data-id=\"b8ce2d7\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"720\" height=\"720\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_f50888c87d.jpg\" class=\"attachment-large size-large wp-image-191\" alt=\"Institur Nasional AI\" srcset=\"https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_f50888c87d.jpg 1024w, https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_f50888c87d-300x300.jpg 300w, https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_f50888c87d-150x150.jpg 150w, https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_f50888c87d-768x768.jpg 768w\" sizes=\"(max-width: 720px) 100vw, 720px\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-8d8bd5e e-con-full e-flex e-con e-child\" data-id=\"8d8bd5e\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-275e5a2 elementor-widget elementor-widget-image\" data-id=\"275e5a2\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"720\" height=\"720\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_8a4657223d.png\" class=\"attachment-large size-large wp-image-189\" alt=\"Institur Nasional AI\" srcset=\"https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_8a4657223d.png 1024w, https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_8a4657223d-300x300.png 300w, https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_8a4657223d-150x150.png 150w, https://institutnasional.ai/wp-content/uploads/2025/09/Whisk_8a4657223d-768x768.png 768w\" sizes=\"(max-width: 720px) 100vw, 720px\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-0680b16 e-con-full e-flex e-con e-child\" data-id=\"0680b16\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-793fcbd elementor-widget elementor-widget-heading\" data-id=\"793fcbd\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Alumni Network: Platform networking dengan 1,000+ alumni di seluruh daerah</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-aa273fb e-flex e-con-boxed e-con e-parent\" data-id=\"aa273fb\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-a2d6269 elementor-widget elementor-widget-elementskit-heading\" data-id=\"a2d6269\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"elementskit-heading.default\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" ><div class=\"ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-   ekit_heading_mobile-\"><h3 class=\"elementskit-section-subtitle  elementskit-style-border\">\n\t\t\t\t\t\tPembelajaran Berbasis Proyek dan Riset\n\t\t\t\t\t</h3><h2 class=\"ekit-heading--title elementskit-section-title \">Program Studi</h2>\t\t\t\t<div class='ekit-heading__description'>\n\t\t\t\t\t<p>Mahasiswa tidak hanya belajar di kelas, tetapi juga mengerjakan proyek nyata bersama mitra industri, pemerintah, dan lembaga riset. </p>\n\t\t\t\t</div>\n\t\t\t</div></div>\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-b3e3601 elementor-widget elementor-widget-heading\" data-id=\"b3e3601\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Program Diploma (Vokasi) <br>Diploma (D3) </h2>\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-3087b98 e-flex e-con-boxed e-con e-parent\" data-id=\"3087b98\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-ca2eea1 e-con-full e-flex e-con e-child\" data-id=\"ca2eea1\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"elementor-element elementor-element-061f84d e-con-full e-flex e-con e-child\" data-id=\"061f84d\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-4355399 elementor-widget elementor-widget-heading\" data-id=\"4355399\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">D3 Ilmu Data Terapan &amp; AI</h2>\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-b689c28 elementor-widget elementor-widget-text-editor\" data-id=\"b689c28\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t\t\t\t\t\t<p style=\"text-align: center;\"><span style=\"color: #ffffff;\">Membekali keterampilan teknis dalam analisis data, visualisasi, serta penerapan AI praktis untuk kebutuhan industri modern.</span></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-c6ada69 e-con-full e-flex e-con e-child\" data-id=\"c6ada69\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"elementor-element elementor-element-01cb914 e-con-full e-flex e-con e-child\" data-id=\"01cb914\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-aa1ddad elementor-widget elementor-widget-heading\" data-id=\"aa1ddad\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">D3 Digital Marketing &amp; AI</h2>\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-d4022ef elementor-widget elementor-widget-text-editor\" data-id=\"d4022ef\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t\t\t\t\t\t<p style=\"text-align: center;\"><span style=\"color: #ffffff;\">Menggabungkan strategi pemasaran digital dengan AI untuk analitik konsumen, segmentasi pasar, dan optimasi kampanye bisnis.</span></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-cfbaae4 e-con-full e-flex e-con e-child\" data-id=\"cfbaae4\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"elementor-element elementor-element-f6889e1 e-con-full e-flex e-con e-child\" data-id=\"f6889e1\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-281da62 elementor-widget elementor-widget-heading\" data-id=\"281da62\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">D3 Keamanan Informasi</h2>\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-e8d3786 elementor-widget elementor-widget-text-editor\" data-id=\"e8d3786\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t\t\t\t\t\t<p><span style=\"color: #ffffff;\">Fokus pada keamanan data, jaringan, dan sistem dengan keterampilan forensik digital, manajemen risiko, serta penerapan AI di siber.</span></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-f86e899 e-flex e-con-boxed e-con e-parent\" data-id=\"f86e899\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-df21f99 e-con-full e-flex e-con e-child\" data-id=\"df21f99\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-71b8aa4 e-con-full e-flex e-con e-child\" data-id=\"71b8aa4\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-d06a045 elementor-widget elementor-widget-elementskit-heading\" data-id=\"d06a045\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"elementskit-heading.default\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" ><div class=\"ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-text_center   ekit_heading_mobile-\"><h3 class=\"elementskit-section-subtitle  elementskit-style-border\">\n\t\t\t\t\t\tInstitut Nasional AI\n\t\t\t\t\t</h3><h2 class=\"ekit-heading--title elementskit-section-title \">Mengapa Memilih IInstitut AI Nasional?</h2>\t\t\t\t<div class='ekit-heading__description'>\n\t\t\t\t\t<p>Di Institut AI Nasional, kami percaya belajar bukan sekadar duduk di kelas. Di sini, Anda akan dibimbing oleh dosen dan peneliti berpengalaman, mengeksplorasi teknologi terbaru di laboratorium modern, serta terhubung langsung dengan industri global. Kami ingin setiap mahasiswa tidak hanya memahami teori, tapi juga siap berkarya, berinovasi, dan memberi dampak nyata bagi masyarakat.</p>\n\t\t\t\t</div>\n\t\t\t</div></div>\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-559907f e-con-full e-flex e-con e-child\" data-id=\"559907f\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-192491f e-con-full e-flex e-con e-child\" data-id=\"192491f\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-67baac4 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-tablet-align-center elementor-mobile-align-start elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list\" data-id=\"67baac4\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon-list.default\">\n\t\t\t\t\t\t\t<ul class=\"elementor-icon-list-items\">\n\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z\"></path></svg>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Belajar dari Praktisi Berpengalaman</span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-b1466f9 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-tablet-align-center elementor-mobile-align-start elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list\" data-id=\"b1466f9\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon-list.default\">\n\t\t\t\t\t\t\t<ul class=\"elementor-icon-list-items\">\n\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z\"></path></svg>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Kurikulum yang Ngikutin Zaman</span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-edb0ef5 e-con-full e-flex e-con e-child\" data-id=\"edb0ef5\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-96fa081 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-tablet-align-center elementor-mobile-align-start elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list\" data-id=\"96fa081\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon-list.default\">\n\t\t\t\t\t\t\t<ul class=\"elementor-icon-list-items\">\n\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z\"></path></svg>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Materi Pembelajaran Interaktif</span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-b87f8b8 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-tablet-align-center elementor-mobile-align-start elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list\" data-id=\"b87f8b8\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon-list.default\">\n\t\t\t\t\t\t\t<ul class=\"elementor-icon-list-items\">\n\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z\"></path></svg>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Koneksi Industri </span>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-6c3b6b0 e-con-full e-flex e-con e-child\" data-id=\"6c3b6b0\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-3174616 e-con-full e-flex e-con e-child\" data-id=\"3174616\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-52f26a1 elementor-widget elementor-widget-button\" data-id=\"52f26a1\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"button.default\">\n\t\t\t\t\t\t\t\t\t\t<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"https://wa.link/xdg9qy\" target=\"_blank\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t\t\t\t<span class=\"elementor-button-text\">GET STARTED NOW</span>\n\t\t\t\t\t</span>\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-e2651f0 e-con-full e-flex e-con e-child\" data-id=\"e2651f0\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-ba8abe1 elementor-view-stacked elementor-shape-circle elementor-widget elementor-widget-icon\" data-id=\"ba8abe1\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-icon-wrapper\">\n\t\t\t<div class=\"elementor-icon\">\n\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fab-whatsapp-square\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M224 122.8c-72.7 0-131.8 59.1-131.9 131.8 0 24.9 7 49.2 20.2 70.1l3.1 5-13.3 48.6 49.9-13.1 4.8 2.9c20.2 12 43.4 18.4 67.1 18.4h.1c72.6 0 133.3-59.1 133.3-131.8 0-35.2-15.2-68.3-40.1-93.2-25-25-58-38.7-93.2-38.7zm77.5 188.4c-3.3 9.3-19.1 17.7-26.7 18.8-12.6 1.9-22.4.9-47.5-9.9-39.7-17.2-65.7-57.2-67.7-59.8-2-2.6-16.2-21.5-16.2-41s10.2-29.1 13.9-33.1c3.6-4 7.9-5 10.6-5 2.6 0 5.3 0 7.6.1 2.4.1 5.7-.9 8.9 6.8 3.3 7.9 11.2 27.4 12.2 29.4s1.7 4.3.3 6.9c-7.6 15.2-15.7 14.6-11.6 21.6 15.3 26.3 30.6 35.4 53.9 47.1 4 2 6.3 1.7 8.6-1 2.3-2.6 9.9-11.6 12.5-15.5 2.6-4 5.3-3.3 8.9-2 3.6 1.3 23.1 10.9 27.1 12.9s6.6 3 7.6 4.6c.9 1.9.9 9.9-2.4 19.1zM400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM223.9 413.2c-26.6 0-52.7-6.7-75.8-19.3L64 416l22.5-82.2c-13.9-24-21.2-51.3-21.2-79.3C65.4 167.1 136.5 96 223.9 96c42.4 0 82.2 16.5 112.2 46.5 29.9 30 47.9 69.8 47.9 112.2 0 87.4-72.7 158.5-160.1 158.5z\"></path></svg>\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-a3673ff elementor-widget elementor-widget-elementskit-heading\" data-id=\"a3673ff\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"elementskit-heading.default\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" ><div class=\"ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-   ekit_heading_mobile-\"><h3 class=\"elementskit-section-subtitle  \">\n\t\t\t\t\t\tCall Us Now !\n\t\t\t\t\t</h3><a href=\"#\"><h2 class=\"ekit-heading--title elementskit-section-title \">+62 819-0111-2308</h2></a></div></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-df1b9fd e-con-full e-flex e-con e-child\" data-id=\"df1b9fd\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-5e4e0b9 elementor-widget elementor-widget-image\" data-id=\"5e4e0b9\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img decoding=\"async\" src=\"https://demo.bosathemes.com/bosa/university/wp-content/uploads/sites/148/2025/01/image-6.png\" title=\"\" alt=\"\" loading=\"lazy\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-56d3cb4 e-flex e-con-boxed e-con e-parent\" data-id=\"56d3cb4\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-f18efd6 elementor-widget elementor-widget-elementskit-heading\" data-id=\"f18efd6\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"elementskit-heading.default\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" ><div class=\"ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-   ekit_heading_mobile-\"><h3 class=\"elementskit-section-subtitle  elementskit-style-border\">\n\t\t\t\t\t\tCLIENT&#039;S REVIEWS\n\t\t\t\t\t</h3><h2 class=\"ekit-heading--title elementskit-section-title \">🎓 Testimoni Mahasiswa <br>Institut AI Nasional</h2></div></div>\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-6afd228 e-con-full e-flex e-con e-child\" data-id=\"6afd228\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-a1e57dc e-con-full e-flex e-con e-child\" data-id=\"a1e57dc\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-01d3b74 elementor-widget elementor-widget-video\" data-id=\"01d3b74\" data-element_type=\"widget\" data-e-type=\"widget\" data-settings=\"{&quot;youtube_url&quot;:&quot;https:\\/\\/www.youtube.com\\/watch?v=dNsRzNm6qGo&amp;ab_channel=Asosiasiai&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;}\" data-widget_type=\"video.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-wrapper elementor-open-inline\">\n\t\t\t<div class=\"elementor-video\"></div>\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-d5b4736 e-con-full e-flex e-con e-child\" data-id=\"d5b4736\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-019eff5 elementor-widget elementor-widget-video\" data-id=\"019eff5\" data-element_type=\"widget\" data-e-type=\"widget\" data-settings=\"{&quot;youtube_url&quot;:&quot;https:\\/\\/www.youtube.com\\/shorts\\/q9LpgC_pxBw&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;}\" data-widget_type=\"video.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-wrapper elementor-open-inline\">\n\t\t\t<div class=\"elementor-video\"></div>\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-3463eed e-con-full e-flex e-con e-child\" data-id=\"3463eed\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-a65d6f9 e-con-full e-flex e-con e-child\" data-id=\"a65d6f9\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-f3f96cc elementor-widget elementor-widget-video\" data-id=\"f3f96cc\" data-element_type=\"widget\" data-e-type=\"widget\" data-settings=\"{&quot;youtube_url&quot;:&quot;https:\\/\\/www.youtube.com\\/shorts\\/J2rEkDF3x30&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;}\" data-widget_type=\"video.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-wrapper elementor-open-inline\">\n\t\t\t<div class=\"elementor-video\"></div>\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-6e202c7 e-con-full e-flex e-con e-child\" data-id=\"6e202c7\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t<div class=\"elementor-element elementor-element-b75a3a5 elementor-widget elementor-widget-video\" data-id=\"b75a3a5\" data-element_type=\"widget\" data-e-type=\"widget\" data-settings=\"{&quot;youtube_url&quot;:&quot;https:\\/\\/www.youtube.com\\/shorts\\/cqbrB-gHPeM&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;}\" data-widget_type=\"video.default\">\n\t\t\t\t\t\t\t<div class=\"elementor-wrapper elementor-open-inline\">\n\t\t\t<div class=\"elementor-video\"></div>\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-24ee16c e-flex e-con-boxed e-con e-parent\" data-id=\"24ee16c\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-f48f7e7 e-con-full e-flex e-con e-child\" data-id=\"f48f7e7\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-97090d6 e-con-full e-flex e-con e-child\" data-id=\"97090d6\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-53f71d5 elementor-widget elementor-widget-elementskit-heading\" data-id=\"53f71d5\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"elementskit-heading.default\">\n\t\t\t\t\t<div class=\"ekit-wid-con\" ><div class=\"ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-text_center   ekit_heading_mobile-\"><h3 class=\"elementskit-section-subtitle  elementskit-style-border\">\n\t\t\t\t\t\tOUR LATEST NEWS\n\t\t\t\t\t</h3><h2 class=\"ekit-heading--title elementskit-section-title \">Our Blogs &amp; Insights</h2></div></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-c297cd7 e-con-full e-flex e-con e-child\" data-id=\"c297cd7\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-35d4470 elementor-widget elementor-widget-button\" data-id=\"35d4470\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"button.default\">\n\t\t\t\t\t\t\t\t\t\t<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"#\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t\t\t\t<span class=\"elementor-button-text\">MORE BLOGS</span>\n\t\t\t\t\t</span>\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-7b1eb2e e-con-full e-flex e-con e-child\" data-id=\"7b1eb2e\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-46cc671 elementor-widget elementor-widget-bew-elements-blog\" data-id=\"46cc671\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"bew-elements-blog.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\r\n\t\t<section class=\"bew-elements-widgets display-grid bew-display-grid bew-elements-container bew-blog-grid\" desktop-col=\"3\" tablet-col=\"2\" mobile-col=\"1\">\r\n            \r\n                <div class=\"bew-elements-post\">\r\n                    <article class=\"bew-elements-post-inner\">\r\n                    \t\t                    \t<div class=\"bew-featured-image\">\r\n\t                    \t\t<a href=\"https://institutnasional.ai/10-prompt-miniatur-gemini-ai-ciptakan-foto-realistis-kreatif-tanpa-batas/\">\r\n\t\t\t                       <img loading=\"lazy\" decoding=\"async\" width=\"720\" height=\"720\" src=\"https://institutnasional.ai/wp-content/uploads/2025/09/Gemini_Generated_Image_qunhwcqunhwcqunh-768x768.png\" class=\"attachment-medium_large size-medium_large wp-post-image\" alt=\"10 Prompt Miniatur Gemini AI: Ciptakan Foto Realistis Kreatif Tanpa Batas\" itemprop=\"image\" srcset=\"https://institutnasional.ai/wp-content/uploads/2025/09/Gemini_Generated_Image_qunhwcqunhwcqunh-768x768.png 768w, https://institutnasional.ai/wp-content/uploads/2025/09/Gemini_Generated_Image_qunhwcqunhwcqunh-300x300.png 300w, https://institutnasional.ai/wp-content/uploads/2025/09/Gemini_Generated_Image_qunhwcqunhwcqunh-1024x1024.png 1024w, https://institutnasional.ai/wp-content/uploads/2025/09/Gemini_Generated_Image_qunhwcqunhwcqunh-150x150.png 150w, https://institutnasional.ai/wp-content/uploads/2025/09/Gemini_Generated_Image_qunhwcqunhwcqunh-1536x1536.png 1536w, https://institutnasional.ai/wp-content/uploads/2025/09/Gemini_Generated_Image_qunhwcqunhwcqunh.png 2048w\" sizes=\"(max-width: 720px) 100vw, 720px\" />\t\t\t\t\t\t\t\t</a>\r\n\t\t                    </div>\r\n\t                    \t                    <div class=\"bew-blog-content\">\r\n\t                        \t                        \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"bew-blog-title\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://institutnasional.ai/10-prompt-miniatur-gemini-ai-ciptakan-foto-realistis-kreatif-tanpa-batas/\">\r\n\t\t                        \t\t10 Prompt Miniatur Gemini AI: Ciptakan Foto Realistis Kreatif Tanpa Batas\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</h3>\r\n\t\t\t\t\t\t\t\t                        <div class=\"bew-post-meta\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                    </div>\r\n\t\t\t\t\t\t\t\t                        <div class=\"bew-blog-excerpt\">\r\n\t                        \tDunia fotografi miniatur biasanya identik dengan studio penuh properti kecil, figur mainan, dan pencahayaan\t                        </div>\r\n\t                        \t\t\t\t\t\t\t<div class=\"bew-blog-btn \" >\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://institutnasional.ai/10-prompt-miniatur-gemini-ai-ciptakan-foto-realistis-kreatif-tanpa-batas/\" class=\"read-more-blog elementor-button-link elementor-size-sm\" role=\"button\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\r\n\t\t\t\t\t\t\t<span class=\"elementor-button-icon elementor-align-icon-right\">\r\n\t\t\t\t<i aria-hidden=\"true\" class=\"icon icon-arrow-right\"></i>\t\t\t</span>\r\n\t\t\t\t\t\t<span class=\"elementor-button-text\">LEARN MORE</span>\r\n\t\t</span>\r\n\t\t\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>\r\n\t                    </div>\r\n                    </article>\r\n                </div>\r\n\r\n            \r\n                <div class=\"bew-elements-post\">\r\n                    <article class=\"bew-elements-post-inner\">\r\n                    \t\t                    \t<div class=\"bew-featured-image\">\r\n\t                    \t\t<a href=\"https://institutnasional.ai/mit-bongkar-fakta-chatgpt-produktivitas-naik-37-kualitas-kerja-lebih-baik-18/\">\r\n\t\t\t                       <img loading=\"lazy\" decoding=\"async\" width=\"720\" height=\"720\" src=\"https://institutnasional.ai/wp-content/uploads/2025/01/Whisk_d117807b8f-768x768.jpg\" class=\"attachment-medium_large size-medium_large wp-post-image\" alt=\"MIT Bongkar Fakta ChatGPT: Produktivitas Naik 37%, Kualitas Kerja Lebih Baik 18%\" itemprop=\"image\" srcset=\"https://institutnasional.ai/wp-content/uploads/2025/01/Whisk_d117807b8f-768x768.jpg 768w, https://institutnasional.ai/wp-content/uploads/2025/01/Whisk_d117807b8f-300x300.jpg 300w, https://institutnasional.ai/wp-content/uploads/2025/01/Whisk_d117807b8f-150x150.jpg 150w, https://institutnasional.ai/wp-content/uploads/2025/01/Whisk_d117807b8f.jpg 1024w\" sizes=\"(max-width: 720px) 100vw, 720px\" />\t\t\t\t\t\t\t\t</a>\r\n\t\t                    </div>\r\n\t                    \t                    <div class=\"bew-blog-content\">\r\n\t                        \t                        \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"bew-blog-title\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://institutnasional.ai/mit-bongkar-fakta-chatgpt-produktivitas-naik-37-kualitas-kerja-lebih-baik-18/\">\r\n\t\t                        \t\tMIT Bongkar Fakta ChatGPT: Produktivitas Naik 37%, Kualitas Kerja Lebih Baik 18%\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</h3>\r\n\t\t\t\t\t\t\t\t                        <div class=\"bew-post-meta\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                    </div>\r\n\t\t\t\t\t\t\t\t                        <div class=\"bew-blog-excerpt\">\r\n\t                        \tChatGPT, Bukan Sekadar Teman Ngobrol Banyak orang masih melihat ChatGPT sebagai chatbot pintar yang\t                        </div>\r\n\t                        \t\t\t\t\t\t\t<div class=\"bew-blog-btn \" >\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://institutnasional.ai/mit-bongkar-fakta-chatgpt-produktivitas-naik-37-kualitas-kerja-lebih-baik-18/\" class=\"read-more-blog elementor-button-link elementor-size-sm\" role=\"button\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper elementor-button-content-wrapper\">\r\n\t\t\t\t\t\t\t<span class=\"elementor-button-icon elementor-align-icon-right elementor-button-icon elementor-align-icon-right\">\r\n\t\t\t\t<i aria-hidden=\"true\" class=\"icon icon-arrow-right\"></i>\t\t\t</span>\r\n\t\t\t\t\t\t<span class=\"elementor-button-text elementor-button-text\">LEARN MORE</span>\r\n\t\t</span>\r\n\t\t\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>\r\n\t                    </div>\r\n                    </article>\r\n                </div>\r\n\r\n            \r\n                <div class=\"bew-elements-post\">\r\n                    <article class=\"bew-elements-post-inner\">\r\n                    \t\t                    \t<div class=\"bew-featured-image\">\r\n\t                    \t\t<a href=\"https://institutnasional.ai/who-ingatkan-bahaya-ai-selamatkan-jutaan-nyawa-tapi-risiko-etika-kesehatan-mengintai/\">\r\n\t\t\t                       <img loading=\"lazy\" decoding=\"async\" width=\"720\" height=\"720\" src=\"https://institutnasional.ai/wp-content/uploads/2025/01/Whisk_2c8cf19dd8-768x768.jpg\" class=\"attachment-medium_large size-medium_large wp-post-image\" alt=\"WHO Ingatkan Bahaya AI: Selamatkan Jutaan Nyawa, tapi Risiko Etika Kesehatan Mengintai\" itemprop=\"image\" srcset=\"https://institutnasional.ai/wp-content/uploads/2025/01/Whisk_2c8cf19dd8-768x768.jpg 768w, https://institutnasional.ai/wp-content/uploads/2025/01/Whisk_2c8cf19dd8-300x300.jpg 300w, https://institutnasional.ai/wp-content/uploads/2025/01/Whisk_2c8cf19dd8-150x150.jpg 150w, https://institutnasional.ai/wp-content/uploads/2025/01/Whisk_2c8cf19dd8.jpg 1024w\" sizes=\"(max-width: 720px) 100vw, 720px\" />\t\t\t\t\t\t\t\t</a>\r\n\t\t                    </div>\r\n\t                    \t                    <div class=\"bew-blog-content\">\r\n\t                        \t                        \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"bew-blog-title\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://institutnasional.ai/who-ingatkan-bahaya-ai-selamatkan-jutaan-nyawa-tapi-risiko-etika-kesehatan-mengintai/\">\r\n\t\t                        \t\tWHO Ingatkan Bahaya AI: Selamatkan Jutaan Nyawa, tapi Risiko Etika Kesehatan Mengintai\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</h3>\r\n\t\t\t\t\t\t\t\t                        <div class=\"bew-post-meta\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                    </div>\r\n\t\t\t\t\t\t\t\t                        <div class=\"bew-blog-excerpt\">\r\n\t                        \tArtificial Intelligence kini tidak hanya hadir di ruang kerja atau dunia bisnis, tapi juga\t                        </div>\r\n\t                        \t\t\t\t\t\t\t<div class=\"bew-blog-btn \" >\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://institutnasional.ai/who-ingatkan-bahaya-ai-selamatkan-jutaan-nyawa-tapi-risiko-etika-kesehatan-mengintai/\" class=\"read-more-blog elementor-button-link elementor-size-sm\" role=\"button\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper elementor-button-content-wrapper elementor-button-content-wrapper\">\r\n\t\t\t\t\t\t\t<span class=\"elementor-button-icon elementor-align-icon-right elementor-button-icon elementor-align-icon-right elementor-button-icon elementor-align-icon-right\">\r\n\t\t\t\t<i aria-hidden=\"true\" class=\"icon icon-arrow-right\"></i>\t\t\t</span>\r\n\t\t\t\t\t\t<span class=\"elementor-button-text elementor-button-text elementor-button-text\">LEARN MORE</span>\r\n\t\t</span>\r\n\t\t\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>\r\n\t                    </div>\r\n                    </article>\r\n                </div>\r\n\r\n                  \t</section>\r\n\t\r\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+   "protected": false
+  },
+  "excerpt": {
+   "rendered": "<p>Welcome To Institut AI Nasional Institut AI Nasional Belajar, Berkarya &amp; Beretika Institut AI Nasional adalah lembaga pendidikan dan penelitian yang memadukan sains, teknologi, dan nilai kemanusiaan. Kami memandang kecerdasan buatan bukan hanya sebagai sarana komputasi, tetapi juga sebagai pendekatan ilmiah untuk memahami serta mencari solusi atas tantangan nyata, mulai dari kesenjangan pendidikan hingga isu keberlanjutan lingkungan global.  LEARN MORE [&hellip;]</p>\n",
+   "protected": false
+  },
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "template": "elementor_header_footer",
+  "yoast_head_json": {
+   "title": "Institut AI Nasional Belajar, Berkarya & Beretika",
+   "description": "Institut AI Nasional adalah lembaga pendidikan dan penelitian yang memadukan sains, teknologi, dan nilai kemanusiaan.",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://institutnasional.ai/institut-ai-nasional/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Institut AI Nasional Belajar, Berkarya & Beretika",
+   "og_description": "Institut AI Nasional adalah lembaga pendidikan dan penelitian yang memadukan sains, teknologi, dan nilai kemanusiaan.",
+   "og_url": "https://institutnasional.ai/institut-ai-nasional/",
+   "og_site_name": "Institut AI Nasional",
+   "article_modified_time": "2025-09-03T09:44:39+00:00",
+   "og_image": [
+    {
+     "url": "https://institutnasional.ai/wp-content/uploads/2025/09/1-1024x1024.png",
+     "type": "",
+     "width": "",
+     "height": ""
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Est. reading time": "6 minutes"
+   },
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://institutnasional.ai/institut-ai-nasional/",
+      "url": "https://institutnasional.ai/institut-ai-nasional/",
+      "name": "Institut AI Nasional Belajar, Berkarya & Beretika",
+      "isPartOf": {
+       "@id": "https://institutnasional.ai/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://institutnasional.ai/institut-ai-nasional/#primaryimage"
+      },
+      "image": {
+       "@id": "https://institutnasional.ai/institut-ai-nasional/#primaryimage"
+      },
+      "thumbnailUrl": "https://institutnasional.ai/wp-content/uploads/2025/09/1-1024x1024.png",
+      "datePublished": "2025-01-24T05:14:50+00:00",
+      "dateModified": "2025-09-03T09:44:39+00:00",
+      "description": "Institut AI Nasional adalah lembaga pendidikan dan penelitian yang memadukan sains, teknologi, dan nilai kemanusiaan.",
+      "breadcrumb": {
+       "@id": "https://institutnasional.ai/institut-ai-nasional/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://institutnasional.ai/institut-ai-nasional/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://institutnasional.ai/institut-ai-nasional/#primaryimage",
+      "url": "https://institutnasional.ai/wp-content/uploads/2025/09/1.png",
+      "contentUrl": "https://institutnasional.ai/wp-content/uploads/2025/09/1.png",
+      "width": 1536,
+      "height": 1536
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://institutnasional.ai/institut-ai-nasional/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://institutnasional.ai/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Home"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://institutnasional.ai/#website",
+      "url": "https://institutnasional.ai/",
+      "name": "Institut AI Nasional",
+      "description": "",
+      "publisher": {
+       "@id": "https://institutnasional.ai/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://institutnasional.ai/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://institutnasional.ai/#organization",
+      "name": "Institut AI Nasional",
+      "url": "https://institutnasional.ai/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://institutnasional.ai/#/schema/logo/image/",
+       "url": "https://institutnasional.ai/wp-content/uploads/2025/09/Institut-AI-Nasional-Logo-Rec-White-scaled.png",
+       "contentUrl": "https://institutnasional.ai/wp-content/uploads/2025/09/Institut-AI-Nasional-Logo-Rec-White-scaled.png",
+       "width": 2560,
+       "height": 857,
+       "caption": "Institut AI Nasional"
+      },
+      "image": {
+       "@id": "https://institutnasional.ai/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  }
+ }
+]
