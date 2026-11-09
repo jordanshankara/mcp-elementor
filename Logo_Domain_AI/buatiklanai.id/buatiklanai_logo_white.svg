@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><mask id="m_buatiklanai" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200"><rect width="200" height="200" fill="#000000"/>
+  <path d="M14 100 Q100 22 186 100 Q100 178 14 100 Z" fill="#FFFFFF"/>
+  <circle cx="100" cy="100" r="40" fill="#000000"/>
+  <circle cx="100" cy="100" r="31" fill="#FFFFFF"/>
+  <circle cx="100" cy="100" r="20" fill="#000000"/>
+  <circle cx="100" cy="100" r="10" fill="#FFFFFF"/></mask></defs><rect width="200" height="200" fill="#FFFFFF" mask="url(#m_buatiklanai)"/>
+  <path d="M14 100 Q100 22 186 100 Q100 178 14 100 Z" fill="none"/>
+  <circle cx="100" cy="100" r="40" fill="none"/>
+  <circle cx="100" cy="100" r="31" fill="none"/>
+  <circle cx="100" cy="100" r="20" fill="none"/>
+  <circle cx="100" cy="100" r="10" fill="#F5C518"/>
+</svg>

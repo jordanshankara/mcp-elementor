@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><mask id="m_aianalisadata" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200"><rect width="200" height="200" fill="#000000"/>
+  <path d="M48 34 Q48 26 56 26 H118 L152 60 V166 Q152 174 144 174 H56 Q48 174 48 166 Z" fill="#FFFFFF"/>
+  <path d="M118 26 V60 H152 Z" fill="#FFFFFF"/>
+  <rect x="64" y="70" width="64" height="12" rx="2" fill="#000000"/><rect x="64" y="92" width="50" height="12" rx="2" fill="#000000"/><rect x="64" y="114" width="38" height="12" rx="2" fill="#000000"/><rect x="64" y="136" width="26" height="12" rx="2" fill="#000000"/>
+  <rect x="64" y="156" width="72" height="4" rx="2" fill="#000000"/></mask></defs><rect width="200" height="200" fill="#FFFFFF" mask="url(#m_aianalisadata)"/>
+  <path d="M48 34 Q48 26 56 26 H118 L152 60 V166 Q152 174 144 174 H56 Q48 174 48 166 Z" fill="none"/>
+  <path d="M118 26 V60 H152 Z" fill="#F5C518"/>
+  <rect x="64" y="70" width="64" height="12" rx="2" fill="none"/><rect x="64" y="92" width="50" height="12" rx="2" fill="none"/><rect x="64" y="114" width="38" height="12" rx="2" fill="none"/><rect x="64" y="136" width="26" height="12" rx="2" fill="none"/>
+  <rect x="64" y="156" width="72" height="4" rx="2" fill="none"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><mask id="m_bikinkontenai" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200"><rect width="200" height="200" fill="#000000"/>
+  <rect x="66" y="32" width="68" height="14" rx="4" fill="#FFFFFF"/>
+  <path d="M58 64 Q58 52 70 52 H130 Q142 52 142 64 V84 C142 116 120 144 100 178 C80 144 58 116 58 84 Z" fill="#FFFFFF"/>
+  <path d="M91 80 L118 96 L91 112 Z" fill="#FFFFFF"/>
+  <rect x="98" y="120" width="4" height="54" fill="#000000"/></mask></defs><rect width="200" height="200" fill="#FFFFFF" mask="url(#m_bikinkontenai)"/>
+  <rect x="66" y="32" width="68" height="14" rx="4" fill="none"/>
+  <path d="M58 64 Q58 52 70 52 H130 Q142 52 142 64 V84 C142 116 120 144 100 178 C80 144 58 116 58 84 Z" fill="none"/>
+  <path d="M91 80 L118 96 L91 112 Z" fill="#F5C518"/>
+  <rect x="98" y="120" width="4" height="54" fill="none"/>
+</svg>
