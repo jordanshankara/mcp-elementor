@@ -2,7 +2,7 @@
 /**
  * Plugin Name: PusatRiset Data
  * Description: Katalog riset AI (35 ribuan paper) di tabel khusus (bukan post): impor batch, pencarian FULLTEXT + sinonim, filter, halaman detail /riset/<id>, dashboard tren, BibTeX, sanggahan. Tampilan identik dengan aplikasi PusatRiset.ai lama.
- * Version: 0.1.4
+ * Version: 0.1.5
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Asosiasi AI Indonesia
@@ -12,7 +12,7 @@
 
 if (!defined('ABSPATH')) exit;
 
-define('PR_VERSION', '0.1.4');
+define('PR_VERSION', '0.1.5');
 define('PR_DB_VERSION', 1);
 define('PR_DIR', plugin_dir_path(__FILE__));
 define('PR_URL', plugin_dir_url(__FILE__));

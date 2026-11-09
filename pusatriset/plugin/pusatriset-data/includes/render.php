@@ -54,7 +54,8 @@ function pr_relevance_badge($s, $size = 'sm') {
 }
 
 function pr_origin_flag($origin) {
-    return $origin === 'local' ? '<span title="Riset Indonesia" aria-label="Riset Indonesia">🇮🇩</span>' : '';
+    // Bendera sebagai gambar WebP lokal (emoji bendera tidak tampil di Windows; Twemoji WordPress bergantung pada s.w.org yang kadang gagal).
+    return $origin === 'local' ? '<span title="Riset Indonesia" aria-label="Riset Indonesia"><img src="' . esc_url(PR_URL . 'assets/media/flag-id.webp') . '" alt="Indonesia" width="18" height="12" style="display:inline-block;width:1.05em;height:auto;vertical-align:-0.06em;border-radius:2px;box-shadow:0 0 0 1px rgba(15,23,42,.12)"></span>' : '';
 }
 
 function pr_publication_badge($t) {
