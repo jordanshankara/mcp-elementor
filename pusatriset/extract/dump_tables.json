@@ -1,0 +1,356 @@
+{
+ "app_settings": {
+  "rows_approx": 0,
+  "mb": 0.0,
+  "cols": [
+   "key",
+   "value",
+   "updated_at",
+   "updated_by"
+  ]
+ },
+ "approved_venues": {
+  "rows_approx": 9,
+  "mb": 0.0,
+  "cols": [
+   "id",
+   "display_name",
+   "venue_type",
+   "tier",
+   "ranking_basis",
+   "openalex_source_id",
+   "issn_l",
+   "country",
+   "active"
+  ]
+ },
+ "audit_logs": {
+  "rows_approx": 13,
+  "mb": 0.0,
+  "cols": [
+   "id",
+   "actor_id",
+   "actor_email",
+   "actor_role",
+   "action",
+   "target_type",
+   "target_id",
+   "metadata",
+   "self_approved",
+   "created_at"
+  ]
+ },
+ "author_affiliations": {
+  "rows_approx": 156526,
+  "mb": 17.8,
+  "cols": [
+   "author_id",
+   "institution_id",
+   "paper_id"
+  ]
+ },
+ "authors": {
+  "rows_approx": 89976,
+  "mb": 10.1,
+  "cols": [
+   "id",
+   "name",
+   "orcid_id",
+   "openalex_author_id"
+  ]
+ },
+ "citation_stats": {
+  "rows_approx": 35609,
+  "mb": 7.2,
+  "cols": [
+   "paper_id",
+   "citation_count_total",
+   "citation_by_year",
+   "fwci",
+   "citation_normalized_percentile",
+   "local_percentile",
+   "retraction_status"
+  ]
+ },
+ "disputes": {
+  "rows_approx": 2,
+  "mb": 0.0,
+  "cols": [
+   "id",
+   "paper_id",
+   "dispute_type",
+   "submitted_by_name",
+   "submitted_by_email",
+   "argument",
+   "status",
+   "resolution",
+   "created_at"
+  ]
+ },
+ "institution_name_variants": {
+  "rows_approx": 0,
+  "mb": 0.0,
+  "cols": [
+   "institution_id",
+   "name"
+  ]
+ },
+ "institutions": {
+  "rows_approx": 7260,
+  "mb": 1.1,
+  "cols": [
+   "id",
+   "name",
+   "country",
+   "institution_type",
+   "openalex_institution_id",
+   "ror_id",
+   "profile_description"
+  ]
+ },
+ "paper_affiliation_countries": {
+  "rows_approx": 47877,
+  "mb": 2.1,
+  "cols": [
+   "paper_id",
+   "country_code"
+  ]
+ },
+ "paper_authors": {
+  "rows_approx": 136967,
+  "mb": 10.7,
+  "cols": [
+   "paper_id",
+   "author_id",
+   "author_order"
+  ]
+ },
+ "paper_files": {
+  "rows_approx": 0,
+  "mb": 0.0,
+  "cols": [
+   "id",
+   "paper_id",
+   "storage_key",
+   "original_name",
+   "size_bytes",
+   "page_count",
+   "download_count",
+   "uploaded_by",
+   "uploaded_at"
+  ]
+ },
+ "paper_identifiers": {
+  "rows_approx": 70631,
+  "mb": 8.7,
+  "cols": [
+   "id",
+   "paper_id",
+   "id_type",
+   "id_value"
+  ]
+ },
+ "paper_merges": {
+  "rows_approx": 0,
+  "mb": 0.0,
+  "cols": [
+   "surviving_id",
+   "merged_id",
+   "method",
+   "merged_at"
+  ]
+ },
+ "paper_policy_tags": {
+  "rows_approx": 0,
+  "mb": 0.0,
+  "cols": [
+   "paper_id",
+   "tag_id",
+   "status"
+  ]
+ },
+ "paper_relations": {
+  "rows_approx": 30,
+  "mb": 0.0,
+  "cols": [
+   "id",
+   "paper_id_old",
+   "paper_id_new",
+   "relation_type",
+   "confidence_score",
+   "reasoning_text",
+   "status"
+  ]
+ },
+ "paper_titles": {
+  "rows_approx": 35618,
+  "mb": 4.8,
+  "cols": [
+   "paper_id",
+   "language",
+   "title",
+   "is_primary"
+  ]
+ },
+ "paper_topics": {
+  "rows_approx": 35616,
+  "mb": 7.1,
+  "cols": [
+   "id",
+   "paper_id",
+   "domain",
+   "field",
+   "subfield",
+   "topic",
+   "topic_id",
+   "is_primary",
+   "score"
+  ]
+ },
+ "paper_versions": {
+  "rows_approx": 0,
+  "mb": 0.0,
+  "cols": [
+   "id",
+   "paper_id",
+   "version_number",
+   "changed_summary",
+   "version_date"
+  ]
+ },
+ "papers": {
+  "rows_approx": 35621,
+  "mb": 57.7,
+  "cols": [
+   "id",
+   "title",
+   "title_lang",
+   "abstract_raw",
+   "abstract_display_policy",
+   "published_date",
+   "language",
+   "origin",
+   "venue_id",
+   "venue_name_raw",
+   "venue_country",
+   "source_tier",
+   "tier_reason",
+   "is_foundational",
+   "metadata_status",
+   "inclusion_basis",
+   "canonical_url",
+   "license_raw",
+   "license_normalized",
+   "affiliation_inferred",
+   "enrichment_status",
+   "priority_pinned_at",
+   "issn_l",
+   "sjr_quartile",
+   "sjr_score",
+   "sjr_year",
+   "created_at",
+   "updated_at",
+   "publication_type"
+  ]
+ },
+ "policy_tags": {
+  "rows_approx": 6,
+  "mb": 0.0,
+  "cols": [
+   "id",
+   "slug",
+   "label_id",
+   "label_en",
+   "tag_group",
+   "active"
+  ]
+ },
+ "relevance_scores": {
+  "rows_approx": 1,
+  "mb": 0.0,
+  "cols": [
+   "paper_id",
+   "computed_score",
+   "computed_status",
+   "computed_reasoning",
+   "published_status",
+   "published_reasoning",
+   "override_by",
+   "override_reason"
+  ]
+ },
+ "search_synonyms": {
+  "rows_approx": 47,
+  "mb": 0.0,
+  "cols": [
+   "id",
+   "term",
+   "expands_to",
+   "active"
+  ]
+ },
+ "search_terms": {
+  "rows_approx": 8613,
+  "mb": 0.1,
+  "cols": [
+   "term",
+   "frequency"
+  ]
+ },
+ "submissions": {
+  "rows_approx": 2,
+  "mb": 0.0,
+  "cols": [
+   "id",
+   "submitted_by_name",
+   "submitted_by_email",
+   "claimed_identifier",
+   "paper_id",
+   "status",
+   "submitted_at"
+  ]
+ },
+ "summaries": {
+  "rows_approx": 74,
+  "mb": 0.2,
+  "cols": [
+   "id",
+   "paper_id",
+   "language",
+   "content",
+   "source_type",
+   "provenance",
+   "status",
+   "authored_by",
+   "reviewed_by",
+   "version",
+   "created_at"
+  ]
+ },
+ "users": {
+  "rows_approx": 5,
+  "mb": 0.0,
+  "cols": [
+   "id",
+   "email",
+   "display_name",
+   "password_hash",
+   "role",
+   "active",
+   "created_at",
+   "created_by",
+   "deactivated_at",
+   "last_login_at",
+   "must_change_password",
+   "session_version"
+  ]
+ },
+ "venue_arxiv_categories": {
+  "rows_approx": 2,
+  "mb": 0.0,
+  "cols": [
+   "venue_id",
+   "category"
+  ]
+ }
+}

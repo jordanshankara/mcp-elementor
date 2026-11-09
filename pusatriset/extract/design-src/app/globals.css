@@ -1,0 +1,204 @@
+@import "tailwindcss";
+
+:root {
+  /* Palet netral — TETAP dipakai apa adanya oleh Admin Panel (Bagian A.4: admin
+     sengaja TIDAK ikut gaya editorial hangat, harus tetap functional/netral). */
+  --background: #ffffff;
+  --surface: #f8fafc;
+  --foreground: #0f172a;
+  --muted: #64748b;
+  --border: #e2e8f0;
+  --accent: #1e3a5f;
+  --accent-hover: #16304d;
+
+  /* === Palet publik (PATCH: redesain profesional biru/putih modern — nama variable
+     DIPERTAHANKAN apa adanya supaya semua komponen yang sudah pakai bg-page/bg-card-alt/
+     border-warm/text-primary dst otomatis ikut berubah tanpa perlu ganti satu-satu class.
+     Sebelumnya krem/coklat "editorial hangat" — sekarang biru/putih ala SaaS modern. === */
+
+  /* Latar & permukaan — putih & biru sangat muda, bukan krem */
+  --bg-page: #F7F9FC;
+  --bg-card: #FFFFFF;
+  --bg-card-alt: #EEF3FA;
+  --border-warm: #E2E8F0;
+  --shadow-card: 0 1px 3px rgba(15, 23, 42, 0.08), 0 1px 2px rgba(15, 23, 42, 0.04);
+
+  /* Biru — warna khas PusatRiset.ai, sekarang jadi warna primer utama (bukan aksen) */
+  --brand-blue-900: #0C2D4A;
+  --brand-blue-700: #14508A;
+  --brand-blue-100: #E3EEF7;
+
+  /* Aksen teal — pelengkap navy untuk kartu KPI/gradient (referensi dashboard analitik
+     glassmorphic: kartu gradient teal/navy/indigo dengan teks putih) */
+  --brand-teal: #14B8A6;
+  --brand-teal-dark: #0F766E;
+  --brand-indigo: #6366F1;
+  --brand-indigo-dark: #3730A3;
+
+  /* Teks — slate/navy modern, bukan coklat editorial */
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #64748B;
+
+  /* Badge relevansi — kode makna, SENGAJA terpisah dari palet dekoratif krem/biru
+     di atas. Nilai persis sesuai A.1, jangan ikut nada krem/biru. */
+  --badge-still-relevant: #2F7A4F;
+  --badge-needs-update: #B98A1E;
+  --badge-superseded: #C9701F;
+  --badge-retracted: #B8352E;
+  --badge-foundational: var(--brand-blue-700);
+
+  /* Alias -fg supaya komponen yang sudah memakai pola var(--badge-x-fg) (RelevanceBadge,
+     RetractedBanner, dst) otomatis ikut nilai token A.1 di atas tanpa perlu diganti satu-satu. */
+  --badge-still-relevant-fg: var(--badge-still-relevant);
+  --badge-needs-update-fg: var(--badge-needs-update);
+  --badge-superseded-fg: var(--badge-superseded);
+  --badge-retracted-fg: var(--badge-retracted);
+  --badge-foundational-fg: var(--badge-foundational);
+
+  /* Tint latar (-bg) diturunkan dari warna A.1 masing-masing badge — tetap satu
+     sumber kebenaran per badge, bukan hex baru yang lepas dari token. */
+  --badge-still-relevant-bg: #E1F0E6;
+  --badge-needs-update-bg: #F7EEDA;
+  --badge-superseded-bg: #F8E3D2;
+  --badge-retracted-bg: #F8DEDC;
+  --badge-foundational-bg: var(--brand-blue-100);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+
+  --color-page: var(--bg-page);
+  --color-card: var(--bg-card);
+  --color-card-alt: var(--bg-card-alt);
+  --color-warm: var(--border-warm);
+  --color-brand-900: var(--brand-blue-900);
+  --color-brand-700: var(--brand-blue-700);
+  --color-brand-100: var(--brand-blue-100);
+  --color-primary: var(--text-primary);
+  --color-secondary: var(--text-secondary);
+  --color-muted-warm: var(--text-muted);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-source-serif);
+}
+
+/* Bagian A: dipindah ke @layer base — deklarasi CSS polos di luar @layer punya
+   prioritas cascade LEBIH TINGGI daripada @layer utilities milik Tailwind (termasuk
+   class bg-page/text-primary yang dipasang langsung di <body> pada layout.tsx),
+   jadi warna body tidak pernah kalah/menang secara tidak sengaja terhadap utility class. */
+@layer base {
+  body {
+    background: var(--background);
+    color: var(--foreground);
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+/* Kartu gradient (KPI/stat) & glass — dipakai di stat card Home/Dashboard, kartu tier
+   Metodologi, dsb. Meniru referensi dashboard analitik glassmorphic (teal/navy/indigo,
+   teks putih, sudut sangat membulat) tapi dibangun dari token brand yang sudah ada,
+   bukan warna lepas baru. */
+.gradient-card-teal {
+  background: linear-gradient(135deg, #2dd4bf 0%, var(--brand-teal-dark) 55%, var(--brand-blue-900) 100%);
+}
+.gradient-card-blue {
+  background: linear-gradient(135deg, var(--brand-blue-700) 0%, var(--brand-blue-900) 100%);
+}
+.gradient-card-indigo {
+  background: linear-gradient(135deg, #818cf8 0%, var(--brand-indigo-dark) 55%, var(--brand-blue-900) 100%);
+}
+.glass-card {
+  background: color-mix(in srgb, var(--bg-card) 72%, transparent);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid color-mix(in srgb, white 55%, transparent);
+}
+
+/* Styling untuk HTML hasil RichTextEditor (Tiptap) — dipakai di editor admin (.prose-summary)
+   DAN saat konten yang sama ditampilkan di halaman publik /riset/[id] (.summary-content).
+   Sengaja ditulis manual (bukan @tailwindcss/typography) supaya ikut tipografi editorial
+   situs yang sudah ada, bukan preset generik. */
+.prose-summary h2,
+.summary-content h2 {
+  margin-top: 1em;
+  margin-bottom: 0.4em;
+  font-size: 1.15em;
+  font-weight: 700;
+}
+.prose-summary h3,
+.summary-content h3 {
+  margin-top: 0.9em;
+  margin-bottom: 0.35em;
+  font-size: 1.05em;
+  font-weight: 600;
+}
+.prose-summary p,
+.summary-content p {
+  margin-bottom: 0.75em;
+  line-height: 1.7;
+}
+.prose-summary ul,
+.summary-content ul {
+  margin-bottom: 0.75em;
+  padding-left: 1.25em;
+  list-style: disc;
+}
+.prose-summary ol,
+.summary-content ol {
+  margin-bottom: 0.75em;
+  padding-left: 1.25em;
+  list-style: decimal;
+}
+.prose-summary li,
+.summary-content li {
+  margin-bottom: 0.25em;
+}
+.prose-summary strong,
+.summary-content strong {
+  font-weight: 700;
+}
+.prose-summary em,
+.summary-content em {
+  font-style: italic;
+}
+.prose-summary u,
+.summary-content u {
+  text-decoration: underline;
+}
+
+/* PATCH_Perbaikan_PDF_Viewer_Flipbook.md §2/§4.1 — lapisan pdf.js TextLayer di atas canvas
+   flipbook (src/components/FlipbookViewer.tsx). Stylesheet standar pdf.js (bukan bagian dari
+   paket npm-nya, jadi disalin manual) — span teks transparan diposisikan persis di atas
+   render canvas supaya bisa diseleksi/dicari (Ctrl+F) tanpa terlihat dobel secara visual. */
+.textLayer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  line-height: 1;
+  text-size-adjust: none;
+  forced-color-adjust: none;
+  transform-origin: 0 0;
+  z-index: 2;
+}
+.textLayer span,
+.textLayer br {
+  color: transparent;
+  position: absolute;
+  white-space: pre;
+  cursor: text;
+  transform-origin: 0% 0%;
+}
+.textLayer ::selection {
+  background: rgba(0, 100, 255, 0.3);
+}

@@ -1,6 +1,9 @@
 # pusatriset: Pusat Riset AI Indonesia (pusatriset.ai)
 - Domain: pusatriset.ai · PROD · mode tulis aktif · user adminpusatriset (administrator)
-- Per 2026-11-07: WordPress baru. Elementor 4.3.6 + Classic Editor 1.7.0 AKTIF. Tema aktif Twenty Twenty-Five (Astra BELUM).
-- Menunggu: pengguna unggah Bridge 1.3.0 → `POST /claude/v1/theme-install {slug:"astra",activate:true}` → header/footer Astra via `/claude/v1/theme-option`
-- Logo: `Logo_Domain_AI/Pusat Riset AI Indonesia` (konversi ke WebP) + logo Asosiasi AI (tertaut https://asosiasi.ai)
-- Belum ada brief/desain; mulai dengan skill `html-design-studio` (DNA → outline) sebelum membangun.
+- Stack (2026-11-09): Astra aktif, Elementor 4.3.6 Free, Claude Bridge 1.3.0, plugin "PusatRiset Data" (zip: pusatriset/dist/, bangun ulang `python pusatriset/plugin/build/make-zip.py`; versi terpasang cek `node pusatriset/plugin/build/import-remote.mjs pusatriset --status`).
+- Data: 35.621 paper + tabel turunan sudah diimpor ke tabel `{prefix}pr_*` (bukan post). Impor ulang: `node pusatriset/plugin/build/import-remote.mjs pusatriset` (idempoten, base64 karena firewall host memblokir teks wajar; baca JSONL hanya pecah di \n).
+- Halaman (DRAF per 2026-11-09, belum terbit): Beranda=15, Archive Riset=12 (/katalog/), Dashboard=13 (/dashboard/), Metodologi=14. Builder: `pusatriset/elementor/build_home.py|build_pages.py` -> `out/*.json` -> `node wp-elementor-mcp/scripts/push-sections.ts pusatriset <id> <json> pusatriset.ai`.
+- Shortcode plugin dipakai di Elementor widget Shortcode: [pr_cari] [pr_hero_art] [pr_kpi] [pr_terbaru] [pr_populer] [pr_katalog hero="1"] [pr_dashboard hero="1"].
+- Header/footer = Astra (builder): logo id 10 (lockup WebP), logo Asosiasi id 11 (tertaut asosiasi.ai), menu id 2 "Menu Utama" (lokasi primary), footer widget block-7/8/9 di footer-widget-1..3. Id elemen logo header = `logo` (bukan `site-identity`). CSS Tambahan dari `pusatriset/elementor/custom.css` -> `node pusatriset/elementor/push-css.mjs pusatriset`.
+- Jebakan: draf tidak bisa dipratinjau tanpa login (visual_check/Playwright dapat 404) -> verifikasi visual penuh butuh halaman terbit (izin pengguna). Widget footer baru masuk `wp_inactive_widgets` -> pindahkan via POST /wp/v2/widgets/<id> {sidebar}. Opsi Astra `mobile-header-breakpoint` tidak dibaca; pakai filter `astra_header_break_point` (ada di plugin v0.1.4).
+- Logo sumber: `Logo_Domain_AI/Pusat Riset AI Indonesia` + `logo-asosiasi-ai` (sudah WebP di situs).

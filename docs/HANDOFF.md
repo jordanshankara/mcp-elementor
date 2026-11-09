@@ -23,7 +23,7 @@ Mengelola 9 situs WordPress + Elementor (Free) milik pemilik dari Claude Code, t
 | alias | domain | status |
 |---|---|---|
 | **regulasi** | regulasiai.id | TERHUBUNG, mode tulis, sudah di-redesign penuh (lihat §4) |
-| **pusatriset** | pusatriset.ai | TERDAFTAR, mode tulis. Elementor 4.3.6 + Classic Editor AKTIF. **Menunggu pengguna mengunggah Bridge 1.3.0** → lalu pasang Astra via `POST /claude/v1/theme-install {slug:"astra",activate:true}`. Tema aktif masih Twenty Twenty-Five |
+| **pusatriset** | pusatriset.ai | LIVE sejak 2026-11-09 (Beranda=halaman depan, /katalog/, /dashboard/, /metodologi/, /riset/<uuid>). Astra + Elementor 4.3.6 + Bridge 1.3.0 + plugin PusatRiset Data (v0.1.4). 35.621 paper sudah diimpor. Catatan situs: `config/sites/pusatriset.md` |
 | bikinkonten, buatiklan, toolsai, analisadata, solusiindustri, solusikeamanan, institut | bikinkontenai.id, buatiklanai.id, toolsaigratis.id, aianalisadata.id, aisolusiindustri.id, aisolusikeamanan.id, institutnasional.ai | readonly; belum ada Application Password sah + Bridge. Urutan berikutnya: bikinkonten |
 Standar wajib tiap situs: (1) Elementor builder, (2) classic page / Gutenberg nonaktif, (3) tema Astra.
 
@@ -56,7 +56,23 @@ Standar wajib tiap situs: (1) Elementor builder, (2) classic page / Gutenberg no
 Memori asli ada di `~/.claude/projects/<proyek>/memory/` (tidak ikut git). Salinannya ada di `docs/memory/` (`MEMORY.md` indeks, `wp-elementor-project.md`, `elementor-native-first.md`). Di perangkat baru: salin isi `docs/memory/` ke folder memori proyek Claude Code, atau cukup baca file ini + skill (isinya sudah memuat semuanya).
 
 ## 9. Langkah berikutnya yang disarankan
-1. pusatriset.ai: pengguna unggah Bridge 1.3.0 → pasang Astra → set up header/footer, logo "Pusat Riset AI Indonesia" (`Logo_Domain_AI/Pusat Riset AI Indonesia`), brief & desain via `html-design-studio`.
+1. pusatriset.ai: tinggal tes fungsi lanjutan (form sanggahan, BibTeX, pencarian di produksi), cek tablet/HP halaman riset-ringkasan & summary-only, rotasi kredensial, dan meta SEO/sitemap.
 2. regulasi: sambungkan form Kirim Dokumen ke Google Sheets; ganti data "contoh"; cek ulang visual tablet/HP seluruh halaman; hapus template #563/#565.
 3. Hubungkan 6 situs lain satu per satu (Application Password + Bridge 1.3.0), terapkan 3 standar + pelajaran redesign.
 4. Tambah tes untuk Bridge PHP & `push-element.ts`; jalankan `npm run e2e`.
+
+## 10. Migrasi pusatriset.ai (dari aplikasi Next.js lama), mulai 2026-11-08
+Lihat `pusatriset/extract/README.md` (data, desain, rekomendasi penyimpanan, peta halaman). Ringkas:
+- Data 35.621 paper dan tabel pendukung sudah diekstrak ke `pusatriset/extract/data/*.jsonl` (lokal, tidak di git; buat ulang dengan `export_dump.py` dari dump `pusatriset-20260824.sql.gz` di `F:\0. Code\pusatriset\docs\handover\`). Angka identik dengan verifikasi A2. Tabel pribadi (users, audit_logs, disputes, submissions) sengaja tidak diekspor.
+- Sumber desain lama disalin ke `pusatriset/extract/design-src/`. Screenshot baseline (desktop/tablet/HP, 10 halaman) dibuat dengan `capture.mjs` dari aplikasi lama yang dijalankan lokal (MariaDB XAMPP di `D:\xampp`, database terpisah `pusatriset_baseline`, `next start -p 3100`), hasilnya di `pusatriset/extract/baseline/` (lokal).
+- Arsitektur yang direkomendasikan: tabel `wp_pr_*` di database WordPress + plugin "PusatRiset Data" (REST + shortcode, UUID lama dipertahankan); halaman statis = Elementor native; katalog/detail/dashboard = shortcode server-side dengan CSS identik. DISETUJUI dan SELESAI (lihat di bawah).
+
+### Status pusatriset.ai (2026-11-09)
+- **Plugin** `pusatriset/plugin/pusatriset-data/` (zip: `python pusatriset/plugin/build/make-zip.py` → `pusatriset/dist/`, tidak di git). Pengguna mengunggah zip (Plugin → Unggah → Ganti yang sekarang); REST tidak bisa memasang plugin. CSS dibangun `node pusatriset/plugin/build/build-css.mjs` setiap kelas Tailwind di `includes/*.php` berubah.
+- **Impor data**: `node pusatriset/plugin/build/import-remote.mjs pusatriset [--status]` (idempoten, bisa dilanjutkan; batch dikirim base64 karena firewall host memblokir teks ilmiah wajar sebagai SQLi; pembaca baris hanya memecah `
+` karena U+2028 ada di data).
+- **Halaman**: dibangun dari `pusatriset/elementor/build_home.py` + `build_pages.py` (`lib.py` = helper) → `out/*.json` → `node wp-elementor-mcp/scripts/push-sections.ts pusatriset <page_id> <json> pusatriset.ai --replace`. Id: Beranda 15, Archive 12, Dashboard 13, Metodologi 14. CSS Tambahan: `pusatriset/elementor/custom.css` → `node pusatriset/elementor/push-css.mjs pusatriset`.
+- **Keputusan desain**: Archive & Dashboard memakai `[pr_katalog hero="1"]` / `[pr_dashboard hero="1"]` (hero memuat kolom cari/filter); Beranda & Metodologi native, bagian dinamis lewat shortcode `[pr_cari] [pr_hero_art] [pr_kpi] [pr_terbaru] [pr_populer]`.
+- **Selisih yang diketahui vs aplikasi lama**: urutan kartu pada tanggal terbit sama; header tidak lengket (Astra Pro); logo brand = lockup WebP (bukan ikon+teks); footer memakai logo Asosiasi AI; hasil pencarian "privacy" 791 vs 792.
+- **Belum dicek visual**: tablet/HP untuk riset-ringkasan, summary-only, relasi; form sanggahan & BibTeX di produksi.
+

@@ -1,0 +1,88 @@
+/* PusatRiset.ai — CSS Tambahan tema Astra (header/footer + efek yang tidak ada di kontrol native Elementor).
+   Sumber kebenaran ada di repo (pusatriset/elementor/custom.css); dikirim lewat bridge /claude/v1/custom-css. */
+body,.ast-separate-container{background-color:#F7F9FC}
+
+/* ---- Header (port Header.tsx: border-b warm, bg card/95, tinggi ±68px) ---- */
+.main-header-bar,.ast-primary-header-bar{background:rgba(255,255,255,.95)!important;border-bottom:1px solid #E2E8F0!important;backdrop-filter:blur(8px)}
+.ast-primary-header-bar .site-primary-header-wrap{min-height:0!important;padding-top:14px;padding-bottom:14px}
+.ast-primary-header-bar .ast-builder-grid-row{max-width:1152px;width:100%;margin:0 auto;padding-left:24px;padding-right:24px;align-items:center;column-gap:16px;grid-template-columns:1fr auto!important;justify-content:space-between}
+.ast-primary-header-bar .site-header-primary-section-left{justify-content:flex-start}
+.ast-primary-header-bar .site-header-primary-section-right{justify-content:flex-end}
+.ast-primary-header-bar .ast-builder-grid-row-container-inner{width:100%}
+.ast-primary-header-bar .custom-logo-link img,.ast-primary-header-bar img.custom-logo{max-height:38px;width:auto}
+.ast-builder-menu-1 .main-header-menu{gap:4px;align-items:center}
+.ast-builder-menu-1 .main-header-menu>.menu-item>.menu-link{font-family:Geist,ui-sans-serif,system-ui,sans-serif;font-size:14px;font-weight:500;line-height:20px;color:#0F172A!important;padding:8px 12px!important;border-radius:6px;transition:background-color .15s,color .15s}
+.ast-builder-menu-1 .main-header-menu>.menu-item>.menu-link:hover{background:#EEF3FA;color:#14508A!important}
+.ast-builder-menu-1 .main-header-menu>.current-menu-item>.menu-link,.ast-builder-menu-1 .main-header-menu>.current_page_item>.menu-link{background:#E3EEF7;color:#14508A!important}
+.pr-hdr-asosiasi{display:flex;align-items:center;margin-left:12px;padding-left:16px;border-left:1px solid #E2E8F0}
+.pr-hdr-asosiasi img{height:30px;width:auto;display:block}
+.ast-header-break-point .pr-hdr-asosiasi{margin-left:0;padding-left:0;border-left:0}
+.ast-header-break-point .pr-hdr-asosiasi img{height:22px}
+.ast-header-break-point .ast-primary-header-bar .ast-builder-grid-row{padding-left:16px;padding-right:16px}
+.ast-header-break-point .ast-primary-header-bar .custom-logo-link img{max-height:30px}
+.menu-toggle.main-header-menu-toggle,.ast-mobile-menu-trigger-minimal .ast-button-wrap .menu-toggle{border:1px solid #E2E8F0!important;border-radius:6px;color:#0F172A!important;padding:6px!important}
+
+/* ---- Footer (port Footer.tsx: bg card-alt, border-t warm, py-12, grid 1.3fr 1fr 1fr) ---- */
+.site-footer,.site-primary-footer-wrap,.site-below-footer-wrap{background:#EEF3FA!important}
+.site-footer{border-top:1px solid #E2E8F0}
+.site-primary-footer-wrap{padding-top:48px;padding-bottom:0}
+.site-primary-footer-wrap .ast-builder-grid-row{max-width:1152px;margin:0 auto;padding:0 24px;grid-template-columns:1.3fr 1fr 1fr!important;column-gap:40px}
+.ast-footer-copyright{width:100%}
+.site-below-footer-wrap{padding:0 0 24px}
+.site-below-footer-wrap .ast-builder-grid-row{max-width:1152px;margin:0 auto;padding:0 24px;grid-template-columns:1fr!important}
+.site-primary-footer-wrap,.site-below-footer-wrap{border:0!important}
+.site-primary-footer-wrap .ast-builder-grid-row-container-inner,.site-below-footer-wrap .ast-builder-grid-row-container-inner{border:0!important}
+.pr-ft-logo{margin:0 0 12px}.pr-ft-logo img{height:34px;width:auto;display:block}
+.pr-ft-note{font-family:Geist,ui-sans-serif,system-ui,sans-serif;font-size:14px;line-height:1.43;color:#475569;margin:0}
+.pr-ft-title{font-family:Geist,ui-sans-serif,system-ui,sans-serif;font-size:12px;line-height:1.33;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:#64748B;margin:0 0 12px}
+.pr-ft-list{list-style:none;margin:0;padding:0}
+.pr-ft-list li{margin:0 0 8px;font-family:Geist,ui-sans-serif,system-ui,sans-serif;font-size:14px;line-height:1.43}
+.pr-ft-list a{color:#475569;text-decoration:none}
+.pr-ft-list a:hover{color:#14508A;text-decoration:underline}
+.pr-copy{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;margin-top:40px;padding-top:24px;border-top:1px solid #E2E8F0;font-family:Geist,ui-sans-serif,system-ui,sans-serif;font-size:12px;line-height:1.33;color:#64748B}
+.pr-copy-by{display:inline-flex;align-items:center;gap:6px;font-weight:500}
+.pr-copy-by a{color:#14508A;text-decoration:none}
+.pr-copy-by a:hover{text-decoration:underline}
+.pr-copy-by img{height:20px;width:auto;display:block}
+@media (max-width:767px){
+  .site-primary-footer-wrap .ast-builder-grid-row{grid-template-columns:1fr!important;row-gap:40px;padding:0 16px}
+  .site-below-footer-wrap .ast-builder-grid-row{padding:0 16px}
+  .pr-copy{flex-direction:column;text-align:center}
+}
+@media (min-width:768px) and (max-width:1024px){
+  .site-primary-footer-wrap .ast-builder-grid-row{grid-template-columns:1.3fr 1fr 1fr!important}
+}
+
+/* ---- Efek halaman native ---- */
+.pr-dots{background-image:radial-gradient(rgba(20,80,138,.05) 1px,transparent 1px);background-size:22px 22px}
+.pr-dots-w{background-image:radial-gradient(rgba(255,255,255,.06) 1px,transparent 1px);background-size:20px 20px}
+.pr-glass{-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+.pr-why{position:relative;overflow:hidden}
+.pr-why::before,.pr-why::after{content:"";position:absolute;width:256px;height:256px;border-radius:50%;pointer-events:none;filter:blur(64px);z-index:0}
+.pr-why::before{left:-80px;top:0;background:linear-gradient(135deg,rgba(153,246,228,.4),transparent)}
+.pr-why::after{right:-80px;bottom:0;background:linear-gradient(45deg,rgba(199,210,254,.4),transparent)}
+.pr-why>*{position:relative;z-index:1}
+.pr-g-blue{background:linear-gradient(135deg,#14508A 0%,#0C2D4A 100%)!important}
+.pr-g-teal{background:linear-gradient(135deg,#2dd4bf 0%,#0F766E 55%,#0C2D4A 100%)!important}
+.pr-g-indigo{background:linear-gradient(135deg,#818cf8 0%,#3730A3 55%,#0C2D4A 100%)!important}
+html{scroll-padding-top:96px}
+
+.pr-lihat,.pr-lihat a{white-space:nowrap}
+.elementor-widget-text-editor p{margin-bottom:0}
+
+/* Kolom ilustrasi hero: di tablet/HP tingginya runtuh jadi 0 (rasio kotak tak dihitung di kolom flex) -> beri rasio 1:1 pada kolom */
+@media (max-width:1024px){.pr-art-col{aspect-ratio:1/1;max-width:448px;width:100%!important;margin-left:auto;margin-right:auto}}
+/* Baris judul + 'Lihat semua': jangan terlipat di HP */
+.pr-lihat-row{flex-wrap:nowrap!important;flex-direction:row!important}
+.pr-lihat-row>.e-con{width:auto!important;flex:0 1 auto}
+
+/* Desain lama: menu penuh mulai 640px. CSS Astra menyembunyikan header desktop di bawah 922px (nilai tertanam), jadi dipaksa di sini. */
+@media (min-width:641px){#ast-desktop-header{display:block!important}#ast-mobile-header{display:none!important}}
+
+/* Tinggi header = desain lama (~66px): Astra menambah padding 1em pada identitas situs */
+.ast-primary-header-bar .site-branding,.ast-primary-header-bar .ast-site-identity{padding:0!important}
+
+/* Latar halaman = bg-page aplikasi lama (#F7F9FC); meta halaman Astra memaksa putih pada wrapper konten */
+body,#page,#content,.site-content,#primary,#main{background-color:#F7F9FC!important}
+/* Halaman detail riset (/riset/<id>): .ast-container Astra berupa flex -> .pr-scope menyusut & menempel kiri; jadikan block agar max-w-4xl mx-auto terpusat */
+.pr-page .ast-container{display:block!important;padding-left:0;padding-right:0}
