@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap");
+:root{--ob:#161616;--ob2:#1E1E1E;--ln:#2E2E2E;--cr:#710014;--crl:#C4283F;--sd:#B38F6F;--pl:#F2F1ED;--mu:#A9A59E}
+body,.ast-separate-container,.site-content,#content{background:var(--ob)!important;color:var(--pl);font-family:Inter,sans-serif}
+.elementor a,.entry-content .elementor a,.elementor-widget-container a{text-decoration:none!important}
+h1,h2,h3,h4,.elementor-heading-title{font-family:'Cormorant Garamond',serif!important}
+/* header */
+.ast-above-header-bar{display:none}
+.main-header-bar,.ast-primary-header-bar,#ast-desktop-header .ast-primary-header-bar{background:var(--ob)!important;border-bottom:1px solid var(--ln)!important}
+.main-header-menu{background:#FFFFFF0A;border:1px solid var(--ln);border-radius:40px;padding:5px}
+.main-header-menu>.menu-item>.menu-link{font:500 14px/1 Inter,sans-serif!important;color:var(--pl)!important;padding:12px 22px!important;border-radius:30px}
+.main-header-menu>.menu-item>.menu-link:hover{background:#FFFFFF14}
+.main-header-menu>.current-menu-item>.menu-link{background:var(--cr)!important;color:var(--pl)!important}
+.ast-header-button-1 .ast-custom-button,.ast-header-button-1 .ast-custom-button-link .ast-custom-button{background:var(--cr)!important;color:var(--pl)!important;border:0!important;border-radius:30px!important;padding:14px 26px!important;font:600 14px/1 Inter,sans-serif!important;box-shadow:0 0 30px rgba(196,40,63,.35)}
+.ast-header-button-1 .ast-custom-button:hover{background:var(--crl)!important}
+.menu-toggle,.ast-mobile-menu-trigger-minimal,.ast-button-wrap .menu-toggle{border:1px solid var(--ln)!important;border-radius:30px!important;color:var(--pl)!important;background:#FFFFFF0A!important}
+.ast-mobile-header-content,.ast-mobile-popup-drawer .ast-mobile-popup-inner{background:var(--ob)!important}
+.ast-mobile-popup-drawer .menu-link{font:500 16px Inter!important;color:var(--pl)!important;border-bottom:1px solid var(--ln)}
+@media(max-width:921px){.ast-header-button-1{display:none}}
+/* footer */
+.site-footer,.site-primary-footer-wrap,.site-below-footer-wrap,.site-above-footer-wrap{background:var(--ob)!important;color:var(--pl)!important}
+.site-primary-footer-wrap{border-top:1px solid var(--ln)!important;padding:56px 0 40px!important}
+.site-below-footer-wrap{border-top:1px solid var(--ln)!important}
+.site-below-footer-wrap,.site-below-footer-wrap p{font:400 12.5px/1.7 Inter,sans-serif!important;color:var(--mu)!important}
+.site-below-footer-wrap a,.sk-fp a{color:var(--sd)!important;text-decoration:none}
+.site-footer .widget{border:0!important;padding:0!important;background:transparent!important}
+.sk-fh{font:600 24px/1 'Cormorant Garamond',serif;margin:0 0 16px;color:var(--pl)}
+.sk-fp{font:400 14.5px/1.7 Inter,sans-serif;margin:0 0 10px;color:var(--mu)}
+.sk-fl{list-style:none;margin:0;padding:0}.sk-fl li{padding:6px 0;font:400 14.5px Inter,sans-serif}.sk-fl a{color:var(--mu)!important;text-decoration:none}.sk-fl a:hover{color:var(--sd)!important}
+/* cari */
+.sk-search{width:100%;max-width:520px}
+.sk-search .search-form{display:flex;background:#FFFFFF0F;border:1px solid var(--ln);border-radius:40px;padding:5px}
+.sk-search label{flex:1;margin:0}.sk-search .search-field{width:100%;border:0!important;background:transparent!important;padding:12px 20px!important;font:400 15px Inter,sans-serif;color:var(--pl);outline:0}
+.sk-search .search-field::placeholder{color:var(--mu)}
+.sk-search input.search-submit{display:none!important}
+.sk-search .ast-search-submit{background:var(--cr)!important;color:var(--pl)!important;border:0!important;border-radius:30px!important;padding:0 26px!important;font:600 14px Inter,sans-serif!important;cursor:pointer}
+.sk-search .ast-search-submit i,.sk-search .ast-search-submit .ast-icon{display:none!important}
+.sk-search .ast-search-submit::after{content:"Cari"}
+.sk-search .widget-title,.sk-search .widgettitle,.sk-search .ast-search-icon{display:none!important}
+.bd-badge{width:fit-content!important;max-width:100%}
+/* arsip */
+.ast-archive-entry-banner{background:radial-gradient(circle at top right,#710014 0%,#161616 62%)!important;background-image:radial-gradient(circle at top right,#710014 0%,#161616 62%)!important;min-height:0!important;height:auto!important;padding:80px 0 64px!important;margin:0!important;overflow:visible!important;border-bottom:1px solid var(--ln)}
+.ast-archive-entry-banner h1{font:500 clamp(48px,7vw,88px)/1 'Cormorant Garamond',serif!important;color:var(--pl)!important;text-align:left!important;margin:0!important}
+.ast-archive-entry-banner .ast-container{display:block!important;padding-left:20px;padding-right:20px}
+.ast-archive-entry-banner .ast-container::after{content:"Temukan artikel seputar penggunaan AI untuk keamanan siber, deteksi ancaman, perlindungan data, dan tata kelola risiko digital.";display:block;max-width:640px;margin-top:16px;font:400 17px/1.6 Inter,sans-serif;color:#CFCBC3}
+.blog #masthead,.archive #masthead,.search #masthead{position:relative!important}
+.ast-article-post{background:linear-gradient(160deg,#242424,#161616)!important;border:1px solid var(--ln)!important;border-radius:24px!important;box-shadow:none!important;padding:0!important;overflow:hidden}
+.ast-article-post .entry-header,.ast-article-post .ast-excerpt-container,.ast-article-post .ast-blog-single-element{padding-left:24px;padding-right:24px}
+.ast-article-post .entry-header{padding-top:22px}
+.ast-article-post .entry-title,.ast-article-post .entry-title a{font:500 28px/1.15 'Cormorant Garamond',serif!important;color:var(--pl)!important}
+.ast-article-post .entry-title a:hover{color:var(--crl)!important}
+.ast-article-post .entry-meta,.ast-article-post .entry-meta a{font:500 12px/1.6 Inter,sans-serif!important;color:var(--sd)!important}
+.ast-article-post .ast-excerpt-container,.ast-article-post .ast-excerpt-container p{font:400 15px/1.7 Inter,sans-serif!important;color:#CFCBC3}
+.ast-article-post .read-more{padding-bottom:24px}
+.ast-article-post .read-more a,.ast-article-post .ast-read-more-link{font-size:0!important}
+.ast-article-post .read-more a::after,.ast-article-post .ast-read-more-link::after{content:"Baca →";font:600 14px Inter,sans-serif;color:var(--crl)}
+.ast-pagination .page-numbers{border:1px solid var(--ln)!important;border-radius:30px!important;background:#FFFFFF0A!important;color:var(--pl)!important;font:600 13px Inter,sans-serif}
+.ast-pagination .page-numbers.current{background:var(--cr)!important;color:var(--pl)!important}
+#secondary .widget{border:1px solid var(--ln);border-radius:22px;padding:22px;margin-bottom:18px;background:linear-gradient(160deg,#242424,#161616)}
+#secondary .widget-title,#secondary h2,#secondary .wp-block-heading{font:600 26px/1.2 'Cormorant Garamond',serif!important;color:var(--pl);margin:0 0 12px}
+#secondary a{color:var(--pl)!important;text-decoration:none}#secondary a:hover{color:var(--crl)!important}
+#secondary li{border-bottom:1px solid var(--ln);padding:7px 0;list-style:none}#secondary ul{margin:0;padding:0}
+.wp-block-search__input,#secondary input[type=search]{border:1px solid var(--ln)!important;border-radius:30px!important;background:#FFFFFF0F!important;color:var(--pl)!important;padding:12px 18px!important}
+.wp-block-search__button{background:var(--cr)!important;color:var(--pl)!important;border-radius:30px!important;border:0!important;font:600 13px Inter!important}
+.no-results .page-content p{font-size:0!important}
+.no-results .page-content p::before{content:"Belum ada artikel di bagian ini. Segera hadir.";font:500 15px/1.6 Inter,sans-serif;color:var(--mu)}
+.no-results .search-form{display:none}
+.blog #primary:not(:has(article))::before{content:"Belum ada artikel. Segera hadir.";display:block;font:500 28px 'Cormorant Garamond',serif;padding:50px 0 80px;color:var(--mu)}
+.single-post .entry-title{font:500 clamp(40px,5.5vw,68px)/1.05 'Cormorant Garamond',serif!important;color:var(--pl)}
+.single-post .entry-content,.single-post .entry-content p{font:400 17px/1.85 Inter,sans-serif;color:#DAD7D0}
+.single-post .entry-content h2,.single-post .entry-content h3{font-family:'Cormorant Garamond',serif!important;font-weight:600;color:var(--pl)}
+.single-post .entry-content a{color:var(--sd)}
+.single-post .entry-meta,.single-post .entry-meta a{color:var(--sd)!important}
+.sk-search label{display:flex;align-items:center}.sk-search .search-field{flex:1}
+h1,h2,h3,h4,.elementor-heading-title,.ast-archive-entry-banner h1{font-variant-numeric:lining-nums;font-feature-settings:"lnum" 1}
+
+@media(max-width:921px){.site-primary-footer-wrap .ast-builder-grid-row{padding-left:20px;padding-right:20px}.site-primary-footer-wrap .site-footer-section{margin-bottom:24px}}

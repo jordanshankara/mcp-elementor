@@ -1,0 +1,22 @@
+{
+ "lockup": {
+  "id": 8,
+  "source_url": "https://www.aisolusiindustri.id/wp-content/uploads/2026/11/solusiindustri-lockup.webp"
+ },
+ "lockup_white": {
+  "id": 9,
+  "source_url": "https://www.aisolusiindustri.id/wp-content/uploads/2026/11/solusiindustri-lockup_white.webp"
+ },
+ "logo": {
+  "id": 10,
+  "source_url": "https://www.aisolusiindustri.id/wp-content/uploads/2026/11/solusiindustri-logo.webp"
+ },
+ "asosiasi": {
+  "id": 11,
+  "source_url": "https://www.aisolusiindustri.id/wp-content/uploads/2026/11/asosiasi-ai-logo.webp"
+ },
+ "asosiasi_putih": {
+  "id": 12,
+  "source_url": "https://www.aisolusiindustri.id/wp-content/uploads/2026/11/asosiasi-ai-logo-putih.webp"
+ }
+}

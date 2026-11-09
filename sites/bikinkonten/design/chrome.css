@@ -73,3 +73,5 @@ body,.ast-separate-container{background:var(--bk-cream);font-family:Inter,sans-s
 .bk-search .ast-search-icon,.bk-search .ast-icon,.bk-search .ast-search-menu-icon .search-form .ast-search-icon{display:none!important}
 .bk-search .search-submit,.bk-search input[type=submit]{font-family:Inter,sans-serif!important}
 .bk-search .search-form{display:flex;align-items:stretch}.bk-search label{flex:1;margin:0}.bk-search .search-field{width:100%}
+
+@media(max-width:921px){.site-primary-footer-wrap .ast-builder-grid-row{padding-left:20px;padding-right:20px}.site-primary-footer-wrap .site-footer-section{margin-bottom:24px}}

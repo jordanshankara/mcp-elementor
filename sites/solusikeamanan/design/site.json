@@ -1,0 +1,257 @@
+{
+ "host": "aisolusikeamanan.id",
+ "user": "adminsolusikeamanan",
+ "title": "AISolusiKeamanan",
+ "tagline": "Referensi AI untuk Keamanan Siber & Data",
+ "cats": [
+  "AI untuk deteksi ancaman",
+  "AI untuk keamanan siber",
+  "AI untuk perlindungan data",
+  "AI untuk deteksi fraud",
+  "AI untuk phishing dan malware",
+  "AI untuk SOC",
+  "AI untuk tata kelola risiko",
+  "Etika dan kepatuhan",
+  "Tren keamanan AI"
+ ],
+ "custom_logo": 9,
+ "pages": {
+  "home": {
+   "title": "Home",
+   "slug": "home"
+  },
+  "artikel": {
+   "title": "Artikel",
+   "slug": "blog",
+   "elementor": false
+  },
+  "kategori": {
+   "title": "Kategori",
+   "slug": "kategori"
+  },
+  "about": {
+   "title": "About",
+   "slug": "about"
+  },
+  "kontak": {
+   "title": "Kontak",
+   "slug": "kontak"
+  }
+ },
+ "trash_pages": [
+  2
+ ],
+ "trash_posts": [
+  1
+ ],
+ "menu": [
+  [
+   "Home",
+   "home"
+  ],
+  [
+   "Artikel",
+   "artikel"
+  ],
+  [
+   "Kategori",
+   "kategori"
+  ],
+  [
+   "About",
+   "about"
+  ],
+  [
+   "Kontak",
+   "kontak"
+  ]
+ ],
+ "astra": {
+  "global-color-palette": {
+   "palette": [
+    "#710014",
+    "#B38F6F",
+    "#F2F1ED",
+    "#F2F1ED",
+    "#161616",
+    "#161616",
+    "#2E2E2E",
+    "#F2F1ED",
+    "#F2F1ED"
+   ],
+   "flag": false
+  },
+  "body-font-family": "'Inter', sans-serif",
+  "headings-font-family": "'Cormorant Garamond', serif",
+  "headings-text-transform": "none",
+  "header-html-1": "",
+  "header-html-2": "",
+  "header-button1-text": "Pelajari di asosiasi.ai",
+  "header-button1-link-option": {
+   "url": "https://asosiasi.ai/",
+   "new_tab": "1",
+   "link_rel": "noopener"
+  },
+  "header-desktop-items": {
+   "popup": {
+    "popup_content": [
+     "mobile-menu"
+    ]
+   },
+   "above": {
+    "above_left": [],
+    "above_left_center": [],
+    "above_center": [],
+    "above_right_center": [],
+    "above_right": []
+   },
+   "primary": {
+    "primary_left": [
+     "logo"
+    ],
+    "primary_left_center": [],
+    "primary_center": [
+     "menu-1"
+    ],
+    "primary_right_center": [],
+    "primary_right": [
+     "button-1"
+    ]
+   },
+   "below": {
+    "below_left": [],
+    "below_left_center": [],
+    "below_center": [],
+    "below_right_center": [],
+    "below_right": []
+   },
+   "flag": true
+  },
+  "header-mobile-items": {
+   "popup": {
+    "popup_content": [
+     "mobile-menu"
+    ]
+   },
+   "above": {
+    "above_left": [],
+    "above_center": [],
+    "above_right": []
+   },
+   "primary": {
+    "primary_left": [
+     "logo"
+    ],
+    "primary_center": [],
+    "primary_right": [
+     "mobile-trigger"
+    ]
+   },
+   "below": {
+    "below_left": [],
+    "below_center": [],
+    "below_right": []
+   },
+   "flag": true
+  },
+  "ast-header-responsive-logo-width": {
+   "desktop": 220,
+   "tablet": 190,
+   "mobile": 160
+  },
+  "display-site-title-responsive": {
+   "desktop": false,
+   "tablet": false,
+   "mobile": false
+  },
+  "display-site-tagline-responsive": {
+   "desktop": false,
+   "tablet": false,
+   "mobile": false
+  },
+  "footer-copyright-editor": "© [current_year] AISolusiKeamanan · Inisiasi dari Dian Martin, Ketua Umum Asosiasi AI Indonesia · Supported by <a href=\"https://asosiasi.ai/\" target=\"_blank\" rel=\"noopener\">Asosiasi AI Indonesia — asosiasi.ai</a>",
+  "footer-desktop-items": {
+   "above": {
+    "above_1": [],
+    "above_2": [],
+    "above_3": [],
+    "above_4": [],
+    "above_5": [],
+    "above_6": []
+   },
+   "primary": {
+    "primary_1": [
+     "widget-1"
+    ],
+    "primary_2": [
+     "widget-2"
+    ],
+    "primary_3": [
+     "widget-3"
+    ],
+    "primary_4": [
+     "widget-4"
+    ],
+    "primary_5": [],
+    "primary_6": []
+   },
+   "below": {
+    "below_1": [
+     "copyright"
+    ],
+    "below_2": [],
+    "below_3": [],
+    "below_4": [],
+    "below_5": [],
+    "below_6": []
+   }
+  },
+  "ast-dynamic-archive-post-custom-title": "Artikel",
+  "ast-dynamic-archive-post-banner-title-color": "#F2F1ED",
+  "ast-dynamic-archive-post-horizontal-alignment": {
+   "desktop": "left",
+   "tablet": "left",
+   "mobile": "left"
+  },
+  "archive-post-sidebar-layout": "right-sidebar",
+  "blog-grid": 2,
+  "blog-layout": "blog-layout-4",
+  "blog-meta": [
+   "category",
+   "date"
+  ],
+  "blog-excerpt-count": 22,
+  "blog-post-structure": [
+   "image",
+   "title",
+   "title-meta",
+   "excerpt",
+   "read-more"
+  ],
+  "hb-footer-column": 4,
+  "hb-footer-layout": {
+   "desktop": "4-equal",
+   "tablet": "2-equal",
+   "mobile": "full"
+  }
+ },
+ "footer": {
+  "footer-widget-1": [
+   "<img src=\"https://aisolusikeamanan.id/wp-content/uploads/2026/11/solusikeamanan-lockup_white.webp\" alt=\"AISolusiKeamanan\" width=\"230\" style=\"max-width:230px;height:auto;margin:0 0 16px;display:block\"><p class=\"sk-fp\">Pusat publikasi dan referensi AI untuk keamanan siber, data, dan risiko digital.</p><p class=\"sk-fp\">Inisiasi dari Dian Martin, Ketua Umum Asosiasi AI Indonesia.</p>"
+  ],
+  "footer-widget-2": [
+   "<p class=\"sk-fh\">Jelajahi</p><ul class=\"sk-fl\"><li><a href=\"/\">Home</a></li><li><a href=\"/blog/\">Artikel</a></li><li><a href=\"/kategori/\">Kategori</a></li><li><a href=\"/about/\">About</a></li><li><a href=\"/kontak/\">Kontak</a></li></ul>"
+  ],
+  "footer-widget-3": [
+   "<p class=\"sk-fh\">Kategori</p><ul class=\"sk-fl\"><li><a href=\"/category/ai-untuk-deteksi-ancaman/\">Deteksi ancaman</a></li><li><a href=\"/category/ai-untuk-keamanan-siber/\">Keamanan siber</a></li><li><a href=\"/category/ai-untuk-perlindungan-data/\">Perlindungan data</a></li><li><a href=\"/category/ai-untuk-soc/\">SOC</a></li><li><a href=\"/category/etika-dan-kepatuhan/\">Etika dan kepatuhan</a></li></ul>"
+  ],
+  "footer-widget-4": [
+   "<p class=\"sk-fh\">Supported by</p><a href=\"https://asosiasi.ai/\" target=\"_blank\" rel=\"noopener\"><img src=\"https://aisolusikeamanan.id/wp-content/uploads/2026/11/asosiasi-ai-logo-putih.webp\" alt=\"Asosiasi AI Indonesia\" width=\"200\" style=\"max-width:200px;height:auto;margin:0 0 14px;display:block\"></a><p class=\"sk-fp\"><a href=\"https://asosiasi.ai/\" target=\"_blank\" rel=\"noopener\">Pelajari Lebih Lanjut di asosiasi.ai →</a><br><a href=\"https://asosiasi.ai/\" target=\"_blank\" rel=\"noopener\">Konsultasi melalui Asosiasi AI Indonesia →</a></p><p class=\"sk-fp\">WhatsApp: <a href=\"https://wa.me/628111913553\" target=\"_blank\" rel=\"noopener\">+62 8111913553</a><br>Email: <a href=\"mailto:sekretariat@asosiasi.ai\">sekretariat@asosiasi.ai</a></p><p class=\"sk-fp\" style=\"font-size:12.5px\">Website ini bersifat edukasi dan publikasi, bukan penyedia layanan.</p>"
+  ]
+ },
+ "sidebar": [
+  "<!-- wp:heading {\"level\":2} --><h2 class=\"wp-block-heading\">Cari</h2><!-- /wp:heading --><!-- wp:search {\"label\":\"Cari artikel\",\"showLabel\":false,\"placeholder\":\"Cari artikel…\",\"buttonText\":\"Cari\"} /-->",
+  "<!-- wp:heading {\"level\":2} --><h2 class=\"wp-block-heading\">Kategori</h2><!-- /wp:heading --><!-- wp:categories {\"showPostCounts\":true} /-->"
+ ],
+ "css": "chrome.css"
+}

@@ -1,6 +1,7 @@
 """Pustaka pembantu elemen Elementor Free (container + widget native). Atur palet SEBELUM `from ek import *`: ek.PAPER/INK/RED/MUTE/TAPE/MONO."""
 import json, pathlib
 HFAM, HUP = 'Anton', True
+BFONT = 'Inter'
 PAPER, INK, RED, MUTE, TAPE, MONO = '#ECE7DB', '#0B0B0B', '#D9291C', '#4A463E', '#D8CFB3', 'Inter'
 ASOSIASI = 'https://asosiasi.ai'
 SITE = 'https://www.buatiklanai.id'

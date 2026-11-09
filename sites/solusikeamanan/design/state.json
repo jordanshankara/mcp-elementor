@@ -1,0 +1,48 @@
+{
+ "cats": {
+  "AI untuk deteksi ancaman": {
+   "id": 2,
+   "slug": "ai-untuk-deteksi-ancaman"
+  },
+  "AI untuk keamanan siber": {
+   "id": 3,
+   "slug": "ai-untuk-keamanan-siber"
+  },
+  "AI untuk perlindungan data": {
+   "id": 4,
+   "slug": "ai-untuk-perlindungan-data"
+  },
+  "AI untuk deteksi fraud": {
+   "id": 5,
+   "slug": "ai-untuk-deteksi-fraud"
+  },
+  "AI untuk phishing dan malware": {
+   "id": 6,
+   "slug": "ai-untuk-phishing-dan-malware"
+  },
+  "AI untuk SOC": {
+   "id": 7,
+   "slug": "ai-untuk-soc"
+  },
+  "AI untuk tata kelola risiko": {
+   "id": 8,
+   "slug": "ai-untuk-tata-kelola-risiko"
+  },
+  "Etika dan kepatuhan": {
+   "id": 9,
+   "slug": "etika-dan-kepatuhan"
+  },
+  "Tren keamanan AI": {
+   "id": 10,
+   "slug": "tren-keamanan-ai"
+  }
+ },
+ "pages": {
+  "home": 14,
+  "artikel": 15,
+  "kategori": 16,
+  "about": 17,
+  "kontak": 18
+ },
+ "menu": 11
+}

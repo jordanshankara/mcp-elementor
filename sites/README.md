@@ -13,8 +13,8 @@ Satu folder per situs (nama folder = alias di `config/sites.local.json`). Catata
 | `bikinkonten` | bikinkontenai.id | situs baru | BRIEF + design/ | **dibangun & tayang 2026-11-09** (gaya brutalis oranye/hitam/putih); sisa TODO di `docs/memory/LOG.md` |
 | `toolsai` | toolsaigratis.id | belum live | BRIEF | belum dikerjakan |
 | `analisadata` | aianalisadata.id | belum live | BRIEF | belum dikerjakan |
-| `solusiindustri` | aisolusiindustri.id | belum live | BRIEF | belum dikerjakan |
-| `solusikeamanan` | aisolusikeamanan.id | belum live | BRIEF | belum dikerjakan |
+| `solusiindustri` | aisolusiindustri.id | situs baru | BRIEF + design/ | **dibangun & tayang 2026-11-09** (putih/navy/oranye, ref. Machvex); foto belum |
+| `solusikeamanan` | aisolusikeamanan.id | situs baru | BRIEF + design/ | **dibangun & tayang 2026-11-09** (gelap, Crimson/Sand/Pearl/Obsidian, ref. AgentAI) |
 | `institut` | institutnasional.ai | belum live | BRIEF | belum dikerjakan |
 
 ## Ketentuan yang sama di semua brief "Revisi Lengkap" (6 situs belum live)
@@ -33,3 +33,6 @@ Tambah: identitas + landasan materi; halaman About "Tentang Publikasi Ini"; blok
 - **WhatsApp:** +62 8111913553 (tautan `https://wa.me/628111913553`) · **Email:** sekretariat@asosiasi.ai · **Web:** https://asosiasi.ai/
 - **Logo (ada di branch `main`, folder repo):** `logo-asosiasi-ai/` (Logo-AAII-21 lambang+teks, `-Rec-24` horizontal berwarna, `-white-25`, `-Rec-white-26` putih) dan `Logo_Domain_AI/<domain>/` (per situs: `*_logo`, `*_lockup`, `*_lockup_white`, `*_sosmed_*`, `*_youtube_banner`; PNG + SVG). Pakai varian horizontal (Rec) untuk header/footer; ubah ke WebP sebelum diunggah (aturan proyek).
 - Situs yang sudah memasang: bikinkonten (header lockup, footer logo putih, About/Home/Kontak), buatiklan (header lockup, footer logo, Kontak #355).
+
+## Alat bersama
+`sites/_lib/ek.py` + `ek2.py` (helper elemen Elementor Free: container/kartu/pil/gradien/grid), `sites/_lib/setup_site.py` (halaman, kategori, menu, Astra, widget footer/sidebar, CSS, push Elementor dari `site.json`). Pola per situs: `build_pages.py` → `*_sections.json`, `chrome.css`, `site.json`, `logos.json`.

@@ -1,0 +1,48 @@
+{
+ "cats": {
+  "AI untuk manufaktur": {
+   "id": 2,
+   "slug": "ai-untuk-manufaktur"
+  },
+  "AI untuk operasional": {
+   "id": 3,
+   "slug": "ai-untuk-operasional"
+  },
+  "AI untuk supply chain": {
+   "id": 4,
+   "slug": "ai-untuk-supply-chain"
+  },
+  "AI untuk quality control": {
+   "id": 5,
+   "slug": "ai-untuk-quality-control"
+  },
+  "AI untuk maintenance": {
+   "id": 6,
+   "slug": "ai-untuk-maintenance"
+  },
+  "AI untuk produktivitas": {
+   "id": 7,
+   "slug": "ai-untuk-produktivitas"
+  },
+  "AI untuk analisis data industri": {
+   "id": 8,
+   "slug": "ai-untuk-analisis-data-industri"
+  },
+  "Etika dan tata kelola": {
+   "id": 9,
+   "slug": "etika-dan-tata-kelola"
+  },
+  "Tren industri AI": {
+   "id": 10,
+   "slug": "tren-industri-ai"
+  }
+ },
+ "pages": {
+  "home": 14,
+  "artikel": 15,
+  "kategori": 16,
+  "about": 17,
+  "kontak": 18
+ },
+ "menu": 11
+}

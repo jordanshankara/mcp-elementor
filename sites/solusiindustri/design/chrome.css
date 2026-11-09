@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+:root{--n:#0D1527;--n2:#16213D;--o:#F47A1F;--g:#F1F1F1;--m:#5F6A7D}
+body,.ast-separate-container{background:#fff;font-family:Manrope,sans-serif;color:var(--n)}
+.elementor a,.entry-content .elementor a,.elementor-widget-container a{text-decoration:none!important}
+h1,h2,h3,h4,.elementor-heading-title{font-family:Manrope,sans-serif!important}
+/* header */
+.ast-above-header-bar{background:var(--n)!important;border:0!important}
+.ast-above-header-bar .ast-builder-html-element,.ast-above-header-bar p{font:500 12.5px/1.4 Manrope,sans-serif!important;color:#C9D1E3!important;margin:0}
+.ast-above-header-bar a{color:#fff!important;text-decoration:none}
+.main-header-bar,.ast-primary-header-bar,#ast-desktop-header .ast-primary-header-bar{background:#fff!important;border-bottom:1px solid #E5E7EC!important}
+.main-header-menu>.menu-item>.menu-link{font:600 14.5px/1 Manrope,sans-serif!important;color:var(--n)!important;padding:30px 18px!important}
+.main-header-menu>.menu-item>.menu-link:hover,.main-header-menu>.current-menu-item>.menu-link{color:var(--o)!important}
+.ast-header-button-1 .ast-custom-button,.ast-header-button-1 .ast-custom-button-link .ast-custom-button{background:var(--o)!important;color:#fff!important;border:0!important;border-radius:30px!important;padding:14px 26px!important;font:700 14px/1 Manrope,sans-serif!important}
+.ast-header-button-1 .ast-custom-button:hover{background:var(--n)!important}
+.menu-toggle,.ast-mobile-menu-trigger-minimal,.ast-button-wrap .menu-toggle{border:1px solid var(--n)!important;border-radius:10px!important;color:var(--n)!important}
+.ast-mobile-header-content,.ast-mobile-popup-drawer .ast-mobile-popup-inner{background:#fff!important}
+.ast-mobile-popup-drawer .menu-link{font:600 15px Manrope!important;color:var(--n)!important}
+@media(max-width:921px){.ast-header-button-1{display:none}.ast-above-header-bar .ast-builder-html-element{font-size:11px!important}}
+/* footer */
+.site-footer,.site-primary-footer-wrap,.site-below-footer-wrap,.site-above-footer-wrap{background:var(--n)!important;color:#fff!important}
+.site-primary-footer-wrap{padding:56px 0 40px!important}
+.site-below-footer-wrap{border-top:1px solid #243255!important}
+.site-below-footer-wrap,.site-below-footer-wrap p{font:500 12.5px/1.7 Manrope,sans-serif!important;color:#C9D1E3!important}
+.site-below-footer-wrap a,.ia-fp a{color:#F9A25F!important;text-decoration:none}
+.site-footer .widget{border:0!important;padding:0!important;background:transparent!important}
+.ia-fh{font:800 18px/1 Manrope,sans-serif;margin:0 0 16px;color:#fff}
+.ia-fp{font:400 14.5px/1.7 Manrope,sans-serif;margin:0 0 10px;color:#C9D1E3}
+.ia-fl{list-style:none;margin:0;padding:0}.ia-fl li{padding:6px 0;font:500 14.5px Manrope,sans-serif}.ia-fl a{color:#C9D1E3!important;text-decoration:none}.ia-fl a:hover{color:#F9A25F!important}
+/* cari Home */
+.ia-search{width:100%;max-width:560px;margin:0 auto}
+.ia-search .search-form{display:flex;background:#fff;border-radius:40px;padding:6px;box-shadow:0 12px 30px rgba(0,0,0,.25)}
+.ia-search label{flex:1;margin:0}.ia-search .search-field{width:100%;border:0!important;background:transparent!important;padding:12px 20px!important;font:500 15px Manrope,sans-serif;color:var(--n);outline:0}
+.ia-search .search-submit{background:var(--o)!important;color:#fff!important;border:0!important;border-radius:30px!important;padding:0 26px!important;font:700 14px Manrope,sans-serif}
+.ia-search .widget-title,.ia-search .widgettitle,.ia-search .ast-search-icon{display:none!important}
+/* arsip */
+.ast-archive-entry-banner{background:linear-gradient(160deg,#0D1527,#16213D)!important;background-image:linear-gradient(160deg,#0D1527,#16213D)!important;min-height:0!important;height:auto!important;padding:70px 0 60px!important;margin:0!important;overflow:visible!important}
+.ast-archive-entry-banner h1{font:800 clamp(40px,6vw,64px)/1.05 Manrope,sans-serif!important;color:#fff!important;text-align:left!important;margin:0!important}
+.ast-archive-entry-banner .ast-container{display:block!important;padding-left:20px;padding-right:20px}
+.ast-archive-entry-banner .ast-container::after{content:"Temukan artikel seputar penggunaan AI untuk manufaktur, operasional, supply chain, quality control, dan maintenance.";display:block;max-width:640px;margin-top:14px;font:500 17px/1.6 Manrope,sans-serif;color:#C9D1E3}
+.blog #masthead,.archive #masthead,.search #masthead{position:relative!important}
+.ast-article-post{background:#fff!important;border:1px solid #E5E7EC!important;border-radius:16px!important;box-shadow:0 10px 30px rgba(13,21,39,.06)!important;padding:0!important;overflow:hidden}
+.ast-article-post .entry-header,.ast-article-post .ast-excerpt-container,.ast-article-post .ast-blog-single-element{padding-left:22px;padding-right:22px}
+.ast-article-post .entry-header{padding-top:20px}
+.ast-article-post .entry-title,.ast-article-post .entry-title a{font:800 22px/1.25 Manrope,sans-serif!important;color:var(--n)!important}
+.ast-article-post .entry-title a:hover{color:var(--o)!important}
+.ast-article-post .entry-meta,.ast-article-post .entry-meta a{font:600 12px/1.6 Manrope,sans-serif!important;color:var(--m)!important}
+.ast-article-post .ast-excerpt-container,.ast-article-post .ast-excerpt-container p{font:400 15px/1.65 Manrope,sans-serif!important;color:var(--m)}
+.ast-article-post .read-more{padding-bottom:22px}
+.ast-article-post .read-more a,.ast-article-post .ast-read-more-link{font-size:0!important}
+.ast-article-post .read-more a::after,.ast-article-post .ast-read-more-link::after{content:"Baca →";font:700 14px Manrope,sans-serif;color:var(--o)}
+.ast-pagination .page-numbers{border:1px solid #E5E7EC!important;border-radius:10px!important;background:#fff!important;color:var(--n)!important;font:700 13px Manrope,sans-serif}
+.ast-pagination .page-numbers.current{background:var(--o)!important;color:#fff!important;border-color:var(--o)!important}
+#secondary .widget{border:1px solid #E5E7EC;border-radius:16px;padding:22px;margin-bottom:18px;background:#F1F1F1}
+#secondary .widget-title,#secondary h2,#secondary .wp-block-heading{font:800 20px/1.2 Manrope,sans-serif!important;color:var(--n);margin:0 0 12px}
+#secondary a{color:var(--n)!important;text-decoration:none}#secondary a:hover{color:var(--o)!important}
+#secondary li{border-bottom:1px solid #E1E3E8;padding:7px 0;list-style:none}#secondary ul{margin:0;padding:0}
+.wp-block-search__input,#secondary input[type=search]{border:1px solid #D5D9E1!important;border-radius:30px!important;background:#fff!important;padding:12px 18px!important}
+.wp-block-search__button{background:var(--o)!important;color:#fff!important;border-radius:30px!important;border:0!important;font:700 13px Manrope!important}
+.no-results .page-content p{font-size:0!important}
+.no-results .page-content p::before{content:"Belum ada artikel di bagian ini. Segera hadir.";font:600 15px/1.6 Manrope,sans-serif;color:var(--m)}
+.no-results .search-form{display:none}
+.blog #primary:not(:has(article))::before{content:"Belum ada artikel. Segera hadir.";display:block;font:700 18px Manrope,sans-serif;padding:50px 0 80px;color:var(--m)}
+.single-post .entry-title{font:800 clamp(34px,5vw,56px)/1.1 Manrope,sans-serif!important;color:var(--n)}
+.single-post .entry-content,.single-post .entry-content p{font:400 17px/1.8 Manrope,sans-serif;color:#26304A}
+.single-post .entry-content h2,.single-post .entry-content h3{font-family:Manrope,sans-serif!important;font-weight:800}
+.single-post .entry-content a{color:var(--o)}
+.bd-badge{width:fit-content!important;max-width:100%}
+.ia-search input.search-submit{display:none!important}
+.ia-search .ast-search-submit{background:var(--o)!important;color:#fff!important;border:0!important;border-radius:30px!important;padding:0 28px!important;font:700 14px Manrope,sans-serif!important;cursor:pointer}
+.ia-search .ast-search-submit i,.ia-search .ast-search-submit .ast-icon{display:none!important}
+.ia-search .ast-search-submit::after{content:"Cari"}
+.ia-search label{display:flex;align-items:center}.ia-search .search-field{flex:1}
+
+@media(max-width:921px){.site-primary-footer-wrap .ast-builder-grid-row{padding-left:20px;padding-right:20px}.site-primary-footer-wrap .site-footer-section{margin-bottom:24px}}
