@@ -9,6 +9,9 @@ ek.PAPER, ek.INK, ek.RED, ek.MUTE, ek.TAPE, ek.MONO = CREAM, INK, MAROON, MUTE, 
 from ek import *
 SITE, AS = 'https://www.bikinkontenai.id', 'https://asosiasi.ai/'
 M = json.loads((D / 'media.json').read_text())
+LG = json.loads((D / 'logos.json').read_text())
+WA, WA_TXT, EMAIL = 'https://wa.me/628111913553', '+62 8111913553', 'sekretariat@asosiasi.ai'
+def LOGO(w=250): return IMG(LG['asosiasi']['id'], LG['asosiasi']['source_url'], grey=False, width={'unit': 'px', 'size': w}, align='left', link_to='custom', link={'url': AS, 'is_external': 'on', 'nofollow': ''})
 def ext(u): return {'url': u, 'is_external': 'on', 'nofollow': ''}
 def bg(c): return {'background_background': 'classic', 'background_color': c}
 def BP(text, url, ext_=False, **s):
@@ -86,7 +89,7 @@ def build_home():
     ID = ('Inisiasi dari Dian Martin, Ketua Umum Asosiasi AI Indonesia. Materi berlandaskan buku <em>Stay Human, Stay in Charge — Transformasi AI di Korporasi</em>, '
           f'riset studi banding 14 yurisdiksi oleh <a href="{AS}" target="_blank" rel="noopener" style="color:{MAROON}">Asosiasi AI Indonesia</a>, serta pembelajaran implementasi industri.')
     S.append(rowb([cell([MICRO('Inisiasi', color=MUTE), H('Landasan Materi', 44, 36, 34, tag='h2')], w=30, **bg(CARD)), cell([TXT(f'<p style="margin:0">{ID}</p>', size=18)], w=42, **bg(CARD)),
-                   cell([BP('Pelajari lebih lanjut di asosiasi.ai →', AS, True), BO('Hubungi Asosiasi AI Indonesia', AS, ext_=True)], w=28, right=False, **bg(CARD))], tablet_col=True, border_width=bw(0), **bg(CARD)))
+                   cell([LOGO(230), BP('Pelajari lebih lanjut di asosiasi.ai →', AS, True), BO('Hubungi Asosiasi AI Indonesia', AS, ext_=True)], w=28, right=False, **bg(CARD))], tablet_col=True, border_width=bw(0), **bg(CARD)))
     return S
 
 def title_row(t): return rowb([C([H(t, 20, 22, 26, tag='h1', unit='vw', lh=.88)], padding=dim(26, 28, 8, 28), padding_mobile=dim(18, 20, 6, 20))], tablet_col=False, **bg(CREAM))
@@ -105,18 +108,20 @@ def build_about():
     COPY = ('BikinKontenAI adalah inisiasi dari Dian Martin, Ketua Umum Asosiasi AI Indonesia, sebagai wadah publikasi dan referensi tentang penggunaan AI untuk pembuatan konten digital. Materi publikasi berlandaskan pada buku <em>Stay Human, Stay in Charge — Transformasi AI di Korporasi</em>, '
             f'riset studi banding 14 yurisdiksi oleh <a href="{AS}" target="_blank" rel="noopener" style="color:{MAROON}">Asosiasi AI Indonesia</a>, serta pembelajaran dari implementasi industri. Website ini menyediakan publikasi dan edukasi, bukan layanan atau produk.')
     return [title_row('About'),
-            rowb([cell([MICRO('Inisiator', color=MUTE), TXT(f'<p style="margin:0">{COPY}</p>', size=19), C([BP('Pelajari lebih lanjut di asosiasi.ai →', AS, True)], margin=dim(10, 0, 0, 0))], w=58, **bg(CREAM)),
+            rowb([cell([MICRO('Inisiator', color=MUTE), TXT(f'<p style="margin:0">{COPY}</p>', size=19), LOGO(260), C([BP('Pelajari lebih lanjut di asosiasi.ai →', AS, True)], margin=dim(10, 0, 0, 0))], w=58, **bg(CREAM)),
                   cell([MICRO('Landasan materi', color=OCHRE_L)] + [C([TXT(f'<p style="margin:0;color:{CREAM}"><span style="color:{OCHRE_L};font-weight:700">{i+1:02d}</span> &nbsp; {t}</p>', size=16, color=CREAM)], padding=dim(10, 0), border_border='solid', border_width=bw(0, 0, 1, 0), border_color='#2D6A70') for i, t in enumerate(LAND)] +
                        [TXT(f'<p style="margin:14px 0 0;color:{CREAM}">Publikasi disusun berdasarkan riset dan praktik, bukan sekadar opini atau rangkuman tren.</p>', size=15, color=CREAM)], w=42, right=False, line='#2D6A70', **bg(TEAL))], tablet_col=True, **bg(CREAM)),
             rowb([cell([NUM(i + 1, OCHRE), H(t, 32, 30, 28, tag='h3'), TXT(f'<p style="margin:0">{d}</p>')], w=25, right=(i < 3), flex_gap=gap(6), **bg(CARD)) for i, (t, d) in enumerate(
                 [('Bersumber', 'Setiap klaim disertai sumber atau referensi.'), ('Netral', 'Tidak mempromosikan tools tertentu.'), ('Bukan Jasa', 'Tanpa penawaran layanan, produk, template, atau kursus.'), ('Beretika', 'Hak cipta, privasi, dan misinformasi diperhatikan.')])], tablet_col=True, flex_wrap='wrap', border_width=bw(0), **bg(CARD))]
 
 def build_kontak():
+    ln = lambda label, val, url: C([MICRO(label, color='#D5E0DE'), W('text-editor', editor=f'<p style="margin:0"><a href="{url}" target="_blank" rel="noopener" style="color:{CREAM}">{val}</a></p>', **typo('Barlow Condensed', 40, 30, 28, weight='800', lh=1))], padding=dim(14, 0), border_border='solid', border_width=bw(0, 0, 1, 0), border_color='#2D6A70', flex_gap=gap(4))
     return [title_row('Kontak'),
             rowb([cell([MICRO('Hubungi', color=MUTE), TXT('<p style="margin:0;font-size:22px">Hubungi Asosiasi AI Indonesia untuk informasi lebih lanjut, kolaborasi, atau konsultasi.</p>', size=22),
-                        TXT('<p style="margin:0">Semua permintaan konsultasi, kolaborasi, atau informasi program diarahkan ke asosiasi.ai.</p>', size=15), C([BP('Buka asosiasi.ai →', AS, True)], margin=dim(8, 0, 0, 0))], w=60, **bg(CREAM)),
-                  cell([MICRO('Kontak resmi', color=OCHRE_L), TXT(f'<p style="margin:0;color:{CREAM}">Nomor WhatsApp dan email resmi mengikuti kontak di <a href="{AS}" target="_blank" rel="noopener" style="color:{OCHRE_L}">asosiasi.ai</a>.</p>', size=16, color=CREAM),
-                        TXT('<p style="margin:0;color:#D5E0DE">Usulan artikel atau ide: gunakan kontak resmi di atas.</p>', size=14, color='#D5E0DE')], w=40, right=False, line='#2D6A70', **bg(TEAL))], tablet_col=True, **bg(CREAM))]
+                        TXT('<p style="margin:0">Semua permintaan konsultasi, kolaborasi, atau informasi program diarahkan ke asosiasi.ai.</p>', size=15), LOGO(280),
+                        C([BP('Buka asosiasi.ai →', AS, True)], margin=dim(8, 0, 0, 0))], w=55, **bg(CREAM)),
+                  cell([MICRO('Kontak resmi Asosiasi AI Indonesia', color=OCHRE_L), ln('WhatsApp', WA_TXT, WA), ln('Email', EMAIL, 'mailto:' + EMAIL), ln('Website', 'asosiasi.ai', AS),
+                        TXT('<p style="margin:12px 0 0;color:#D5E0DE">Usulan artikel atau ide: kirim lewat WhatsApp atau email di atas.</p>', size=14, color='#D5E0DE')], w=45, right=False, line='#2D6A70', **bg(TEAL))], tablet_col=True, **bg(CREAM))]
 
 def save(name, S):
     for s in S: s['settings'].setdefault('background_background', 'classic'); s['settings'].setdefault('background_color', CREAM)

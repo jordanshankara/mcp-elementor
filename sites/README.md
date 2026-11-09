@@ -28,3 +28,8 @@ Satu folder per situs (nama folder = alias di `config/sites.local.json`). Catata
 
 ## Addendum situs live (regulasi, buatiklan) — isi sama
 Tambah: identitas + landasan materi; halaman About "Tentang Publikasi Ini"; blok singkat identitas di Home (+ tautan ke About dan asosiasi.ai); teks identitas di footer; field standar artikel/dokumen (Landasan materi, Referensi terperinci, Konteks implementasi, Catatan editorial, Tautan lanjutan ke asosiasi.ai); CTA konsultasi → asosiasi.ai. Tidak ada yang dihapus.
+
+## Data resmi bersama (dari pemilik, 2026-11-09)
+- **WhatsApp:** +62 8111913553 (tautan `https://wa.me/628111913553`) · **Email:** sekretariat@asosiasi.ai · **Web:** https://asosiasi.ai/
+- **Logo (ada di branch `main`, folder repo):** `logo-asosiasi-ai/` (Logo-AAII-21 lambang+teks, `-Rec-24` horizontal berwarna, `-white-25`, `-Rec-white-26` putih) dan `Logo_Domain_AI/<domain>/` (per situs: `*_logo`, `*_lockup`, `*_lockup_white`, `*_sosmed_*`, `*_youtube_banner`; PNG + SVG). Pakai varian horizontal (Rec) untuk header/footer; ubah ke WebP sebelum diunggah (aturan proyek).
+- Situs yang sudah memasang: bikinkonten (header lockup, footer logo putih, About/Home/Kontak), buatiklan (header lockup, footer logo, Kontak #355).

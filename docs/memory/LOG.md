@@ -28,6 +28,13 @@ Pemilik menegur: palet harus dari **posting Instagram bikinkontenai.id** (krem +
 - **Pelajaran penting:** kunci flexbox container legacy Elementor yang benar = `flex_justify_content`, `flex_align_items`, `_flex_align_self` (BUKAN `justify_content`/`align_items`/`align_self` — kunci lama diabaikan). `sites/_lib/ek.py` sudah diperbaiki (`ek.HFAM`, `ek.HUP` untuk font judul/huruf besar). `sites/buatiklan/design/build_home.py` masih memakai kunci lama (hasil tayang tetap, tapi perbaiki bila dibangun ulang).
 - Palet IG dipakai juga untuk situs lain? Belum diputuskan: tiap situs perlu identitas sendiri; tanyakan pemilik acuan palet per situs (IG masing-masing).
 
+### 2026-11-09 — LOGO ketemu di `main` + KONTAK resmi
+- **Kesalahan saya:** logo dicari hanya di branch kerja & repo lain; sebenarnya sudah ada di **`origin/main`** (commit "Tambah logo resmi": `logo-asosiasi-ai/` dan `Logo_Domain_AI/`). Sudah digabung ke branch `claude/clever-hypatia-6agnmk` (resolusi konflik `.gitignore`). Unggahan logo SALAH (logo dari repo proposal-ethical-ai) sempat masuk ke Media bikinkonten → sudah DIHAPUS. **Selalu `git fetch origin main` + cek `main` dulu untuk aset.**
+- Kontak resmi (dari pemilik): WA **+62 8111913553**, email **sekretariat@asosiasi.ai** (disimpan di `sites/README.md`).
+- **bikinkonten**: logo header = lockup bikinkontenai.id (Astra `custom_logo` media 856, lebar 230/190/160; `display-site-title` dimatikan; item header kembali `logo`); footer = logo Asosiasi putih (media 855) + WA/email + CTA; logo Asosiasi berwarna (media 854) di Home (blok identitas), About, Kontak; halaman Kontak berisi WA, email, website. Skrip: `sites/bikinkonten/design/apply_logo_contact.py` (+ `logos.json`).
+- **buatiklan**: header = lockup buatiklanai.id (media 1056), footer = logo Asosiasi (media 1054) + Supported by + WA/email, halaman Kontak #355 dibangun ulang (judul "Kontak", WA/email/website, logo). Skrip: `sites/buatiklan/design/apply_logo_contact.py`. Menu utama buatiklan TIDAK memuat Kontak (kontak ada di footer & /contact/).
+- TODO: `Kontak` ke menu buatiklan? (menunggu keputusan); regulasi (addendum + logo + kontak) menunggu kredensial; 4 situs kosong + institut + pusatriset: pakai `Logo_Domain_AI/<domain>/` saat dibangun.
+
 ---
 
 ## 2026-11-08 (sesi cloud, branch `claude/clever-hypatia-6agnmk`)
