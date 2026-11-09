@@ -9,6 +9,8 @@ ek.PAPER, ek.INK, ek.RED, ek.MUTE, ek.TAPE, ek.MONO = OBS, PEARL, CRIM, MUTE, LI
 import ek2
 from ek2 import *
 LG = json.loads((D / 'logos.json').read_text())
+MD = json.loads((D / 'media.json').read_text())
+def PHOTO(k, h=220, r=24, **s): return IMG(MD[k]['id'], MD[k]['url'], grey=False, width={'unit': '%', 'size': 100}, height={'unit': 'px', 'size': h}, object_fit='cover', image_border_radius=dim(r), css_filters_css_filter='custom', css_filters_brightness=px(88), css_filters_saturate=px(85), **s)
 SITE, AS = 'https://aisolusikeamanan.id', 'https://asosiasi.ai/'
 WA, WAT, EM = 'https://wa.me/628111913553', '+62 8111913553', 'sekretariat@asosiasi.ai'
 CATS = [('AI untuk deteksi ancaman', 'ai-untuk-deteksi-ancaman'), ('AI untuk keamanan siber', 'ai-untuk-keamanan-siber'), ('AI untuk perlindungan data', 'ai-untuk-perlindungan-data'), ('AI untuk deteksi fraud', 'ai-untuk-deteksi-fraud'),
@@ -45,7 +47,7 @@ def build_home():
           f'riset studi banding 14 yurisdiksi oleh <a href="{AS}" target="_blank" rel="noopener" style="color:{SAND}">Asosiasi AI Indonesia</a>, serta pembelajaran implementasi industri.')
     pl = GLASS([DOT('Landasan materi'), HS('Inisiasi dari Dian Martin, Ketua Umum Asosiasi AI Indonesia.', 38, tag='h2', lh=1.1), BODY(f'<p style="margin:0">{ID}</p>', 15.5, '#CFCBC3'), lg('asosiasi_putih', 230),
                 C([PILLBTN('Pelajari Lebih Lanjut di asosiasi.ai', AS, CRIM, PEARL, ext_=True, hover_bg=CRIM_L)], flex_direction='row')], 30, 38, g=18, **WIDTH(56), flex_justify_content='space-between')
-    pr = C([GLASS([MICRO('Riset studi banding', color=MUTE), H('14+', 84, 64, 52, color=PEARL, tag='div', lh=1, typography_font_weight='500'), BODY('<p style="margin:0">yurisdiksi dikaji oleh Asosiasi AI Indonesia sebagai landasan publikasi.</p>', 14, '#CFCBC3')], 28, 30, g=6),
+    pr = C([C([PHOTO('hero', 230, 26), MICRO('Foto: Tima Miroshnichenko / Pexels', color=MUTE)], flex_gap=gap(6)), GLASS([MICRO('Riset studi banding', color=MUTE), H('14+', 84, 64, 52, color=PEARL, tag='div', lh=1, typography_font_weight='500'), BODY('<p style="margin:0">yurisdiksi dikaji oleh Asosiasi AI Indonesia sebagai landasan publikasi.</p>', 14, '#CFCBC3')], 28, 30, g=6),
             GLASS([H('“Stay Human, Stay in Charge.”', 30, 26, 24, color=PEARL, tag='div', lh=1.15, typography_font_weight='500'), BODY('<p style="margin:0">Transformasi AI di Korporasi — buku Dian Martin, Ketua Umum Asosiasi AI Indonesia.</p>', 14, MUTE)], 28, 30, g=10)], flex_gap=gap(20), **WIDTH(40))
     S.append(SEC([ROW2([pl, pr], g=20, flex_justify_content='space-between')], OBS, pv=40))
     # kategori
@@ -54,9 +56,9 @@ def build_home():
                    **{'width': {'unit': '%', 'size': 31.5}, 'width_tablet': {'unit': '%', 'size': 48}, 'width_mobile': {'unit': '%', 'size': 100}}) for i, (n, slug) in enumerate(CATS)]
     S.append(SEC([DOT('Kategori'), HS('Kategori Artikel', 60, tag='h2'), BODY('<p style="margin:0">Jelajahi artikel berdasarkan kategori dan konteks pembahasan seputar AI untuk keamanan digital.</p>', 17, '#CFCBC3'), RWRAP(items, 20, flex_justify_content='space-between')], OBS, pv=90))
     # artikel terbaru
-    def ac(t): return GLASS([C([ICON('fas fa-shield-alt', CRIM_L, 40)], min_height=px(140), flex_justify_content='center', flex_align_items='center', border_radius=dim(16), **grad('#2A0008', '#161616', 'linear', 160)), MICRO('Contoh · segera hadir', color=SAND), H(t, 26, 24, 24, color=PEARL, tag='h3', lh=1.15, typography_font_weight='500'),
+    def ac(t, k): return GLASS([PHOTO(k, 160, 16), MICRO('Contoh · segera hadir', color=SAND), H(t, 26, 24, 24, color=PEARL, tag='h3', lh=1.15, typography_font_weight='500'),
                               W('text-editor', editor=f'<p style="margin:0"><a href="{SITE}/blog/" style="color:{CRIM_L}">Baca →</a></p>', **typo('Inter', 13, weight='600'))], 22, 18, g=12, **{'width': {'unit': '%', 'size': 31.5}, 'width_tablet': {'unit': '%', 'size': 100}, 'width_mobile': {'unit': '%', 'size': 100}})
-    S.append(SEC([DOT('Artikel terbaru'), HS('Bacaan Terbaru', 56, tag='h2'), RWRAP([ac(t) for t in ['Judul artikel contoh pertama', 'Judul artikel contoh kedua', 'Judul artikel contoh ketiga']], 20, flex_justify_content='space-between'), PILLBTN('Lihat semua artikel', f'{SITE}/blog/', '#FFFFFF14', PEARL, border='#FFFFFF2E', hover_bg=CRIM)], OBS, pv=60))
+    S.append(SEC([DOT('Artikel terbaru'), HS('Bacaan Terbaru', 56, tag='h2'), RWRAP([ac(t, f'c{i+1}') for i, t in enumerate(['Judul artikel contoh pertama', 'Judul artikel contoh kedua', 'Judul artikel contoh ketiga'])], 20, flex_justify_content='space-between'), PILLBTN('Lihat semua artikel', f'{SITE}/blog/', '#FFFFFF14', PEARL, border='#FFFFFF2E', hover_bg=CRIM)], OBS, pv=60))
     # CTA
     S.append(SEC([CARD([HS('Pelajari lebih lanjut di <span style="color:#B38F6F">asosiasi.ai</span>', 52, tag='h2'), BODY('<p style="margin:0">Konsultasi, kolaborasi, dan informasi program diarahkan ke Asosiasi AI Indonesia.</p>', 17, '#E6D9D9'),
                        C([PILLBTN('Pelajari Lebih Lanjut di asosiasi.ai', AS, PEARL, CRIM, ext_=True, hover_bg=SAND), PILLBTN('Konsultasi melalui Asosiasi AI Indonesia', AS, 'transparent', PEARL, border='#FFFFFF66', ext_=True, hover_bg=CRIM_L)], flex_direction='row', flex_wrap='wrap', flex_gap=gap(12))],

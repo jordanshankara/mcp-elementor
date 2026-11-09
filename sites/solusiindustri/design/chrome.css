@@ -72,3 +72,4 @@ h1,h2,h3,h4,.elementor-heading-title{font-family:Manrope,sans-serif!important}
 .ia-search label{display:flex;align-items:center}.ia-search .search-field{flex:1}
 
 @media(max-width:921px){.site-primary-footer-wrap .ast-builder-grid-row{padding-left:20px;padding-right:20px}.site-primary-footer-wrap .site-footer-section{margin-bottom:24px}}
+.sk-search label,.ia-search label{align-items:stretch!important}.sk-search .ast-search-submit,.ia-search .ast-search-submit{align-self:stretch;min-height:46px}

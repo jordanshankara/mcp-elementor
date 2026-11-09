@@ -43,6 +43,11 @@ Pemilik menegur: palet harus dari **posting Instagram bikinkontenai.id** (krem +
 - **Pelajaran baru:** (1) widget footer yang dibuat lewat REST bisa masuk `wp_inactive_widgets` → selalu PUT `{sidebar}` setelah dibuat dan CEK lagi di akhir (`GET /wp/v2/sidebars`); (2) ikon Elementor Free memakai nama **FontAwesome 5** (`fas fa-cogs`, bukan `fa-gears`; brand `fab fa-whatsapp` perlu library `fa-brands`) — nama FA6 menghasilkan ikon kosong/hitam; (3) widget WP Search merender 2 tombol submit (input + tombol ikon) → sembunyikan `input.search-submit`, pakai `.ast-search-submit` + `::after{content:"Cari"}`, dan `label{display:flex}`; (4) Astra butuh `hb-footer-column`/`hb-footer-layout` agar 4 kolom footer tampil; (5) palet Astra indeks 4 dipakai sebagai latar konten → samakan dengan warna latar; (6) `shape_divider_bottom` (curve) tersedia di container Free.
 - TODO: foto (hero industri, kartu) — butuh kunci Pexels via env atau izin generate gambar (Canva/Higgsfield berbayar-kredit); artikel nyata; form usulan; bahasa id_ID belum terpasang (placeholder "Search..." Inggris); ikon baris Kontak di HP bertumpuk (kosmetik).
 
+### 2026-11-09 — Foto Pexels untuk industri & keamanan
+- Pemilik memberi kunci Pexels (dipakai sekali lewat env `PXK`, TIDAK disimpan di berkas/repo; ia pernah ditempel di chat → **rotasi di dashboard Pexels**). Host `api.pexels.com` & `images.pexels.com` ditambahkan ke Allowed domains.
+- Foto dikonversi WebP (≤100 KB) & diunggah ke Media tiap situs (judul/alt memuat kredit "Foto: <fotografer> / Pexels"); daftar di `sites/<alias>/design/media.json`. industri: hero (pabrik, overlay navy 0.8), About 2 foto, panel kategori, 3 kartu artikel. keamanan: foto ruang kontrol bernuansa merah (kartu di panel Landasan, kredit tampil), 3 kartu artikel.
+- Pola kode: `IMGBG(k)` (background_image + overlay) dan `PHOTO(k,h,r)` (image widget `object_fit=cover`, `image_border_radius`). Bahasa Inggris untuk istilah umum (mis. "Search…") DIBIARKAN (keputusan pemilik) — tidak perlu memasang id_ID.
+
 ---
 
 ## 2026-11-08 (sesi cloud, branch `claude/clever-hypatia-6agnmk`)

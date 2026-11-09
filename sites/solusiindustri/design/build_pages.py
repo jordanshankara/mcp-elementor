@@ -9,6 +9,9 @@ ek.PAPER, ek.INK, ek.RED, ek.MUTE, ek.TAPE, ek.MONO = WHITE, NAVY, ORANGE, MUTE,
 import ek2
 from ek2 import *
 LG = json.loads((D / 'logos.json').read_text())
+MD = json.loads((D / 'media.json').read_text())
+def PHOTO(k, h=300, r=16, **s): return IMG(MD[k]['id'], MD[k]['url'], grey=False, width={'unit': '%', 'size': 100}, height={'unit': 'px', 'size': h}, object_fit='cover', image_border_radius=dim(r), **s)
+def IMGBG(k, overlay=NAVY, op=.78): return {'background_background': 'classic', 'background_image': {'url': MD[k]['url'], 'id': MD[k]['id']}, 'background_position': 'center center', 'background_size': 'cover', 'background_overlay_background': 'classic', 'background_overlay_color': overlay, 'background_overlay_opacity': {'unit': 'px', 'size': op, 'sizes': []}}
 SITE, AS = 'https://www.aisolusiindustri.id', 'https://asosiasi.ai/'
 WA, WAT, EM = 'https://wa.me/628111913553', '+62 8111913553', 'sekretariat@asosiasi.ai'
 CATS = [('AI untuk manufaktur', 'ai-untuk-manufaktur', 'fas fa-industry', 'Pemanfaatan AI pada proses produksi dan lini manufaktur.'), ('AI untuk operasional', 'ai-untuk-operasional', 'fas fa-cogs', 'AI dalam perencanaan, penjadwalan, dan operasional harian.'),
@@ -37,7 +40,7 @@ def build_home():
                   BODY('<p style="margin:0;text-align:center">AISolusiIndustri menghadirkan artikel, panduan, studi kasus, dan tren tentang penggunaan AI dalam industri dan operasional.</p>', 18, '#C9D1E3'),
                   W('wp-widget-search', wp={'title': ''}, _css_classes='ia-search'),
                   C([PILLBTN('Baca Artikel', f'{SITE}/blog/', ORANGE, WHITE), PILLBTN('Jelajahi Kategori', f'{SITE}/kategori/', 'transparent', WHITE, border='#FFFFFF66', hover_bg=ORANGE)], flex_direction='row', flex_wrap='wrap', flex_gap=gap(12), flex_justify_content='center')],
-                 None, pv=120, wpx=900, flex_align_items='center', padding=dim(110, 24, 170, 24), padding_mobile=dim(64, 18, 130, 18), **grad(NAVY, NAVY2, 'linear', 160), shape_divider_bottom='curve', shape_divider_bottom_color=WHITE, shape_divider_bottom_height=px(70)))
+                 None, pv=120, wpx=900, flex_align_items='center', padding=dim(110, 24, 170, 24), padding_mobile=dim(64, 18, 130, 18), **IMGBG('hero', NAVY, .8), shape_divider_bottom='curve', shape_divider_bottom_color=WHITE, shape_divider_bottom_height=px(70)))
     # fakta
     FACT = [('14', 'yurisdiksi dalam riset studi banding'), ('5', 'bidang: manufaktur, operasional, supply chain, QC, maintenance'), ('9', 'kategori artikel'), ('Edukasi', 'bukan layanan atau produk')]
     S.append(SEC([ROW2([CARD([H(n, 38, 34, 30, color=ORANGE, tag='div', lh=1), BODY(f'<p style="margin:0">{t}</p>', 14, MUTE)], GREY, 14, 22, w=None, g=6, **{'width': {'unit': '%', 'size': 24}, 'width_tablet': {'unit': '%', 'size': 100}, 'width_mobile': {'unit': '%', 'size': 100}}) for n, t in FACT], g=20, flex_justify_content='space-between')],
@@ -47,13 +50,13 @@ def build_home():
           f'riset studi banding 14 yurisdiksi oleh <a href="{AS}" target="_blank" rel="noopener" style="color:{ORANGE}">Asosiasi AI Indonesia</a>, serta pembelajaran implementasi industri.')
     il = W('icon-list', icon_list=[{'_id': f'a{i}', 'text': t, 'selected_icon': {'value': 'fas fa-check-circle', 'library': 'fa-solid'}} for i, t in enumerate(['Berlandaskan riset dan praktik, bukan sekadar opini', 'Netral: tidak mempromosikan tools tertentu', 'Setiap klaim penting disertai sumber atau referensi', 'Bukan penyedia layanan, produk, atau lisensi'])],
            icon_color=ORANGE, text_color=NAVY, **typo('Manrope', 15, weight='500'))
-    S.append(SEC([ROW2([C([LBL('Tentang'), H2('Referensi AI Industri yang Berlandaskan Riset dan Praktik'), PILLBTN('Pelajari lebih lanjut di asosiasi.ai', AS, ORANGE, WHITE, ext_=True)], flex_gap=gap(18), **WIDTH(46)),
-                          C([BODY(f'<p style="margin:0">{ID}</p>', 17, NAVY), il], flex_gap=gap(18), **WIDTH(50))], g=40, flex_justify_content='space-between')], WHITE))
+    S.append(SEC([ROW2([C([ROW2([PHOTO('about1', 360, 16, **{}), C([PHOTO('about2', 260, 16), C([BODY('<p style="margin:0;color:#fff;font-weight:700">Berlandaskan riset dan praktik</p>', 14, '#FFFFFF')], padding=dim(18), border_radius=dim(14), **bg(ORANGE))], flex_gap=gap(14))], g=14, tablet_row=True, flex_align_items='flex-start')], **WIDTH(48)),
+                          C([LBL('Tentang'), H2('Referensi AI Industri yang Berlandaskan Riset dan Praktik'), BODY(f'<p style="margin:0">{ID}</p>', 16, NAVY), il, PILLBTN('Pelajari lebih lanjut di asosiasi.ai', AS, ORANGE, WHITE, ext_=True)], flex_gap=gap(18), **WIDTH(48))], g=40, flex_justify_content='space-between', flex_align_items='center')], WHITE))
     # kategori
     grid = RWRAP([catcard(i, *CATS[i], dark=(i in (1, 2))) for i in range(4)], 18, **WIDTH(62), flex_direction='row')
     for c in grid['elements']: c['settings'].update({'width': {'unit': '%', 'size': 48}, 'width_tablet': {'unit': '%', 'size': 48}, 'width_mobile': {'unit': '%', 'size': 100}})
     panel = CARD([LBL('Kategori'), H('Jelajahi 9 Kategori Artikel', 34, 30, 28, color=WHITE, tag='h2', lh=1.1), BODY('<p style="margin:0">Manufaktur, operasional, supply chain, quality control, maintenance, dan lainnya — lengkap dengan konteks pembahasan.</p>', 15, '#E8ECF5'), PILLBTN('Lihat Semua Kategori', f'{SITE}/kategori/', ORANGE, WHITE)],
-                 NAVY, 20, 32, **grad(NAVY2, NAVY, 'linear', 200), **WIDTH(35), flex_justify_content='flex-end', min_height=px(420))
+                 NAVY, 20, 32, **IMGBG('panel', NAVY, .72), **WIDTH(35), flex_justify_content='flex-end', min_height=px(420))
     S.append(SEC([ROW2([grid, panel], g=24, flex_justify_content='space-between')], GREY))
     # prinsip
     PR = [('fas fa-book-open', 'Bersumber', 'Setiap klaim penting disertai sumber atau referensi.'), ('fas fa-balance-scale', 'Netral', 'Pembahasan tools AI informatif, bukan endorse.'), ('fas fa-ban', 'Bukan Jasa', 'Tidak ada penawaran layanan, produk, atau lisensi.'),
@@ -62,7 +65,7 @@ def build_home():
                   RWRAP([C([ICON(ic, ORANGE, 28), H(t, 20, 19, 19, color=NAVY, tag='h3', lh=1.2), BODY(f'<p style="margin:0">{d}</p>', 14, MUTE)], flex_gap=gap(8), **{'width': {'unit': '%', 'size': 31}, 'width_tablet': {'unit': '%', 'size': 48}, 'width_mobile': {'unit': '%', 'size': 100}}) for ic, t, d in PR], 24, flex_justify_content='space-between')], WHITE))
     # artikel terbaru
     def ac(i, t):
-        return CARD([C([ICON('fas fa-file-alt', ORANGE, 44)], min_height=px(150), flex_justify_content='center', flex_align_items='center', border_radius=dim(12), **grad(NAVY, NAVY2, 'linear', 160)), LBL(f'Contoh · segera hadir'), H(t, 22, 20, 20, color=NAVY, tag='h3', lh=1.2), BODY('<p style="margin:0"><a href="' + SITE + '/blog/" style="color:#F47A1F;font-weight:700">Baca →</a></p>', 14)],
+        return CARD([PHOTO(f'c{i+1}', 170, 12), LBL(f'Contoh · segera hadir'), H(t, 22, 20, 20, color=NAVY, tag='h3', lh=1.2), BODY('<p style="margin:0"><a href="' + SITE + '/blog/" style="color:#F47A1F;font-weight:700">Baca →</a></p>', 14)],
                     WHITE, 16, 18, border='#E5E7EC', shadow='rgba(13,21,39,.06)', **{'width': {'unit': '%', 'size': 31}, 'width_tablet': {'unit': '%', 'size': 100}, 'width_mobile': {'unit': '%', 'size': 100}})
     S.append(SEC([LBL('Artikel terbaru'), H2('Bacaan Terbaru'), RWRAP([ac(i, t) for i, t in enumerate(['Judul artikel contoh pertama', 'Judul artikel contoh kedua', 'Judul artikel contoh ketiga'])], 24, flex_justify_content='space-between'), PILLBTN('Lihat semua artikel', f'{SITE}/blog/', NAVY, WHITE, hover_bg=ORANGE)], GREY))
     # identitas

@@ -1,0 +1,37 @@
+{
+ "hero": {
+  "id": 44,
+  "url": "https://www.aisolusiindustri.id/wp-content/uploads/2026/11/solusiindustri-hero.webp",
+  "credit": "Paolo Rossa"
+ },
+ "about1": {
+  "id": 45,
+  "url": "https://www.aisolusiindustri.id/wp-content/uploads/2026/11/solusiindustri-about1.webp",
+  "credit": "Diego Martinez"
+ },
+ "about2": {
+  "id": 46,
+  "url": "https://www.aisolusiindustri.id/wp-content/uploads/2026/11/solusiindustri-about2.webp",
+  "credit": "Sergey Sergeev"
+ },
+ "panel": {
+  "id": 47,
+  "url": "https://www.aisolusiindustri.id/wp-content/uploads/2026/11/solusiindustri-panel.webp",
+  "credit": "Artem Podrez"
+ },
+ "c1": {
+  "id": 48,
+  "url": "https://www.aisolusiindustri.id/wp-content/uploads/2026/11/solusiindustri-c1.webp",
+  "credit": "Freek Wolsink"
+ },
+ "c2": {
+  "id": 49,
+  "url": "https://www.aisolusiindustri.id/wp-content/uploads/2026/11/solusiindustri-c2.webp",
+  "credit": "Willians Huerta"
+ },
+ "c3": {
+  "id": 50,
+  "url": "https://www.aisolusiindustri.id/wp-content/uploads/2026/11/solusiindustri-c3.webp",
+  "credit": "Fernando Narvaez"
+ }
+}
