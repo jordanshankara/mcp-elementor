@@ -41,3 +41,6 @@ def ICON(name, color, size=26, lib=None):
     return W('icon', selected_icon={'value': name, 'library': lib}, primary_color=color, size={'unit': 'px', 'size': size}, align='left')
 def BODY(html, size=16, color=None, **s):
     d = {'editor': html, 'text_color': color or ek.INK}; d.update(typo(ek.BFONT, size, mobile=15 if size > 15 else None, weight='400', lh=1.65)); d.update(s); return W('text-editor', **d)
+
+def FIT(h):
+    return {'height': {'unit': 'px', 'size': h}, 'height_tablet': {'unit': 'px', 'size': int(h * .85)}, 'height_mobile': {'unit': 'px', 'size': int(h * .7)}, 'object-fit': 'cover'}

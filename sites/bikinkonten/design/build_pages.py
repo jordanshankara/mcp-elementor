@@ -74,7 +74,7 @@ def build_home():
                         w=38, right=False, line='#8A3640', pad=(52, 36), flex_justify_content='center', **bg(MAROON))], border='#8A3640', tablet_col=True, **bg(MAROON)))
     # artikel terbaru
     def card(n, bgc, tcol, mcol, k, title, ncol):
-        kids = [IMG(M[k]['id'], M[k]['url'], grey=False, height={'unit': 'px', 'size': 230}, object_fit='cover')]
+        kids = [IMG(M[k]['id'], M[k]['url'], grey=False, height={'unit': 'px', 'size': 230}, height_mobile={'unit': 'px', 'size': 170}, **{'object-fit': 'cover'})]
         kids += [NUM(n, ncol), H(title, 32, 30, 28, color=tcol, tag='h3', lh=1, link={'url': f'{SITE}/blog/'}), MICRO('Contoh · segera hadir', color=mcol), MICRO('→', color=ncol)]
         c = cell(kids, w=33.33, bgc=bgc, pad=(0, 0, 24, 0), flex_gap=gap(10), right=True, **{'padding': dim(0, 0, 24, 0)})
         for e in c['elements'][1:]: e['settings'].setdefault('_padding', dim(0, 22, 0, 22))

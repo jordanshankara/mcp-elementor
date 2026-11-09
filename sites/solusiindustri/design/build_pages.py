@@ -4,13 +4,13 @@ D = pathlib.Path(__file__).parent
 sys.path.insert(0, str(D.parent.parent / '_lib'))
 import ek
 NAVY, NAVY2, ORANGE, GREY, MUTE, WHITE = '#0D1527', '#16213D', '#F47A1F', '#F1F1F1', '#5F6A7D', '#FFFFFF'
-ek.HFAM, ek.HUP, ek.BFONT = 'Manrope', False, 'Manrope'
-ek.PAPER, ek.INK, ek.RED, ek.MUTE, ek.TAPE, ek.MONO = WHITE, NAVY, ORANGE, MUTE, GREY, 'Manrope'
+ek.HFAM, ek.HUP, ek.BFONT, ek.HW = 'Plus Jakarta Sans', False, 'Plus Jakarta Sans', '700'
+ek.PAPER, ek.INK, ek.RED, ek.MUTE, ek.TAPE, ek.MONO = WHITE, NAVY, ORANGE, MUTE, GREY, 'Plus Jakarta Sans'
 import ek2
 from ek2 import *
 LG = json.loads((D / 'logos.json').read_text())
 MD = json.loads((D / 'media.json').read_text())
-def PHOTO(k, h=300, r=16, **s): return IMG(MD[k]['id'], MD[k]['url'], grey=False, width={'unit': '%', 'size': 100}, height={'unit': 'px', 'size': h}, object_fit='cover', image_border_radius=dim(r), **s)
+def PHOTO(k, h=300, r=16, **s): return IMG(MD[k]['id'], MD[k]['url'], grey=False, width={'unit': '%', 'size': 100}, image_border_radius=dim(r), **FIT(h), **s)
 def IMGBG(k, overlay=NAVY, op=.78): return {'background_background': 'classic', 'background_image': {'url': MD[k]['url'], 'id': MD[k]['id']}, 'background_position': 'center center', 'background_size': 'cover', 'background_overlay_background': 'classic', 'background_overlay_color': overlay, 'background_overlay_opacity': {'unit': 'px', 'size': op, 'sizes': []}}
 SITE, AS = 'https://www.aisolusiindustri.id', 'https://asosiasi.ai/'
 WA, WAT, EM = 'https://wa.me/628111913553', '+62 8111913553', 'sekretariat@asosiasi.ai'
@@ -21,7 +21,7 @@ CATS = [('AI untuk manufaktur', 'ai-untuk-manufaktur', 'fas fa-industry', 'Peman
         ('Tren industri AI', 'tren-industri-ai', 'fas fa-chart-line', 'Perkembangan, riset, dan laporan industri seputar AI.')]
 def lg(k, w=None): return IMG(LG[k]['id'], LG[k]['source_url'], grey=False, width={'unit': 'px', 'size': w or 220}, align='left')
 def H2(t, color=NAVY, size=40, **s): return H(t, size, size - 8, size - 14, color=color, tag='h2', lh=1.12, **s)
-def LBL(t): return W('text-editor', editor=f'<p style="margin:0">{t}</p>', text_color=ORANGE, **typo('Manrope', 13, weight='700', ls=1, up=True))
+def LBL(t): return W('text-editor', editor=f'<p style="margin:0">{t}</p>', text_color=ORANGE, **typo('Plus Jakarta Sans', 13, weight='700', ls=1, up=True))
 def band(title, sub=None):
     kids = [BADGE('AISolusiIndustri', '#FFFFFF', bgc='#FFFFFF1A', border='#FFFFFF33'), H(title, 56, 44, 36, color=WHITE, tag='h1', lh=1.05)]
     if sub: kids.append(BODY(f'<p style="margin:0">{sub}</p>', 18, '#C9D1E3'))
@@ -29,7 +29,7 @@ def band(title, sub=None):
 def catcard(i, name, slug, ic, desc, dark=False):
     fg, mu = (WHITE, '#C9D1E3') if dark else (NAVY, MUTE)
     return CARD([ICON(ic, ORANGE, 30), H(name, 22, 20, 20, color=fg, tag='h3', lh=1.2), BODY(f'<p style="margin:0">{desc}</p>', 14, mu),
-                 W('text-editor', editor=f'<p style="margin:0"><a href="{SITE}/category/{slug}/" style="color:{ORANGE};font-weight:700">Lihat artikel →</a></p>', **typo('Manrope', 14))],
+                 W('text-editor', editor=f'<p style="margin:0"><a href="{SITE}/category/{slug}/" style="color:{ORANGE};font-weight:700">Lihat artikel →</a></p>', **typo('Plus Jakarta Sans', 14))],
                 NAVY2 if dark else WHITE, 16, 26, shadow=None if dark else 'rgba(13,21,39,.08)', border=None if dark else '#E5E7EC')
 
 def build_home():
@@ -49,7 +49,7 @@ def build_home():
     ID = ('Inisiasi dari Dian Martin, Ketua Umum Asosiasi AI Indonesia. Materi berlandaskan buku <em>Stay Human, Stay in Charge — Transformasi AI di Korporasi</em>, '
           f'riset studi banding 14 yurisdiksi oleh <a href="{AS}" target="_blank" rel="noopener" style="color:{ORANGE}">Asosiasi AI Indonesia</a>, serta pembelajaran implementasi industri.')
     il = W('icon-list', icon_list=[{'_id': f'a{i}', 'text': t, 'selected_icon': {'value': 'fas fa-check-circle', 'library': 'fa-solid'}} for i, t in enumerate(['Berlandaskan riset dan praktik, bukan sekadar opini', 'Netral: tidak mempromosikan tools tertentu', 'Setiap klaim penting disertai sumber atau referensi', 'Bukan penyedia layanan, produk, atau lisensi'])],
-           icon_color=ORANGE, text_color=NAVY, **typo('Manrope', 15, weight='500'))
+           icon_color=ORANGE, text_color=NAVY, **typo('Plus Jakarta Sans', 15, weight='500'))
     S.append(SEC([ROW2([C([ROW2([PHOTO('about1', 360, 16, **{}), C([PHOTO('about2', 260, 16), C([BODY('<p style="margin:0;color:#fff;font-weight:700">Berlandaskan riset dan praktik</p>', 14, '#FFFFFF')], padding=dim(18), border_radius=dim(14), **bg(ORANGE))], flex_gap=gap(14))], g=14, tablet_row=True, flex_align_items='flex-start')], **WIDTH(48)),
                           C([LBL('Tentang'), H2('Referensi AI Industri yang Berlandaskan Riset dan Praktik'), BODY(f'<p style="margin:0">{ID}</p>', 16, NAVY), il, PILLBTN('Pelajari lebih lanjut di asosiasi.ai', AS, ORANGE, WHITE, ext_=True)], flex_gap=gap(18), **WIDTH(48))], g=40, flex_justify_content='space-between', flex_align_items='center')], WHITE))
     # kategori
@@ -81,11 +81,11 @@ def build_about():
     COPY = ('AISolusiIndustri adalah inisiasi dari Dian Martin, Ketua Umum Asosiasi AI Indonesia, sebagai wadah publikasi dan referensi tentang penggunaan AI untuk industri dan operasional. Materi publikasi berlandaskan pada buku <em>Stay Human, Stay in Charge — Transformasi AI di Korporasi</em>, '
             f'riset studi banding 14 yurisdiksi oleh <a href="{AS}" target="_blank" rel="noopener" style="color:{ORANGE}">Asosiasi AI Indonesia</a>, serta pembelajaran dari implementasi industri. Website ini menyediakan publikasi dan edukasi, bukan layanan atau produk.')
     LAND = ['Buku <em>“Stay Human, Stay in Charge — Transformasi AI di Korporasi”</em> karya Dian Martin, Ketua Umum Asosiasi AI Indonesia.', 'Riset dan buku studi banding terhadap 14 yurisdiksi yang dilakukan oleh Asosiasi AI Indonesia.', 'Pembelajaran dari implementasi industri.', 'Sumber pendukung yang relevan dan dapat diverifikasi.']
-    il = W('icon-list', icon_list=[{'_id': f'l{i}', 'text': t, 'selected_icon': {'value': 'fas fa-check-circle', 'library': 'fa-solid'}} for i, t in enumerate(LAND)], icon_color=ORANGE, text_color=WHITE, **typo('Manrope', 15, weight='500'))
+    il = W('icon-list', icon_list=[{'_id': f'l{i}', 'text': t, 'selected_icon': {'value': 'fas fa-check-circle', 'library': 'fa-solid'}} for i, t in enumerate(LAND)], icon_color=ORANGE, text_color=WHITE, **typo('Plus Jakarta Sans', 15, weight='500'))
     return [band('About', 'Tentang Publikasi Ini'), SEC([ROW2([C([BODY(f'<p style="margin:0">{COPY}</p>', 18, NAVY), lg('asosiasi', 260), PILLBTN('Pelajari Lebih Lanjut di asosiasi.ai', AS, ORANGE, WHITE, ext_=True)], flex_gap=gap(20), **WIDTH(56)),
             CARD([LBL('Landasan materi'), il, BODY('<p style="margin:0">Publikasi disusun berdasarkan riset dan praktik, bukan sekadar opini atau rangkuman tren.</p>', 14, '#C9D1E3')], NAVY, 20, 32, **WIDTH(40))], g=36, flex_justify_content='space-between')], WHITE, pv=70)]
 def build_kontak():
-    def row(ic, label, val, url): return C([C([ICON(ic, ORANGE, 24)], width={'unit': 'px', 'size': 34}, width_mobile={'unit': 'px', 'size': 34}), C([LBL(label), W('text-editor', editor=f'<p style="margin:0"><a href="{url}" target="_blank" rel="noopener" style="color:#FFFFFF">{val}</a></p>', **typo('Manrope', 22, weight='800', lh=1.2))], flex_gap=gap(2))], flex_direction='row', flex_direction_tablet='row', flex_direction_mobile='row', flex_gap=gap(14), flex_align_items='center', padding=dim(14, 0), border_border='solid', border_width=bw(0, 0, 1, 0), border_color='#2D3A5C')
+    def row(ic, label, val, url): return C([C([ICON(ic, ORANGE, 24)], width={'unit': 'px', 'size': 34}, width_mobile={'unit': 'px', 'size': 34}), C([LBL(label), W('text-editor', editor=f'<p style="margin:0"><a href="{url}" target="_blank" rel="noopener" style="color:#FFFFFF">{val}</a></p>', **typo('Plus Jakarta Sans', 22, weight='800', lh=1.2))], flex_gap=gap(2))], flex_direction='row', flex_direction_tablet='row', flex_direction_mobile='row', flex_gap=gap(14), flex_align_items='center', padding=dim(14, 0), border_border='solid', border_width=bw(0, 0, 1, 0), border_color='#2D3A5C')
     return [band('Kontak', 'Hubungi Asosiasi AI Indonesia untuk informasi lebih lanjut, kolaborasi, atau konsultasi.'),
             SEC([ROW2([C([BODY('<p style="margin:0">Semua permintaan konsultasi, kolaborasi, atau informasi program diarahkan ke asosiasi.ai.</p>', 18, NAVY), lg('asosiasi', 260), PILLBTN('Konsultasi melalui Asosiasi AI Indonesia', AS, ORANGE, WHITE, ext_=True)], flex_gap=gap(20), **WIDTH(50)),
                        CARD([row('fab fa-whatsapp', 'WhatsApp', WAT, WA), row('fas fa-envelope', 'Email', EM, 'mailto:' + EM), row('fas fa-globe', 'Website', 'asosiasi.ai', AS), BODY('<p style="margin:10px 0 0">Usulan artikel atau ide: kirim lewat WhatsApp atau email di atas.</p>', 14, '#C9D1E3')], NAVY, 20, 32, **WIDTH(46))], g=36, flex_justify_content='space-between')], WHITE, pv=70)]

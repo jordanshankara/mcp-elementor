@@ -4,19 +4,19 @@ D = pathlib.Path(__file__).parent
 sys.path.insert(0, str(D.parent.parent / '_lib'))
 import ek
 OBS, OBS2, LINE, CRIM, CRIM_L, SAND, PEARL, MUTE = '#161616', '#1E1E1E', '#2E2E2E', '#710014', '#C4283F', '#B38F6F', '#F2F1ED', '#A9A59E'
-ek.HFAM, ek.HUP, ek.BFONT = 'Cormorant Garamond', False, 'Inter'
+ek.HFAM, ek.HUP, ek.BFONT, ek.HW = 'Instrument Sans', False, 'Inter', '500'
 ek.PAPER, ek.INK, ek.RED, ek.MUTE, ek.TAPE, ek.MONO = OBS, PEARL, CRIM, MUTE, LINE, 'Inter'
 import ek2
 from ek2 import *
 LG = json.loads((D / 'logos.json').read_text())
 MD = json.loads((D / 'media.json').read_text())
-def PHOTO(k, h=220, r=24, **s): return IMG(MD[k]['id'], MD[k]['url'], grey=False, width={'unit': '%', 'size': 100}, height={'unit': 'px', 'size': h}, object_fit='cover', image_border_radius=dim(r), css_filters_css_filter='custom', css_filters_brightness=px(88), css_filters_saturate=px(85), **s)
+def PHOTO(k, h=220, r=24, **s): return IMG(MD[k]['id'], MD[k]['url'], grey=False, width={'unit': '%', 'size': 100}, image_border_radius=dim(r), **FIT(h), css_filters_css_filter='custom', css_filters_brightness=px(88), css_filters_saturate=px(85), **s)
 SITE, AS = 'https://aisolusikeamanan.id', 'https://asosiasi.ai/'
 WA, WAT, EM = 'https://wa.me/628111913553', '+62 8111913553', 'sekretariat@asosiasi.ai'
 CATS = [('AI untuk deteksi ancaman', 'ai-untuk-deteksi-ancaman'), ('AI untuk keamanan siber', 'ai-untuk-keamanan-siber'), ('AI untuk perlindungan data', 'ai-untuk-perlindungan-data'), ('AI untuk deteksi fraud', 'ai-untuk-deteksi-fraud'),
         ('AI untuk phishing dan malware', 'ai-untuk-phishing-dan-malware'), ('AI untuk SOC', 'ai-untuk-soc'), ('AI untuk tata kelola risiko', 'ai-untuk-tata-kelola-risiko'), ('Etika dan kepatuhan', 'etika-dan-kepatuhan'), ('Tren keamanan AI', 'tren-keamanan-ai')]
 def lg(k, w=220): return IMG(LG[k]['id'], LG[k]['source_url'], grey=False, width={'unit': 'px', 'size': w}, align='left')
-def HS(t, size=56, color=PEARL, tag='h2', lh=1.05, **s): return H(t, size, int(size * .78), int(size * .6), color=color, tag=tag, lh=lh, typography_font_weight='500', typography_letter_spacing={'unit': 'px', 'size': -0.5}, **s)
+def HS(t, size=56, color=PEARL, tag='h2', lh=1.05, **s): return H(t, size, int(size * .78), int(size * .6), color=color, tag=tag, lh=lh, typography_font_weight='500', typography_letter_spacing={'unit': 'px', 'size': -(size * 0.03)}, **s)
 def GLASS(children, r=26, pad=26, w=None, **s):
     return CARD(children, OBS2, r, pad, border=LINE, w=w, **grad('#242424', '#161616', 'linear', 160), **s)
 def DOT(text): return BADGE(f'<span style="color:{CRIM_L}">●</span>&nbsp; {text}', PEARL, bgc='#FFFFFF0D', border='#FFFFFF22')
@@ -78,7 +78,7 @@ def build_about():
     return [band('About', 'Tentang Publikasi Ini'), SEC([ROW2([C([BODY(f'<p style="margin:0">{COPY}</p>', 18, '#E6E3DC'), lg('asosiasi_putih', 250), PILLBTN('Pelajari Lebih Lanjut di asosiasi.ai', AS, CRIM, PEARL, ext_=True, hover_bg=CRIM_L)], flex_gap=gap(22), **WIDTH(56)),
             GLASS([MICRO('Landasan materi', color=SAND), il, BODY('<p style="margin:0">Publikasi disusun berdasarkan riset dan praktik, bukan sekadar opini atau rangkuman tren.</p>', 14, MUTE)], 26, 32, **WIDTH(40))], g=36, flex_justify_content='space-between')], OBS, pv=70)]
 def build_kontak():
-    def row(ic, label, val, url): return C([C([ICON(ic, CRIM_L, 22)], width={'unit': 'px', 'size': 34}, width_mobile={'unit': 'px', 'size': 34}), C([MICRO(label, color=SAND), W('text-editor', editor=f'<p style="margin:0"><a href="{url}" target="_blank" rel="noopener" style="color:{PEARL}">{val}</a></p>', **typo('Cormorant Garamond', 30, 26, 24, weight='600', lh=1.15))], flex_gap=gap(2))], flex_direction='row', flex_direction_tablet='row', flex_direction_mobile='row', flex_gap=gap(14), flex_align_items='center', padding=dim(14, 0), border_border='solid', border_width=bw(0, 0, 1, 0), border_color=LINE)
+    def row(ic, label, val, url): return C([C([ICON(ic, CRIM_L, 22)], width={'unit': 'px', 'size': 34}, width_mobile={'unit': 'px', 'size': 34}), C([MICRO(label, color=SAND), W('text-editor', editor=f'<p style="margin:0"><a href="{url}" target="_blank" rel="noopener" style="color:{PEARL}">{val}</a></p>', **typo('Instrument Sans', 30, 26, 24, weight='600', lh=1.15))], flex_gap=gap(2))], flex_direction='row', flex_direction_tablet='row', flex_direction_mobile='row', flex_gap=gap(14), flex_align_items='center', padding=dim(14, 0), border_border='solid', border_width=bw(0, 0, 1, 0), border_color=LINE)
     return [band('Kontak', 'Hubungi Asosiasi AI Indonesia untuk informasi lebih lanjut, kolaborasi, atau konsultasi.'),
             SEC([ROW2([C([BODY('<p style="margin:0">Semua permintaan konsultasi, kolaborasi, atau informasi program diarahkan ke asosiasi.ai.</p>', 18, '#E6E3DC'), lg('asosiasi_putih', 250), PILLBTN('Konsultasi melalui Asosiasi AI Indonesia', AS, CRIM, PEARL, ext_=True, hover_bg=CRIM_L)], flex_gap=gap(22), **WIDTH(50)),
                        GLASS([row('fab fa-whatsapp', 'WhatsApp', WAT, WA), row('fas fa-envelope', 'Email', EM, 'mailto:' + EM), row('fas fa-globe', 'Website', 'asosiasi.ai', AS), BODY('<p style="margin:10px 0 0">Usulan artikel atau ide: kirim lewat WhatsApp atau email di atas.</p>', 14, MUTE)], 26, 32, **WIDTH(46))], g=36, flex_justify_content='space-between')], OBS, pv=70)]

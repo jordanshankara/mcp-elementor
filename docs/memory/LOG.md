@@ -48,6 +48,11 @@ Pemilik menegur: palet harus dari **posting Instagram bikinkontenai.id** (krem +
 - Foto dikonversi WebP (≤100 KB) & diunggah ke Media tiap situs (judul/alt memuat kredit "Foto: <fotografer> / Pexels"); daftar di `sites/<alias>/design/media.json`. industri: hero (pabrik, overlay navy 0.8), About 2 foto, panel kategori, 3 kartu artikel. keamanan: foto ruang kontrol bernuansa merah (kartu di panel Landasan, kredit tampil), 3 kartu artikel.
 - Pola kode: `IMGBG(k)` (background_image + overlay) dan `PHOTO(k,h,r)` (image widget `object_fit=cover`, `image_border_radius`). Bahasa Inggris untuk istilah umum (mis. "Search…") DIBIARKAN (keputusan pemilik) — tidak perlu memasang id_ID.
 
+### 2026-11-09 — Koreksi: gambar penyok & font judul
+- **Bug:** gambar penyok/gepeng di HP karena kunci Elementor salah: crop gambar = **`object-fit`** (pakai tanda hubung, BUKAN `object_fit`) + `height`/`height_tablet`/`height_mobile`. Helper baru `ek2.FIT(h)`; `PHOTO()` memakainya (industri, keamanan); bikinkonten diperbaiki.
+- **Font judul diganti** (pemilik: serif Cormorant & Manrope 800 tidak cocok): industri → **Plus Jakarta Sans** (700); keamanan → **Instrument Sans** (500, letter-spacing −0.03em; gaya AgentAI), badan Inter. `ek.HW` mengatur bobot heading.
+- Pelajaran: selalu cek tampilan HP untuk gambar ber-crop; jangan memakai serif tipis untuk judul besar di tema gelap.
+
 ---
 
 ## 2026-11-08 (sesi cloud, branch `claude/clever-hypatia-6agnmk`)

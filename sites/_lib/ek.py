@@ -2,6 +2,7 @@
 import json, pathlib
 HFAM, HUP = 'Anton', True
 BFONT = 'Inter'
+HW = '800'
 PAPER, INK, RED, MUTE, TAPE, MONO = '#ECE7DB', '#0B0B0B', '#D9291C', '#4A463E', '#D8CFB3', 'Inter'
 ASOSIASI = 'https://asosiasi.ai'
 SITE = 'https://www.buatiklanai.id'
@@ -42,7 +43,7 @@ def typo(fam, size, tablet=None, mobile=None, weight='400', lh=None, ls=None, up
 def H(text, size, tablet=None, mobile=None, color=INK, tag='h2', fam=None, lh=.95, up=None, align='left', unit='px', **s):
     fam = fam or HFAM; up = HUP if up is None else up
     d = {'title': text, 'header_size': tag, 'title_color': color, 'align': align}
-    d.update(typo(fam, size, tablet, mobile, weight='400' if fam in ('Anton', 'Caveat') else '800', lh=lh, ls=-0.5 if fam == HFAM else 0, up=(up and fam == HFAM), unit=unit)); d.update(s)
+    d.update(typo(fam, size, tablet, mobile, weight='400' if fam in ('Anton', 'Caveat') else HW, lh=lh, ls=-0.5 if fam == HFAM else 0, up=(up and fam == HFAM), unit=unit)); d.update(s)
     return W('heading', **d)
 def SCRIPT(text, size, tablet, mobile, color=INK, rot=-3, tag='h3'):
     return H(text, size, tablet, mobile, color=color, tag=tag, fam='Caveat', lh=1, up=False, _transform_rotate_popover='transform',
