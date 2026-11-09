@@ -13,19 +13,19 @@ cats = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '
 for i, t, oid, n in [(347, 'Artikel', 344, 1), (349, 'Kategori', 818, 2), (351, 'About', 219, 3), (350, 'Kontak', 355, 4)]:
     print('menu', i, wp('PUT', f'/wp/v2/menu-items/{i}?_fields=id,title.raw', dict(title=t, menu_order=n, object='page', object_id=oid, type='post_type'))['title'])
 for i in (348, 414): print('del', i, wp('DELETE', f'/wp/v2/menu-items/{i}?force=true&_fields=deleted'))
-A = {'global-color-palette': {'palette': ['#FF4800', '#050505', '#050505', '#050505', '#E6E6E6', '#FEFEFE', '#C2C2C2', '#050505', '#050505'], 'flag': False},
-     'body-font-family': "'Inter', sans-serif", 'headings-font-family': "'Anton', sans-serif", 'headings-text-transform': 'uppercase',
-     'header-html-1': 'Supported by <a href="https://asosiasi.ai/" target="_blank" rel="noopener">Asosiasi AI Indonesia — asosiasi.ai</a>', 'header-html-2': 'Edukasi, bukan jasa',
-     'header-button1-text': 'Pelajari di asosiasi.ai ↗', 'header-button1-link-option': {'url': AS, 'new_tab': '1', 'link_rel': 'noopener'},
+A = {'global-color-palette': {'palette': ['#6E1620', '#0B4A50', '#1B1A19', '#1B1A19', '#E6E0D3', '#F0ECE3', '#D6D0C0', '#1B1A19', '#1B1A19'], 'flag': False},
+     'body-font-family': "'Inter', sans-serif", 'headings-font-family': "'Barlow Condensed', sans-serif", 'headings-text-transform': 'none',
+     'header-html-1': '<a class="bk-logo" href="/"><span class="l1">bikinkonten<b>ai</b>.id</span><small>BY ASOSIASI AI INDONESIA</small></a>', 'header-html-2': 'Edukasi, bukan jasa',
+     'header-button1-text': 'Pelajari di asosiasi.ai →', 'header-button1-link-option': {'url': AS, 'new_tab': '1', 'link_rel': 'noopener'},
      'footer-copyright-editor': '© [current_year] BikinKontenAI · Inisiasi dari Dian Martin, Ketua Umum Asosiasi AI Indonesia · Supported by <a href="https://asosiasi.ai/" target="_blank" rel="noopener">Asosiasi AI Indonesia — asosiasi.ai</a>',
      'ast-dynamic-archive-post-custom-title': 'Artikel', 'ast-dynamic-archive-post-banner-title-color': '#050505',
      'ast-dynamic-archive-post-horizontal-alignment': {'desktop': 'left', 'tablet': 'left', 'mobile': 'left'},
      'archive-post-sidebar-layout': 'right-sidebar', 'blog-grid': 2, 'blog-meta': ['category', 'date'], 'blog-excerpt-count': 22}
-A['header-desktop-items'] = {'popup': {'popup_content': ['mobile-menu']}, 'above': {'above_left': ['html-1'], 'above_left_center': [], 'above_center': [], 'above_right_center': [], 'above_right': ['html-2']},
-    'primary': {'primary_left': ['logo'], 'primary_left_center': [], 'primary_center': ['menu-1'], 'primary_right_center': [], 'primary_right': ['button-1']},
+A['header-desktop-items'] = {'popup': {'popup_content': ['mobile-menu']}, 'above': {'above_left': [], 'above_left_center': [], 'above_center': [], 'above_right_center': [], 'above_right': []},
+    'primary': {'primary_left': ['html-1'], 'primary_left_center': [], 'primary_center': ['menu-1'], 'primary_right_center': [], 'primary_right': ['button-1']},
     'below': {'below_left': [], 'below_left_center': [], 'below_center': [], 'below_right_center': [], 'below_right': []}, 'flag': True}
-A['header-mobile-items'] = {'popup': {'popup_content': ['mobile-menu']}, 'above': {'above_left': ['html-1'], 'above_center': [], 'above_right': []},
-    'primary': {'primary_left': ['logo'], 'primary_center': [], 'primary_right': ['mobile-trigger']}, 'below': {'below_left': [], 'below_center': [], 'below_right': []}, 'flag': True}
+A['header-mobile-items'] = {'popup': {'popup_content': ['mobile-menu']}, 'above': {'above_left': [], 'above_center': [], 'above_right': []},
+    'primary': {'primary_left': ['html-1'], 'primary_center': [], 'primary_right': ['mobile-trigger']}, 'below': {'below_left': [], 'below_center': [], 'below_right': []}, 'flag': True}
 print('astra', wp('POST', '/claude/v1/theme-option', {'name': 'astra-settings', 'merge': A, 'nav_menu_locations': {'mobile_menu': 7}}))
 def blk(i, h): return wp('PUT', f'/wp/v2/widgets/{i}?_fields=id', {'instance': {'raw': {'content': '<!-- wp:html -->\n' + h + '\n<!-- /wp:html -->'}}})
 print(blk('block-7', '<p class="bia-fw">BikinKontenAI</p>'))

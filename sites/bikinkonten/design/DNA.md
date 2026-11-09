@@ -43,3 +43,9 @@ Pusat publikasi & referensi AI untuk pembuatan konten digital (tulisan, visual, 
 
 ## 6. Risiko
 Font (Anton/skrip/Inter) tidak otomatis dimuat Elementor di situs ini → `@import` lewat CSS Tambahan (pelajaran buatiklan). Rotasi/filter foto = kontrol native Free (teruji di buatiklan). Stempel/selotip = elemen container/gambar WebP.
+
+---
+## REVISI 2026-11-09 — PALET DIKOREKSI (menggantikan oranye "BRUTAL")
+Gambar yang dimaksud pemilik = **posting Instagram bikinkontenai.id sendiri** (carousel 8 slide), BUKAN post "BRUTAL" (itu hanya referensi gaya sesaat). Token final (diukur dari gambar): krem `#F0ECE3` (kartu `#E6E0D3`), tinta `#1B1A19`, **marun `#6E1620`**, **tosca tua `#0B4A50`**, **oker `#A8601F`** (terang `#E7B47A` di atas tosca), biru logo `#3F63B0` (huruf "ai" pada wordmark), sorotan kuning `#FFF200` (opsional).
+Font: judul **Barlow Condensed 800** (Title Case, bukan kapital semua), badan/label **Inter**. Elemen khas IG: wordmark "bikinkontenai.id" (+ "BY ASOSIASI AI INDONESIA"), judul tegas dua kalimat, diagram dua lingkaran (Manusia marun → AI tosca) dengan kotak label bergaris, garis pemisah berlabel oker ("REKOMENDASI ALUR KERJA"), foto ber-selotip di atas blok warna, penomoran "06 / 08", "SWIPE →".
+Struktur Frameform tetap dipakai (sel garis tipis, bingkai, stempel, pita warna penuh). Header: wordmark teks HTML (logo grafis belum ada), menu, tombol marun; footer tosca.
