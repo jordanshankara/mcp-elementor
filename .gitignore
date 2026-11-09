@@ -9,7 +9,7 @@ wp-elementor-mcp/.playground/
 wp-elementor-mcp/dist/
 *.log
 
-# gambar & aset biner (tidak ikut repo; salin manual antar perangkat, lihat docs/HANDOFF.md)
+# gambar & aset biner (tidak ikut repo), KECUALI folder logo resmi di bawah (permintaan pemilik 2026-11-09)
 *.png
 *.jpg
 *.jpeg
@@ -18,9 +18,14 @@ wp-elementor-mcp/dist/
 *.svg
 *.ico
 *.zip
-logo-asosiasi-ai/
-Logo_Domain_AI/
+!logo-asosiasi-ai/**
+!Logo_Domain_AI/**
 regulasi/design/out/
 .claude/settings.local.json
 .claude/projects/
 __pycache__/
+
+# ekstraksi pusatriset (besar/lokal)
+pusatriset/extract/data/
+pusatriset/extract/baseline/
+pusatriset/extract/*.log

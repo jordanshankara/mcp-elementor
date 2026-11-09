@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><mask id="m_aisolusikeamanan" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200"><rect width="200" height="200" fill="#000000"/>
+  <path d="M100 20 L162 42 V98 C162 140 134 166 100 182 C66 166 38 140 38 98 V42 Z" fill="#FFFFFF"/>
+  <path d="M100 20 L38 42 V98 C38 140 66 166 100 182 Z" fill="#FFFFFF"/>
+  <circle cx="100" cy="80" r="15" fill="#FFFFFF"/>
+  <path d="M93 104 H107 L111 148 H89 Z" fill="#000000"/></mask></defs><rect width="200" height="200" fill="#FFFFFF" mask="url(#m_aisolusikeamanan)"/>
+  <path d="M100 20 L162 42 V98 C162 140 134 166 100 182 C66 166 38 140 38 98 V42 Z" fill="none"/>
+  <path d="M100 20 L38 42 V98 C38 140 66 166 100 182 Z" fill="none"/>
+  <circle cx="100" cy="80" r="15" fill="#F5C518"/>
+  <path d="M93 104 H107 L111 148 H89 Z" fill="none"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><mask id="m_toolsaigratis" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200"><rect width="200" height="200" fill="#000000"/>
+  <path d="M74 62 H164 Q176 62 176 74 V126 Q176 138 164 138 H74 Q68 138 63 134 L33 108 Q26 100 33 92 L63 66 Q68 62 74 62 Z" fill="#FFFFFF"/>
+  <polygon points="72.50,88.74 79.00,100.00 72.50,111.26 59.50,111.26 53.00,100.00 59.50,88.74" fill="#000000"/>
+  <path d="M60 89 C48 62 30 50 14 50" stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <rect x="96" y="84" width="62" height="10" rx="2" fill="#000000"/>
+  <rect x="96" y="106" width="40" height="10" rx="2" fill="#000000"/></mask></defs><rect width="200" height="200" fill="#FFFFFF" mask="url(#m_toolsaigratis)"/>
+  <path d="M74 62 H164 Q176 62 176 74 V126 Q176 138 164 138 H74 Q68 138 63 134 L33 108 Q26 100 33 92 L63 66 Q68 62 74 62 Z" fill="none"/>
+  <polygon points="72.50,88.74 79.00,100.00 72.50,111.26 59.50,111.26 53.00,100.00 59.50,88.74" fill="none"/>
+  <path d="M60 89 C48 62 30 50 14 50" stroke="#F5C518" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <rect x="96" y="84" width="62" height="10" rx="2" fill="none"/>
+  <rect x="96" y="106" width="40" height="10" rx="2" fill="none"/>
+</svg>
