@@ -10,7 +10,7 @@ Satu folder per situs (nama folder = alias di `config/sites.local.json`). Catata
 | `regulasi` | regulasiai.id | live | BRIEF + ADDENDUM + design/ | redesain selesai; addendum belum diterapkan |
 | `buatiklan` | buatiklanai.id | live | BRIEF + ADDENDUM + design/ | Beranda, header/footer, arsip artikel sudah tayang; addendum belum diterapkan |
 | `pusatriset` | pusatriset.ai | belum live | (brief belum ada) | Astra belum dipasang |
-| `bikinkonten` | bikinkontenai.id | belum live | BRIEF | belum dikerjakan |
+| `bikinkonten` | bikinkontenai.id | situs baru | BRIEF + design/ | **dibangun & tayang 2026-11-09** (gaya brutalis oranye/hitam/putih); sisa TODO di `docs/memory/LOG.md` |
 | `toolsai` | toolsaigratis.id | belum live | BRIEF | belum dikerjakan |
 | `analisadata` | aianalisadata.id | belum live | BRIEF | belum dikerjakan |
 | `solusiindustri` | aisolusiindustri.id | belum live | BRIEF | belum dikerjakan |

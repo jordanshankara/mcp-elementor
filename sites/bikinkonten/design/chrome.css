@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@700&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap");
+:root{--bia-paper:#FEFEFE;--bia-ink:#050505;--bia-red:#FF4800;--bia-grey:#E6E6E6}
+body,.ast-separate-container{background:var(--bia-paper)}
+.elementor a,.entry-content .elementor a,.elementor-widget-container a{text-decoration:none!important}.elementor h3 a:hover,.elementor p a:hover{text-decoration:underline!important}
+.ast-above-header-bar{background:var(--bia-ink)!important;border:0!important;min-height:0!important}
+.ast-above-header-bar .ast-builder-html-element,.ast-above-header-bar p{font:500 11px/1.4 Inter,sans-serif!important;letter-spacing:.18em;text-transform:uppercase;color:var(--bia-paper)!important;margin:0}
+.ast-above-header-bar a{color:var(--bia-red)!important;text-decoration:underline}
+.ast-above-header-bar .site-above-header-wrap{min-height:32px!important}
+.main-header-bar,.ast-primary-header-bar,#ast-desktop-header .ast-primary-header-bar{background:var(--bia-paper)!important;border-bottom:1px solid var(--bia-ink)!important}
+.site-title,.site-title a{font-family:Anton,Impact,sans-serif!important;text-transform:uppercase!important;font-size:24px!important;line-height:1!important;letter-spacing:.5px;color:var(--bia-ink)!important}
+.ast-site-identity{padding:0}
+.main-header-menu{display:flex;border-right:1px solid var(--bia-ink)}
+.main-header-menu>.menu-item>.menu-link{font:500 11px/1 Inter,sans-serif!important;letter-spacing:.18em;text-transform:uppercase;color:var(--bia-ink)!important;padding:26px 26px!important;border-left:1px solid var(--bia-ink)}
+.main-header-menu>.menu-item>.menu-link:hover,.main-header-menu>.current-menu-item>.menu-link{background:var(--bia-ink);color:var(--bia-paper)!important}
+.ast-header-button-1 .ast-custom-button,.ast-header-button-1 .ast-custom-button-link .ast-custom-button{background:transparent!important;color:var(--bia-ink)!important;border:1px solid var(--bia-ink)!important;border-radius:0!important;font:500 11px/1 Inter,sans-serif!important;letter-spacing:.18em;text-transform:uppercase;padding:14px 22px!important}
+.ast-header-button-1 .ast-custom-button:hover{background:var(--bia-red)!important;border-color:var(--bia-red)!important;color:var(--bia-paper)!important}
+.menu-toggle,.ast-mobile-menu-trigger-minimal,.ast-button-wrap .menu-toggle{border:1px solid var(--bia-ink)!important;border-radius:0!important;color:var(--bia-ink)!important}
+.ast-mobile-header-content,.ast-mobile-popup-drawer .ast-mobile-popup-inner{background:var(--bia-paper)!important}
+.ast-mobile-popup-drawer .menu-link{font:500 12px Inter!important;letter-spacing:.18em;text-transform:uppercase;color:var(--bia-ink)!important;border-bottom:1px solid var(--bia-ink)}
+@media(max-width:921px){.ast-above-header-bar .ast-builder-html-element{font-size:10px!important}.site-title a{font-size:22px!important}}
+.site-footer,.site-primary-footer-wrap,.site-below-footer-wrap,.site-above-footer-wrap{background:var(--bia-paper)!important;color:var(--bia-ink)!important}
+.site-primary-footer-wrap{border-top:1px solid var(--bia-ink)!important;padding:36px 0!important}
+.site-below-footer-wrap{border-top:1px solid var(--bia-ink)!important}
+.site-below-footer-wrap,.site-below-footer-wrap p{font:500 11px/1.6 Inter,sans-serif!important;letter-spacing:.14em;text-transform:uppercase;color:var(--bia-ink)!important}
+.site-below-footer-wrap a{color:var(--bia-red)!important}
+.bia-fw{font:400 44px/.95 Anton,sans-serif;text-transform:uppercase;letter-spacing:-.5px;margin:0 0 10px}
+.bia-fh{font:400 22px/1 Anton,sans-serif;text-transform:uppercase;margin:0 0 14px}
+.bia-fp{font:400 15px/1.6 Inter,sans-serif;margin:0 0 10px;color:var(--bia-ink)}
+.bia-fp a{color:var(--bia-red)}
+.bia-micro{font:500 11px/1.6 Inter,sans-serif;letter-spacing:.18em;text-transform:uppercase;margin:0}
+.bia-fl{list-style:none;margin:0;padding:0}.bia-fl li{border-bottom:1px solid var(--bia-ink);padding:7px 0;font:400 15px Inter,sans-serif}
+.bia-fl a{color:var(--bia-ink)!important}.bia-fl a:hover{color:var(--bia-red)!important}
+.site-footer a{text-decoration:none}
+/* ---- arsip artikel / kategori ---- */
+body,button,input,select,textarea,.ast-article-post,.entry-content,.entry-summary{font-family:Inter,sans-serif!important}
+.ast-archive-entry-banner{background:var(--bia-paper)!important;background-image:none!important;border-bottom:1px solid var(--bia-ink);min-height:0!important;padding:34px 0 30px!important}
+.ast-archive-entry-banner .ast-container{display:block!important;text-align:left!important}
+.ast-archive-entry-banner h1{font:400 clamp(64px,12vw,170px)/.9 Anton,sans-serif!important;text-transform:uppercase;color:var(--bia-ink)!important;margin:0!important;text-align:left!important}
+.ast-archive-entry-banner .ast-container::after{content:"Temukan artikel seputar penggunaan AI untuk membuat tulisan, visual, video, presentasi, dan konten media sosial.";display:block;max-width:640px;margin-top:18px;font:400 16px/1.6 Inter,sans-serif;color:var(--bia-ink)}
+.ast-archive-entry-banner::before,.ast-archive-entry-banner .ast-archive-description{display:none}
+.ast-separate-container .ast-article-post,.ast-article-post{background:transparent!important;border:1px solid var(--bia-ink)!important;border-radius:0!important;box-shadow:none!important;padding:0!important;margin:0 0 -1px -1px}
+.ast-article-post .post-thumb img,.ast-article-post .ast-blog-featured-section img{filter:grayscale(1) contrast(1.1);border-radius:0!important}
+.ast-article-post .entry-header,.ast-article-post .entry-content,.ast-article-post .ast-excerpt-container,.ast-article-post .ast-blog-single-element{padding-left:20px;padding-right:20px}
+.ast-article-post .entry-title,.ast-article-post .entry-title a{font:400 28px/1 Anton,sans-serif!important;text-transform:uppercase;color:var(--bia-ink)!important;text-decoration:none}
+.ast-article-post .entry-title a:hover{color:var(--bia-red)!important}
+.ast-article-post .entry-meta,.ast-article-post .entry-meta a{font:500 11px/1.6 Inter,sans-serif!important;letter-spacing:.18em;text-transform:uppercase;color:var(--bia-ink)!important}
+.ast-article-post .ast-excerpt-container,.ast-article-post .ast-excerpt-container p{font:400 15px/1.6 Inter,sans-serif!important;color:var(--bia-ink)}
+.ast-article-post .read-more a,.ast-article-post .ast-read-more-link{font:500 11px/1 Inter,sans-serif!important;letter-spacing:.18em;text-transform:uppercase;color:var(--bia-red)!important;text-decoration:none}
+.ast-article-post .entry-header{padding-top:18px}.ast-article-post .read-more{padding-bottom:20px}
+.ast-pagination .page-numbers{border:1px solid var(--bia-ink)!important;border-radius:0!important;background:transparent!important;color:var(--bia-ink)!important;font:500 12px Inter,sans-serif}
+.ast-pagination .page-numbers.current{background:var(--bia-ink)!important;color:var(--bia-paper)!important}
+#secondary .widget{border:1px solid var(--bia-ink);padding:18px 20px;margin-bottom:-1px;background:transparent}
+#secondary .widget-title,#secondary h2,#secondary .wp-block-heading{font:400 22px/1 Anton,sans-serif!important;text-transform:uppercase;color:var(--bia-ink);margin:0 0 12px}
+#secondary a{color:var(--bia-ink)!important;text-decoration:none}#secondary a:hover{color:var(--bia-red)!important}
+#secondary li{border-bottom:1px solid var(--bia-ink);padding:6px 0;list-style:none}#secondary ul{margin:0;padding:0}
+.widget-area input[type=search],.wp-block-search__input{border:1px solid var(--bia-ink)!important;border-radius:0!important;background:transparent!important}
+.wp-block-search__button{background:var(--bia-ink)!important;color:var(--bia-paper)!important;border-radius:0!important;border:0!important;font:500 11px Inter!important;letter-spacing:.18em;text-transform:uppercase}
+/* ---- satu artikel ---- */
+.single-post .entry-title{font:400 clamp(44px,7vw,96px)/.92 Anton,sans-serif!important;text-transform:uppercase;color:var(--bia-ink)}
+.single-post .entry-content,.single-post .entry-content p{font:400 17px/1.75 Inter,sans-serif;color:var(--bia-ink)}
+.single-post .entry-content h2,.single-post .entry-content h3{font-family:Anton,sans-serif!important;text-transform:uppercase;font-weight:400}
+.single-post .entry-content a{color:var(--bia-red)}
+.single-post .post-thumb img,.single-post .ast-single-post-featured-section img{filter:grayscale(1) contrast(1.1);border-radius:0}
+.single-post .entry-meta,.single-post .entry-meta a{font:500 11px Inter,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--bia-ink)}
+.single-post .ast-single-entry-banner{background:var(--bia-paper)!important;background-image:none!important}
+.single-post .ast-single-entry-banner h1{font-family:Anton,sans-serif!important;text-transform:uppercase;color:var(--bia-ink)!important}
+
+.ast-archive-entry-banner{height:auto!important;overflow:visible!important;margin:0!important}
+.ast-article-post .read-more a,.ast-article-post .ast-read-more-link{font-size:0!important}
+.ast-article-post .read-more a::after,.ast-article-post .ast-read-more-link::after{content:"Baca \2192";font:500 11px/1 Inter,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--bia-red)}
+.site-footer .widget{border:0!important;padding:0!important;background:transparent!important}
+.site-footer .bia-fp a{color:var(--bia-red)!important}
+@media(max-width:921px){.ast-archive-entry-banner h1{font-size:64px!important}}
+.blog #masthead,.archive #masthead,.search #masthead{position:relative!important}
+.ast-archive-entry-banner .ast-container{padding-left:20px!important;padding-right:20px!important}@media(min-width:922px){.ast-archive-entry-banner .ast-container{padding-left:0!important;padding-right:0!important}}
+.no-results .page-content p{font-size:0!important}
+.no-results .page-content p::before{content:"Belum ada artikel di bagian ini. Segera hadir.";font:500 11px/1.6 Inter,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--bia-ink)}
+.no-results .search-form{display:none}
+
+/* ---- BikinKontenAI: gaya brutalis oranye/hitam/putih ---- */
+body,.ast-separate-container{background:#FEFEFE}
+.ast-above-header-bar .ast-builder-html-element,.ast-above-header-bar p,.main-header-menu>.menu-item>.menu-link,.ast-article-post .entry-meta,.ast-article-post .entry-meta a,.bia-micro,.single-post .entry-meta,.single-post .entry-meta a,.site-below-footer-wrap,.site-below-footer-wrap p,.wp-block-search__button{font-family:'Space Mono',monospace!important}
+.ast-above-header-bar a{color:var(--bia-red)!important}
+.main-header-bar,.ast-primary-header-bar,#ast-desktop-header .ast-primary-header-bar{background:#FEFEFE!important;border-bottom:1px solid var(--bia-ink)!important}
+.site-title,.site-title a{letter-spacing:0!important}
+.main-header-menu>.menu-item>.menu-link:hover,.main-header-menu>.current-menu-item>.menu-link{background:var(--bia-red);color:#fff!important}
+.ast-header-button-1 .ast-custom-button,.ast-header-button-1 .ast-custom-button-link .ast-custom-button{background:var(--bia-red)!important;color:#fff!important;border:0!important;border-radius:0!important;padding:34px 36px!important;font-family:'Space Mono',monospace!important}
+.ast-header-button-1 .ast-custom-button:hover{background:var(--bia-ink)!important;border:0!important}
+.ast-header-button-1{margin-right:-1px}
+@media(max-width:921px){.ast-header-button-1{display:none}}
+.site-footer,.site-primary-footer-wrap,.site-below-footer-wrap,.site-above-footer-wrap{background:var(--bia-ink)!important;color:#fff!important}
+.site-primary-footer-wrap{border-top:1px solid var(--bia-ink)!important}
+.site-below-footer-wrap{border-top:1px solid #2B2B2B!important}
+.site-below-footer-wrap,.site-below-footer-wrap p{color:#fff!important}
+.bia-fw,.bia-fh,.bia-fp,.bia-micro{color:#fff}
+.bia-fp a,.site-below-footer-wrap a{color:var(--bia-red)!important}
+.bia-fl li{border-bottom:1px solid #2B2B2B}.bia-fl a{color:#fff!important}.bia-fl a:hover{color:var(--bia-red)!important}
+.ast-article-post{background:#FEFEFE!important}
+.ast-article-post .read-more a::after,.ast-article-post .ast-read-more-link::after{color:var(--bia-red);font-family:'Space Mono',monospace}
+.ast-pagination .page-numbers.current{background:var(--bia-red)!important;color:#fff!important}
+.bk-search .search-form{display:flex;gap:0}.bk-search .search-field{border:1px solid var(--bia-ink)!important;border-radius:0!important;background:#fff!important;padding:14px 16px!important;font:400 15px Inter,sans-serif;flex:1}
+.bk-search .search-submit{background:var(--bia-ink)!important;color:#fff!important;border:0!important;border-radius:0!important;padding:0 22px!important;font:500 12px 'Space Mono',monospace;letter-spacing:.14em;text-transform:uppercase}
+.bk-search .widget-title,.bk-search .widgettitle{display:none}
+.elementor-widget-heading a{color:inherit!important}
+
+.bk-v{width:auto!important;align-self:center;margin:0 auto}
+.bk-v .elementor-heading-title{writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap;margin:0}
+.bk-vr .elementor-heading-title{transform:none}
+@media(max-width:1024px){.bk-v .elementor-heading-title{writing-mode:horizontal-tb;transform:none}}
+.bk-search .ast-search-icon{display:none}
+.bk-v{display:flex!important;justify-content:center;align-items:center;width:100%!important}
+.bk-v .elementor-widget-container{display:flex;justify-content:center;width:100%}
+/* arsip artikel kosong (belum ada artikel nyata) */
+.blog #primary:not(:has(article))::before{content:"Artikel";display:block;font:400 clamp(64px,17vw,240px)/.88 Anton,sans-serif;text-transform:uppercase;padding:26px 0 8px;color:var(--bia-ink)}
+.blog #primary:not(:has(article))::after{content:"Belum ada artikel. Segera hadir.";display:block;font:500 12px 'Space Mono',monospace;letter-spacing:.14em;text-transform:uppercase;padding:0 0 70px;color:var(--bia-ink)}

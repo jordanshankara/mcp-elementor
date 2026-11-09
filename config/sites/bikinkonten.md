@@ -6,3 +6,5 @@
 - Menu: 7 "Main Menu" (primary), 8 "Menu" (mobile), 9 "what we do". Palet Astra masih biru bawaan (#0085FF), font DM Sans. Home meta `theme-transparent-header-meta: enabled`.
 - Media: 39 JPEG + 1 PNG (dilarang; harus WebP), tidak ada logo. Kategori: General, Uncategorized.
 - Brief: `sites/bikinkonten/BRIEF.md` (Home, Artikel, Kategori, About, Kontak; identitas Dian Martin/Supported by Asosiasi AI; semua CTA → asosiasi.ai).
+
+- **Update 2026-11-09:** Classic Editor terpasang; Home #275/About #219/Kontak #355/Kategori #818 dibangun; kategori ID 10–18; menu 7 = Artikel·Kategori·About·Kontak; starter (Offering/Donate/Shop/Checkout/Dashboard/Sample + post dummy) di-trash; SureCart MASIH aktif (nonaktifkan via wp-admin). Sumber: `sites/bikinkonten/design/`.
