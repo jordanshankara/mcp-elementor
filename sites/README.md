@@ -12,7 +12,7 @@ Satu folder per situs (nama folder = alias di `config/sites.local.json`). Catata
 | `pusatriset` | pusatriset.ai | belum live | (brief belum ada) | Astra belum dipasang |
 | `bikinkonten` | bikinkontenai.id | situs baru | BRIEF + design/ | **dibangun & tayang 2026-11-09** (gaya brutalis oranye/hitam/putih); sisa TODO di `docs/memory/LOG.md` |
 | `toolsai` | toolsaigratis.id | belum live | BRIEF | belum dikerjakan |
-| `analisadata` | aianalisadata.id | belum live | BRIEF | belum dikerjakan |
+| `analisadata` | aianalisadata.id | situs baru | BRIEF + design/ | **dibangun & tayang 2026-11-10** (ref. NOVACORE: biru muda/indigo/lime) |
 | `solusiindustri` | aisolusiindustri.id | situs baru | BRIEF + design/ | **dibangun & tayang 2026-11-09** (putih/navy/oranye, ref. Machvex); foto belum |
 | `solusikeamanan` | aisolusikeamanan.id | situs baru | BRIEF + design/ | **dibangun & tayang 2026-11-09** (gelap, Crimson/Sand/Pearl/Obsidian, ref. AgentAI) |
 | `institut` | institutnasional.ai | belum live | BRIEF | belum dikerjakan |

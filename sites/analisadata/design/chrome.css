@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap");
+:root{--i:#5B50E6;--l:#D8F25B;--d:#141A28;--k:#10141F;--lav:#F2F3FC;--m:#5B6275;--ln:#E3E6F0}
+body,.ast-separate-container{background:#fff;font-family:Inter,sans-serif;color:var(--k)}
+.elementor a,.entry-content .elementor a,.elementor-widget-container a{text-decoration:none!important}
+h1,h2,h3,h4,.elementor-heading-title{font-family:Outfit,sans-serif!important}
+.bd-badge{width:fit-content!important;max-width:100%}
+/* header */
+.main-header-bar,.ast-primary-header-bar,#ast-desktop-header .ast-primary-header-bar{background:#fff!important;border-bottom:1px solid var(--ln)!important}
+.main-header-menu>.menu-item>.menu-link{font:500 15px/1 Inter,sans-serif!important;color:var(--k)!important;padding:30px 18px!important}
+.main-header-menu>.menu-item>.menu-link:hover,.main-header-menu>.current-menu-item>.menu-link{color:var(--i)!important}
+.ast-header-button-1 .ast-custom-button,.ast-header-button-1 .ast-custom-button-link .ast-custom-button{background:var(--l)!important;color:var(--k)!important;border:0!important;border-radius:30px!important;padding:14px 26px!important;font:600 14px/1 Inter,sans-serif!important}
+.ast-header-button-1 .ast-custom-button:hover{background:var(--k)!important;color:var(--l)!important}
+.menu-toggle,.ast-mobile-menu-trigger-minimal,.ast-button-wrap .menu-toggle{border:1px solid var(--k)!important;border-radius:12px!important;color:var(--k)!important}
+.ast-mobile-header-content,.ast-mobile-popup-drawer .ast-mobile-popup-inner{background:#fff!important}
+.ast-mobile-popup-drawer .menu-link{font:500 16px Inter!important;color:var(--k)!important}
+@media(max-width:921px){.ast-header-button-1{display:none}}
+/* footer */
+.site-footer,.site-primary-footer-wrap,.site-below-footer-wrap,.site-above-footer-wrap{background:var(--d)!important;color:#fff!important}
+.site-primary-footer-wrap{padding:56px 0 40px!important}
+.site-below-footer-wrap{border-top:1px solid #262E44!important}
+.site-below-footer-wrap,.site-below-footer-wrap p{font:400 12.5px/1.7 Inter,sans-serif!important;color:#B9C0D6!important}
+.site-below-footer-wrap a,.ad-fp a{color:var(--l)!important;text-decoration:none}
+.site-footer .widget{border:0!important;padding:0!important;background:transparent!important}
+.ad-fh{font:600 20px/1 Outfit,sans-serif;margin:0 0 16px;color:#fff}
+.ad-fp{font:400 14.5px/1.7 Inter,sans-serif;margin:0 0 10px;color:#B9C0D6}
+.ad-fl{list-style:none;margin:0;padding:0}.ad-fl li{padding:6px 0;font:400 14.5px Inter,sans-serif}.ad-fl a{color:#B9C0D6!important;text-decoration:none}.ad-fl a:hover{color:var(--l)!important}
+@media(max-width:921px){.site-primary-footer-wrap .ast-builder-grid-row{padding-left:20px;padding-right:20px}.site-primary-footer-wrap .site-footer-section{margin-bottom:24px}}
+/* cari */
+.ad-search{width:100%;max-width:520px}
+.ad-search .search-form{display:flex;background:#fff;border:1px solid var(--ln);border-radius:40px;padding:5px;box-shadow:0 8px 24px rgba(91,80,230,.10)}
+.ad-search label{flex:1;margin:0;display:flex;align-items:stretch}.ad-search .search-field{flex:1;width:100%;border:0!important;background:transparent!important;padding:12px 20px!important;font:400 15px Inter,sans-serif;color:var(--k);outline:0}
+.ad-search input.search-submit{display:none!important}
+.ad-search .ast-search-submit{background:var(--l)!important;color:var(--k)!important;border:0!important;border-radius:30px!important;padding:0 26px!important;font:600 14px Inter,sans-serif!important;cursor:pointer;align-self:stretch;min-height:46px}
+.ad-search .ast-search-submit i,.ad-search .ast-search-submit .ast-icon{display:none!important}
+.ad-search .ast-search-submit::after{content:"Cari"}
+.ad-search .widget-title,.ad-search .widgettitle,.ad-search .ast-search-icon{display:none!important}
+/* arsip */
+.ast-archive-entry-banner{background:linear-gradient(170deg,#CFE2FB,#F7FAFF)!important;background-image:linear-gradient(170deg,#CFE2FB,#F7FAFF)!important;min-height:0!important;height:auto!important;padding:70px 0 56px!important;margin:0!important;overflow:visible!important}
+.ast-archive-entry-banner h1{font:600 clamp(44px,7vw,80px)/1 Outfit,sans-serif!important;color:var(--k)!important;text-align:left!important;margin:0!important;letter-spacing:-.025em}
+.ast-archive-entry-banner .ast-container{display:block!important;padding-left:20px;padding-right:20px}
+.ast-archive-entry-banner .ast-container::after{content:"Temukan artikel seputar penggunaan AI untuk analisis data, visualisasi, dashboard, dan pengambilan keputusan berbasis data.";display:block;max-width:640px;margin-top:14px;font:400 17px/1.6 Inter,sans-serif;color:var(--m)}
+.blog #masthead,.archive #masthead,.search #masthead{position:relative!important}
+.ast-article-post{background:var(--lav)!important;border:0!important;border-radius:24px!important;box-shadow:none!important;padding:0!important;overflow:hidden}
+.ast-article-post .entry-header,.ast-article-post .ast-excerpt-container,.ast-article-post .ast-blog-single-element{padding-left:22px;padding-right:22px}
+.ast-article-post .entry-header{padding-top:20px}
+.ast-article-post .entry-title,.ast-article-post .entry-title a{font:600 23px/1.2 Outfit,sans-serif!important;color:var(--k)!important}
+.ast-article-post .entry-title a:hover{color:var(--i)!important}
+.ast-article-post .entry-meta,.ast-article-post .entry-meta a{font:500 12px/1.6 Inter,sans-serif!important;color:var(--i)!important}
+.ast-article-post .ast-excerpt-container,.ast-article-post .ast-excerpt-container p{font:400 15px/1.65 Inter,sans-serif!important;color:var(--m)}
+.ast-article-post .read-more{padding-bottom:22px}
+.ast-article-post .read-more a,.ast-article-post .ast-read-more-link{font-size:0!important}
+.ast-article-post .read-more a::after,.ast-article-post .ast-read-more-link::after{content:"Baca →";font:600 14px Inter,sans-serif;color:var(--i)}
+.ast-pagination .page-numbers{border:1px solid var(--ln)!important;border-radius:30px!important;background:#fff!important;color:var(--k)!important;font:600 13px Inter,sans-serif}
+.ast-pagination .page-numbers.current{background:var(--l)!important;color:var(--k)!important;border-color:var(--l)!important}
+#secondary .widget{border:0;border-radius:24px;padding:24px;margin-bottom:18px;background:var(--lav)}
+#secondary .widget-title,#secondary h2,#secondary .wp-block-heading{font:600 22px/1.2 Outfit,sans-serif!important;color:var(--k);margin:0 0 12px}
+#secondary a{color:var(--k)!important;text-decoration:none}#secondary a:hover{color:var(--i)!important}
+#secondary li{border-bottom:1px solid var(--ln);padding:7px 0;list-style:none}#secondary ul{margin:0;padding:0}
+.wp-block-search__input,#secondary input[type=search]{border:1px solid var(--ln)!important;border-radius:30px!important;background:#fff!important;padding:12px 18px!important}
+.wp-block-search__button{background:var(--l)!important;color:var(--k)!important;border-radius:30px!important;border:0!important;font:600 13px Inter!important}
+.no-results .page-content p{font-size:0!important}
+.no-results .page-content p::before{content:"Belum ada artikel di bagian ini. Segera hadir.";font:500 15px/1.6 Inter,sans-serif;color:var(--m)}
+.no-results .search-form{display:none}
+.blog #primary:not(:has(article))::before{content:"Belum ada artikel. Segera hadir.";display:block;font:600 24px Outfit,sans-serif;padding:50px 0 80px;color:var(--m)}
+.single-post .entry-title{font:600 clamp(38px,5.5vw,64px)/1.05 Outfit,sans-serif!important;color:var(--k);letter-spacing:-.025em}
+.single-post .entry-content,.single-post .entry-content p{font:400 17px/1.8 Inter,sans-serif;color:#2A3040}
+.single-post .entry-content h2,.single-post .entry-content h3{font-family:Outfit,sans-serif!important;font-weight:600}
+.single-post .entry-content a{color:var(--i)}
+.elementor-element .e-con.e-flex>.e-con-inner{flex-wrap:inherit}
+@media(max-width:767px){.ad-bars,.ad-bars.e-con{flex-direction:row!important;flex-wrap:nowrap!important}}

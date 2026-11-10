@@ -53,6 +53,12 @@ Pemilik menegur: palet harus dari **posting Instagram bikinkontenai.id** (krem +
 - **Font judul diganti** (pemilik: serif Cormorant & Manrope 800 tidak cocok): industri → **Plus Jakarta Sans** (700); keamanan → **Instrument Sans** (500, letter-spacing −0.03em; gaya AgentAI), badan Inter. `ek.HW` mengatur bobot heading.
 - Pelajaran: selalu cek tampilan HP untuk gambar ber-crop; jangan memakai serif tipis untuk judul besar di tema gelap.
 
+## 2026-11-10 — aianalisadata.id DIBANGUN & TAYANG; institutnasional.ai di-backup
+- Kredensial `adminanalisadata` diberikan; Elementor 4.4.0 + Bridge sudah ada; Classic Editor + Astra dipasang; 9 kategori brief; halaman Home/Artikel/Kategori/About/Kontak; logo lockup + Asosiasi; WA/email resmi; 7 foto Pexels (WebP); referensi desain dari pemilik = NOVACORE (panel bundar gradien biru muda, indigo #5B50E6, lime #D8F25B, kartu putih, pil). Catatan: `config/sites/analisadata.md`.
+- `setup_site.py` kini punya langkah **`fixw`** (default): memindahkan widget footer/sidebar dari `wp_inactive_widgets` ke sidebar yang benar — jalankan SETELAH `push`/`css` karena flush sering menonaktifkan widget lagi.
+- Pelajaran: (1) `css_classes` (bukan `_css_classes`) untuk container, `_css_classes` untuk widget; (2) container ber-`flex_direction_mobile` kolom membuat batang grafik tersusun vertikal → set `flex_wrap=nowrap` + class + CSS `@media(max-width:767px){flex-direction:row!important}`; (3) kartu kaca transparan menumpuk foto di HP → pakai putih solid; (4) lebar anak ber-`flex row` harus eksplisit (`width` %) atau teks terpotong per huruf.
+- **institutnasional.ai**: backup publik di `sites/institut/backup-2026-11-09/` (pemilik: halaman About berguna, situs "cukup developed" → rombak hati-hati). Menunggu kredensial + Bridge + keputusan (buang angka alumni/testimoni, halaman Faculty, tema bosa→Astra, artikel lama, kontak).
+
 ---
 
 ## 2026-11-08 (sesi cloud, branch `claude/clever-hypatia-6agnmk`)

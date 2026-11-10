@@ -32,7 +32,7 @@ def PILLBTN(text, url, bgc, fg, border=None, ext_=False, hover_bg=None, **s):
              border_radius=dim(30), text_padding=dim(15, 28), button_background_hover_color=hover_bg or fg, hover_color=bgc if not hover_bg else fg, button_hover_border_color=hover_bg or fg)
     d.update(typo(ek.BFONT, 14, weight='600', ls=0.2)); d.update(s); return W('button', **d)
 def BADGE(text, color, bgc=None, border=None):
-    st = dict(padding=dim(7, 16), border_radius=dim(30), _css_classes='bd-badge')
+    st = dict(padding=dim(7, 16), border_radius=dim(30), css_classes='bd-badge')
     if bgc: st.update(bg(bgc))
     if border: st.update(border_border='solid', border_width=dim(1), border_color=border)
     return C([W('text-editor', editor=f'<p style="margin:0">{text}</p>', text_color=color, **typo(ek.BFONT, 12, weight='600', ls=0.3, lh=1.2))], **st)

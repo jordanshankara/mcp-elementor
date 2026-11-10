@@ -1,0 +1,37 @@
+{
+ "hero": {
+  "id": 13,
+  "url": "https://www.aianalisadata.id/wp-content/uploads/2026/11/analisadata-hero.webp",
+  "credit": "olia danilevich"
+ },
+ "photo2": {
+  "id": 14,
+  "url": "https://www.aianalisadata.id/wp-content/uploads/2026/11/analisadata-photo2.webp",
+  "credit": "Yan Krukau"
+ },
+ "case": {
+  "id": 15,
+  "url": "https://www.aianalisadata.id/wp-content/uploads/2026/11/analisadata-case.webp",
+  "credit": "Vitaly Gariev"
+ },
+ "c1": {
+  "id": 16,
+  "url": "https://www.aianalisadata.id/wp-content/uploads/2026/11/analisadata-c1.webp",
+  "credit": "Atlantic Ambience"
+ },
+ "c2": {
+  "id": 17,
+  "url": "https://www.aianalisadata.id/wp-content/uploads/2026/11/analisadata-c2.webp",
+  "credit": "Mikhail Nilov"
+ },
+ "c3": {
+  "id": 18,
+  "url": "https://www.aianalisadata.id/wp-content/uploads/2026/11/analisadata-c3.webp",
+  "credit": "Mikael Blomkvist"
+ },
+ "band": {
+  "id": 19,
+  "url": "https://www.aianalisadata.id/wp-content/uploads/2026/11/analisadata-band.webp",
+  "credit": "Lukas Blazek"
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "pages": {
+  "home": 21,
+  "artikel": 22,
+  "kategori": 23,
+  "about": 24,
+  "kontak": 25
+ },
+ "menu": 11
+}
