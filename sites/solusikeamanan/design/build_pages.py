@@ -8,6 +8,8 @@ ek.HFAM, ek.HUP, ek.BFONT, ek.HW = 'Instrument Sans', False, 'Inter', '500'
 ek.PAPER, ek.INK, ek.RED, ek.MUTE, ek.TAPE, ek.MONO = OBS, PEARL, CRIM, MUTE, LINE, 'Inter'
 import ek2
 from ek2 import *
+import latest
+LATEST = latest.load(D)
 LG = json.loads((D / 'logos.json').read_text())
 MD = json.loads((D / 'media.json').read_text())
 def PHOTO(k, h=220, r=24, **s): return IMG(MD[k]['id'], MD[k]['url'], grey=False, width={'unit': '%', 'size': 100}, image_border_radius=dim(r), **FIT(h), css_filters_css_filter='custom', css_filters_brightness=px(88), css_filters_saturate=px(85), **s)
@@ -58,7 +60,9 @@ def build_home():
     # artikel terbaru
     def ac(t, k): return GLASS([PHOTO(k, 160, 16), MICRO('Contoh · segera hadir', color=SAND), H(t, 26, 24, 24, color=PEARL, tag='h3', lh=1.15, typography_font_weight='500'),
                               W('text-editor', editor=f'<p style="margin:0"><a href="{SITE}/blog/" style="color:{CRIM_L}">Baca →</a></p>', **typo('Inter', 13, weight='600'))], 22, 18, g=12, **{'width': {'unit': '%', 'size': 31.5}, 'width_tablet': {'unit': '%', 'size': 100}, 'width_mobile': {'unit': '%', 'size': 100}})
-    S.append(SEC([DOT('Artikel terbaru'), HS('Bacaan Terbaru', 56, tag='h2'), RWRAP([ac(t, f'c{i+1}') for i, t in enumerate(['Judul artikel contoh pertama', 'Judul artikel contoh kedua', 'Judul artikel contoh ketiga'])], 20, flex_justify_content='space-between'), PILLBTN('Lihat semua artikel', f'{SITE}/blog/', '#FFFFFF14', PEARL, border='#FFFFFF2E', hover_bg=CRIM)], OBS, pv=60))
+    def ac2(p): return GLASS([POSTIMG(p, 170, 16, '#2A0008'), MICRO(p['date'], color=SAND), H(p['title'], 24, 22, 22, color=PEARL, tag='h3', lh=1.2, typography_font_weight='500', link={'url': p['url']}),
+                              W('text-editor', editor=f'<p style="margin:0"><a href="{p["url"]}" style="color:{CRIM_L}">Baca →</a></p>', **typo('Inter', 13, weight='600'))], 22, 18, g=12, **{'width': {'unit': '%', 'size': 31.5}, 'width_tablet': {'unit': '%', 'size': 100}, 'width_mobile': {'unit': '%', 'size': 100}})
+    S.append(SEC([DOT('Artikel terbaru'), HS('Bacaan Terbaru', 56, tag='h2'), RWRAP([ac2(p) for p in LATEST] if LATEST else [ac(t, f'c{i+1}') for i, t in enumerate(['Judul artikel contoh pertama', 'Judul artikel contoh kedua', 'Judul artikel contoh ketiga'])], 20, flex_justify_content='space-between'), PILLBTN('Lihat semua artikel', f'{SITE}/blog/', '#FFFFFF14', PEARL, border='#FFFFFF2E', hover_bg=CRIM)], OBS, pv=60))
     # CTA
     S.append(SEC([CARD([HS('Pelajari lebih lanjut di <span style="color:#B38F6F">asosiasi.ai</span>', 52, tag='h2'), BODY('<p style="margin:0">Konsultasi, kolaborasi, dan informasi program diarahkan ke Asosiasi AI Indonesia.</p>', 17, '#E6D9D9'),
                        C([PILLBTN('Pelajari Lebih Lanjut di asosiasi.ai', AS, PEARL, CRIM, ext_=True, hover_bg=SAND), PILLBTN('Konsultasi melalui Asosiasi AI Indonesia', AS, 'transparent', PEARL, border='#FFFFFF66', ext_=True, hover_bg=CRIM_L)], flex_direction='row', flex_wrap='wrap', flex_gap=gap(12))],

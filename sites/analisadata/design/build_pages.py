@@ -8,6 +8,8 @@ ek.HFAM, ek.HUP, ek.BFONT, ek.HW = 'Outfit', False, 'Inter', '600'
 ek.PAPER, ek.INK, ek.RED, ek.MUTE, ek.TAPE, ek.MONO = WHITE, INK, INDIGO, MUTE, LAV, 'Inter'
 import ek2
 from ek2 import *
+import latest
+LATEST = latest.load(D)
 LG = json.loads((D / 'logos.json').read_text()); MD = json.loads((D / 'media.json').read_text())
 SITE, AS = 'https://www.aianalisadata.id', 'https://asosiasi.ai/'
 WA, WAT, EM = 'https://wa.me/628111913553', '+62 8111913553', 'sekretariat@asosiasi.ai'
@@ -70,7 +72,8 @@ def build_home():
                   [GL([C([ICON(ic, INDIGO, 22)], width={'unit': 'px', 'size': 40}), C([H(t, 18, 17, 17, color=INK, tag='h3', lh=1.2), BODY(f'<p style="margin:0">{d}</p>', 13.5, MUTE)], flex_gap=gap(2), width={'unit': '%', 'size': 85}, width_tablet={'unit': '%', 'size': 85}, width_mobile={'unit': '%', 'size': 80})], r=18, pad=16, g=14, flex_direction='row', flex_direction_tablet='row', flex_direction_mobile='row', flex_align_items='center') for ic, t, d in rows], flex_gap=gap(14), **WIDTH(52))], g=34, flex_justify_content='space-between', flex_align_items='center')], WHITE, pv=70))
     # artikel contoh
     def ac(i, t): return CARD([PH(f'c{i+1}', 170, 18), MICRO('Contoh · segera hadir', color=INDIGO), H(t, 21, 20, 20, color=INK, tag='h3', lh=1.2), BODY(f'<p style="margin:0"><a href="{SITE}/blog/" style="color:{INDIGO};font-weight:600">Baca →</a></p>', 13.5)], LAV, 24, 16, g=10, **{'width': {'unit': '%', 'size': 31.5}, 'width_tablet': {'unit': '%', 'size': 100}, 'width_mobile': {'unit': '%', 'size': 100}})
-    S.append(SEC([TAG('Artikel terbaru'), HX('Bacaan terbaru', 44, tag='h2'), RWRAP([ac(i, t) for i, t in enumerate(['Judul artikel contoh pertama', 'Judul artikel contoh kedua', 'Judul artikel contoh ketiga'])], 20, flex_justify_content='space-between'), PILLBTN('Lihat semua artikel →', f'{SITE}/blog/', LIME, INK)], WHITE, pv=40))
+    def ac2(p): return CARD([POSTIMG(p, 170, 18, SKY), MICRO(p['date'], color=INDIGO), H(p['title'], 20, 19, 19, color=INK, tag='h3', lh=1.25, link={'url': p['url']}), BODY(f'<p style="margin:0"><a href="{p["url"]}" style="color:{INDIGO};font-weight:600">Baca →</a></p>', 13.5)], LAV, 24, 16, g=10, **{'width': {'unit': '%', 'size': 31.5}, 'width_tablet': {'unit': '%', 'size': 100}, 'width_mobile': {'unit': '%', 'size': 100}})
+    S.append(SEC([TAG('Artikel terbaru'), HX('Bacaan terbaru', 44, tag='h2'), RWRAP([ac2(p) for p in LATEST] if LATEST else [ac(i, t) for i, t in enumerate(['Judul artikel contoh pertama', 'Judul artikel contoh kedua', 'Judul artikel contoh ketiga'])], 20, flex_justify_content='space-between'), PILLBTN('Lihat semua artikel →', f'{SITE}/blog/', LIME, INK)], WHITE, pv=40))
     # identitas + CTA
     ID = ('Inisiasi dari Dian Martin, Ketua Umum Asosiasi AI Indonesia. Materi berlandaskan buku <em>Stay Human, Stay in Charge — Transformasi AI di Korporasi</em>, '
           f'riset studi banding 14 yurisdiksi oleh <a href="{AS}" target="_blank" rel="noopener" style="color:{INDIGO}">Asosiasi AI Indonesia</a>, serta pembelajaran implementasi industri.')

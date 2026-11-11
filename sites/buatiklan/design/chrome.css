@@ -80,3 +80,20 @@ body,button,input,select,textarea,.ast-article-post,.entry-content,.entry-summar
 .no-results .page-content p{font-size:0!important}
 .no-results .page-content p::before{content:"Belum ada artikel di bagian ini. Segera hadir.";font:500 11px/1.6 Inter,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--bia-ink)}
 .no-results .search-form{display:none}
+
+/* === arsip artikel rapi: gambar + judul + tanggal (+ sidebar Cari & Kategori) === */
+.blog .ast-row,.archive .ast-row,.search .ast-row{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:0!important}
+@media(max-width:544px){.blog .ast-row,.archive .ast-row,.search .ast-row{grid-template-columns:1fr}}
+.blog .ast-row::before,.blog .ast-row::after,.archive .ast-row::before,.archive .ast-row::after{display:none!important}
+.blog article.ast-article-post,.archive article.ast-article-post,.search article.ast-article-post{width:auto!important;max-width:none!important;float:none!important;margin:0!important;padding:0!important;display:flex;flex-direction:column;overflow:hidden;background:transparent!important;border:1px solid #0B0B0B!important;border-radius:0!important;box-shadow:none!important}
+.ast-article-post .ast-article-inner,.ast-article-post .post-content{width:100%;padding:0!important;margin:0!important;display:flex;flex-direction:column}
+.ast-article-post .ast-blog-featured-section,.ast-article-post .post-thumb{margin:0!important;padding:0!important;order:1}
+.ast-article-post .post-thumb img{width:100%!important;height:auto!important;aspect-ratio:16/10;object-fit:cover;display:block;border-radius:0!important;filter:grayscale(1) contrast(1.1)}
+.ast-article-post:not(.has-post-thumbnail) .post-content::before{content:"";display:block;order:1;aspect-ratio:16/10;background:#D8CFB3}
+.ast-article-post .entry-title{order:2;margin:0!important;padding:18px 20px 6px!important;font:400 28px/1 Anton,sans-serif!important;text-transform:uppercase}
+.ast-article-post .entry-title a{color:#0B0B0B!important;font:inherit!important}
+.ast-article-post .entry-header{order:3;padding:0 20px 20px!important;margin:0!important}
+.ast-article-post .entry-meta,.ast-article-post .entry-meta a,.ast-article-post .posted-on,.ast-article-post .entry-meta .posted-on *{font:600 11px/1.4 Inter,sans-serif!important;letter-spacing:.18em;text-transform:uppercase;color:#D9291C!important;opacity:1!important}
+.ast-article-post .cat-links,.ast-article-post .ast-taxonomy-container,.ast-article-post .ast-excerpt-container,.ast-article-post .read-more,.ast-article-post .ast-read-more-container,.ast-article-post .entry-content,.ast-article-post .byline,.ast-article-post .author-name{display:none!important}
+.ast-article-post .entry-meta{margin:0!important}
+#secondary{align-self:flex-start}

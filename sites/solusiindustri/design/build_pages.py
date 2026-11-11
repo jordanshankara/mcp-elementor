@@ -8,6 +8,8 @@ ek.HFAM, ek.HUP, ek.BFONT, ek.HW = 'Plus Jakarta Sans', False, 'Plus Jakarta San
 ek.PAPER, ek.INK, ek.RED, ek.MUTE, ek.TAPE, ek.MONO = WHITE, NAVY, ORANGE, MUTE, GREY, 'Plus Jakarta Sans'
 import ek2
 from ek2 import *
+import latest
+LATEST = latest.load(D)
 LG = json.loads((D / 'logos.json').read_text())
 MD = json.loads((D / 'media.json').read_text())
 def PHOTO(k, h=300, r=16, **s): return IMG(MD[k]['id'], MD[k]['url'], grey=False, width={'unit': '%', 'size': 100}, image_border_radius=dim(r), **FIT(h), **s)
@@ -67,7 +69,9 @@ def build_home():
     def ac(i, t):
         return CARD([PHOTO(f'c{i+1}', 170, 12), LBL(f'Contoh · segera hadir'), H(t, 22, 20, 20, color=NAVY, tag='h3', lh=1.2), BODY('<p style="margin:0"><a href="' + SITE + '/blog/" style="color:#F47A1F;font-weight:700">Baca →</a></p>', 14)],
                     WHITE, 16, 18, border='#E5E7EC', shadow='rgba(13,21,39,.06)', **{'width': {'unit': '%', 'size': 31}, 'width_tablet': {'unit': '%', 'size': 100}, 'width_mobile': {'unit': '%', 'size': 100}})
-    S.append(SEC([LBL('Artikel terbaru'), H2('Bacaan Terbaru'), RWRAP([ac(i, t) for i, t in enumerate(['Judul artikel contoh pertama', 'Judul artikel contoh kedua', 'Judul artikel contoh ketiga'])], 24, flex_justify_content='space-between'), PILLBTN('Lihat semua artikel', f'{SITE}/blog/', NAVY, WHITE, hover_bg=ORANGE)], GREY))
+    def ac2(p): return CARD([POSTIMG(p, 170, 12, GREY), LBL(p['date']), H(p['title'], 21, 20, 20, color=NAVY, tag='h3', lh=1.25, link={'url': p['url']}), BODY('<p style="margin:0"><a href="' + p['url'] + '" style="color:#F47A1F;font-weight:700">Baca →</a></p>', 14)],
+                    WHITE, 16, 18, border='#E5E7EC', shadow='rgba(13,21,39,.06)', **{'width': {'unit': '%', 'size': 31}, 'width_tablet': {'unit': '%', 'size': 100}, 'width_mobile': {'unit': '%', 'size': 100}})
+    S.append(SEC([LBL('Artikel terbaru'), H2('Bacaan Terbaru'), RWRAP([ac2(p) for p in LATEST] if LATEST else [ac(i, t) for i, t in enumerate(['Judul artikel contoh pertama', 'Judul artikel contoh kedua', 'Judul artikel contoh ketiga'])], 24, flex_justify_content='space-between'), PILLBTN('Lihat semua artikel', f'{SITE}/blog/', NAVY, WHITE, hover_bg=ORANGE)], GREY))
     # identitas
     S.append(SEC([ROW2([C([lg('asosiasi_putih', 240), H('Inisiasi dari Dian Martin, Ketua Umum Asosiasi AI Indonesia.', 30, 26, 24, color=WHITE, tag='h2', lh=1.15)], flex_gap=gap(20), **WIDTH(48)),
                          C([BODY(f'<p style="margin:0">{ID.replace(ORANGE, "#F9A25F")}</p>', 16, '#D5DBE9'), C([PILLBTN('Pelajari Lebih Lanjut di asosiasi.ai', AS, ORANGE, WHITE, ext_=True), PILLBTN('Hubungi Asosiasi AI Indonesia', AS, 'transparent', WHITE, border='#FFFFFF66', ext_=True, hover_bg=ORANGE)], flex_direction='row', flex_wrap='wrap', flex_gap=gap(10))], flex_gap=gap(18), **WIDTH(48))], g=40, flex_justify_content='space-between')], NAVY))

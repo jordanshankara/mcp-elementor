@@ -64,6 +64,10 @@ Pemilik menegur: palet harus dari **posting Instagram bikinkontenai.id** (krem +
 - buatiklan & bikinkonten BELUM diubah (masih tata letak lama dengan sidebar + kutipan) — tawarkan bila diminta.
 - Artikel nyata sudah terbit di tiga situs ini (11 Nov 2026) — kartu "Contoh" di Home masih statis (belum otomatis).
 
+### 2026-11-11 (lanjutan) — arsip 5 situs seragam + kartu artikel terbaru nyata + sidebar kembali
+- Pemilik: samakan arsip buatiklan & bikinkonten; ganti kartu "Contoh" dengan artikel terbit; **kotak Cari & Kategori di arsip JANGAN hilang** (sebelumnya sempat dihapus). Sekarang: `archive-post-sidebar-layout=right-sidebar`, `blog-grid=2`, grid kartu 2 kolom di samping sidebar (1 kolom di HP), isi kartu = gambar + judul + tanggal. Berlaku di 5 situs (CSS blok "arsip artikel rapi" di tiap `chrome.css`).
+- Kartu "Artikel terbaru" di Home kini diisi artikel nyata: `sites/_lib/latest.py <host> <folder design> [n]` → `latest.json` (REST publik) → builder memakai `LATEST` (fallback ke kartu contoh bila kosong). `ek2.POSTIMG(p,h,r,ph)` = gambar kartu. **Statis**: jalankan ulang `latest.py` + build + push tiap ada artikel baru (otomatis butuh shortcode di Bridge 1.4.0 — belum).
+
 ---
 
 ## 2026-11-08 (sesi cloud, branch `claude/clever-hypatia-6agnmk`)

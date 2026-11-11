@@ -44,3 +44,8 @@ def BODY(html, size=16, color=None, **s):
 
 def FIT(h):
     return {'height': {'unit': 'px', 'size': h}, 'height_tablet': {'unit': 'px', 'size': int(h * .85)}, 'height_mobile': {'unit': 'px', 'size': int(h * .7)}, 'object-fit': 'cover'}
+
+def POSTIMG(p, h=170, r=16, ph='#DDDDDD', **s):
+    if p.get('img'):
+        return IMG(p['id'], p['img'], grey=False, width={'unit': '%', 'size': 100}, image_border_radius=dim(r), link_to='custom', link={'url': p['url'], 'is_external': '', 'nofollow': ''}, **FIT(h), **s)
+    return C([], min_height=px(h), border_radius=dim(r), **bg(ph))

@@ -7,7 +7,10 @@ CREAM, CARD, INK, MAROON, TEAL, OCHRE, OCHRE_L, MUTE = '#F0ECE3', '#E6E0D3', '#1
 ek.HFAM, ek.HUP = 'Barlow Condensed', False
 ek.PAPER, ek.INK, ek.RED, ek.MUTE, ek.TAPE, ek.MONO = CREAM, INK, MAROON, MUTE, '#9DB5B2', 'Inter'
 from ek import *
+from ek2 import POSTIMG
 SITE, AS = 'https://www.bikinkontenai.id', 'https://asosiasi.ai/'
+import latest
+LATEST = latest.load(D)
 M = json.loads((D / 'media.json').read_text())
 LG = json.loads((D / 'logos.json').read_text())
 WA, WA_TXT, EMAIL = 'https://wa.me/628111913553', '+62 8111913553', 'sekretariat@asosiasi.ai'
@@ -79,7 +82,14 @@ def build_home():
         c = cell(kids, w=33.33, bgc=bgc, pad=(0, 0, 24, 0), flex_gap=gap(10), right=True, **{'padding': dim(0, 0, 24, 0)})
         for e in c['elements'][1:]: e['settings'].setdefault('_padding', dim(0, 22, 0, 22))
         return c
+    def card2(n, bgc, tcol, mcol, p, ncol):
+        kids = [POSTIMG(p, 230, 0, '#C9C1B0', height_mobile={'unit': 'px', 'size': 170}) if False else POSTIMG(p, 230, 0, '#C9C1B0'), NUM(n, ncol), H(p['title'], 30, 28, 26, color=tcol, tag='h3', lh=1.05, link={'url': p['url']}), MICRO(p['date'], color=mcol), MICRO('Baca →', color=ncol, link=p['url'])]
+        c = cell(kids, w=33.33, bgc=bgc, pad=(0, 0, 24, 0), flex_gap=gap(10), right=True, **{'padding': dim(0, 0, 24, 0)})
+        for e in c['elements'][1:]: e['settings'].setdefault('_padding', dim(0, 22, 0, 22))
+        return c
+    _cols = [(CARD, INK, MUTE, MAROON), (TEAL, CREAM, '#D5E0DE', OCHRE_L), (MAROON, CREAM, '#E9C9CD', OCHRE_L)]
     cards = [card(1, CARD, INK, MUTE, 'c1', 'Judul Artikel Contoh Pertama', MAROON), card(2, TEAL, CREAM, '#D5E0DE', 'c2', 'Judul Artikel Contoh Kedua', OCHRE_L), card(3, MAROON, CREAM, '#E9C9CD', 'c3', 'Judul Artikel Contoh Ketiga', OCHRE_L)]
+    if LATEST: cards = [card2(i + 1, *_cols[i][:3], LATEST[i], _cols[i][3]) for i in range(min(3, len(LATEST)))]
     S.append(rowb([cell([RULE('Artikel terbaru', OCHRE), C([], )], w=100, right=False, pad=(18, 28), **bg(CREAM))], tablet_col=False, **bg(CREAM)))
     S.append(rowb([C(cards, flex_direction='row', flex_direction_tablet='column', flex_direction_mobile='column', width={'unit': '%', 'size': 100}),], tablet_col=False, **bg(CREAM)))
     S.append(rowb([cell([BP('Lihat semua artikel →', f'{SITE}/blog/')], w=100, right=False, pad=(22, 28), **bg(CREAM))], tablet_col=False, **bg(CREAM)))

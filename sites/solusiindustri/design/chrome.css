@@ -74,9 +74,9 @@ h1,h2,h3,h4,.elementor-heading-title{font-family:'Plus Jakarta Sans',sans-serif!
 @media(max-width:921px){.site-primary-footer-wrap .ast-builder-grid-row{padding-left:20px;padding-right:20px}.site-primary-footer-wrap .site-footer-section{margin-bottom:24px}}
 .sk-search label,.ia-search label{align-items:stretch!important}.sk-search .ast-search-submit,.ia-search .ast-search-submit{align-self:stretch;min-height:46px}
 
-/* === arsip artikel rapi: gambar + judul + tanggal === */
-.blog .ast-row,.archive .ast-row,.search .ast-row{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;margin:0!important}
-@media(max-width:921px){.blog .ast-row,.archive .ast-row,.search .ast-row{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}
+
+/* === arsip artikel rapi: gambar + judul + tanggal (+ sidebar Cari & Kategori) === */
+.blog .ast-row,.archive .ast-row,.search .ast-row{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:0!important}
 @media(max-width:544px){.blog .ast-row,.archive .ast-row,.search .ast-row{grid-template-columns:1fr}}
 .blog .ast-row::before,.blog .ast-row::after,.archive .ast-row::before,.archive .ast-row::after{display:none!important}
 .blog article.ast-article-post,.archive article.ast-article-post,.search article.ast-article-post{width:auto!important;max-width:none!important;float:none!important;margin:0!important;padding:0!important;display:flex;flex-direction:column;overflow:hidden;background:#fff!important;border:1px solid #E5E7EC!important;border-radius:16px!important;box-shadow:0 10px 30px rgba(13,21,39,.06)!important}
@@ -87,8 +87,7 @@ h1,h2,h3,h4,.elementor-heading-title{font-family:'Plus Jakarta Sans',sans-serif!
 .ast-article-post .entry-title{order:2;margin:0!important;padding:18px 20px 6px!important;font:700 20px/1.25 'Plus Jakarta Sans',sans-serif!important}
 .ast-article-post .entry-title a{color:#0D1527!important;font:inherit!important}
 .ast-article-post .entry-header{order:3;padding:0 20px 20px!important;margin:0!important}
-.ast-article-post .entry-meta,.ast-article-post .entry-meta a,.ast-article-post .posted-on{font:600 12.5px/1.4 'Plus Jakarta Sans',sans-serif!important;color:#F47A1F!important}
+.ast-article-post .entry-meta,.ast-article-post .entry-meta a,.ast-article-post .posted-on,.ast-article-post .entry-meta .posted-on *{font:600 13px/1.4 'Plus Jakarta Sans',sans-serif!important;color:#F47A1F!important;opacity:1!important}
 .ast-article-post .cat-links,.ast-article-post .ast-taxonomy-container,.ast-article-post .ast-excerpt-container,.ast-article-post .read-more,.ast-article-post .ast-read-more-container,.ast-article-post .entry-content,.ast-article-post .byline,.ast-article-post .author-name{display:none!important}
 .ast-article-post .entry-meta{margin:0!important}
-
-.ast-article-post .entry-meta .posted-on,.ast-article-post .entry-meta .posted-on .published,.ast-article-post .entry-meta .posted-on *,.ast-article-post .entry-header .entry-meta{color:#F47A1F!important;opacity:1!important;font-size:13px!important}
+#secondary{align-self:flex-start}

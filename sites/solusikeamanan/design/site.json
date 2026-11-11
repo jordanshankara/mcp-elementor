@@ -213,8 +213,8 @@
    "tablet": "left",
    "mobile": "left"
   },
-  "archive-post-sidebar-layout": "no-sidebar",
-  "blog-grid": 3,
+  "archive-post-sidebar-layout": "right-sidebar",
+  "blog-grid": 2,
   "blog-layout": "blog-layout-4",
   "blog-meta": [
    "date"

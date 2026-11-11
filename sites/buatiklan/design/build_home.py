@@ -1,5 +1,5 @@
 """Bangun Beranda BuatIklanAI sebagai elemen Elementor (container + widget Free native). Hasil: home_sections.json (daftar elemen level atas)."""
-import json, pathlib
+import json, pathlib, sys
 D = pathlib.Path(__file__).parent
 PAPER, INK, RED, MUTE, TAPE = '#ECE7DB', '#0B0B0B', '#D9291C', '#4A463E', '#D8CFB3'
 ASOSIASI = 'https://asosiasi.ai'
@@ -76,6 +76,9 @@ def STAMP(l1, l2, l3, size=112):
              background_background='classic', background_color=RED, border_radius=dim(size // 2),
              border_border='dashed', border_width=dim(2), border_color=PAPER, padding=dim(8))
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[2] / '_lib'))
+import latest
+LATEST = latest.load(D)
 IMGS = json.loads((D / 'media.json').read_text())
 M = lambda k: (IMGS[k]['id'], IMGS[k]['url'])
 def CARD(no, title, cat, url, k):
@@ -87,6 +90,10 @@ def CARD(no, title, cat, url, k):
                  H(title, 30, 28, 26, tag='h3', link={'url': url}, lh=1.0),
                  MICRO('Baca →', color=RED, link=url)],
                 w=None, pad=(22,), right=True, flex_gap=gap(10), **{'width': {'unit': '%', 'size': 33.33}})
+def CARD2(no, p):
+    kids = [W('image', image={'id': p['id'], 'url': p['img']}, image_size='large', link_to='custom', link={'url': p['url']}, css_filters_css_filter='custom', css_filters_saturate=px(0), css_filters_contrast=px(115), image_border_radius=dim(0),
+              **{'height': {'unit': 'px', 'size': 230}, 'height_mobile': {'unit': 'px', 'size': 170}, 'object-fit': 'cover', 'width': {'unit': '%', 'size': 100}})] if p.get('img') else []
+    return CELL(kids + [MICRO(f'{no} · {p["date"]}', color=MUTE), H(p['title'], 28, 26, 24, tag='h3', link={'url': p['url']}, lh=1.05), MICRO('Baca →', color=RED, link=p['url'])], w=None, pad=(22,), right=True, flex_gap=gap(10), **{'width': {'unit': '%', 'size': 33.33}})
 S = []
 # 1 — wordmark
 S.append(ROW([C([H('BuatIklanAI', 19.5, 19, 19, tag='h1', unit='vw', lh=.82, align='left', typography_letter_spacing={'unit': 'px', 'size': -1})],
@@ -137,7 +144,7 @@ S.append(ROW([
     C([ROW([CELL([H('Artikel terbaru', 28, 28, 28, tag='h2')], w=70, right=False, pad=(22, 22), border_width=bw(0), border_width_tablet=bw(0), border_width_mobile=bw(0)),
             CELL([BTN('Lihat semua artikel →', f'{SITE}/blog/', dark=False)], w=30, right=False, pad=(22, 22), border_width=bw(0), border_width_tablet=bw(0), border_width_mobile=bw(0))],
            tablet_col=False, flex_direction_mobile='column', border_width=bw(0, 0, 1, 0)),
-       C([CARD(f'{i+1:03d}', p['title'], p['cat'], p['url'], p['img']) for i, p in enumerate(posts)], flex_direction='row', flex_direction_tablet='column', flex_direction_mobile='column')],
+       C([CARD2(f'{i+1:03d}', p) for i, p in enumerate(LATEST)] if LATEST else [CARD(f'{i+1:03d}', p['title'], p['cat'], p['url'], p['img']) for i, p in enumerate(posts)], flex_direction='row', flex_direction_tablet='column', flex_direction_mobile='column')],
       width={'unit': '%', 'size': 94}, width_tablet={'unit': '%', 'size': 100}, width_mobile={'unit': '%', 'size': 100})], tablet_col=True))
 # 6 — prinsip
 PR = [('Bersumber', 'Setiap klaim disertai referensi.'), ('Netral', 'Tidak mempromosikan tools tertentu.'),
