@@ -68,3 +68,22 @@ h1,h2,h3,h4,.elementor-heading-title{font-family:Outfit,sans-serif!important}
 .single-post .entry-content a{color:var(--i)}
 .elementor-element .e-con.e-flex>.e-con-inner{flex-wrap:inherit}
 @media(max-width:767px){.ad-bars,.ad-bars.e-con{flex-direction:row!important;flex-wrap:nowrap!important}}
+
+/* === arsip artikel rapi: gambar + judul + tanggal === */
+.blog .ast-row,.archive .ast-row,.search .ast-row{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;margin:0!important}
+@media(max-width:921px){.blog .ast-row,.archive .ast-row,.search .ast-row{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}
+@media(max-width:544px){.blog .ast-row,.archive .ast-row,.search .ast-row{grid-template-columns:1fr}}
+.blog .ast-row::before,.blog .ast-row::after,.archive .ast-row::before,.archive .ast-row::after{display:none!important}
+.blog article.ast-article-post,.archive article.ast-article-post,.search article.ast-article-post{width:auto!important;max-width:none!important;float:none!important;margin:0!important;padding:0!important;display:flex;flex-direction:column;overflow:hidden;background:#F2F3FC!important;border:0!important;border-radius:24px!important;box-shadow:none!important}
+.ast-article-post .ast-article-inner,.ast-article-post .post-content{width:100%;padding:0!important;margin:0!important;display:flex;flex-direction:column}
+.ast-article-post .ast-blog-featured-section,.ast-article-post .post-thumb{margin:0!important;padding:0!important;order:1}
+.ast-article-post .post-thumb img{width:100%!important;height:auto!important;aspect-ratio:16/10;object-fit:cover;display:block;border-radius:0!important;filter:none}
+.ast-article-post:not(.has-post-thumbnail) .post-content::before{content:"";display:block;order:1;aspect-ratio:16/10;background:linear-gradient(160deg,#CFE2FB,#F7FAFF)}
+.ast-article-post .entry-title{order:2;margin:0!important;padding:18px 20px 6px!important;font:600 22px/1.2 Outfit,sans-serif!important;letter-spacing:-.02em}
+.ast-article-post .entry-title a{color:#10141F!important;font:inherit!important}
+.ast-article-post .entry-header{order:3;padding:0 20px 20px!important;margin:0!important}
+.ast-article-post .entry-meta,.ast-article-post .entry-meta a,.ast-article-post .posted-on{font:500 12.5px/1.4 Inter,sans-serif!important;color:#5B50E6!important}
+.ast-article-post .cat-links,.ast-article-post .ast-taxonomy-container,.ast-article-post .ast-excerpt-container,.ast-article-post .read-more,.ast-article-post .ast-read-more-container,.ast-article-post .entry-content,.ast-article-post .byline,.ast-article-post .author-name{display:none!important}
+.ast-article-post .entry-meta{margin:0!important}
+
+.ast-article-post .entry-meta .posted-on,.ast-article-post .entry-meta .posted-on .published,.ast-article-post .entry-meta .posted-on *,.ast-article-post .entry-header .entry-meta{color:#5B50E6!important;opacity:1!important;font-size:13px!important}

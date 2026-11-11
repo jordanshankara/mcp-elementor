@@ -59,6 +59,11 @@ Pemilik menegur: palet harus dari **posting Instagram bikinkontenai.id** (krem +
 - Pelajaran: (1) `css_classes` (bukan `_css_classes`) untuk container, `_css_classes` untuk widget; (2) container ber-`flex_direction_mobile` kolom membuat batang grafik tersusun vertikal → set `flex_wrap=nowrap` + class + CSS `@media(max-width:767px){flex-direction:row!important}`; (3) kartu kaca transparan menumpuk foto di HP → pakai putih solid; (4) lebar anak ber-`flex row` harus eksplisit (`width` %) atau teks terpotong per huruf.
 - **institutnasional.ai**: backup publik di `sites/institut/backup-2026-11-09/` (pemilik: halaman About berguna, situs "cukup developed" → rombak hati-hati). Menunggu kredensial + Bridge + keputusan (buang angka alumni/testimoni, halaman Faculty, tema bosa→Astra, artikel lama, kontak).
 
+### 2026-11-11 — Arsip artikel dirapikan (keamanan, industri, analisadata)
+- Pemilik: arsip artikel berantakan; cukup **gambar unggulan + judul + tanggal** (tanpa author, kategori, kutipan isi). Perbaikan: Astra `blog-post-structure=[image,title,title-meta]`, `blog-meta=[date]`, `blog-grid=3`, `archive-post-sidebar-layout=no-sidebar` (sidebar Cari/Kategori DIHAPUS dari arsip; pencarian ada di Home); CSS blok "arsip artikel rapi" di `chrome.css` tiap situs: `.ast-row` jadi CSS grid 3/2/1 kolom, gambar rasio 16:10 `object-fit:cover`, kartu seragam, placeholder gradien bila artikel tak punya gambar unggulan. Tanggal butuh selektor `.posted-on *` + `!important` agar warnanya terbaca.
+- buatiklan & bikinkonten BELUM diubah (masih tata letak lama dengan sidebar + kutipan) — tawarkan bila diminta.
+- Artikel nyata sudah terbit di tiga situs ini (11 Nov 2026) — kartu "Contoh" di Home masih statis (belum otomatis).
+
 ---
 
 ## 2026-11-08 (sesi cloud, branch `claude/clever-hypatia-6agnmk`)

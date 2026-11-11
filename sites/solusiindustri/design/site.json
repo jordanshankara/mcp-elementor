@@ -219,27 +219,25 @@
    "tablet": "left",
    "mobile": "left"
   },
-  "archive-post-sidebar-layout": "right-sidebar",
-  "blog-grid": 2,
+  "archive-post-sidebar-layout": "no-sidebar",
+  "blog-grid": 3,
   "blog-layout": "blog-layout-4",
   "blog-meta": [
-   "category",
    "date"
   ],
-  "blog-excerpt-count": 22,
+  "blog-excerpt-count": 0,
   "blog-post-structure": [
    "image",
    "title",
-   "title-meta",
-   "excerpt",
-   "read-more"
+   "title-meta"
   ],
   "hb-footer-column": 4,
   "hb-footer-layout": {
    "desktop": "4-equal",
    "tablet": "2-equal",
    "mobile": "full"
-  }
+  },
+  "blog-post-content": "excerpt"
  },
  "footer": {
   "footer-widget-1": [
